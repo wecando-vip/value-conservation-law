@@ -1,0 +1,1830 @@
+{
+ "blocks": [
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "价值守恒定律"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "及在统一大市场财情倍增的"
+    ],
+    [
+     "text",
+     "实现"
+    ],
+    [
+     "text",
+     "路径"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "财情双生智库"
+    ],
+    [
+     "text",
+     "Econ-Sentiment Twin Think Tank"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "简介："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "价值导向，一切经济社会行为的指挥棒，无论政府、企业，还是个人、家庭。"
+    ],
+    [
+     "text",
+     "要事半功倍地解决当前及未来经济、社会、科技、安全等领域的"
+    ],
+    [
+     "text",
+     "一系列难题，需要从价值计量的问题源头，寻求根本解、系统解。"
+    ],
+    [
+     "text",
+     "最快的手段是用自然科学、社会科学、思维科学三大科学领域的整体最优解，转化为系统技术解决方案。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "历经10"
+    ],
+    [
+     "text",
+     "多"
+    ],
+    [
+     "text",
+     "年的博采众长、整合创新研发，形成独具特色的"
+    ],
+    [
+     "text",
+     "产融联动、义利倍增"
+    ],
+    [
+     "text",
+     "的思想体系及实战方法。通过社会科学、思维科学创新，让科技为善去恶， 让企业员工自发的为"
+    ],
+    [
+     "text",
+     "自己、为"
+    ],
+    [
+     "text",
+     "企业、为社会挣钱、省钱和值钱；通过化繁为简，以更简洁、更稳定的模型结构，一图贯穿，对跨学科、跨部门的理论及方法实现系统集成。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "在社会主义核心价值观下，创新从0"
+    ],
+    [
+     "text",
+     "-1"
+    ],
+    [
+     "text",
+     "的经济社会的核心基础科学，"
+    ],
+    [
+     "text",
+     "将自私逐利的市场经济与强调集体利他的社会主义，纳入统一的价值内涵评估框架，"
+    ],
+    [
+     "text",
+     "不仅可以解释"
+    ],
+    [
+     "text",
+     "通西方"
+    ],
+    [
+     "text",
+     "主流经济学无法解释原生经济现象，更是以创造巨额价值增量牵引，成为国家长治久安、企业基业长青、人民安居乐业、人民共同富裕的发展利器，全生命周期"
+    ],
+    [
+     "text",
+     "的科创赋能"
+    ],
+    [
+     "text",
+     "帮手。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "价值守恒定律："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "纵观古今中外的几千年王朝更迭史、企业兴衰史，人物浮沉史可得出这样一"
+    ],
+    [
+     "text",
+     "个"
+    ],
+    [
+     "text",
+     "价值总量守恒"
+    ],
+    [
+     "text",
+     "规律"
+    ],
+    [
+     "text",
+     "，在一定时期内"
+    ],
+    [
+     "text",
+     "："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "\\mathbf{Y=E}\\mathbf{×}\\mathbf{S}\\mathbf{×}\\mathbf{T=}\\mathbf{经济价值}\\mathbf{ ×}\\mathbf{社会价值}\\mathbf{×}\\mathbf{时间价值}\\mathbf{=}\\mathbf{经济社会价值总量}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "E 经济价值=\\frac{Y 经济社会价值总量}{S 社会价值  ×T 时间价值}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "经济社会价值总量守恒定律"
+    ],
+    [
+     "text",
+     "："
+    ],
+    [
+     "text",
+     "正如自然界普遍存在的能量守恒定律，在经济、社会"
+    ],
+    [
+     "text",
+     "、人民"
+    ],
+    [
+     "text",
+     "整体"
+    ],
+    [
+     "text",
+     "视角"
+    ],
+    [
+     "text",
+     "下，经济价值、社会价值"
+    ],
+    [
+     "text",
+     "既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，"
+    ],
+    [
+     "text",
+     "而价值的总量保持不变。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "定律说明："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "任何一个变量归0或为负，都将引发价值总量的归0或为负。轻则引发风云人物沉沦、企业倒闭，重则经济社会动荡，身死族灭、国破家亡、王朝更迭。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "当"
+    ],
+    [
+     "text",
+     "3"
+    ],
+    [
+     "text",
+     "个变量都大于1时，才会进入发展期、扩张期。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "任何一个变量"
+    ],
+    [
+     "text",
+     "处于0"
+    ],
+    [
+     "text",
+     "-1"
+    ],
+    [
+     "text",
+     "区间时（"
+    ],
+    [
+     "text",
+     "0<X"
+    ],
+    [
+     "text",
+     "<1"
+    ],
+    [
+     "text",
+     "）"
+    ],
+    [
+     "text",
+     ","
+    ],
+    [
+     "text",
+     "都会进入收缩期、衰退期"
+    ],
+    [
+     "text",
+     "，破坏另外两个指标的价值，进而影响"
+    ],
+    [
+     "text",
+     "经济社会的价值总量。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "当行为"
+    ],
+    [
+     "text",
+     "人无需对社会价值、时间价值负责时"
+    ],
+    [
+     "text",
+     "，就会出现牺牲社会价值、"
+    ],
+    [
+     "text",
+     "长期的"
+    ],
+    [
+     "text",
+     "时间价值，以追求"
+    ],
+    [
+     "text",
+     "短期"
+    ],
+    [
+     "text",
+     "经济价值的最大化。即使分母不变，通过做小分子，也能把结果做大。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "在自由市场经济，"
+    ],
+    [
+     "text",
+     "放任"
+    ],
+    [
+     "text",
+     "追求"
+    ],
+    [
+     "text",
+     "市场价值/货币价值的最大化；或公司只以营利为最终目的，追求利润最大化"
+    ],
+    [
+     "text",
+     "，"
+    ],
+    [
+     "text",
+     "市场主体，会"
+    ],
+    [
+     "text",
+     "自发地运用除法公"
+    ],
+    [
+     "text",
+     "式，牺牲社会价值、长期时间价值，以获得短期价值的最大化。"
+    ],
+    [
+     "text",
+     "即使分母不变，通过做小分子，也能把结果做大。"
+    ],
+    [
+     "text",
+     "所以市场经济的盲目性、"
+    ],
+    [
+     "text",
+     "自发性"
+    ],
+    [
+     "text",
+     "、"
+    ],
+    [
+     "text",
+     "滞后性"
+    ],
+    [
+     "text",
+     "必然会发生，进而不断产生周期性的经济危机。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "幸福、高效、创增量，本质是在是在用价值守恒的乘法公式"
+    ],
+    [
+     "text",
+     "。"
+    ],
+    [
+     "text",
+     "让工作的过程也具备消费的价值，在工作期间获得内酚酞的快乐，在放假期间获得多巴胺的快乐，双向循环，交替演进"
+    ],
+    [
+     "text",
+     "，创造工作动能"
+    ],
+    [
+     "text",
+     "。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "1",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "对我们的党和国家而言，无论是共产主义的共同富裕，还是"
+    ],
+    [
+     "text",
+     "三大攻坚战、"
+    ],
+    [
+     "text",
+     "六稳六保"
+    ],
+    [
+     "text",
+     "、反垄断、房地产行业整顿、教培行业整顿、医药产业整顿、"
+    ],
+    [
+     "text",
+     "科创突围"
+    ],
+    [
+     "text",
+     "等，无一不是为了从经济、社会、时间维度做大增量，防止经济行为，侵蚀社会价值，破坏国家的长治久安。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "党和国家用于宏观经济、社会治理公式，与企业、社会、个人的微观行为价值取舍决策公式，在本质是一致的，且是上下贯通，只是在表述上略有差别，具体应用场景参数略有不同。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "宏观："
+    ],
+    [
+     "math",
+     "Y=E×S×T=经济价值 ×社会价值×时间价值=经济社会价值总量"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     " "
+    ],
+    [
+     "math",
+     "Y=y1+y2+y3…+yn"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "微观"
+    ],
+    [
+     "text",
+     "："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "y=f\\left(m,h,t\\right)=f\\left(m\\right)× f\\left(h\\right)×f\\left(t\\right)"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "                 =f(m)货币价值× f\\left(h\\right)幸福体验×f(t) 时间价值"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "统一大市场下的国、家、民、企的价值金字塔体系"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "任何一种组织（国、家、企业），都不只是空洞的概念，而是由一个个鲜活的生命所组成，是成为群体的乌合之众？还是成上下割裂的阶层？还是上下同欲高效组织？"
+    ],
+    [
+     "text",
+     "根基"
+    ],
+    [
+     "text",
+     "在民，不在官，"
+    ],
+    [
+     "text",
+     "关键"
+    ],
+    [
+     "text",
+     "在上下协同。在生产方面，企业是最小的组织单元；在生活方面，家庭是最小的组织单元。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "image",
+     {
+      "rid": "rId7",
+      "w_emu": 4269840,
+      "h_emu": 4142509
+     }
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "大政商道："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "于民："
+    ],
+    [
+     "text",
+     "财、权、名、情，安居、乐业；工作过程也要幸福；"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "于家："
+    ],
+    [
+     "text",
+     "提高工资收入的幸福体验时长，情感、婚育、传承；"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "于企："
+    ],
+    [
+     "text",
+     "幸福、高效、创增量；动能变革、基业长青传100年；"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "于国："
+    ],
+    [
+     "text",
+     "重塑造产业价值链，重构生产生产关系，推动生产力。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "在企业、家庭、个人等场景的应用"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "image",
+     {
+      "rid": "rId8",
+      "w_emu": 5274310,
+      "h_emu": 2905760
+     }
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "image",
+     {
+      "rid": "rId9",
+      "w_emu": 5274310,
+      "h_emu": 2792730
+     }
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "义"
+    ],
+    [
+     "text",
+     "利"
+    ],
+    [
+     "text",
+     "价值"
+    ],
+    [
+     "text",
+     "守恒定律"
+    ],
+    [
+     "text",
+     "计算公式"
+    ],
+    [
+     "text",
+     "的不同表示方式："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "宏观的经济社会治理"
+    ],
+    [
+     "text",
+     "公式："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "Y=E×S×T=经济价值 ×社会价值×时间价值"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "经济社会价值总量=经济价值 ×社会价值×时间价值"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "Y 经济社会价值总量 =E 经济价值  ×S 社会价值  ×T 时间价值 "
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "E 经济价值=\\frac{Y 经济社会价值}{S 社会价值  ×T 时间价值}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "微观上"
+    ],
+    [
+     "text",
+     "个人、家庭、企业经营公式"
+    ],
+    [
+     "text",
+     "："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "y=f\\left(m,h,t\\right)=f(m)× f(h)×f(t)"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "y价值总量=f\\left(m,h,t\\right)=f(m)货币价值× f(h)幸福体验×f(t) 时间价值"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "f(m)=\\frac{y}{f(h)×f(t)}=\\frac{f\\left(m,h,t\\right)}{f(h)×f(t)}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "中英混排"
+    ],
+    [
+     "text",
+     "："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "f(m)货币价值=\\frac{y价值总量}{f(h)幸福体验×f\\left(t\\right)时间价值}=\\frac{f\\left(m,h,t\\right)价值总量}{f(h)幸福体验×f\\left(t\\right)时间价值}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "中文版："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "货币价值=\\frac{义利综合价值}{幸福体验×时间价值}=\\frac{义利综合价值}{幸福体验×时间价值}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "应用分析："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "为什么货币超发刺激经济，工资表面上涨，越来越不能刺激人们的工作生产动力，不能阻止人们“躺平”，"
+    ],
+    [
+     "text",
+     "进而"
+    ],
+    [
+     "text",
+     "离婚率连续1"
+    ],
+    [
+     "text",
+     "5"
+    ],
+    [
+     "text",
+     "年下跌，新增出生人口断崖式下跌？"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "是因为人们会发现辛苦9"
+    ],
+    [
+     "text",
+     "96"
+    ],
+    [
+     "text",
+     "的工作"
+    ],
+    [
+     "text",
+     "挣钱，并不能买回更"
+    ],
+    [
+     "text",
+     "多"
+    ],
+    [
+     "text",
+     "的幸福体验时长。即"
+    ],
+    [
+     "math",
+     "f(m)货币价值"
+    ],
+    [
+     "text",
+     "在变大，但"
+    ],
+    [
+     "math",
+     " f\\left(h\\right)幸福体验×f(t) 时间价值"
+    ],
+    [
+     "text",
+     "在变小，导致价值总量变小。表面的信息层洗脑宣传，货币的数字游戏，已不能打动人民7级深度的幸福体验的冰山。没有远期的希望，又缺乏短期"
+    ],
+    [
+     "text",
+     "幸福体验的价值确认，"
+    ],
+    [
+     "text",
+     "对个体而言，"
+    ],
+    [
+     "text",
+     "不结婚、不生娃的"
+    ],
+    [
+     "text",
+     "“躺平”反而成了最优解。"
+    ],
+    [
+     "text",
+     "放大到全体经济社会就是，"
+    ],
+    [
+     "math",
+     "社会价值S"
+    ],
+    [
+     "text",
+     "、"
+    ],
+    [
+     "math",
+     "时间价值S"
+    ],
+    [
+     "text",
+     " 变小，进而循环导致"
+    ],
+    [
+     "math",
+     "经济价值E"
+    ],
+    [
+     "text",
+     "变小，"
+    ],
+    [
+     "math",
+     "经济社会价值总量Y"
+    ],
+    [
+     "text",
+     "变小，就会导致经济社会的动乱。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     " "
+    ],
+    [
+     "text",
+     "   "
+    ],
+    [
+     "text",
+     "解决这一问题最优解让工作的过程，也有创造幸福体验，"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "为什么资本市场总是“割韭菜”"
+    ],
+    [
+     "text",
+     "，"
+    ],
+    [
+     "text",
+     "股民8赔1赚1"
+    ],
+    [
+     "text",
+     "平"
+    ],
+    [
+     "text",
+     "，人民财富遭洗劫"
+    ],
+    [
+     "text",
+     "？"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "资本市场的设立之初就是为少数资本家服务的，而不是为广大人民服务的。在"
+    ],
+    [
+     "text",
+     "经济社会价值总量守恒定律"
+    ],
+    [
+     "text",
+     "的支配下"
+    ],
+    [
+     "text",
+     "：资本家"
+    ],
+    [
+     "text",
+     "为求"
+    ],
+    [
+     "math",
+     "f(m)货币价值"
+    ],
+    [
+     "text",
+     "的最大化"
+    ],
+    [
+     "text",
+     "，"
+    ],
+    [
+     "text",
+     "在"
+    ],
+    [
+     "text",
+     "已知"
+    ],
+    [
+     "math",
+     "y义利价值总量"
+    ],
+    [
+     "text",
+     "不变，做小 "
+    ],
+    [
+     "math",
+     "f(h)幸福体验"
+    ],
+    [
+     "text",
+     "、"
+    ],
+    [
+     "math",
+     "f\\left(t\\right)时间价值"
+    ],
+    [
+     "text",
+     "，"
+    ],
+    [
+     "text",
+     "牺牲广大股民的就成了资本家的最优解。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "f(m)货币价值=\\frac{y义利价值总量}{f(h)幸福体验×f\\left(t\\right)时间价值}=\\frac{f\\left(m,h,t\\right)义利价值总量}{f(h)幸福体验×f\\left(t\\right)时间价值}"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "因为资本家只需对经济价值E负责，无需对牺牲股民的社会价值S、时间价值T负责，"
+    ],
+    [
+     "text",
+     "但对党和国家而言，股民牺牲的损失，是会转换为经济社会治理成本和人民的税收负担的。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "上市公司的社会价值，"
+    ],
+    [
+     "text",
+     "因为没有显现的货币价值约束，导致"
+    ],
+    [
+     "text",
+     "无需对社会价值负责、长期价值负责，所以即使是上市公司这样的公众公司，依然是乱象丛生。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "最"
+    ],
+    [
+     "text",
+     "优"
+    ],
+    [
+     "text",
+     "解是"
+    ],
+    [
+     "text",
+     "将"
+    ],
+    [
+     "text",
+     "上市公司的市值、社会价值、时间价值纳入统一"
+    ],
+    [
+     "text",
+     "价值计量体系"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "math",
+     "Y=E×S×T=经济价值 ×社会价值×时间价值=经济社会价值总量"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "为什么国家要进行逆周期的宏观经济调控？"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "本质是要做大社会价值S、做长时间价值T，才能实现国家的长治久安、社会的繁荣稳定。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "如何开辟政治经济学新境界？"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "增量竞争君子之道"
+    ],
+    [
+     "text",
+     ";存量竞争小人嘴脸;减量竞争你死我活。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "增量牵引化危为是正道:中美"
+    ],
+    [
+     "text",
+     "系列系列"
+    ],
+    [
+     "text",
+     "矛盾、存量市场搏杀惨烈、经济行为破坏社会效益、急功近利成互害"
+    ],
+    [
+     "text",
+     "。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "解题关键"
+    ],
+    [
+     "text",
+     "在于明确货币价值内涵"
+    ],
+    [
+     "text",
+     "，将国、家、民、企纳入统一价值计量的度量衡，再"
+    ],
+    [
+     "text",
+     "协调各方，不是用"
+    ],
+    [
+     "text",
+     "价值守恒的"
+    ],
+    [
+     "text",
+     "除法公式，得相对增量"
+    ],
+    [
+     "text",
+     "；而是用价值守恒的乘法公式，创绝对增量。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "image",
+     {
+      "rid": "rId10",
+      "w_emu": 5274310,
+      "h_emu": 2781935
+     }
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "为什么说是核心基础科学？"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "image",
+     {
+      "rid": "rId11",
+      "w_emu": 5274310,
+      "h_emu": 2730500
+     }
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "颠覆性意义："
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "统一大市场的价值度量衡，"
+    ],
+    [
+     "text",
+     "贯穿经济价值、社会价值、个人价值体系"
+    ],
+    [
+     "text",
+     "，实现整体性的、自发的协调统一，颠覆原有的相互割裂的价值计量模式。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "2",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "颠覆旧的先工作再消费的工业生产关系，"
+    ],
+    [
+     "text",
+     "构建"
+    ],
+    [
+     "text",
+     "边"
+    ],
+    [
+     "text",
+     "工作边消费"
+    ],
+    [
+     "text",
+     "、幸福且高效的生产关系，义利倍增的商业消费模式变革，开辟GDP的3倍增长潜能"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "2",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "颠覆西方经济学基石、"
+    ],
+    [
+     "text",
+     "颠覆"
+    ],
+    [
+     "text",
+     "二十世纪西方三大黄金定律、"
+    ],
+    [
+     "text",
+     "颠覆美国的"
+    ],
+    [
+     "text",
+     "金融霸权"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "2",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [
+    [
+     "text",
+     "让科技为善去恶"
+    ],
+    [
+     "text",
+     "。"
+    ]
+   ],
+   "heading": null,
+   "is_title": false,
+   "numbering": [
+    "2",
+    0
+   ]
+  },
+  {
+   "type": "para",
+   "runs": [],
+   "heading": null,
+   "is_title": false,
+   "numbering": null
+  }
+ ],
+ "images": {
+  "word/media/image1.png": "image1.png",
+  "media/image1.png": "image1.png",
+  "word/media/image2.png": "image2.png",
+  "media/image2.png": "image2.png",
+  "word/media/image3.png": "image3.png",
+  "media/image3.png": "image3.png",
+  "word/media/image4.png": "image4.png",
+  "media/image4.png": "image4.png",
+  "word/media/image5.png": "image5.png",
+  "media/image5.png": "image5.png"
+ }
+}
