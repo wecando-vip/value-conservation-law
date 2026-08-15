@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>彼得原理，一个公式看懂 - 价值守恒定律 Y=E×S×T</title>
+<meta name="description" content="用价值守恒定律 Y=E×S×T 论证二十世纪西方文化三大定律之一彼得原理：为什么优秀员工总会被升到无法胜任的职位？如何形成、如何破解？含《彼得原理》《从优秀到卓越》《原则》书例与现实场景。财情双生智库出品。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 820px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero h1 .hl {
+    position: relative; color: var(--gold);
+    background: linear-gradient(transparent 62%, rgba(166,124,46,.22) 62%);
+    padding: 0 4px; border-radius: 4px;
+  }
+  .hero .hl-sub {
+    display: inline-block; margin: 0 0 14px; font-size: 14px;
+    color: var(--ink-soft); letter-spacing: 2px;
+    font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+    border: 1px solid #e2cfa3; background: var(--gold-soft);
+    padding: 3px 14px; border-radius: 999px;
+  }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 720px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow); }
+  .what-card .quote { font-size: 18px; color: var(--navy); font-weight: 700; text-align: center; margin: 6px 0 16px; font-family: Georgia, "Times New Roman", serif; }
+  .what-card .quote span { color: var(--gold); }
+  .what-card p { margin: 0 0 10px; font-size: 14.5px; }
+  .what-card p:last-child { margin-bottom: 0; }
+  .what-card b { color: var(--navy); }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 16px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .dim-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 13.5px; }
+  .dim-table th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 12px; font-size: 13px; }
+  .dim-table th:first-child { border-radius: 8px 0 0 0; }
+  .dim-table th:last-child { border-radius: 0 8px 0 0; }
+  .dim-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.7; }
+  .dim-table tr:last-child td { border-bottom: none; }
+  .dim-table td.dim { font-weight: 700; color: var(--navy); width: 74px; white-space: nowrap; }
+  .dim-table td.fake { color: var(--ink-soft); width: 38%; }
+  .dim-table td.truth { color: var(--ink); }
+  .dim-table td.truth b { color: #a32d2d; }
+  .dim-table .fake-tag, .dim-table .truth-tag { font-size: 11px; font-weight: 700; margin-right: 6px; }
+  .dim-table .fake-tag { color: #a32d2d; }
+  .dim-table .truth-tag { color: var(--green); }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+  .arg p + p { margin-top: 8px; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .scenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 5px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .scene p { margin: 0; font-size: 14px; }
+
+  .books { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+  .book .b-name { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .book .b-author { font-size: 12px; color: var(--gold); margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .book p { margin: 0; font-size: 13.5px; line-height: 1.75; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .books, .scenes { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>价值守恒定律 · 定律解码</div>
+    <div class="meta">
+      <span class="pill gold">财情双生智库</span>
+      <span class="pill">彼得原理公式论证</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">PETER PRINCIPLE × VALUE CONSERVATION</div>
+  <h1>彼得原理，<span class="hl">一个公式看懂</span></h1>
+  <p class="hl-sub">（二十世纪西方文化三大定律之一）</p>
+  <div class="divider"></div>
+  <p class="sub">"每个员工，终将晋升到自己不能胜任的职位。"——这不是职场玄学，而是价值守恒定律中"只认 E、不问 S 与 T"的必然结局。</p>  <div class="chips">
+    <span class="chip">经济价值 <b>E</b></span>
+    <span class="chip">社会价值 <b>S</b></span>
+    <span class="chip">时间价值 <b>T</b></span>
+    <span class="chip">胜任匹配 <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">目 录</p>
+      <ul>
+        <li><a href="#sec-answer">一句话结论</a></li>
+        <li><a href="#sec-formula">一个公式看懂</a></li>
+        <li><a href="#sec-what">彼得原理是什么</a></li>
+        <li><a href="#sec-form">如何形成：晋升失配</a></li>
+        <li><a href="#sec-scenes">现实中的彼得</a></li>
+        <li><a href="#sec-books">书里的印证</a></li>
+        <li><a href="#sec-fix">如何破解：乘法公式</a></li>
+        <li><a href="#sec-insight">财情双生启示</a></li>
+        <li><a href="#sec-faq">常见问题 FAQ</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">答案优先 · 一句话结论</span>
+      <p><strong>彼得原理的本质，是「晋升只看过去的 E、不看未来的 S 与 T」</strong>：一个人因胜任而晋升，直到升到自己不胜任的位置——于是组织里挤满了"停在错位"的人。</p>
+      <p><strong>破解只有一条——把晋升从"奖励过去"改成"投资未来"</strong>：用胜任力校准 E，用双轨制保住 S，用培养做长 T。人放对了，价值才倍增。</p>    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">乘法定律 · 人岗匹配</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> 岗位产出 · <b>S</b> 岗位匹配（胜任·专长）· <b>T</b> 成长时间（培养·历练）</p>
+        <p class="f-note">人岗匹配、能力增长、产出提升三者同步，价值倍增；<b>胜任是乘法，不胜任是归零</b>。</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">除法定律 · 彼得的由来</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">晋升只看<b>过去业绩（E）</b>、不看新岗位匹配（S）与成长（T）——<b>把能干的执行者，送进干不了的管理岗</b>。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>彼得原理是什么</h2></div>
+    <div class="what-card">
+      <div class="quote">"In a hierarchy, every employee tends to rise to his level of incompetence."<br/><span>在层级组织中，每个员工都会升到不能胜任的位置</span></div>
+      <p><b>出处</b>：1969 年，加拿大教育学家劳伦斯·彼得在《彼得原理》中提出。核心逻辑很简单：<b>做得好 → 晋升 → 再做得好 → 再晋升 → 直到做不好为止</b>。</p>
+      <p><b>它说的不是"人人平庸"</b>，而是晋升机制的系统缺陷：<b>奖励过去的业绩，却不检验未来的胜任</b>。技术专家被升为糟糕的经理，金牌销售被升为无效的总监——旧岗位的 E 越大，新岗位跌得越狠。</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>如何形成：晋升机制的失配</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">失配</div><div class="tag">形成机制</div></div>
+        <div class="title-box">
+          <h3>三个"只看"，把能干的人送进干不了的位置</h3>
+          <p class="lead">只看 E（业绩）→ 不看 S（匹配）→ 不等 T（成长），彼得原理开始运转。</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>维度</th><th>晋升前</th><th>晋升后</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">晋升前</span>旧岗位业绩亮眼，产出高</td><td class="truth"><span class="truth-tag">晋升后</span>新岗位技能错位——<b>产出骤降</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">晋升前</span>人与岗位高度匹配</td><td class="truth"><span class="truth-tag">晋升后</span>擅长的不再需要、需要的不擅长——<b>匹配归零</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">晋升前</span>有积累、有成长</td><td class="truth"><span class="truth-tag">晋升后</span>没培训、没缓冲、直接上岗——<b>成长断档</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">形成论证 · 晋升失配</span><p>彼得原理不是"人不行"，而是<b>晋升信号错了</b>。用旧岗位业绩（E）作主要晋升依据，等于无视新岗位匹配度（S）与成长周期（T）——把乘法公式拆成除法：人还是那个人，价值却被新岗位"除"小了。每个不胜任的岗位，都是一次"只认 E"的晋升留下的。</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>现实中的彼得</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">程序员</span><p>代码漂亮的工程师，升了技术经理——代码写不了，团队也带不动。</p></div>
+      <div class="scene"><span class="s-tag">销冠</span><p>业绩靠前的销售，升了销售总监——自己不能冲，团队也没带起来。</p></div>      <div class="scene"><span class="s-tag">名师</span><p>课讲得好的老师，升了行政——讲台空了，会议室多个煎熬的人。</p></div>    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>书里的印证</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">《彼得原理》</div><div class="b-author">劳伦斯·彼得</div><p>在层级中，员工终会升到不胜任为止。彼得的处方是——<b>别用晋升奖励专业人才</b>，让他们留在擅长的位置继续发光。</p></div>
+      <div class="book"><div class="b-name">《从优秀到卓越》</div><div class="b-author">吉姆·柯林斯</div><p>"先人后事"：先让对的人上车、坐对位置，再谈方向。<b>人岗匹配是卓越组织的地基</b>——这正是否定彼得原理的乘法思维。</p></div>
+      <div class="book"><div class="b-name">《原则》</div><div class="b-author">瑞·达利欧</div><p>坦诚面对"谁适合做什么"：<b>把合适的人放到合适的位子</b>，比给不合适的人升职更负责任。胜任，是对人更深的尊重。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>如何破解：乘法公式的三条路</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">乘法</div><div class="tag">破解之道</div></div>
+        <div class="title-box">
+          <h3>重胜任、留专才、养成长——让晋升回归价值</h3>
+          <p class="lead">彼得原理改不掉人性，但改得了机制：E 按胜任算、S 用双轨保、T 靠培养长。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">修 E · 按胜任力晋升</span><ul>
+          <li><b>看未来</b>：晋升评估新岗位的胜任力，而非旧岗位业绩</li>
+          <li><b>试岗观察期</b>：先代职 3-6 个月，用实际表现决定转正</li>
+          <li><b>能上能下</b>：不胜任可调整回专业岗，不把"降职"当羞辱</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">修 S · 双轨制保专才</span><ul>
+          <li><b>专家通道</b>：资深专家/首席专家职级，不靠当官也能升职加薪</li>
+          <li><b>管理/专业双梯</b>：爱管事的人当官、爱做事的人做事</li>
+          <li><b>人尽其才</b>：明星员工留在高价值岗位，用项目与激励奖励</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">修 T · 让成长跟上新岗位</span><ul>
+          <li><b>晋升即培养</b>：提拔同步配套管理培训，让 T 追上新岗位要求</li>
+          <li><b>教练与导师</b>：给新晋管理者配资深导师，缩短胜任曲线</li>
+          <li><b>长期视角</b>：把晋升当投资而非奖励，先问"两年后他能胜任吗"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">一句话收束</span><p><b>彼得原理不是能力的诅咒，是机制的镜子</b>——它照出我们用"过去的业绩"还是"未来的胜任"做晋升。人放对了，人人都是倍增器。</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>财情双生启示</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>视角</th><th>启示</th></tr>
+        <tr><td>财</td><td>岗位错配是组织的隐性亏损——一个不胜任的管理者，代价远高于一个流失的专家。</td></tr>
+        <tr><td>情</td><td>把不适合当官的人硬推上位，是双重伤害：他痛苦，团队也痛苦。让人做擅长的事，是善意的设计。</td></tr>
+        <tr><td>双生</td><td>晋升若同时看 E（胜任）、S（匹配）、T（成长），人就在对的位置上持续增值——个人的财与情、组织的效与信，一起增长。</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>每个人都会升到不能胜任的位置——除非机制让胜任决定位置。</b><br/>与其把明星变成平庸的管理者，不如让专家在专业里继续发光。<br/><b>当 E 看胜任、S 保匹配、T 养成长，彼得原理就只是一则过时的寓言。</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>常见问题 FAQ</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q：彼得原理是说优秀的人不该晋升吗？</p>
+        <p class="a">A：不是。它说的是"晋升要看胜任力而非单纯业绩"。优秀者该升，但应升到能胜任的位置，而不是用旧业绩兑换新岗位。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q：不晋升优秀员工，会不会留不住人？</p>
+        <p class="a">A：会——除非有替代激励。双轨制的意义就在于此：专家通道给地位与回报，让"不当官"同样有价值。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q：普通人怎么用这个公式？</p>
+        <p class="a">A：职业选择也适用：升职前问三句——新岗位我胜任吗（E）？匹配专长吗（S）？有时间成长吗（T）？三者齐备，再上。</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  依据《财情倍增的价值守恒定律》撰写 · 内容符合广告法合规要求
+</div>
+
+<button id="toTop" title="返回顶部">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>

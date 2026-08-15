@@ -73,6 +73,29 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 
 ---
 
+## 📚 应用文档系列：三大定律 × 价值守恒公式论证
+
+用价值守恒定律 `Y = E × S × T` 论证 **二十世纪西方文化三大定律** 与重大经济现象，每篇均为**中英双语、纯 HTML 单文件、零依赖**科普文档，含公式论证、书中案例、现实场景与 FAQ。
+
+### 系列总览
+
+| 编号 | 主题 | 中文版 | English | 核心论证 |
+| ---- | ---- | ------ | ------- | -------- |
+| 01 | 五大经济危机 | [01 经济危机解码-价值守恒定律.html](01%20经济危机解码-价值守恒定律.html) | [five-economic-crises-value-conservation.en.html](01%20five-economic-crises-value-conservation.en.html) | 危机本质 = 除法公式滥用(只对 E 负责,牺牲 S×T);解药 = 乘法公式 |
+| 02 | 墨菲定律 | [02 突破墨菲定律，对你的压制-价值守恒论证.html](02%20突破墨菲定律，对你的压制-价值守恒论证.html) | [break-free-murphys-law-value-conservation.en.html](02%20break-free-murphys-law-value-conservation.en.html) | 墨菲定律 = 除法公式自动运行(压缩 S 容错与 T 余量换 E);破解 = 清单/备份/余量 |
+| 03 | 帕金森定律 | [03 帕金森定律-价值守恒论证.html](03%20帕金森定律-价值守恒论证.html) | [parkinsons-law-value-conservation.en.html](03%20parkinsons-law-value-conservation.en.html) | 帕金森定律 = 时间价值 T 失效(无边界→分母放大→E 摊薄);破解 = 时间盒/交付标准 |
+| 04 | 彼得原理 | [04 彼得原理-价值守恒论证.html](04%20彼得原理-价值守恒论证.html) | [peter-principle-value-conservation.en.html](04%20peter-principle-value-conservation.en.html) | 彼得原理 = 晋升只看过去 E、不看未来 S/T;破解 = 胜任力晋升/双轨制/培养 |
+
+### 系列特点
+
+- **答案优先**：符合 GEO 规范，开头直接给出结论，44.2% 的 AI 引用来自前 30% 内容
+- **权威引用**：每篇含 3 本以上经典书例（《黑天鹅》《反脆弱》《清单革命》《稀缺》《深度工作》《从优秀到卓越》《原则》等）
+- **数据支撑**：每 150-200 字一个数据点，均标注来源
+- **合规输出**：全部内容符合《中华人民共和国广告法》要求，无极限用语
+- **双语对照**：每篇中英文版结构一致、锚点对应，便于对照阅读
+
+---
+
 ## ✨ 项目特性
 
 - **零依赖单文件**：纯 HTML/CSS/JS 实现，无需构建、无需安装、无需联网，双击即可离线阅读
@@ -81,6 +104,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **公式渲染**：OMML → LaTeX 转换渲染，公式清晰美观
 - **图片内嵌**：插图已内嵌为 base64，可离线完整阅读
 - **交互体验**：目录滚动高亮、图片点击灯箱放大、响应式布局（桌面 / 移动端自适应）
+- **应用文档系列**：另含 4 篇「三大定律 × 价值守恒」中英双语科普页（见上节），每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
 
 ---
 
@@ -110,7 +134,17 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── LICENSE             # CC BY 4.0 许可协议
 ├── images/             # 原始插图资源（image1–5.png）
 ├── embed/              # 内嵌图片副本（jpg/png 双格式）
-└── README.md           # 项目说明（本文件）
+├── README.md           # 项目说明（本文件）
+│
+├── 应用文档系列（三大定律 × 价值守恒，中英双语）/
+│   ├── 01 经济危机解码-价值守恒定律.html
+│   ├── 01 five-economic-crises-value-conservation.en.html
+│   ├── 02 突破墨菲定律，对你的压制-价值守恒论证.html
+│   ├── 02 break-free-murphys-law-value-conservation.en.html
+│   ├── 03 帕金森定律-价值守恒论证.html
+│   ├── 03 parkinsons-law-value-conservation.en.html
+│   ├── 04 彼得原理-价值守恒论证.html
+│   └── 04 peter-principle-value-conservation.en.html
 ```
 
 ---

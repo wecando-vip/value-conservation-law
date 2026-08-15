@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Five Major Economic Crises Explained by the Law of Value Conservation - Y=E×S×T</title>
+<meta name="description" content="How the Great Depression (1929), Japan's Bubble (1990), the Asian Financial Crisis (1997), the Global Financial Crisis (2008), and the European Sovereign Debt Crisis (2010) form and resolve, explained through the Law of Value Conservation Y = E × S × T. By the Econ-Sentiment Twin Think Tank."/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 880px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 720px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 248px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 18px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .dim-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 13.5px; }
+  .dim-table th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 12px; font-size: 13px; }
+  .dim-table th:first-child { border-radius: 8px 0 0 0; }
+  .dim-table th:last-child { border-radius: 0 8px 0 0; }
+  .dim-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.7; }
+  .dim-table tr:last-child td { border-bottom: none; }
+  .dim-table td.dim { font-weight: 700; color: var(--navy); width: 74px; white-space: nowrap; }
+  .dim-table td.fake { color: var(--ink-soft); width: 38%; }
+  .dim-table td.truth { color: var(--ink); }
+  .dim-table td.truth b { color: #a32d2d; }
+  .dim-table .fake-tag, .dim-table .truth-tag { font-size: 11px; font-weight: 700; margin-right: 6px; }
+  .dim-table .fake-tag { color: #a32d2d; }
+  .dim-table .truth-tag { color: var(--green); }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+  .arg p + p { margin-top: 8px; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .laws { margin: 10px 0 0; }
+  .laws .law { display: flex; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 12px; box-shadow: var(--shadow); }
+  .laws .law .num { width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 14px; flex: none; font-family: Georgia, serif; }
+  .laws .law p { margin: 0; font-size: 14.5px; }
+  .laws .law p b { color: var(--navy); }
+
+  .micro { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 24px 28px; margin: 30px 0; }
+  .micro h3 { margin: 0 0 12px; font-size: 17px; color: var(--navy); }
+  .micro .formula { font-size: 18px; }
+  .micro p { font-size: 14.5px; color: var(--ink-soft); margin: 8px 0 0; }
+
+  .roles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .role p { margin: 0; font-size: 14px; line-height: 1.75; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .roles { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>The Law of Value Conservation · Crisis Decoded</div>
+    <div class="meta">
+      <span class="pill gold">Econ-Sentiment Twin Think Tank</span>
+      <span class="pill">Five Crises, One Formula</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">THE LAW OF VALUE CONSERVATION</div>
+  <h1>Five Major Economic Crises, Explained by One Formula</h1>
+  <div class="divider"></div>
+  <p class="sub">How crises take shape and how they are resolved, decoded through the Law of Value Conservation, Y = E × S × T. 1929 · 1990 · 1997 · 2008 · 2010 — five scripts, one hidden code.</p>
+  <div class="chips">
+    <span class="chip">Economic Value <b>E</b></span>
+    <span class="chip">Social Value <b>S</b></span>
+    <span class="chip">Time Value <b>T</b></span>
+    <span class="chip">Multiplication <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">CONTENTS</p>
+      <ul>
+        <li><a href="#sec-answer">The Answer in One Sentence</a></li>
+        <li><a href="#sec-formula">First, the Yardstick: Diagnosis by the Law</a></li>
+        <li><a href="#sec-crises">Five Crises, One by One</a>
+          <ul>
+            <li><a href="#crisis-1929">1929 The Great Depression</a></li>
+            <li><a href="#crisis-1990">1990 Japan's Bubble</a></li>
+            <li><a href="#crisis-1997">1997 Asian Financial</a></li>
+            <li><a href="#crisis-2008">2008 Global Financial</a></li>
+            <li><a href="#crisis-2010">2010 European Debt</a></li>
+          </ul>
+        </li>
+        <li><a href="#sec-overview">Cross-Cutting View: One Code</a></li>
+        <li><a href="#sec-insight">Universal Lessons for All</a></li>
+        <li><a href="#sec-faq">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">THE ANSWER FIRST · IN ONE SENTENCE</span>
+      <p><strong>No economic crisis is, at its core, a sudden collapse of E. It is always E inflated beyond truth by a single lever, while S and T are quietly eroded to zero — until the multiplicative chain snaps.</strong> Bailing out only E (liquidity, cushions) is like treating a fever with antipyretics while ignoring the inflammation — which is precisely why many crises cost nations "a lost decade" or even "three lost decades."</p>
+      <p><strong>The cure, always, is a return to multiplication.</strong> E must be real (anchored in substance, not speculation); S must be deep (institutions and trust); T must be long (sustainability across generations). Only when all three exceed 1 does Y truly multiply.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">THE MULTIPLICATION LAW · CONDITIONS FOR PROSPERITY</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> Economic Value (money · resources · efficiency) · <b>S</b> Social Value (fairness · trust · institutions) · <b>T</b> Time Value (sustainability · inheritance)</p>
+        <p class="f-note">Only when all three exceed 1 does an economy enter its growth phase; <b>if any variable falls to zero or below, the total Y collapses with it</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">THE DIVISION LAW · ORIGIN OF CRISES</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">When market players <b>bear no responsibility for S or T</b>, they instinctively sacrifice social value and long-term time value to maximize short-term E.</p>
+        <p class="f-note"><b>Shrink the denominator, inflate the numerator</b> — E looks splendid in isolation, yet the foundation of Y has already been hollowed out.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crises"><span class="sn">01</span><h2>The Five Crises, Argued One by One</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">DEPRESSION</div></div>
+        <div class="title-box">
+          <h3>Prosperity for the Few, Consumption for the Many — Torn Apart</h3>
+          <p class="lead">Stock-market leverage inflated E, while purchasing power (S) and institutional sustainability (T) were hollowed out — then the bubble burst into a total reckoning.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>The Illusion of Boom</th><th>The Truth of Crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">ILLUSION</span>Rising stocks, margin trading, easy credit</td><td class="truth"><span class="truth-tag">TRUTH</span>E inflated by a single lever of speculation: the Dow peaked at <b>381</b> in September 1929</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">ILLUSION</span>The "Roaring Twenties"</td><td class="truth"><span class="truth-tag">TRUTH</span>The top 1% held over <b>40% of U.S. wealth</b>; wages stagnated; purchasing power was gutted</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">ILLUSION</span>So optimistic that "everyone was a stock guru"</td><td class="truth"><span class="truth-tag">TRUTH</span>Unsustainable leverage, a rigid gold standard, tariff-driven deglobalization — long-run credit was exhausted</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Under the multiplication law, E was inflated by leverage, yet S (purchasing power) fell below 1 and T (institutional sustainability) approached zero. When the stock bubble burst, E collapsed in an instant and Y spiraled to zero — the Great Depression was, at its heart, a brutal severance between "the prosperity of the rich" and "the consumption of the poor."</p></div>
+        <div class="fix"><span class="fix-label">THE REMEDY · THE NEW DEAL</span><ul>
+          <li><b>Repair S</b>: Social Security, unemployment relief, and the National Labor Relations Act returned purchasing power to the people</li>
+          <li><b>Repair T</b>: Banking regulation (Glass–Steagall), deposit insurance, and leaving the gold standard rebuilt long-run credit</li>
+          <li><b>Repair E</b>: Public works and work relief steered E back toward real production, away from financial speculation</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">THE TWIN-BLOSSOM VIEW</span><p>The New Deal's wisdom — <b>save the people first, and the economy will follow</b>. Once S was mended, E could truly return.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1990">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">JAPAN'S BUBBLE</div></div>
+        <div class="title-box">
+          <h3>"Wealth" Ascendant, "Wellbeing" Absent — A Lesson Written in Three Lost Decades</h3>
+          <p class="lead">Asset prices inflated (E), social fairness eroded (S), generational sustainability vanished (T) — the canonical case of treating E alone.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>The Illusion of Boom</th><th>The Truth of Crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">ILLUSION</span>Nikkei 225 reached <b>38,915</b>; Tokyo land "worth more than all of America"</td><td class="truth"><span class="truth-tag">TRUTH</span>Much of the market's value was idle land and financial circulation — E was severely inflated</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">ILLUSION</span>Lifetime employment, the myth of "a hundred million middle class"</td><td class="truth"><span class="truth-tag">TRUTH</span>Young people priced out of housing; wealth concentrated in a landed class — fairness eroded</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">ILLUSION</span>Post-Plaza excessive easing, the "forever rising" consensus</td><td class="truth"><span class="truth-tag">TRUTH</span>Capital fled the real economy; <b>an aging population plus a spent bubble = generational sustainability at zero</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>After the 1985 Plaza Accord pushed the yen upward, the central bank slashed rates and torrents of capital poured into stocks and real estate. E seemed to boil, but the real economy (S's job-bearing base) hollowed out and asset prices (T's sustainability) were stretched to absurdity. When the bubble burst in 1990, banks drowned in bad loans and firms fell into a "balance-sheet recession" — once E broke, S and T bled together into a three-decade deflationary spiral.</p></div>
+        <div class="fix"><span class="fix-label">THE REMEDY · LESSONS OF THE LOST DECADES</span><ul>
+          <li><b>The cautionary case of treating E alone</b>: years of zero rates and QQE flooding never mended demand, corporate confidence (S), or innovation drive (T)</li>
+          <li><b>The right path</b>: should have repaired S in tandem (corporate debt restructuring, employment and social security) and T (fertility, innovative industries, new growth engines) — two decades too late</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">THE TWIN-BLOSSOM VIEW</span><p>Japan is the textbook counter-example of <b>"wealth" dominating while "wellbeing" — social trust and hope for life — went missing for decades</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1997">
+      <div class="head">
+        <div class="year"><div class="yy">1997</div><div class="tag">ASIAN FINANCIAL</div></div>
+        <div class="title-box">
+          <h3>A Prosperity Built on Hot Money, Devoured by Hot Money That Left Even Faster</h3>
+          <p class="lead">Short-term capital piled up E; institutional transparency (S) and sustainability (T) were thin. Panic flight triggered a chain of defaults.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>The Illusion of Boom</th><th>The Truth of Crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">ILLUSION</span>The "Asian Miracle": soaring growth, foreign capital flooding in</td><td class="truth"><span class="truth-tag">TRUTH</span>E built on short-term hot money: Thailand's external debt skewed heavily short-term, with persistent current-account deficits</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">ILLUSION</span>The halo of state-led growth</td><td class="truth"><span class="truth-tag">TRUTH</span>Crony capitalism, financial corruption, opaque governance — institutional trust was fragile</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">ILLUSION</span>The "impossible trinity" of fixed rates and free capital flows</td><td class="truth"><span class="truth-tag">TRUTH</span>Short-term external debt and overcapacity accumulated together; balance-of-payments sustainability was spent</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Southeast Asia attracted global hot money with "fixed exchange rates plus high interest," and E soared for a moment. But when fundamentals could no longer hold, S (institutional transparency and oversight) had no power to intercept, and T (sustainable external payments) deteriorated first. Speculators sniffed the crack and struck the baht — panic flight, collapsing exchange rates, a cascade of corporate defaults. <b>A boom built on fast money, devoured by even faster money on its way out.</b></p></div>
+        <div class="fix"><span class="fix-label">THE REMEDY</span><ul>
+          <li><b>International aid plus structural reform</b>: IMF support steadied E; what truly mattered was each country's subsequent rebuilding of financial oversight (S) and exchange-rate flexibility, reserves, and industrial upgrading (T)</li>
+          <li><b>The comparative case</b>: China, protected by capital controls (safeguarding S's stability and T's autonomy), escaped the storm — proof of the institutional value in keeping the division formula from running naked</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">THE TWIN-BLOSSOM VIEW</span><p>The deep lesson of the Asian crisis: <b>"growth" is not "development"</b>. Growth without institutions (S) and sustainability (T) as foundations is merely borrowed prosperity.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">GLOBAL FINANCIAL</div></div>
+        <div class="title-box">
+          <h3>It Wasn't Housing That Fell — It Was Trust</h3>
+          <p class="lead">Financial innovation inflated E beyond control; credit (S) was sliced, packaged, and securitized; systemic risk (T) was deferred indefinitely — the division formula at its peak.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>The Illusion of Boom</th><th>The Truth of Crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">ILLUSION</span>U.S. home prices doubled in a decade; derivatives reached tens of trillions</td><td class="truth"><span class="truth-tag">TRUTH</span>E inflated by financial innovation: Lehman's leverage exceeded <b>30×</b>; shadow banking escaped oversight</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">ILLUSION</span>The narrative of "credit democratization — a home for every family"</td><td class="truth"><span class="truth-tag">TRUTH</span>Predatory lending and rating agencies labeling junk as AAA — <b>social trust was broken systematically</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">ILLUSION</span>Prices "rising forever," risk endlessly re-sold</td><td class="truth"><span class="truth-tag">TRUTH</span>The leverage chain (MBS→CDO→CDS) deferred risk into the infinite future; systemic risk was exhausted</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Financiers took credit — the most precious form of S — and sliced it, packaged it, securitized it, trading it for astronomical short-term E, while pushing the risk down the line to the future (a severe drain on T). When home prices — the single anchor — turned, the CDO/CDS chain detonated in series and global liquidity froze overnight. <b>In one sentence: it was not houses that collapsed, it was trust — and trust (S) is the very bedrock of the entire financial system.</b></p></div>
+        <div class="fix"><span class="fix-label">THE REMEDY</span><ul>
+          <li><b>Rescue E</b>: three rounds of Fed QE, saving AIG and letting Lehman go, to avert a second Great Depression</li>
+          <li><b>Repair S</b>: the Dodd–Frank Act, the Volcker Rule, the Consumer Financial Protection Bureau — rebuilding financial ethics</li>
+          <li><b>Repair T</b>: macroprudential oversight, extra capital for systemically important institutions, stress tests — putting a lock on leverage</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">THE TWIN-BLOSSOM VIEW</span><p>2008 was the extreme consequence of "wealth" (financial engineering) trampling "wellbeing" (trust and people). The worldwide turn toward "finance serving the real economy" is, in essence, a return to the multiplication formula.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2010">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">EUROPEAN DEBT</div></div>
+        <div class="title-box">
+          <h3>United in Currency, Divided in Will: A Debt Crisis of Missing Institutions</h3>
+          <p class="lead">Sovereign debt propped up E; fiscal discipline (S) went unenforced; generational sustainability (T) deteriorated — institutional absence is the common lesion of every sovereign debt crisis.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>The Illusion of Boom</th><th>The Truth of Crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">ILLUSION</span>One currency, southern high-welfare high-consumption, ultra-cheap borrowing</td><td class="truth"><span class="truth-tag">TRUTH</span>E propped up by sovereign debt: Greece's public debt/GDP once exceeded <b>150%</b>, rolling over new loans to repay old ones</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">ILLUSION</span>The institutional halo of European integration</td><td class="truth"><span class="truth-tag">TRUTH</span>Missing fiscal discipline and structural German–southern imbalances — <b>the integration "trust pool" was drained</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">ILLUSION</span>The euro as a faith that "never defaults"</td><td class="truth"><span class="truth-tag">TRUTH</span>Aging populations, pension burdens, widening productivity gaps — generational sustainability worsened</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Southern members like Greece hitched a ride on the euro's low rates, sustaining high welfare on borrowed money, and E looked prosperous on the surface; but fiscal deficit discipline (S) was enforced by no one, and debt sustainability (T) deteriorated steadily. When the 2008 crisis exposed the truth: downgrades → surging financing costs → the rollover chain snapping → a default crisis. <b>The currency was unified, but fiscal responsibility and social trust were not.</b></p></div>
+        <div class="fix"><span class="fix-label">THE REMEDY</span><ul>
+          <li><b>Rescue E</b>: the ECB's OMT and LTRO long-term refinancing — Draghi's "whatever it takes" as the floor</li>
+          <li><b>Repair S</b>: the Fiscal Compact to constrain deficits, the European Stability Mechanism (ESM), fiscal austerity and pension reform for Greece and others</li>
+          <li><b>Repair T</b>: structural reform (labor markets, competitiveness, industrial transformation) to rebuild long-run growth momentum</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">THE TWIN-BLOSSOM VIEW</span><p>The euro crisis reminds us that <b>"coming together" (E, a unified market), if unaccompanied by "sharing one heart" (S, institutional consensus) and "walking far together" (T, generational sustainability), is a marriage of strangers.</b></p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-overview"><span class="sn">02</span><h2>Cross-Cutting View: One Code Behind Five Crises</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Crisis</th><th>How E Was Inflated</th><th>The S Eroded</th><th>The T Overdrawn</th><th>Key to Recovery</th></tr>
+        <tr><td>1929 Great Depression</td><td>Stock-market leverage</td><td>Purchasing power / fair distribution</td><td>Financial institutions / gold standard</td><td>Repair S (purchasing power) → success</td></tr>
+        <tr><td>1990 Japan</td><td>Idle land & equity circulation</td><td>Social fairness / real employment</td><td>Demographics / industrial upgrading</td><td>Treating E alone → 30 lost years</td></tr>
+        <tr><td>1997 Asia</td><td>Short-term hot money</td><td>Institutional transparency / oversight</td><td>External payments / reserves</td><td>Repair S + T → recovery</td></tr>
+        <tr><td>2008 Global</td><td>Financial-derivative innovation</td><td>Credit / financial ethics</td><td>Leverage chains / systemic risk</td><td>Institutionalized S + T → gradual repair</td></tr>
+        <tr><td>2010 Europe</td><td>Sovereign debt expansion</td><td>Fiscal discipline / integration trust</td><td>Debt / demographics</td><td>Institutional constraint + structural reform</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="laws">
+      <div class="law"><div class="num">1</div><p><b>Crises always "leak" first in S or T, and only "burst" in E last.</b> People fixate on the E-indicators — stock markets, housing prices, exchange rates — while overlooking the foundations that deteriorate first: distribution, trust, institutions, sustainability.</p></div>
+      <div class="law"><div class="num">2</div><p><b>The division formula is the root of all ills.</b> As long as institutions permit "accountability for profit alone, without accountability to society or the future," market players will spontaneously trade S and T for E — this is the inner mechanism of the market's blindness, spontaneity, and lag.</p></div>
+      <div class="law"><div class="num">3</div><p><b>The true remedy is always a return to multiplication.</b> E must be authentic (substance over speculation), S must be deep (institutions and trust), T must be long (sustainability across generations) — when all three exceed 1 together, Y truly multiplies.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">03</span><h2>Universal Lessons, Through the Twin-Blossom Lens</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">FOR DECISION-MAKERS</span><p>Macroeconomic policy must not fixate on GDP (E) alone. When inequality, social trust, institutional quality, and debt sustainability (S, T) all flash warnings, any "stimulus by flooding" is subtraction from the denominator and a landmine for the future. <b>True high-quality growth is multiplicative growth of E, S, and T together.</b></p></div>
+      <div class="role"><span class="r-tag">FOR ENTERPRISES</span><p>Pursuing profit (E) is not wrong — but when it comes at the cost of employee wellbeing, customer trust, and social reputation (S), or of long-run brand and generational legacy (T), the money earned will one day be repaid with interest in some crisis. <b>Enduring enterprises are those in which "wealth" and "wellbeing" compound together across time.</b></p></div>
+      <div class="role"><span class="r-tag">FOR INDIVIDUALS</span><p>The micro-formula y = f(m) × f(h) × f(t) holds the same logic — chasing income (f(m)) alone while draining health and relationships (f(h)) and long-term accumulation (f(t)) turns a life into its own "economic crisis." <b>The essence of twin-blossom living is to keep monetary value, joyful experience, and the compounding of time all above 1.</b></p></div>
+    </div>
+    <div class="closing">
+      <p><b>History never repeats, yet the law of value conservation never fails to show up.</b> Five great crises prove it again and again — when "wealth" (E) forgets that it must answer for "wellbeing" (S) and "the future" (T), multiplication turns into division, and prosperity turns into crisis.<br/>And the cure has always been one: <b>let value return to conservation, and let growth return to the multiplicative track of E × S × T.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">04</span><h2>Frequently Asked Questions</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q: Why do you say a crisis is not "E suddenly collapsing"?</p>
+        <p class="a">A: Because E's collapse is only the surface. What deteriorates first is S (distribution, trust, institutions) and T (sustainability) — once they are worn to the breaking point, any gust can detonate the multiplicative chain.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: Why do bailouts so often fail, as in Japan's lost decades?</p>
+        <p class="a">A: Because they "repair E alone, without S and T." Liquidity can hold up asset prices, but it cannot mend demand, corporate confidence (S), or innovation drive (T). Treating the fever without the inflammation leaves the disease in place.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: How can ordinary people apply this formula?</p>
+        <p class="a">A: Manage personal value on three tracks at once — income (f(m)), joyful experience (f(h)), and long-term accumulation (f(t)) — and never trade health or relationships for a short-term number on a statement.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: Where do the figures in this article come from?</p>
+        <p class="a">A: Cited figures — the Dow's 381, the Nikkei's 38,915, Greece's debt/GDP above 150%, Lehman's 30× leverage — are public historical data used for illustration. Nothing here constitutes investment advice.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ Econ-Sentiment Twin Think Tank · 财情双生智库</div>
+  Adapted from "The Law of Value Conservation for Wealth–Wellbeing Multiplication" · Content complies with applicable advertising-law requirements
+</div>
+
+<button id="toTop" title="Back to top">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>

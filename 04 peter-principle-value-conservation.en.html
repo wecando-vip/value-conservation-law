@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Peter Principle, Explained by One Formula - The Value Conservation Argument Y=E×S×T</title>
+<meta name="description" content="Why do competent employees keep rising until they reach a position they cannot handle? The Peter Principle — one of the three great laws of twentieth-century Western culture — decoded through the Law of Value Conservation Y = E × S × T: how it forms, how to break it. With cases from The Peter Principle, Good to Great, and Principles. By the Econ-Sentiment Twin Think Tank."/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 880px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero h1 .hl {
+    position: relative; color: var(--gold);
+    background: linear-gradient(transparent 62%, rgba(166,124,46,.22) 62%);
+    padding: 0 4px; border-radius: 4px;
+  }
+  .hero .hl-sub {
+    display: inline-block; margin: 0 0 14px; font-size: 14px;
+    color: var(--ink-soft); letter-spacing: 2px;
+    font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+    border: 1px solid #e2cfa3; background: var(--gold-soft);
+    padding: 3px 14px; border-radius: 999px;
+  }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 720px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 248px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow); }
+  .what-card .quote { font-size: 18px; color: var(--navy); font-weight: 700; text-align: center; margin: 6px 0 16px; font-family: Georgia, "Times New Roman", serif; }
+  .what-card .quote span { color: var(--gold); }
+  .what-card p { margin: 0 0 10px; font-size: 14.5px; }
+  .what-card p:last-child { margin-bottom: 0; }
+  .what-card b { color: var(--navy); }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 16px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .dim-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 13.5px; }
+  .dim-table th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 12px; font-size: 13px; }
+  .dim-table th:first-child { border-radius: 8px 0 0 0; }
+  .dim-table th:last-child { border-radius: 0 8px 0 0; }
+  .dim-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.7; }
+  .dim-table tr:last-child td { border-bottom: none; }
+  .dim-table td.dim { font-weight: 700; color: var(--navy); width: 74px; white-space: nowrap; }
+  .dim-table td.fake { color: var(--ink-soft); width: 38%; }
+  .dim-table td.truth { color: var(--ink); }
+  .dim-table td.truth b { color: #a32d2d; }
+  .dim-table .fake-tag, .dim-table .truth-tag { font-size: 11px; font-weight: 700; margin-right: 6px; }
+  .dim-table .fake-tag { color: #a32d2d; }
+  .dim-table .truth-tag { color: var(--green); }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+  .arg p + p { margin-top: 8px; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .scenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 5px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .scene p { margin: 0; font-size: 14px; }
+
+  .books { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+  .book .b-name { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .book .b-author { font-size: 12px; color: var(--gold); margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .book p { margin: 0; font-size: 13.5px; line-height: 1.75; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .books, .scenes { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>The Law of Value Conservation · Law Decoded</div>
+    <div class="meta">
+      <span class="pill gold">Econ-Sentiment Twin Think Tank</span>
+      <span class="pill">The Peter Principle, One Formula</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">THE PETER PRINCIPLE × VALUE CONSERVATION</div>
+  <h1>The Peter Principle, <span class="hl">Explained by One Formula</span></h1>
+  <p class="hl-sub">One of the Three Great Laws of Twentieth-Century Western Culture</p>
+  <div class="divider"></div>
+  <p class="sub">"In a hierarchy, every employee tends to rise to his level of incompetence." — This is no workplace mysticism; it is the inevitable outcome of "attending only to E, never to S and T" in the Law of Value Conservation.</p>
+  <div class="chips">
+    <span class="chip">Economic Value <b>E</b></span>
+    <span class="chip">Social Value <b>S</b></span>
+    <span class="chip">Time Value <b>T</b></span>
+    <span class="chip">Competence Fit <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">CONTENTS</p>
+      <ul>
+        <li><a href="#sec-answer">The Answer in One Sentence</a></li>
+        <li><a href="#sec-formula">One Formula to Understand It</a></li>
+        <li><a href="#sec-what">What Is the Peter Principle</a></li>
+        <li><a href="#sec-form">How It Forms: Mismatch in Promotion</a></li>
+        <li><a href="#sec-scenes">Peter in Daily Life</a></li>
+        <li><a href="#sec-books">What the Books Say</a></li>
+        <li><a href="#sec-fix">How to Break It: Multiplication</a></li>
+        <li><a href="#sec-insight">The Twin-Blossom Lessons</a></li>
+        <li><a href="#sec-faq">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">THE ANSWER FIRST · IN ONE SENTENCE</span>
+      <p><strong>The Peter Principle is, at its core, "promotion that looks only at the E of the past, never at the S and T of the future"</strong>: a person is promoted for competence, again and again, until landing in a position he or she cannot handle — and the organization fills with people "stuck in the wrong seat."</p>
+      <p><strong>There is only one cure — turn promotion from "rewarding the past" into "investing in the future"</strong>: calibrate E by competence, preserve S with a dual-track system, and lengthen T with training. Put people in the right seats, and value multiplies.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">THE MULTIPLICATION LAW · PERSON–ROLE FIT</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> Role output · <b>S</b> Role fit (competence · expertise) · <b>T</b> Growth time (training · seasoning)</p>
+        <p class="f-note">When fit, growth, and output advance together, value multiplies; <b>competence is multiplication, incompetence is zero</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">THE DIVISION LAW · WHERE PETER COMES FROM</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Promotion weighs only <b>past performance (E)</b>, ignoring fit for the new role (S) and growth potential (T) — <b>sending a capable doer into a management seat he cannot fill</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>What Is the Peter Principle</h2></div>
+    <div class="what-card">
+      <div class="quote">"In a hierarchy, every employee tends to rise to his level of incompetence."<br/><span>在层级组织中，每个员工都会升到不能胜任的位置</span></div>
+      <p><b>Origin</b>: In 1969, the Canadian educator Laurence J. Peter set it out in The Peter Principle. The core logic is simple: <b>do well → get promoted → do well again → get promoted again → until you can no longer do well</b>.</p>
+      <p><b>It is not about "universal mediocrity"</b> — it is a systemic flaw in the promotion mechanism: <b>rewarding past performance without testing future competence</b>. A skilled technologist is promoted into a poor manager, a top salesperson into an ineffective director — the greater the E in the old role, the harder the fall in the new one.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>How It Forms: The Mismatch in Promotion</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">MISFIT</div><div class="tag">FORMATION</div></div>
+        <div class="title-box">
+          <h3>Three "Onlys" Send the Capable into Roles They Cannot Fill</h3>
+          <p class="lead">Only E (performance) counts → S (fit) is ignored → T (growth) is rushed. The Peter Principle begins to run.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>Before Promotion</th><th>After Promotion</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">BEFORE</span>Brilliant results in the old role, high output</td><td class="truth"><span class="truth-tag">AFTER</span>Skills mismatch the new role — <b>output collapses</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">BEFORE</span>Person and role fit tightly</td><td class="truth"><span class="truth-tag">AFTER</span>What he excels at is no longer needed; what's needed he can't do — <b>fit hits zero</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">BEFORE</span>Accumulation and growth in place</td><td class="truth"><span class="truth-tag">AFTER</span>No training, no buffer, straight into the seat — <b>growth breaks off</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">FORMATION · PROMOTION MISMATCH</span><p>The Peter Principle is not "the person is incapable"; it is <b>the wrong signal for promotion</b>. Using old-role performance (E) as the main criterion is to ignore the new role's fit (S) and growth cycle (T) — dismantling the multiplication formula into division: the person is the same, yet the value is divided smaller by the new role. Every incompetent seat in an organization is the trace of one "E-only" promotion.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Peter in Daily Life: We've All Seen It</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">THE PROGRAMMER</span><p>The engineer who writes beautiful code is promoted to tech manager — the code is gone, and the team isn't led either.</p></div>
+      <div class="scene"><span class="s-tag">THE TOP SALES</span><p>The top-performing salesperson becomes sales director — can't sell anymore, and the team isn't lifted either.</p></div>
+      <div class="scene"><span class="s-tag">THE MASTER TEACHER</span><p>The teacher who lectures brilliantly is promoted to administration — the podium empties, and a tormented soul fills the meeting room.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>What the Books Say</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">The Peter Principle</div><div class="b-author">Laurence J. Peter</div><p>In a hierarchy, people rise until they are incompetent. Peter's prescription — <b>don't use promotion to reward professional talent</b>; let them keep shining where they excel.</p></div>
+      <div class="book"><div class="b-name">Good to Great</div><div class="b-author">Jim Collins</div><p>"First who, then what": get the right people on the bus and into the right seats before setting direction. <b>Person–role fit is the foundation of great organizations</b> — the multiplicative answer to the Peter Principle.</p></div>
+      <div class="book"><div class="b-name">Principles</div><div class="b-author">Ray Dalio</div><p>Be honest about "who is right for what": <b>putting the right person in the right seat</b> is more responsible than promoting the wrong person. Competence is a deeper form of respect.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>How to Break It: Three Paths of the Multiplication Formula</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">MULTIPLY</div><div class="tag">THE CURE</div></div>
+        <div class="title-box">
+          <h3>Weight Competence, Keep Experts, Grow People — Bring Promotion Back to Value</h3>
+          <p class="lead">You cannot change human nature, but you can change the mechanism: E by competence, S via dual tracks, T through training.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">REPAIR E · PROMOTE BY COMPETENCE</span><ul>
+          <li><b>Look to the future</b>: evaluate competence for the new role, not performance in the old one</li>
+          <li><b>Trial period</b>: serve 3-6 months in the role first; actual performance decides the permanent seat</li>
+          <li><b>Up and down freely</b>: those who don't fit may return to a professional track; "demotion" is not a disgrace</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">REPAIR S · DUAL TRACKS KEEP EXPERTS</span><ul>
+          <li><b>Expert ladder</b>: senior/principal expert grades — promotion and pay without becoming a manager</li>
+          <li><b>Management/professional tracks</b>: those who love managing manage; those who love doing, do</li>
+          <li><b>Best use of talent</b>: keep star players in high-value seats, reward with projects and incentives rather than transfer</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">REPAIR T · LET GROWTH CATCH UP WITH THE ROLE</span><ul>
+          <li><b>Promotion is training</b>: pair every promotion with management development, so T can reach the new role's demands</li>
+          <li><b>Coaches and mentors</b>: assign new managers a senior mentor to shorten the competence curve</li>
+          <li><b>Long-term lens</b>: treat promotion as investment, not reward — ask first, "Can he be competent in two years?"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">IN ONE SENTENCE</span><p><b>The Peter Principle is not a curse on ability; it is a mirror of the mechanism</b> — it reflects whether we promote by "past performance" or by "future competence." Put people right, and everyone becomes a multiplier.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>The Twin-Blossom Lessons</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Lens</th><th>Lesson</th></tr>
+        <tr><td>Wealth</td><td>Role mismatch is an organization's hidden loss — one incompetent manager costs more than one lost expert.</td></tr>
+        <tr><td>Wellbeing</td><td>Forcing someone unfit for management into a manager's seat hurts twice: he suffers, and so does the team. Letting people do what they're good at is kindness by design.</td></tr>
+        <tr><td>Twin-Blossom</td><td>When promotion weighs E (competence), S (fit), and T (growth) together, people keep compounding in the right seats — the individual's wealth and wellbeing, the organization's effectiveness and trust, grow together.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>Everyone rises to a position of incompetence — unless the mechanism lets competence decide the position.</b><br/>Instead of turning stars into mediocre managers, let experts keep shining in their craft.<br/><b>When E weighs competence, S preserves fit, and T nurtures growth, the Peter Principle becomes just an outdated fable.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>Frequently Asked Questions</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q: Does the Peter Principle mean competent people shouldn't be promoted?</p>
+        <p class="a">A: No. It means promotion should rest on competence, not on past performance alone. The capable deserve promotion — but into roles they can fill, not as a trade-in of old results for a new seat.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: Won't keeping top performers unpromoted make them leave?</p>
+        <p class="a">A: It will — unless alternative incentives exist. That is the point of dual tracks: the expert ladder offers status and reward, so that "not managing" carries as much value as "managing."</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: How can ordinary people use this formula?</p>
+        <p class="a">A: It applies to career choices too: before taking a promotion, ask three questions — Am I competent for the new role (E)? Does it fit my strengths (S)? Do I have time to grow into it (T)? Only when all three are answered, say yes.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ Econ-Sentiment Twin Think Tank · 财情双生智库</div>
+  Adapted from "The Law of Value Conservation for Wealth–Wellbeing Multiplication" · Content complies with applicable advertising-law requirements
+</div>
+
+<button id="toTop" title="Back to top">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>
