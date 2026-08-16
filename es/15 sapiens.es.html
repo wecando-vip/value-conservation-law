@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sapiens, explicado con una fórmula - Ley de Conservación del Valor Y=E×S×T</title>
+<meta name="description" content="Usando la Ley de Conservación del Valor para explicar Sapiens de Yuval Noah Harari: la revolución cognitiva construye cooperación (S), el dinero mide solo el valor económico (E), el dogma del crecimiento hipoteca el valor temporal (T); la nueva connotación del dinero activa un ciclo virtuoso de triple ganancia."/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 46px 24px 38px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: var(--gold); border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 18px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 14px; max-width: 860px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; background: linear-gradient(transparent 62%, rgba(166,124,46,.35) 62%); padding: 0 4px; }
+  .hl-sub { display: inline-block; margin-top: 4px; font-size: 14px; color: #b9c6d4; border: 1px dashed rgba(185,198,212,.4); padding: 5px 16px; border-radius: 999px; letter-spacing: 1px; }
+  .hero p.sub { max-width: 800px; margin: 16px auto 0; font-size: 15.5px; color: #cdd6e0; line-height: 1.9; }
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 36px; align-items: start; }
+  .toc-wrap { position: sticky; top: 20px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 14px; box-shadow: var(--shadow); }
+  .toc .toc-title { font-size: 14px; font-weight: 700; color: var(--navy); letter-spacing: 2px; padding: 0 8px 10px; border-bottom: 1px dashed var(--line); margin-bottom: 8px; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc a { display: block; padding: 6px 8px; font-size: 13.5px; color: var(--ink-soft); border-radius: 6px; border-left: 3px solid transparent; }
+  .toc a:hover { color: var(--navy); background: var(--blue-soft); }
+  .toc a.active { color: var(--gold); font-weight: 700; border-left-color: var(--gold); background: var(--gold-soft); }
+  .content { min-width: 0; }
+  .label { display: inline-block; font-size: 12.5px; letter-spacing: 2px; color: var(--gold); background: var(--gold-soft); border: 1px solid rgba(166,124,46,.3); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+  .answer-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 28px; box-shadow: var(--shadow); margin-bottom: 26px; border-left: 4px solid var(--gold); }
+  .answer-card p { margin: 8px 0; }
+  .answer-card strong { color: var(--navy); }
+  .section-title { display: flex; align-items: center; gap: 12px; margin: 34px 0 16px; }
+  .section-title .sn { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
+  .section-title h2 { margin: 0; font-size: 22px; color: var(--navy); letter-spacing: 1px; }
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 13px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; }
+  .formula { font-family: Georgia, "Cambria Math", serif; font-size: 26px; font-weight: 700; color: var(--navy); text-align: center; padding: 10px 0; letter-spacing: 2px; }
+  .formula .var { color: var(--gold); }
+  .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 6px 0; }
+  .f-note b { color: var(--navy); }
+  .formula-card.mul { border-top: 4px solid var(--green); }
+  .formula-card.div { border-top: 4px solid var(--red); }
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); margin-bottom: 26px; }
+  .what-card .quote { font-family: Georgia, serif; font-style: italic; font-size: 16px; color: var(--navy-2); border-left: 3px solid var(--gold); padding-left: 16px; margin-bottom: 14px; }
+  .what-card .quote span { display: block; font-family: "Alibaba PuHuiTi 2.0", sans-serif; font-style: normal; font-size: 14px; color: var(--ink-soft); margin-top: 4px; }
+  .pillars { display: grid; gap: 18px; margin-bottom: 26px; }
+  .pillar { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow); border-left: 4px solid var(--navy-2); }
+  .pillar .p-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .pillar .p-num { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: var(--gold); }
+  .pillar h3 { margin: 0; font-size: 18px; color: var(--navy); }
+  .pillar .p-tag { font-size: 12px; color: var(--ink-soft); background: var(--blue-soft); padding: 2px 10px; border-radius: 999px; }
+  .pillar p { margin: 6px 0; font-size: 14.5px; }
+  .pillar b { color: var(--navy); }
+  .crisis-grid { display: grid; gap: 18px; margin-bottom: 26px; }
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .crisis .head { display: flex; gap: 16px; padding: 18px 22px; background: linear-gradient(135deg, var(--blue-soft), #fff); border-bottom: 1px solid var(--line); }
+  .crisis .year { text-align: center; min-width: 84px; }
+  .crisis .yy { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: var(--gold); line-height: 1.2; }
+  .crisis .tag { font-size: 12px; color: var(--navy-2); background: var(--gold-soft); border-radius: 999px; padding: 2px 10px; display: inline-block; margin-top: 4px; }
+  .crisis h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
+  .crisis .lead { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+  .crisis .body { padding: 18px 22px; }
+  .arg, .fix { margin-bottom: 12px; }
+  .arg:last-child, .fix:last-child { margin-bottom: 0; }
+  .arg-label, .fix-label { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: 1px; padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .arg-label { color: var(--red); background: var(--red-soft); border: 1px solid rgba(166,58,43,.25); }
+  .fix-label { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
+  .arg p, .fix p { margin: 4px 0; font-size: 14.5px; }
+  .arg b, .fix b { color: var(--navy); }
+  .fix ul { margin: 6px 0 0; padding-left: 20px; }
+  .fix li { font-size: 14px; margin-bottom: 4px; }
+  .scenes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 26px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--navy-2); background: var(--blue-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .scene p { margin: 4px 0; font-size: 14px; }
+  .books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 26px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+  .b-name { font-size: 16px; font-weight: 700; color: var(--navy); }
+  .b-author { font-size: 12.5px; color: var(--gold); margin-bottom: 8px; }
+  .book p { margin: 6px 0; font-size: 13.5px; color: var(--ink-soft); }
+  .book b { color: var(--navy); }
+  .overview-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 26px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-weight: 600; letter-spacing: 1px; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { font-weight: 700; color: var(--navy); white-space: nowrap; }
+  .roles { display: grid; gap: 14px; margin-bottom: 26px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--gold); background: var(--gold-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .role p { margin: 4px 0; font-size: 14.5px; }
+  .role b { color: var(--navy); }
+  .closing { background: linear-gradient(135deg, #0f2439, #16324f); color: #f4efe4; border-radius: var(--radius); padding: 30px 32px; text-align: center; margin-bottom: 26px; box-shadow: var(--shadow); }
+  .closing p { margin: 6px 0; font-size: 15.5px; line-height: 2; }
+  .closing b { color: #d9b367; }
+  .faq { display: grid; gap: 12px; margin-bottom: 26px; }
+  .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 20px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  .toTop { position: fixed; right: 24px; bottom: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; border: none; font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: .3s; box-shadow: 0 4px 14px rgba(22,50,79,.35); z-index: 99; }
+  .toTop.show { opacity: 1; pointer-events: auto; }
+  #progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--gold), #d9b367); width: 0; z-index: 100; }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; padding: 24px 16px 10px; }
+    .toc-wrap { display: none; }
+    .formula-box, .books, .scenes { grid-template-columns: 1fr; }
+    .crisis .head { flex-direction: column; gap: 6px; }
+    .crisis .year { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="hero">
+  <div class="kicker">Think Tank de Doble Florecimiento · Serie de Aplicación de la Ley de Conservación del Valor 15</div>
+  <h1>Sapiens, explicado con una fórmula<br><span class="hl">Del relato imaginado a una moneda de tres valores</span></h1>
+  <div class="hl-sub">Yuval Noah Harari · Sapiens: Una breve historia de la humanidad · Tres revoluciones</div>
+  <p class="sub">Harari afirma que el Homo sapiens gobierna el mundo «contando historias» — el dinero, los imperios, las religiones son órdenes imaginados. Visto por la Ley de Conservación del Valor: el relato imaginado construye cooperación (S), el dinero mide solo el valor económico (E), el dogma del crecimiento hipoteca el valor temporal (T). La solución: que la moneda mida las tres valores a la vez.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">ÍNDICE</div>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Una sola fórmula para entenderlo</a></li>
+        <li><a href="#sec-what">De qué trata este libro</a></li>
+        <li><a href="#sec-pillars">Cómo se forma el desequilibrio</a></li>
+        <li><a href="#sec-crisis">Tres revoluciones en relectura</a></li>
+        <li><a href="#sec-scenes">Espejos en el mundo real</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La historia de la humanidad es una historia de «cómo se mide el valor»</strong>: la revolución cognitiva construye la cooperación a gran escala con relatos imaginados (S) — el punto de partida de la multiplicación; la revolución agrícola hace explotar la producción material (E) pero hipoteca la salud y la ecología (S, T dañadas); la revolución científica y el capitalismo erigen la «crecimiento» en dogma, <b>respondiendo solo a E e hipotecando S y T</b> — de ahí las hipercompetencias, las crisis y las deudas ambientales que se repiten.</p>
+      <p><strong>La solución está en la nueva connotación de la moneda</strong>: convertir la moneda de «un único relato que solo reconoce el valor económico» en «un libro mayor unificado que mide a la vez los valores económico, social y temporal» — cuando las tres valores superan juntas el 1, se activa el mecanismo de autorregulación del ciclo virtuoso, y el Estado, la empresa y el individuo ganan todos.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Una sola fórmula para entenderlo</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">DESARROLLO CIVILIZACIONAL · LA MULTIPLICACIÓN DE LA CONFIANZA</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> valor económico (creación material) · <b>S</b> valor social (cooperación y confianza) · <b>T</b> valor temporal (ciencia y transmisión)</p>
+        <p class="f-note"><b>Ley de multiplicación</b>: las tres valores superan juntas el 1, la civilización y la vida se multiplican al unísono.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">DOGMA DEL CRECIMIENTO · LA DIVISIÓN QUE SOLO CONOCE EL DINERO</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando el sistema <b>solo responde a E e hipoteca S, T</b>: cuanto más rápido el crecimiento, más se ignora —</p>
+        <p class="f-note"><b>Ley de división</b>: sacrificar S y T por un E a corto plazo, el total acaba diluido.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De qué trata este libro</h2></div>
+    <div class="what-card">
+      <div class="quote">«El dinero es la historia más exitosa jamás contada. … Pero el dinero también tiene un lado oscuro: hace cuantificable la confianza y reduce todo a un precio.»<br><span>— Yuval Noah Harari · Sapiens</span></div>
+      <p><b>Origen</b>: en 2011, el historiador israelí Yuval Noah Harari publicó <i>Sapiens: Una breve historia de la humanidad</i> (traducción china en 2014), repasando 70 000 años de historia humana. El hilo: <b>revolución cognitiva</b> (hace 70 000 años, los relatos imaginados hicieron posible la cooperación a gran escala) → <b>revolución agrícola</b> (hace 12 000 años, el trigo domesticó a Sapiens) → <b>revolución científica</b> (hace 500 años, reconocer la ignorancia, apoyarse en la observación) → <b>revolución industrial</b> (la estandarización de la energía y del tiempo).</p>
+      <p><b>Las dos observaciones de Harari</b>: ① el dinero es «el relato imaginado más exitoso de la humanidad» — hace confiar a los desconocidos, hace intercambiable todo, <b>pero mide solo el valor económico</b>; ② el credo del capitalismo es «el crecimiento lo resuelve todo» — <b>empeña el futuro como garantía e hipoteca lo social y lo temporal</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Cómo se forma el desequilibrio</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Dogma del crecimiento · solo el dinero</h3><span class="p-tag">Origen de la división</span></div>
+        <p><b>Formación</b>: el capitalismo hace del «crecimiento» la respuesta a todo — el PIB, los beneficios, la capitalización se vuelven la única vara; <b>este libro mayor del dinero solo registra E</b>: el medio ambiente, la salud, el afecto, la equidad no aparecen; cuanto más crecemos, más ignoramos.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Orden domesticado · cooperación fría</h3><span class="p-tag">Sacrificada</span></div>
+        <p><b>Formación</b>: el orden imaginado nace para cooperar, <b>pero, instrumentado por el poder, se vuelve una «herramienta de domesticación»</b> — el imperio somete con el relato, la empresa seduce con el storytelling; cuando la confianza ya no se apoya en los hechos sino en las historias, el coste de la cooperación sube y S se enfría.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Futuro hipotecado · tiempo descontado</h3><span class="p-tag">Coste oculto</span></div>
+        <p><b>Formación</b>: el sistema de crédito toma prestado «el dinero de mañana» hoy, <b>deudas, sobreapalancamiento, agotamiento de recursos (T descontado)</b>; la educación, la investigación, la ecología — acumulación de T — son tratadas como gastos «que pueden esperar».</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Tres revoluciones en relectura</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-cognition">
+        <div class="head">
+          <div class="year"><div class="yy">70 000 años</div><div class="tag">Revolución cognitiva</div></div>
+          <div class="title-box">
+            <h3>Saber contar historias, el humano supera el «1»</h3>
+            <p class="lead">Hace 70 000 años, Sapiens adquiere el lenguaje y la ficción — el «orden imaginado» hace posible la cooperación.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formación · Multiplicación</span><p>La manada sigue el instinto, Sapiens sigue las historias — <b>«dios», «Estado», «empresa», «moneda» son imaginarios colectivos (el punto de partida de S)</b>. El relato imaginado hace confiar a los desconocidos; la división del trabajo, el intercambio y las instituciones se despliegan: <b>esto es S &gt; 1 — la cooperación es en sí misma un amplificador</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solución · Multiplicación</span><p>Una historia solo sobrevive si se cumple: <b>el imaginario (S) y la creación (E) deben crecer juntos</b> — un sueño moviliza un tiempo, pero a la larga debe aterrizar en valor real.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-agriculture">
+        <div class="head">
+          <div class="year"><div class="yy">12 000 años</div><div class="tag">Revolución agrícola</div></div>
+          <div class="title-box">
+            <h3>El «famoso fraude»: E explota, S y T sufren</h3>
+            <p class="lead">Hace 12 000 años, Sapiens se sedentariza y cultiva — la comida y la población (E) aumentan mucho, pero el individuo trabaja más y se debilita.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formación · División</span><p>Harari llama a la revolución agrícola «el famoso fraude de la historia»: <b>el rendimiento alimentario (E) sube, pero el humano queda atado a la tierra — más trabajo, más enfermedades (S dañada)</b>; el sedentarismo también engendra guerras, jerarquías y deudas (el germen de T) — <b>el libro mayor colectivo se espesa, el del individuo se adelgaza</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solución · Multiplicación</span><p>El crecimiento debe medirse junto con «la vida humana»: <b>más allá de la producción (E), la salud y la libertad (S), la sostenibilidad y la transmisión (T) deben entrar en el mismo libro</b> — si no, la prosperidad solo está en el papel, y la gente vive más cansada: el prototipo antiguo de la hipercompetencia.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-science">
+        <div class="head">
+          <div class="year"><div class="yy">500 años</div><div class="tag">Revolución científica</div></div>
+          <div class="title-box">
+            <h3>Dogma del crecimiento: ciencia + capital, hipoteca común del futuro</h3>
+            <p class="lead">Hace 500 años, la revolución científica reconoce la ignorancia y se apoya en el experimento; aliada con el capital, convierte el «crecimiento» en el credo de la época.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formación · División</span><p>La ciencia hace volar la productividad de E, el capital inventa el crédito — <b>«el crecimiento lo resolverá todo» se vuelve una fe, el futuro se descuenta masivamente (T hipotecado)</b>; la revolución industrial estandariza el tiempo y mercantiliza el trabajo, <b>la eficiencia (E) culmina mientras la alienación y la deuda ecológica (S, T) se acumulan al mismo ritmo</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solución · Multiplicación</span><p>La ciencia debe servir a las tres valores, no solo al crecimiento: <b>la innovación (E) debe verificar a la vez su impacto social (S) y sus consecuencias intergeneracionales (T)</b> — si no, cada «progreso» paga la próxima crisis.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Espejos en el mundo real</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Empresa</span><p>Correr solo tras la facturación y la capitalización (E), ignorar el bienestar de los empleados y la confianza de los clientes (S), recortar I+D y ESG (T) — cuanto más rápido el crecimiento, más frágil.</p></div>
+      <div class="scene"><span class="s-tag">Individuo</span><p>Correr solo tras el salario f(m), hipotecar la salud y las relaciones f(h), abandonar el aprendizaje y la inversión larga f(t) — la versión moderna del «fraude agrícola».</p></div>
+      <div class="scene"><span class="s-tag">Organización</span><p>Mantener el orden con eslóganes y storytelling sin cumplir nunca — la confianza se agota, los eslóganes se apagan.</p></div>
+      <div class="scene"><span class="s-tag">Ciclo</span><p>La expansión del crédito hincha la prosperidad, las deudas vencen — tomar prestado mañana hoy es la factura diferida de T.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Sapiens</div><div class="b-author">Yuval Noah Harari · 2011 (chino 2014)</div><p>El dinero es «el relato más exitoso» — <b>lleva la confianza más allá de la sangre, pero mide solo E</b>; imperios, religiones, capitalismo: órdenes imaginados en connivencia con la realidad.</p></div>
+      <div class="book"><div class="b-name">Homo Deus</div><div class="b-author">Yuval Noah Harari · 2015</div><p>Cuando los datos y los algoritmos se vuelven los nuevos dioses, <b>si el humano conserva solo la utilidad de E y pierde el sentido de S y la elección de T</b>, el «libre albedrío» y el «sentido» serán externalizados paso a paso.</p></div>
+      <div class="book"><div class="b-name">21 lecciones para el siglo XXI</div><div class="b-author">Yuval Noah Harari · 2018</div><p>En la era de la tecnología fulgurante, <b>lo que escasea de verdad no es E, sino S (consenso) y T (dirección)</b> — el talento más valioso: dar valor real a las historias.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solución: la nueva connotación de la moneda</h2></div>
+    <div class="what-card">
+      <div class="quote">«El libro mayor antiguo solo registra el valor económico — cuanto más rápida la prosperidad, mayores las grietas; el libro mayor de la nueva moneda debe mostrar las tres valores en la misma página.»<br><span>— Ley de Conservación del Valor · el camino de salida</span></div>
+      <p><b>Romper el relato único de «solo E» no es abolir la moneda, sino ampliar su medida</b>: que el dinero porte tres valores —</p>
+      <p>· <b>Valor económico E</b>: cada céntimo corresponde a una creación real de bienes y servicios — fin de «imprimir sin producir»;<br>
+         · <b>Valor social S</b>: la circulación monetaria se apoya en la confianza — la integridad, la creación de empleo y la ayuda mutua recompensadas por la moneda; las buenas historias deben cumplirse;<br>
+         · <b>Valor temporal T</b>: la moneda es una promesa intertemporal — la educación, la innovación, lo verde, la transmisión entran en la medida; fin de «comerse el arroz de los hijos».</p>
+      <p><b>Cuando la moneda mide a la vez E, S y T</b>, el dinero pasa de «el relato imaginado más exitoso» a «el libro mayor real más fiable» — <b>la ley de división pierde su terreno, la ley de multiplicación se autorregula, y el ciclo virtuoso se activa</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Ciclo virtuoso: triple ganancia</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Actuante</th><th>Ciclo virtuoso con la nueva moneda</th><th>Valores</th></tr>
+        <tr><td>Estado</td><td>Economía de calidad, sociedad de confianza, instituciones sostenibles → nación próspera</td><td>S + T</td></tr>
+        <tr><td>Empresa</td><td>Crear con integridad, tratar bien a empleados y clientes, invertir a largo plazo → confianza e interés compuesto</td><td>E + S + T</td></tr>
+        <tr><td>Individuo</td><td>Ingreso, salud y relaciones, aprendizaje y transmisión cultivados juntos → interés compuesto de la vida</td><td>Triple</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Lección de la riqueza</span><p>El dinero es una gran invención de la humanidad, pero solo cuenta la mitad del libro — <b>una moneda que mide solo E: cuanto más rápida la prosperidad, mayores las grietas; que S y T entren en el libro, y el dinero se completa</b>.</p></div>
+      <div class="role"><span class="r-tag">Lección del afecto</span><p>Harari dice que el humano coopera con historias — <b>la más duradera no es el mito, sino la palabra cumplida; la confianza es el protocolo más profundo de la civilización</b>.</p></div>
+      <div class="role"><span class="r-tag">La doble florecimiento</span><p>El f(m)×f(h)×f(t) del individuo y el E×S×T de la civilización son una misma cosa: <b>las tres valores que crecen juntas es el verdadero progreso</b> — del relato imaginado al libro mayor real, la próxima revolución de Sapiens.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>La historia continúa; el libro mayor necesita una actualización.</b><br/>Creación, confianza, transmisión — tres valores medidas juntas,<br/><b>es el código de fondo para pasar del relato imaginado a la prosperidad real y lograr la triple ganancia.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q: ¿Cuál es la idea central de Sapiens?</p>
+        <p class="a">A: Sapiens domina el mundo con «relatos imaginados» — el Estado, la moneda, la empresa son imaginarios colectivos. Las historias hacen cooperar a los desconocidos, pero con efectos secundarios: la moneda mide solo el valor económico, el dogma del crecimiento hipoteca lo social y el futuro. La solución: que la moneda mida las tres valores a la vez.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: ¿Por qué llamar «famoso fraude» a la revolución agrícola?</p>
+        <p class="a">A: La producción total (E) sube, pero el individuo trabaja más y se debilita (S dañada), con la guerra y la deuda en germen (T). Lección: el crecimiento debe medirse junto con la vida humana, si no la prosperidad solo está en el papel.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: ¿Qué significa la «nueva connotación de la moneda» para una persona corriente?</p>
+        <p class="a">A: Hace que la moneda mida a la vez los valores económico, social y temporal. A nivel individual, es la fórmula micro — no dejes que la carrera por el ingreso hipoteque la salud, las relaciones y la acumulación larga; mantén f(h) y f(t), y la vida tendrá interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Puntos de vista de las obras públicas de Harari · Contenido conforme a la normativa publicitaria<br>
+  Ideas de divulgación, no constituyen asesoramiento de inversión · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+</footer>
+
+<button class="toTop" id="toTop">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+  }, { passive: true });
+  document.getElementById('toTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const tocLinks = document.querySelectorAll('.toc a');
+  const secs = [...tocLinks].map(a => document.querySelector(a.getAttribute('href')));
+  function updateToc() {
+    let cur = secs[0];
+    secs.forEach(s => { if (s && s.getBoundingClientRect().top <= 120) cur = s; });
+    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur.id));
+  }
+  window.addEventListener('scroll', updateToc, { passive: true });
+  updateToc();
+</script>
+</body>
+</html>

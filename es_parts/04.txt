@@ -1,0 +1,173 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Ley de Conservación del Valor · Descifrando leyes</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Doble Florecimiento</span>
+      <span class="pill">Argumento del Principio de Peter</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">PRINCIPIO DE PETER × CONSERVACIÓN DEL VALOR</div>
+  <h1>El Principio de Peter, <span class="hl">explicado por una fórmula</span></h1>
+  <p class="hl-sub">(Una de las tres grandes leyes de la cultura occidental del siglo XX)</p>
+  <div class="divider"></div>
+  <p class="sub">"En una jerarquía, todo empleado tiende a ascender hasta su nivel de incompetencia." — No es mediocridad, es la falla del mecanismo de ascenso. Entiende Y = E × S × T y entenderás cómo se forma y cómo se resuelve.</p>
+  <div class="chips">
+    <span class="chip">Valor económico <b>E</b></span>
+    <span class="chip">Valor social <b>S</b></span>
+    <span class="chip">Valor temporal <b>T</b></span>
+    <span class="chip">Ajuste persona-puesto <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">ÍNDICE</p>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Un solo fórmula para entenderlo</a></li>
+        <li><a href="#sec-what">Qué es el Principio de Peter</a></li>
+        <li><a href="#sec-form">Cómo se forma: la desalineación del ascenso</a></li>
+        <li><a href="#sec-scenes">Peter en la vida real</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">Cómo resolverlo: la multiplicación</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La esencia del Principio de Peter es que "el ascenso mira solo el E del pasado, no el S ni el T del futuro"</strong>: una persona asciende por ser competente, hasta llegar a un puesto para el que no lo es — y la organización se llena de personas "detenidas en el lugar equivocado".</p>
+      <p><strong>Hay un solo camino de salida: cambiar el ascenso de "premiar el pasado" a "invertir en el futuro"</strong>: calibra E con competencia, protege S con la doble vía, alarga T con formación. Cuando la persona está en el lugar correcto, el valor se multiplica.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">Ley de multiplicación · persona-puesto correctos</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> producción del puesto · <b>S</b> ajuste persona-puesto (competencia·especialidad) · <b>T</b> tiempo de crecimiento (formación·práctica)</p>
+        <p class="f-note">Ajuste correcto, capacidad creciente y producción creciente a la vez: el valor se multiplica; <b>la competencia es multiplicación, la incompetencia es cero</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">Ley de división · el origen de Peter</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">El ascenso mira solo el <b>desempeño pasado (E)</b>, sin mirar el ajuste al nuevo puesto (S) ni el crecimiento (T) — <b>envía a un ejecutor capaz a un puesto directivo que no puede ejercer</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qué es el Principio de Peter</h2></div>
+    <div class="what-card">
+      <div class="quote">"In a hierarchy, every employee tends to rise to his level of incompetence."<br/><span>En una organización jerárquica, todo empleado tiende a ascender hasta su nivel de incompetencia</span></div>
+      <p><b>Origen</b>: en 1969, el pedagogo canadiense Laurence Peter lo planteó en <i>El Principio de Peter</i>. La lógica central es muy simple: <b>lo haces bien → asciendes → lo haces bien → asciendes → hasta que ya no lo haces bien</b>.</p>
+      <p><b>No habla de "que todos son mediocres"</b>, sino del defecto sistémico del mecanismo de ascenso: <b>premia el desempeño pasado sin comprobar la competencia futura</b>. El experto técnico asciende a mal gerente; el vendedor de oro, a inefectivo director — cuanto mayor el E en el puesto anterior, más dura la caída en el nuevo.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Cómo se forma: la desalineación del ascenso</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">Desalineación</div><div class="tag">Mecanismo de formación</div></div>
+        <div class="title-box">
+          <h3>Tres "solo mirar": enviar a los capaces a un puesto que no pueden ejercer</h3>
+          <p class="lead">Mirar solo E (desempeño) → no mirar S (ajuste) → no esperar T (crecimiento): el Principio de Peter se pone en marcha.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Antes del ascenso</th><th>Después del ascenso</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Antes</span>Desempeño brillante en el puesto anterior, alta producción</td><td class="truth"><span class="truth-tag">Después</span>Habilidades desalineadas en el puesto nuevo — <b>la producción cae en picada</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Antes</span>Persona y puesto altamente alineados</td><td class="truth"><span class="truth-tag">Después</span>Lo que sabía ya no se necesita; lo que se necesita no lo sabe — <b>el ajuste llega a cero</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Antes</span>Hay acumulación y crecimiento</td><td class="truth"><span class="truth-tag">Después</span>Sin formación, sin amortiguador, a trabajar de inmediato — <b>el crecimiento se interrumpe</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · ascenso desalineado</span><p>El Principio de Peter no es que "la persona no sirve", sino que <b>la señal del ascenso es errónea</b>. Usar el desempeño en el puesto anterior (E) como criterio principal equivale a ignorar el ajuste al puesto nuevo (S) y el ciclo de crecimiento (T) — convierte la fórmula de multiplicación en división: la persona es la misma, pero su valor queda "dividido" por el puesto nuevo. Cada puesto de incompetencia es el residuo de un ascenso que "solo miró E".</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Peter en la vida real</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">El programador</span><p>El ingeniero de código impecable asciende a gerente técnico — ya no escribe código y tampoco logra dirigir el equipo.</p></div>
+      <div class="scene"><span class="s-tag">El vendedor estrella</span><p>El vendedor con mejores cifras asciende a director comercial — él ya no vende y el equipo tampoco despega.</p></div>
+      <div class="scene"><span class="s-tag">El profesor brillante</span><p>El docente que daba las mejores clases asciende a administración — el aula queda vacía y la sala de reuniones gana un torturado.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">El Principio de Peter</div><div class="b-author">Laurence J. Peter</div><p>En la jerarquía, el empleado acaba ascendiendo hasta la incompetencia. La receta de Peter — <b>no premies al profesional con un ascenso</b>: déjalo brillar en lo que sabe hacer.</p></div>
+      <div class="book"><div class="b-name">Empresas que sobresalen</div><div class="b-author">Jim Collins</div><p>"Primero las personas, luego el rumbo": primero sube a bordo a las personas correctas y siéntalas en el puesto correcto, después habla de dirección. <b>El ajuste persona-puesto es el cimiento de la organización excelente</b> — el pensamiento multiplicador que niega al Principio de Peter.</p></div>
+      <div class="book"><div class="b-name">Principios</div><div class="b-author">Ray Dalio</div><p>Enfrenta con franqueza "quién es adecuado para qué": <b>poner a la persona adecuada en el lugar adecuado</b> es más responsable que ascender a quien no encaja. La competencia es una forma más profunda de respeto por la persona.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Cómo resolverlo: tres caminos de la fórmula de multiplicación</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Multiplicación</div><div class="tag">Camino de salida</div></div>
+        <div class="title-box">
+          <h3>Ponderar la competencia, retener al especialista, cultivar el crecimiento — que el ascenso vuelva al valor</h3>
+          <p class="lead">El Principio de Peter no cambia la naturaleza humana, pero sí el mecanismo: E se calcula por competencia, S se protege con la doble vía, T crece con la formación.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Reparar E · ascender por competencia</span><ul>
+          <li><b>Mirar el futuro</b>: el ascenso evalúa la competencia para el puesto nuevo, no el desempeño del anterior</li>
+          <li><b>Período de prueba en el puesto</b>: primero una interinidad de 3-6 meses; la confirmación la decide el desempeño real</li>
+          <li><b>Subir y bajar</b>: si no hay competencia, se regresa al puesto profesional; no trates el "descenso" como una humillación</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Reparar S · la doble vía retiene al especialista</span><ul>
+          <li><b>Carrera de experto</b>: nivel de experto senior / experto jefe: ascender y mejorar el salario sin necesidad de mandar</li>
+          <li><b>Doble escalera directiva/profesional</b>: quien disfruta dirigir, dirige; quien disfruta hacer, hace</li>
+          <li><b>La persona adecuada en el lugar adecuado</b>: el empleado estrella permanece en el puesto de alto valor, premiado con proyectos e incentivos</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Reparar T · que el crecimiento alcance al puesto nuevo</span><ul>
+          <li><b>Ascender es formar</b>: el ascenso va acompañado de formación gerencial, para que T alcance las exigencias del puesto nuevo</li>
+          <li><b>Coach y mentor</b>: asigna un mentor senior al recién ascendido, acorta la curva de competencia</li>
+          <li><b>Visión de largo plazo</b>: trata el ascenso como inversión, no como premio; pregúntate primero "¿será competente dentro de dos años?"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Una frase para cerrar</span><p><b>El Principio de Peter no es la maldición de la capacidad, es el espejo del mecanismo</b> — refleja si ascendemos por "desempeño pasado" o por "competencia futura". Pon a la persona en su lugar correcto, y cada persona es un multiplicador.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Perspectiva</th><th>Enseñanza</th></tr>
+        <tr><td>Riqueza</td><td>El puesto desalineado es la pérdida oculta de la organización — un directivo incompetente cuesta más que un especialista que se va.</td></tr>
+        <tr><td>Bienestar</td><td>Empujar a quien no es para dirigir es un doble daño: él sufre y el equipo sufre. Dejar que cada quien haga lo que sabe hacer es diseño de la bondad.</td></tr>
+        <tr><td>Doble</td><td>Si el ascenso mira a la vez E (competencia), S (ajuste) y T (crecimiento), la persona sigue sumando valor en su lugar correcto — la riqueza y el bienestar de la persona, la eficacia y la confianza de la organización, crecen juntos.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>Todos ascienden hasta la incompetencia — a menos que el mecanismo haga que la competencia decida el puesto.</b><br/>En lugar de convertir a la estrella en un mediocre directivo, deja que el experto siga brillando en su especialidad.<br/><b>Cuando E mira la competencia, S protege el ajuste y T cultiva el crecimiento, el Principio de Peter es solo una fábula pasada de moda.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Dice el Principio de Peter que los brillantes no deben ascender?</p>
+        <p class="a">R: No. Dice que "el ascenso debe mirar la competencia, no solo el desempeño". Los brillantes deben ascender, pero a puestos donde sean competentes, no canjear desempeño pasado por un puesto nuevo.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: Si no se asciende al empleado brillante, ¿no se le retiene mal?</p>
+        <p class="a">R: Sí — a menos que haya incentivos alternativos. Para eso sirve la doble vía: la carrera de experto da estatus y retribución, de modo que "no mandar" también tenga valor.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Cómo usa esta fórmula la gente común?</p>
+        <p class="a">R: También sirve para la elección profesional: antes de ascender, hazte tres preguntas — ¿soy competente en el puesto nuevo (E)? ¿se ajusta a mi especialidad (S)? ¿tengo tiempo de crecer (T)? Solo con los tres, sube.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</div>
+
+<button id="toTop" title="Volver arriba">↑</button>

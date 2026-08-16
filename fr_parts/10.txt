@@ -1,0 +1,193 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Double Floraison · Série d'application de la Loi de Conservation de la Valeur 10</div>
+  <h1>Au Cœur du Jeu, expliqué par une formule<br><span class="hl">La croissance et le prix de l'État développementaliste</span></h1>
+  <div class="hl-sub">Lan Xiaohuan · Au cœur du jeu : le gouvernement chinois et le développement économique (2021)</div>
+  <p class="sub">Comprendre l'économie chinoise, c'est d'abord comprendre l'État chinois — il n'est pas un simple « veilleur de nuit », mais un « acteur au cœur du jeu » profondément engagé dans le développement. La Loi de Conservation de la Valeur fournit le cadre : Y = E × S × T — la croissance tirée par l'investissement gonfle E très vite, mais le bien-être, la répartition et la soutenabilité de la dette sont les deux bouts que ce grand livre devra tôt ou tard régler.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">SOMMAIRE</div>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Un seule formule pour comprendre</a></li>
+        <li><a href="#sec-what">De quoi parle ce livre</a></li>
+        <li><a href="#sec-pillars">Le modèle de développement : comment il se forme</a></li>
+        <li><a href="#sec-crisis">Observation du réel : trois actes</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La formation du modèle de développement chinois est une histoire de division, « E avançant seul en éclaireur »</strong> : la réforme du partage fiscal concentre les recettes au centre, les gouvernements locaux se tournent vers la finance foncière et la croissance tirée par l'investissement — la valeur économique (E) croît vite ; mais la répartition au peuple (correspondant à S) et la soutenabilité de la dette (correspondant à T) sont longtemps reportées — plus la croissance est rapide, plus la facture s'épaissit.</p>
+      <p><strong>La solution réside dans la nouvelle connotation de la monnaie</strong> : faire porter à la monnaie les valeurs économique, sociale et temporelle, transformer « l'État orienté vers la production » en « l'État orienté vers les services » — les trois valeurs mesurées ensemble, les dividendes de la croissance coulent vers le bien-être et l'avenir, le mécanisme d'auto-régulation du cycle vertueux se déclenche : l'État, l'entreprise, l'individu gagnent tous.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un seule formule pour comprendre</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LA CROISSANCE DURABLE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> valeur économique (croissance et investissement) · <b>S</b> valeur sociale (bien-être · répartition · environnement) · <b>T</b> valeur temporelle (soutenabilité de la dette · transmission)</p>
+        <p class="f-note">Les trois au-dessus de 1 : la croissance se convertit en bien-être ; <b>le moindre emprunt au futur, la prospérité se dégrade</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'INERTIE DE L'ÉTAT DÉVELOPPEMENTALISTE</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand l'État <b>ne répond que de la valeur économique E</b> : finance foncière, croissance tirée par l'investissement, emprunt pour lancer les projets —</p>
+        <p class="f-note"><b>S reporté, T hypothéqué</b> : la croissance de court terme brille, les risques de long terme s'accumulent.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De quoi parle ce livre</h2></div>
+    <div class="what-card">
+      <div class="quote">« En Chine, l'État n'est pas un spectateur, mais un participant profond du développement économique. Pour comprendre l'économie chinoise, il faut comprendre l'État chinois. »<br><span>— Lan Xiaohuan · Au cœur du jeu</span></div>
+      <p><b>Origine</b> : en 2021, le professeur Lan Xiaohuan de l'université Fudan publie <i>Au cœur du jeu</i>, qui remonte de <b>la réforme du partage fiscal à la finance foncière, à la concurrence locale, à l'attraction des investissements, à la dette et aux risques</b> : le tableau complet du fonctionnement de « l'État développementaliste ». Constat central : <b>l'État, profondément engagé dans l'économie, a créé le miracle de l'industrialisation et de l'urbanisation rapides, mais laisse aussi les questions de la dette, de la surcapacité et de la répartition</b>.</p>
+      <p><b>Le rappel de Lan Xiaohuan</b> : pour juger ce modèle, il ne faut pas regarder seulement la vitesse de E, mais aussi les comptes de S et T — <b>les dividendes sont-ils arrivés au bien-être, le moteur durera-t-il jusqu'à demain ?</b></p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Le modèle de développement : comment il se forme</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Croissance par l'investissement · E avance seul</h3><span class="p-tag">Source de la division</span></div>
+        <p><b>Formation</b> : après la réforme du partage fiscal, les recettes locales montent au centre ; les gouvernements locaux tirent la croissance par la boucle « vendre la terre — financer — infrastructures — attirer les investisseurs » : <b>la valeur économique (E) se gonfle vite</b> — le moteur du miracle, et le point de départ de l'inertie.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Bien-être en retard · répartition à régler</h3><span class="p-tag">Reporté</span></div>
+        <p><b>Formation</b> : les ressources penchent longtemps vers l'investissement et la production, <b>l'amélioration de l'éducation, de la santé, des retraites, de la répartition des revenus (S) est reportée</b> ; prix immobiliers élevés, demande intérieure faible, écart ville-campagne : la facture du « tout à l'investissement, peu au bien-être ».</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Dette accumulée · avenir hypothéqué</h3><span class="p-tag">Coût caché</span></div>
+        <p><b>Formation</b> : la finance adossée à la terre et la dette des LGFV soutiennent les infrastructures, mais <b>poussent le fardeau du remboursement vers l'avenir (T hypothéqué)</b> ; surcapacités, prix d'actifs surévalués : la facture en différé du « emprunter demain pour aujourd'hui ».</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Observation du réel : trois actes</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-fenshui">
+        <div class="head">
+          <div class="year"><div class="yy">1994</div><div class="tag">Partage fiscal</div></div>
+          <div class="title-box">
+            <h3>Recettes centralisées, les localités se tournent vers la finance foncière</h3>
+            <p class="lead">Le partage fiscal renforce fortement les recettes du centre, les revenus locaux chutent — « faire fortune en vendant la terre » entre en scène.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>La réforme du partage fiscal de 1994 : la TVA et l'impôt sur le revenu vont en majorité au centre, <b>le pouvoir fiscal local (un E relatif) est retiré</b> ; les localités se tournent alors vers les redevances foncières et le financement adossé au foncier, <b>la finance foncière devient le nouveau moteur (E amplifié)</b> — elle soutient l'urbanisation, mais installe la dépendance au chemin « croître — vendre la terre — croître », et la facture de S et T s'épaissit.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>La répartition fiscale doit aligner les incitations : <b>les missions et les recettes assorties (E), le bien-être et l'environnement entrés dans l'évaluation (S), la finance foncière convertie en services publics (T)</b> — pour que les localités acceptent de calculer en long.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-jingzheng">
+        <div class="head">
+          <div class="year"><div class="yy">Concurrence locale</div><div class="tag">Attraction des investissements</div></div>
+          <div class="title-box">
+            <h3>Sous le tournoi : le miracle industriel et la surcapacité</h3>
+            <p class="lead">Les localités « rivalisent pour la croissance », l'industrie grossit à toute vitesse — en semant aussi les germes de la duplication.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Dans le « tournoi de promotion », les cadres locaux rivalisent pour attirer, subventionner, lancer des projets : <b>l'industrialisation et les infrastructures (E) bondissent</b> ; mais chacun se rue sur les mêmes secteurs, <b>le photovoltaïque, l'acier, l'automobile tombent en surcapacité (le gâchis de S)</b>, et quand les subventions se retirent, il ne reste que poussière — la concurrence a créé l'échelle, mais a aussi hypothéqué l'efficacité et les ressources (T).</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>La concurrence a besoin de règles, la division du travail revient au marché : <b>le marché tranche la surcapacité (S), l'évaluation passe de « comparer la croissance » à « comparer la qualité » (E), les politiques industrielles servent l'innovation (T)</b>.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-zhaiwu">
+        <div class="head">
+          <div class="year"><div class="yy">Finance adossée à la terre</div><div class="tag">Dette et risques</div></div>
+          <div class="title-box">
+            <h3>La prospérité empruntée : des LGFV à la résorption des risques</h3>
+            <p class="lead">Hypothèque foncière, emprunt des LGFV, infrastructures « construites aujourd'hui, remboursées demain » — le temps commence à régler.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Les LGFV financent les infrastructures en hypothéquant le foncier : <b>à court terme, le visage de la ville (E) monte d'un cran</b> ; mais la dette gonfle sans fin, <b>la pression du remboursement et le risque financier (T hypothéqué) s'accumulent</b>, certaines villes entrent dans le « jeu de stock » — plus de terre à vendre, plus de quoi rembourser : l'argent de demain dépensé d'avance.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Résorber la dette, ce n'est pas renoncer au développement, c'est changer de moteur : <b>échanges et contraintes sur la dette (T réparé), finances converties en services publics (S rattrapé), croissance tournée vers l'innovation et la consommation (E changé de nature)</b> — remplacer « la prospérité empruntée » par « la croissance gagnée ».</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Les miroirs dans le monde réel</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Famille</span><p>Emprunter pour acheter un logement, consommer par anticipation, le revenu entier englouti par le crédit — E beau sur le papier, f(h) et f(t) verrouillés.</p></div>
+      <div class="scene"><span class="s-tag">Entreprise</span><p>Ne courir que l'échelle et les subventions (E), sans bâtir la technologie et la marque (S), sans accumuler la R&amp;D (T) — les subventions se retirent, tout s'annule en une nuit.</p></div>
+      <div class="scene"><span class="s-tag">Individu</span><p>996 pour un salaire élevé, santé et relations hypothéquées — f(m)↑, f(h)×f(t)↓, la vie rétrécit.</p></div>
+      <div class="scene"><span class="s-tag">Ville</span><p>Les infrastructures d'abord, l'industrie en retard, la ville nouvelle devient « ville-dortoir » — la version micro du tout-E, peu de S et T.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Au cœur du jeu</div><div class="b-author">Lan Xiaohuan · 2021</div><p>Du partage fiscal à la résorption de la dette : <b>l'État engagé dans l'économie a réussi « en étant au cœur du jeu », et son examen se joue aussi « au cœur du jeu »</b> — la croissance doit se tourner vers le bien-être et l'innovation, c'est la multiplication.</p></div>
+      <div class="book"><div class="b-name">Taking Profit as the Principle</div><div class="b-author">Zhou Feizhou · 2012</div><p>Les relations fiscales façonnent le comportement des gouvernements locaux : <b>ce qui est évalué, les localités le poursuivent</b> — il faut faire entrer S et T dans l'évaluation, pour que quelqu'un en réponde.</p></div>
+      <div class="book"><div class="b-name">Great Nation, Great Cities</div><div class="b-author">Lu Ming · 2016</div><p>Le prix de la mauvaise allocation des populations et des ressources : <b>l'intervention administrative excessive dans l'allocation des facteurs aggrave les déséquilibres ville-campagne et régionaux (S atteint)</b> — laisser le marché décider de l'agglomération, laisser l'État compléter le bien-être.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="what-card">
+      <div class="quote">« Le grand livre de l'ancien modèle ne notait que les chiffres de la croissance ; le grand livre de la nouvelle monnaie doit noter en même temps le bien-être et l'avenir. »<br><span>— Loi de Conservation de la Valeur · la voie de sortie</span></div>
+      <p><b>Briser l'inertie de l'État développementaliste, ce n'est pas renoncer à la croissance, c'est la mettre au service des trois valeurs</b> : l'investissement, de « étaler la galette » à « combler les manques » (multiplication de E) ; le bien-être, de « reporté » à « prioritaire » — éducation, santé, retraites, répartition traités avec soin par les institutions (multiplication de S) ; la dette, de « boule de neige » à « digestible » — l'innovation et la consommation deviennent les nouveaux moteurs (multiplication de T).</p>
+      <p><strong>La nouvelle connotation de la monnaie</strong> — faire porter trois valeurs à la fois :</p>
+      <p>· <b>Valeur économique E</b> : chaque centime correspond à une création réelle de biens et de services, fini « imprimer sans produire » ;<br>
+         · <b>Valeur sociale S</b> : la circulation monétaire repose sur la confiance — création d'emplois, amélioration du bien-être, richesse au peuple récompensées par la monnaie ;<br>
+         · <b>Valeur temporelle T</b> : la monnaie est une promesse intertemporelle — l'éducation, l'innovation, l'écologie, la transmission entrent dans la mesure.</p>
+      <p><b>Quand la monnaie mesure à la fois E, S, T</b>, le rendement de l'investissement, l'amélioration du bien-être et la digestion de la dette se voient sur le même grand livre — <b>la loi de division perd son terrain, la loi de multiplication s'auto-régule, le cycle vertueux se déclenche</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Cycle vertueux : triple gagnant</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>La croissance se tourne vers le bien-être et l'innovation → demande intérieure renforcée, dette digérée → développement de haute qualité</td><td>S + T</td></tr>
+        <tr><td>Entreprise</td><td>Gagner par la technologie et la marque → conquérir le marché et le rendement long terme → prospérité durable</td><td>E + S + T</td></tr>
+        <tr><td>Individu</td><td>Le travail récompensé, le bien-être garanti → oser consommer, oser innover → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>La vitesse n'est pas la santé. <b>Regarder une économie, c'est d'abord voir à qui va la facture : la part qui revient au bien-être (S) et à l'avenir (T), voilà la qualité de la croissance</b>.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>La température du développement se cache dans les comptes des gens ordinaires — <b>y a-t-il une vie au-delà du crédit immobilier, une croissance au-delà des heures supplémentaires : c'est le bien-être qu'« au cœur du jeu » doit faire voir</b>.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b> — pour l'État comme pour la famille et l'individu.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>La croissance peut être rapide, mais la facture ne peut pas toujours être payée par le bien-être et l'avenir.</b><br/>Un investissement de qualité, un bien-être qui a sa part, une dette qui a sa suite — les trois au-dessus de 1, la formule du développement de haute qualité ;<br/><b>création, confiance, transmission — trois valeurs mesurées ensemble, c'est le code fondamental du triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale d'« Au cœur du jeu » de Lan Xiaohuan ?</p>
+        <p class="a">A : Comprendre l'économie chinoise, c'est d'abord comprendre l'État chinois — l'État, profondément engagé dans l'économie, a créé le miracle de l'industrialisation et de l'urbanisation, mais laisse les questions de la dette et de la répartition ; la transition va vers « l'État orienté vers les services ».</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi la finance foncière apporte-t-elle des risques ?</p>
+        <p class="a">A : La croissance dépend du cycle « vendre la terre — financer — infrastructures » (E avance seul), la répartition au peuple (S) est reportée, le remboursement de la dette (T) poussé à l'avenir. Dès que la terre ne se vend plus, le cycle s'arrête — la facture en différé de la loi de division.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Points de vue issus des ouvrages publics de Lan Xiaohuan · Contenu conforme à la réglementation publicitaire<br>
+  Idées de vulgarisation, ne constituent pas un conseil en investissement
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

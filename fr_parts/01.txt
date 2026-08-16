@@ -1,0 +1,241 @@
+<header class="hero">
+  <div class="kicker">LOI DE CONSERVATION DE LA VALEUR</div>
+  <h1>Décrypter les Cinq Grandes Crises Économiques par la formule de conservation de la valeur</h1>
+  <div class="divider"></div>
+  <p class="sub">Utiliser la Loi de Conservation de la Valeur Y = E × S × T pour décrypter comment les crises se forment et comment les résoudre. 1929 · 1990 · 1997 · 2008 · 2010 : cinq scénarios, un même code.</p>
+  <div class="chips">
+    <span class="chip">Valeur économique <b>E</b></span>
+    <span class="chip">Valeur sociale <b>S</b></span>
+    <span class="chip">Valeur temporelle <b>T</b></span>
+    <span class="chip">Loi de multiplication <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">SOMMAIRE</p>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">D'abord l'étalon : le diagnostic de la loi</a></li>
+        <li><a href="#sec-crises">Cinq crises analysées</a>
+          <ul>
+            <li><a href="#crisis-1929">1929 Grande Dépression</a></li>
+            <li><a href="#crisis-1990">1990 Bulle japonaise</a></li>
+            <li><a href="#crisis-1997">1997 Crise asiatique</a></li>
+            <li><a href="#crisis-2008">2008 Crise mondiale</a></li>
+            <li><a href="#crisis-2010">2010 Dette souveraine</a></li>
+          </ul>
+        </li>
+        <li><a href="#sec-overview">Vue transversale : le code unifié</a></li>
+        <li><a href="#sec-insight">Enseignements universels de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>Toute crise économique n'est pas, à l'origine, « l'effondrement soudain de E », mais E amplifié jusqu'à la distorsion, S et T rongés jusqu'à zéro, et finalement la chaîne de multiplication qui se brise.</strong> Ne secourir que E (injections de liquidités, soutien des prix) revient à donner un antipyrétique sans traiter l'inflammation — c'est pourquoi tant de crises connaissent « dix, trente ans perdus ».</p>
+      <p><strong>Une seule voie de sortie — revenir à la formule de multiplication</strong> : E « vrai » (du virtuel au réel), S « épais » (institutions et confiance), T « long » (durabilité et transmission) — les trois au-dessus de 1, Y se multiplie réellement.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LES CONDITIONS DE LA PROSPÉRITÉ</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> valeur économique (monnaie · ressources · efficacité) · <b>S</b> valeur sociale (équité · confiance · institutions) · <b>T</b> valeur temporelle (durabilité · transmission)</p>
+        <p class="f-note">Les trois au-dessus de 1 : entrée en phase de développement ; <b>si l'une tombe à zéro ou devient négative, Y s'effondre ou devient négatif</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'ORIGINE DES CRISES</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand les acteurs de marché <b>n'ont pas à répondre de S et T</b>, ils sacrifient instinctivement la valeur sociale et le temps long pour maximiser le E de court terme.</p>
+        <p class="f-note"><b>Réduire le dénominateur, gonfler le numérateur</b> : E paraît superbe, mais les fondations de Y sont minées.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crises"><span class="sn">01</span><h2>Les cinq crises, une à une</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">Grande Dépression</div></div>
+        <div class="title-box">
+          <h3>La prospérité des riches, la consommation des pauvres décrochée</h3>
+          <p class="lead">La spéculation à crédit gonfle E, le pouvoir d'achat social (S) et la durabilité institutionnelle (T) sont vidés ; l'éclatement conduit à la liquidation générale.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>L'illusion de la prospérité</th><th>La vérité de la crise</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Illusion</span>Bourse en hausse continue, achat à marge, crédit facile</td><td class="truth"><span class="truth-tag">Vérité</span>E amplifié par la spéculation : le Dow Jones culmine à <b>381 points</b> en septembre 1929</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Illusion</span>Les « années folles »</td><td class="truth"><span class="truth-tag">Vérité</span>Le top 1 % détient <b>plus de 40 %</b> de la richesse américaine, salaires ouvriers stagnants, pouvoir d'achat vidé</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Illusion</span>L'optimisme « tout le monde est génie de la Bourse »</td><td class="truth"><span class="truth-tag">Vérité</span>Levier insoutenable, rigidité de l'étalon-or, guerre douanière : le crédit long terme est hypothéqué</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Dans la loi de multiplication, E est gonflé par le levier, mais S (pouvoir d'achat social) passe sous 1, T (durabilité institutionnelle) approche 0. À l'éclatement, E s'effondre et Y s'annule en chaîne — la Grande Dépression est fondamentalement le décrochage entre « la prospérité des riches » et « la consommation des pauvres ».</p></div>
+        <div class="fix"><span class="fix-label">Solution · Le New Deal</span><ul>
+          <li><b>Réparer S</b> : loi sur la sécurité sociale, secours aux chômeurs, loi sur les relations de travail — rendre le pouvoir d'achat au peuple</li>
+          <li><b>Réparer T</b> : régulation bancaire (Glass-Steagall), assurance des dépôts, sortie de l'étalon-or — reconstruire le crédit long terme</li>
+          <li><b>Réparer E</b> : travaux publics, « travail contre secours » — ramener E vers la création réelle, loin de la spéculation</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspective de la double floraison</span><p>La sagesse du New Deal : <b>secourir l'économie, d'abord secourir les gens</b>. Une fois S réparé, E revient réellement.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1990">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">Bulle japonaise</div></div>
+        <div class="title-box">
+          <h3>Trente ans de leçon : « la richesse » seule, « le lien humain » absent</h3>
+          <p class="lead">Prix des actifs gonflés (E), sentiment d'équité sociale érodé (S), durabilité intergénérationnelle à zéro (T) — l'exemple d'un échec qui n'a sauvé que E.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>L'illusion de la prospérité</th><th>La vérité de la crise</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Illusion</span>Le Nikkei 225 monte à <b>38 915 points</b>, le foncier de Tokyo « pourrait acheter tous les États-Unis »</td><td class="truth"><span class="truth-tag">Vérité</span>Une grande part de la capitalisation repose sur le foncier et la finance tournant à vide — E très surévalué</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Illusion</span>Emploi à vie, mythe des « cent millions de classes moyennes »</td><td class="truth"><span class="truth-tag">Vérité</span>Les jeunes ne peuvent acheter un logement, la richesse se concentre dans la classe foncière — équité érodée</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Illusion</span>Après les accords du Plaza, assouplissement excessif, consensus « toujours monter »</td><td class="truth"><span class="truth-tag">Vérité</span>Fonds détournés du réel, <b>vieillissement + hypothèque de la bulle = durabilité intergénérationnelle à zéro</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Après les accords du Plaza de 1985, le yen s'apprécie, la banque centrale baisse ses taux : des capitaux massifs se ruent en Bourse et dans l'immobilier. E semble bouillir, mais l'industrie réelle (le support de l'emploi, S) se vide et les prix des actifs (la durabilité, T) sont hypothéqués. L'éclatement de 1990 laisse des créances douteuses massives ; les entreprises entrent dans la « récession de bilan » — E s'effondre, S et T saignent ensemble : la spirale déflationniste de 30 ans.</p></div>
+        <div class="fix"><span class="fix-label">Solution · La leçon des trente années perdues</span><ul>
+          <li><b>L'exemple d'un échec qui n'a sauvé que E</b> : taux zéro pendant des décennies, QQE massive — mais la demande, la confiance des entreprises (S) et l'élan d'innovation (T) n'ont jamais été réparés</li>
+          <li><b>La bonne voie</b> : réparer en même temps S (restructuration de la dette, emploi et protection sociale) et T (natalité, industries d'innovation, nouveaux moteurs) — hélas, 20 ans de retard</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspective de la double floraison</span><p>Le Japon est l'anti-modèle par excellence : <b>« la richesse » seule, « le lien humain » (confiance sociale et espoir de vie) absent depuis longtemps</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1997">
+      <div class="head">
+        <div class="year"><div class="yy">1997</div><div class="tag">Crise asiatique</div></div>
+        <div class="title-box">
+          <h3>La prospérité bâtie sur l'argent rapide, dévorée par l'argent rapide qui s'en va</h3>
+          <p class="lead">Les capitaux chauds à court terme empilent E, la transparence institutionnelle (S) et la durabilité (T) sont faibles ; la fuite panique déclenche les défauts en chaîne.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>L'illusion de la prospérité</th><th>La vérité de la crise</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Illusion</span>Le « miracle asiatique » : forte croissance, capitaux étrangers affluant</td><td class="truth"><span class="truth-tag">Vérité</span>E bâti sur l'argent chaud : dette extérieure thaïlandaise à court terme disproportionnée, déficit courant persistant</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Illusion</span>La halo de la croissance pilotée par l'État</td><td class="truth"><span class="truth-tag">Vérité</span>Capitalisme de copinage, corruption financière, opacité — confiance institutionnelle fragile</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Illusion</span>Taux fixe + libre circulation des capitaux, le « triangle impossible »</td><td class="truth"><span class="truth-tag">Vérité</span>Dette extérieure courte et surcapacités s'accumulent — la soutenabilité extérieure est hypothéquée</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Les pays d'Asie du Sud-Est attirent les capitaux chauds mondiaux par « taux fixe + taux élevé » : E s'envole à court terme. Mais quand les fondamentaux ne tiennent plus, S (transparence et régulation) ne peut arrêter la fuite, T (soutenabilité extérieure) se dégrade le premier. Attaque sur le baht → panique → effondrement du change → défauts en chaîne.</p></div>
+        <div class="fix"><span class="fix-label">Solution</span><ul>
+          <li><b>Aide internationale + réformes structurelles</b> : le FMI stabilise E ; les clés restent la refonte de la régulation financière (S), la flexibilité du change et la montée en gamme (T)</li>
+          <li><b>Cas témoin</b> : la Chine, grâce au contrôle des capitaux (protégeant la stabilité de S et l'autonomie de T), y échappe — preuve de la valeur d'une institution qui empêche la division de courir nue</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspective de la double floraison</span><p>La leçon profonde de la crise asiatique : <b>« croître » n'est pas « se développer »</b> — une croissance sans institutions (S) ni durabilité (T) n'est qu'une prospérité empruntée.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">Crise mondiale</div></div>
+        <div class="title-box">
+          <h3>Ce n'est pas l'immobilier qui s'est effondré, c'est la « confiance »</h3>
+          <p class="lead">L'innovation financière gonfle E jusqu'au chaos, la confiance (S) est découpée et titrisée, le risque systémique (T) est reporté sans fin — l'apogée de la loi de division.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>L'illusion de la prospérité</th><th>La vérité de la crise</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Illusion</span>Prix immobiliers américains ×2 en 10 ans, dérivés à des dizaines de milliers de milliards</td><td class="truth"><span class="truth-tag">Vérité</span>E amplifié par l'innovation : levier de Lehman au-delà de <b>30×</b>, banque parallèle hors régulation</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Illusion</span>Le récit de « la maison pour chacun » par le crédit</td><td class="truth"><span class="truth-tag">Vérité</span>Prêts frauduleux, agences de notation labellisant AAA des actifs toxiques — <b>la confiance sociale systématiquement brisée</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Illusion</span>Immobilier « toujours en hausse », risques cédés en cascade</td><td class="truth"><span class="truth-tag">Vérité</span>La chaîne de levier (MBS→CDO→CDS) reporte le risque sans fin — risque systémique hypothéqué</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Les financiers découpent, empaquettent et titrisent cette précieuse valeur S qu'est la confiance, contre un E de court terme astronomique ; en reportant le risque aux générations futures (T gravement hypothéqué). Quand le prix de l'immobilier, seule ancre, baisse, la chaîne CDO/CDS explose en série et la liquidité mondiale gèle. <b>En un mot : ce n'est pas l'immobilier qui s'est effondré, c'est la « confiance » — et la confiance (S) est précisément le socle de tout le système financier.</b></p></div>
+        <div class="fix"><span class="fix-label">Solution</span><ul>
+          <li><b>Secourir E</b> : trois vagues de QE, sauvetage d'AIG et abandon de Lehman — éviter une nouvelle Grande Dépression</li>
+          <li><b>Réparer S</b> : loi Dodd-Frank, règle Volcker, bureau de protection du consommateur financier — refonder l'éthique financière</li>
+          <li><b>Réparer T</b> : supervision macroprudentielle, capital supplémentaire pour les établissements systémiques, stress tests — « verrouiller » le levier</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspective de la double floraison</span><p>2008 est l'exemple extrême de « la richesse » (ingénierie financière) triomphant de « l'affect » (confiance et humain). Depuis, le monde ramène la finance au service de l'économie réelle : un retour à la formule de multiplication.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2010">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">Dette souveraine</div></div>
+        <div class="title-box">
+          <h3>« Ensemble » sans être « unis » : la crise de la dette par l'absence d'institutions</h3>
+          <p class="lead">La dette souveraine soutient E à bout de bras, la discipline budgétaire (S) n'est appliquée par personne, la durabilité intergénérationnelle (T) se dégrade — le défaut d'institutions est le mal commun à toutes les crises de dette souveraine.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>L'illusion de la prospérité</th><th>La vérité de la crise</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Illusion</span>Euro unique, haute protection sociale et consommation au sud, coût d'emprunt très bas</td><td class="truth"><span class="truth-tag">Vérité</span>E soutenu par la dette : dette publique grecque / PIB au-delà de <b>150 %</b>, remboursement par emprunt renouvelé</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Illusion</span>Le halo institutionnel de l'intégration européenne</td><td class="truth"><span class="truth-tag">Vérité</span>Discipline budgétaire absente, déséquilibres structurels Allemagne / Sud — <b>le « bassin de confiance » de l'intégration est vidé</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Illusion</span>L'euro = la foi du non-défaut</td><td class="truth"><span class="truth-tag">Vérité</span>Vieillissement, charges de retraite, écarts de productivité croissants — durabilité intergénérationnelle en déclin</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>La Grèce et d'autres pays du Sud surfent sur les taux bas de l'euro pour financer un État-providence élevé par l'emprunt : E prospère en apparence. Mais la discipline budgétaire (S) n'est appliquée par personne, la soutenabilité de la dette (T) se dégrade. La crise de 2008 révèle la vérité : dégradation de la note → envolée du coût de financement → rupture du remboursement → crise de défaut. <b>La monnaie est unifiée, mais la responsabilité budgétaire et la confiance sociale ne le sont pas.</b></p></div>
+        <div class="fix"><span class="fix-label">Solution</span><ul>
+          <li><b>Secourir E</b> : OMT de la BCE, LTRO, le « whatever it takes » de Draghi</li>
+          <li><b>Réparer S</b> : pacte budgétaire contraignant les déficits, MES, austérité et réforme des retraites</li>
+          <li><b>Réparer T</b> : réformes structurelles (marché du travail, compétitivité, transformation industrielle) pour refonder l'élan de croissance long terme</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspective de la double floraison</span><p>La crise de la dette européenne nous rappelle : <b>« être ensemble » (marché unifié de E) sans « être unis » (consensus institutionnel de S) ni « marcher loin ensemble » (durabilité intergénérationnelle de T), c'est dormir dans le même lit en rêvant différemment.</b></p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-overview"><span class="sn">02</span><h2>Vue transversale : le code unifié des cinq crises</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Crise</th><th>Comment E s'est gonflé</th><th>S érodé</th><th>T hypothéqué</th><th>Clé de la réussite du sauvetage</th></tr>
+        <tr><td>1929 Grande Dépression</td><td>Spéculation boursière à levier</td><td>Pouvoir d'achat / équité</td><td>Institutions financières / étalon-or</td><td>Réparer S (pouvoir d'achat) → succès</td></tr>
+        <tr><td>1990 Japon</td><td>Actifs fonciers et boursiers à vide</td><td>Équité sociale / emploi réel</td><td>Démographie / montée en gamme</td><td>Ne sauver que E → 30 ans d'échec</td></tr>
+        <tr><td>1997 Asie</td><td>Afflux d'argent chaud court terme</td><td>Transparence / régulation</td><td>Balance extérieure / réserves</td><td>Réparer S + T → reprise</td></tr>
+        <tr><td>2008 Monde</td><td>Innovation des dérivés</td><td>Confiance / éthique financière</td><td>Chaîne de levier / risque systémique</td><td>Institutionnaliser S + T → réparation progressive</td></tr>
+        <tr><td>2010 Dette euro</td><td>Expansion de la dette souveraine</td><td>Discipline budgétaire / confiance de l'intégration</td><td>Dette / structure démographique</td><td>Contraintes institutionnelles + réformes structurelles</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="laws">
+      <div class="law"><div class="num">1</div><p><b>La crise « fuit » toujours d'abord sur S ou T, et ne « s'effondre » qu'ensuite sur E.</b> On fixe la Bourse, l'immobilier, le change — ces indicateurs de E — mais on ignore l'équité, la confiance, les institutions, la durabilité qui se dégradent d'abord.</p></div>
+      <div class="law"><div class="num">2</div><p><b>La loi de division est la source de tous les maux.</b> Tant que les institutions permettent de « ne répondre que du profit, pas de la société ni de l'avenir », les acteurs choisissent spontanément de sacrifier S et T pour E — mécanisme intime de l'aveuglement et du retard du marché.</p></div>
+      <div class="law"><div class="num">3</div><p><b>La bonne gouvernance est toujours le retour de la multiplication.</b> E « vrai » (du virtuel au réel), S « épais » (institutions et confiance), T « long » (durabilité et transmission) — les trois au-dessus de 1, Y se multiplie réellement.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">03</span><h2>Enseignements universels de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Pour les décideurs</span><p>La politique macro ne doit pas fixer le seul PIB (E). Quand inégalités, confiance sociale, qualité institutionnelle et soutenabilité de la dette (S, T) s'alarment ensemble, toute « stimulation par la liquidité » réduit le dénominateur et mine l'avenir. <b>La vraie croissance de qualité est une croissance de multiplication où E, S, T avancent de concert.</b></p></div>
+      <div class="role"><span class="r-tag">Pour les entreprises</span><p>Courir le profit (E) n'est pas une faute ; mais au prix du bien-être des salariés, de la confiance des clients, de la réputation (S) et de la marque long terme, de la transmission (T), l'argent gagné sera rendu avec intérêts à la première crise. <b>Les entreprises qui durent sont celles où « richesse » et « affect » composent ensemble dans le temps.</b></p></div>
+      <div class="role"><span class="r-tag">Pour l'individu</span><p>La formule micro y = f(m) × f(h) × f(t) vaut pareillement — courir le seul revenu (f(m)) en hypothéquant la santé, les relations (f(h)) et l'accumulation long terme (f(t)) expose la vie à sa propre « crise économique ». <b>La double floraison, c'est faire passer valeur monétaire, expérience du bonheur et intérêts composés du temps au-dessus de 1 ensemble.</b></p></div>
+    </div>
+    <div class="closing">
+      <p><b>L'histoire ne se répète pas, mais la loi de conservation de la valeur ne manque jamais.</b> Les cinq crises le prouvent : quand « la richesse » (E) oublie qu'elle doit répondre de « l'affect » (S) et de « l'avenir » (T), la multiplication devient division, la prospérité devient crise.<br/>Et la voie de sortie est toujours unique : <b>faire revenir la valeur à la conservation, ramener la croissance sur la voie multiplicative de E × S × T.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">04</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi dire que la crise n'est pas « l'effondrement soudain de E » ?</p>
+        <p class="a">A : Parce que l'effondrement de E n'est que la surface. Ce qui se dégrade d'abord, c'est S (répartition, confiance, institutions) et T (durabilité) — une fois rongés jusqu'au point critique, le moindre vent fait exploser la chaîne de multiplication.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi les sauvetages échouent-ils souvent, comme les trente années perdues du Japon ?</p>
+        <p class="a">A : Parce qu'on « répare E sans réparer S, T ». La liquidité peut soutenir les prix d'actifs, mais pas la demande, la confiance des entreprises (S) ni l'élan d'innovation (T). Donner un antipyrétique sans traiter l'inflammation : la racine du mal demeure.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Comment une personne ordinaire applique-t-elle cette formule ?</p>
+        <p class="a">A : En gérant sa valeur personnelle, regardez en même temps le revenu (f(m)), l'expérience du bonheur (f(h)) et l'accumulation long terme (f(t)) ; ne troquez pas la santé et les relations contre un chiffre comptable de court terme.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : D'où viennent les données de cet article ?</p>
+        <p class="a">A : Les 381 points du Dow, les 38 915 points du Nikkei, la dette grecque au-delà de 150 % du PIB, le levier de Lehman au-delà de 30× sont des données historiques publiques, citées pour l'argumentation — ne constituent pas un conseil en investissement.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Contenu conforme à la réglementation publicitaire
+</div>
+
+<button id="toTop" title="Retour en haut">↑</button>

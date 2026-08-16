@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Code Fiscal des Empires Centraux — Loi de Conservation de la Valeur Y=E×S×T</title>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 900px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero h1 .hl {
+    position: relative; color: var(--gold);
+    background: linear-gradient(transparent 62%, rgba(166,124,46,.22) 62%);
+    padding: 0 4px; border-radius: 4px;
+  }
+  .hero .hl-sub {
+    display: inline-block; margin: 0 0 14px; font-size: 14px;
+    color: var(--ink-soft); letter-spacing: 2px;
+    font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+    border: 1px solid #e2cfa3; background: var(--gold-soft);
+    padding: 3px 14px; border-radius: 999px;
+  }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 760px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+  .formula-box + .formula-box { margin-top: 0; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow); }
+  .what-card .quote { font-size: 18px; color: var(--navy); font-weight: 700; text-align: center; margin: 6px 0 16px; font-family: Georgia, "Times New Roman", serif; }
+  .what-card .quote span { color: var(--gold); }
+  .what-card p { margin: 0 0 10px; font-size: 14.5px; }
+  .what-card p:last-child { margin-bottom: 0; }
+  .what-card b { color: var(--navy); }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 16px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .scenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 5px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .scene p { margin: 0; font-size: 14px; }
+
+  .books { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+  .book .b-name { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .book .b-author { font-size: 12px; color: var(--gold); margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .book p { margin: 0; font-size: 13.5px; line-height: 1.75; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .roles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .role p { margin: 0; font-size: 14px; line-height: 1.75; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .books, .scenes, .roles { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Loi de Conservation de la Valeur · Décryptage fiscal</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Double Floraison</span>
+      <span class="pill">Empires centraux × connotation de la monnaie</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">LE CODE FISCAL DES EMPIRES CENTRAUX × VALUE CONSERVATION</div>
+  <h1>Le Code Fiscal des Empires Centraux, <span class="hl">expliqué par une formule</span></h1>
+  <p class="hl-sub">Guo Jianlong × nouvelle connotation de la monnaie × Loi de Conservation de la Valeur</p>
+  <div class="divider"></div>
+  <p class="sub">La terre, la monnaie, l'économie d'État — trois piliers qui portent l'empire, trois piliers qui l'écrasent. Comprendre le macro Y = E × S × T et le micro y = f(m) × f(h) × f(t), c'est comprendre comment les dynasties montent et s'effondrent, et comment la monnaie change la donne.</p>
+  <div class="chips">
+    <span class="chip">Formule macro <b>Y=E×S×T</b></span>
+    <span class="chip">Formule micro <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">Nouvelle monnaie <b>trois-en-un</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">SOMMAIRE</p>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Les deux formules, macro + micro</a></li>
+        <li><a href="#sec-what">De quoi parle le Code fiscal des empires centraux</a></li>
+        <li><a href="#sec-form">Comment montent et s'effondrent les dynasties</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La montée et la chute des dynasties sont « la loterie de la valeur fiscale »</strong> : dans l'ascension, la fiscalité laisse la valeur se multiplier (laisser-faire, confiance, durabilité) ; dans le déclin, elle ne répond qu'au revenu fiscal E, en hypothéquant le cœur du peuple S et l'avenir des institutions T — la multiplication devient division, la dynastie s'effondre.</p>
+      <p><strong>La solution : redéfinir la connotation de la valeur de la monnaie</strong> — faire porter à la monnaie les valeurs économique, sociale et temporelle, et mesurer d'une seule mesure la création de valeur de l'État, des entreprises et des individus. Quand chaque centime est adossé à E, S, T, le cycle vertueux s'auto-régule — et le code pour briser le cycle bimillénaire de l'ascension et de la chute.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">FORMULE MACRO · LA GOUVERNANCE DE L'EMPIRE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> prospérité de l'empire · <b>E</b> valeur économique (richesses et revenus fiscaux) · <b>S</b> valeur sociale (confiance du peuple, équité) · <b>T</b> valeur temporelle (institutions, durabilité)</p>
+        <p class="f-note">Les trois au-dessus de 1 : l'ère prospère ; <b>si l'une tombe à zéro, la dynastie s'effondre</b>.</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">FORMULE MICRO · L'INDIVIDU ET L'ENTREPRISE</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> valeur monétaire · <b>f(h)</b> expérience du bonheur · <b>f(t)</b> valeur temporelle</p>
+        <p class="f-note">Ne courir que le revenu en hypothéquant la santé et le long terme, <b>la famille connaît son propre « effondrement de dynastie »</b>.</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'ORIGINE DU DÉCLIN DES DYNASTIES</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand le souverain <b>ne doit répondre que du revenu fiscal E</b>, il augmente instinctivement les impôts, imprime la monnaie, vend les charges — hypothéquant le cœur du peuple et l'avenir.</p>
+        <p class="f-note"><b>Le dénominateur est hypothéqué, le numérateur est arraché</b> — le jour où le trésor est plein est le jour où le cœur du peuple se disperse.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE MULTIPLICATION · LA CLÉ DU CYCLE VERTUEUX</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">Quand la monnaie mesure les trois valeurs à la fois, <b>gagner = bonheur + durabilité</b>, l'auto-régulation se déclenche.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De quoi parle le Code fiscal des empires centraux</h2></div>
+    <div class="what-card">
+      <div class="quote">« Les finances sont le squelette de l'empire ; la monnaie, le sang dans le squelette. »<br/><span>Une histoire de la fiscalité est une histoire de la montée et de la chute des dynasties</span></div>
+      <p><b>Origine</b> : en 2017, l'écrivain économique Guo Jianlong, dans <i>Le Code Fiscal des Empires Centraux</i>, relit l'histoire de la Chine de la dynastie Qin à la fin des Qing à travers les institutions fiscales. Insight central : <b>la montée et la chute de l'empire centralisé sont décidées par la logique fiscale</b> — la terre, la monnaie, l'économie d'État : trois piliers qui portent l'empire et l'écrasent.</p>
+      <p><b>La question de Guo Jianlong</b> : pourquoi chaque dynastie échoue-t-elle au cycle « fondation → prospérité → corruption → effondrement » ? La réponse n'est pas seulement politique, elle est dans <b>la manière dont la fiscalité traite les trois valeurs</b> — laisser l'intérêt produire l'intérêt (multiplication) ou disputer les profits au peuple (division).</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Comment montent et s'effondrent les dynasties</h2></div>
+
+    <div class="crisis" id="crisis-qin">
+      <div class="head">
+        <div class="year"><div class="yy">Qin</div><div class="tag">Tombée à la seconde génération</div></div>
+        <div class="title-box">
+          <h3>Unifier monnaie et mesures, mais des impôts impitoyables qui hypothèquent le cœur du peuple</h3>
+          <p class="lead">L'innovation institutionnelle de E est multiplication, la spoliation fiscale est division — S tombe à zéro, T s'effondre.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>La dynastie Qin unifie la monnaie et les mesures — de quoi agrandir E ; mais « prélever la moitié des récoltes », grands travaux à profusion : <b>la force populaire (S) est épuisée jusqu'à la limite</b>, les institutions (T) sans élasticité. La révolte de Chen Sheng et Wu Guang n'est pas un hasard — quand le cœur du peuple S passe sous 1, même la force militaire (E) ne tient pas la chaîne de multiplication.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-han">
+      <div class="head">
+        <div class="year"><div class="yy">Han</div><div class="tag">Règne de Wen et Jing → réformes de Wang Mang</div></div>
+        <div class="title-box">
+          <h3>Impôts légers, ère prospère ; disputer les profits au peuple, ère troublée</h3>
+          <p class="lead">Le règne de Wen et Jing laisse l'intérêt produire (multiplication) ; les monopoles de Wudi et les réformes de Wang Mang spolient (division).</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Deux générations de Wen et Jing, « un trentième d'impôt » : la richesse reste au peuple, E, S, T croissent ensemble. Puis l'empereur Wu : monopoles d'État sur le sel et le fer, « jūnshū píngzhǔn » (transport et régulation des prix) — <b>le trésor (E) paraît plein, mais le commerce privé (la vitalité de S) est asséché</b>. Wang Mang frappe des grandes monnaies, instaure les « cinq règlements et six contrôles » : l'émission monétaire se déchaîne (T hypothéqué), le monde sombre dans le chaos. <b>L'économie d'État est l'opium des finances impériales — plus on en consomme, plus on s'affaiblit.</b></p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-tang">
+      <div class="head">
+        <div class="year"><div class="yy">Tang</div><div class="tag">Champs égaux → deux taxes → gouverneurs militaires</div></div>
+        <div class="title-box">
+          <h3>L'effondrement du régime foncier disloque le squelette de l'empire</h3>
+          <p class="lead">Le système des champs égaux (équité de S) se décompose, le « zū yōng diào » (T) perd son efficacité, la fiscalité bascule vers la loi des deux taxes.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Le système des champs égaux attribue la terre par tête — l'équité foncière (S). Mais la population croît, les terres s'annexent : <b>sans-terre errants et grands domaines fraudeurs coexistent</b>, le « zū yōng diào » (T) se grippe. Après la rébellion d'An Lushan, la loi des deux taxes « dépense d'abord, prélève ensuite » entérine l'annexion — <b>la fiscalité cède au réel, l'empire glisse vers l'effondrement</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-song">
+      <div class="head">
+        <div class="year"><div class="yy">Song</div><div class="tag">Jiaozi → émission débridée → inflation</div></div>
+        <div class="title-box">
+          <h3>Inventer le papier-monnaie est un exploit ; l'émettre sans frein est un poison</h3>
+          <p class="lead">Le Jiaozi est une innovation monétaire (multiplication de E) ; l'émission débridée hypothèque T jusqu'à l'absurde.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Le Jiaozi des Song du Nord, adossé à la monnaie de fer, est une innovation monétaire capitale. Les Song du Sud, pour financer les guerres, <b>émettent le Huizi jusqu'à « valoir la moitié de sa valeur »</b> : la confiance monétaire (T) s'effondre, les prix s'envolent, les richesses du peuple sont pillées en silence — <b>ce n'est pas un problème d'argent, c'est une fiscalité qui hypothèque la confiance</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-ming">
+      <div class="head">
+        <div class="year"><div class="yy">Ming</div><div class="tag">Dévaluation du Baochao → crise de l'argent</div></div>
+        <div class="title-box">
+          <h3>Imprimer pour payer les impôts finit en papier sans valeur ; la fiscalité perd son ancre monétaire</h3>
+          <p class="lead">L'émission débridée du Baochao dévalue (T à zéro), et la conversion à l'argent prépare la crise du « plus d'argent ».</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Au début des Ming, on émet le Baochao ; très vite, l'émission débridée le dévalue, <b>la confiance (T) tombe à zéro, le peuple refuse de l'utiliser</b>, la fiscalité bascule vers l'argent métallique. Mais l'argent dépend des importations d'outre-mer : sous l'empereur Chongzhen, <b>la pénurie d'argent tarit le trésor</b> ; on ajoute les « trois tributs » (S pressuré jusqu'au sang) — les révoltes éclatent, l'empire s'effondre. L'ancre de la monnaie était perdue.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Les miroirs dans le monde réel : l'histoire n'est jamais loin</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Émission monétaire</span><p>Le Huizi des Song du Sud, le Baochao des Ming devenus papier sans valeur — aujourd'hui, émettre une monnaie sans support réel : l'histoire se répétera.</p></div>
+      <div class="scene"><span class="s-tag">Annexion foncière</span><p>« Les riches possèdent des champs à perte de vue, les pauvres pas un pouce de terre » — aujourd'hui, prix immobiliers élevés et concentration des actifs : la même crise de S.</p></div>
+      <div class="scene"><span class="s-tag">Disputer les profits au peuple</span><p>Monopoles du sel et du fer, vente des charges — aujourd'hui, tout monopole qui « dispute les profits au peuple » hypothèque la confiance.</p></div>
+      <div class="scene"><span class="s-tag">Déséquilibre fiscal</span><p>La loi des deux taxes « dépense d'abord », les trois tributs de Chongzhen — quand la charge fiscale se déséquilibre, l'individu et l'entreprise sont les premiers frappés.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Le Code Fiscal des Empires Centraux</div><div class="b-author">Guo Jianlong</div><p>La terre, la monnaie, l'économie d'État : trois piliers de l'empire. Dès que la fiscalité dispute les profits au peuple, <b>l'empire prospère par l'addition et s'effondre par la division</b>.</p></div>
+      <div class="book"><div class="b-name">Discours sur le sel et le fer</div><div class="b-author">Compilé par Huan Kuan</div><p>Le débat d'il y a deux mille ans l'avait déjà dit : <b>la querelle entre l'économie d'État et les intérêts du peuple est la querelle entre E et S</b>. Sang Hongyang pesait E, les lettrés pesaient S — le choix de la dynastie décide de son destin.</p></div>
+      <div class="book"><div class="b-name">Le Miroir universel du gouvernement</div><div class="b-author">Dirigé par Sima Guang</div><p>« L'État ne prend pas le profit pour profit, mais la justice pour profit » — <b>au déséquilibre entre la justice (S) et le profit (E) se trouve le tournant de l'ascension et de la chute</b>. Mille chapitres, une seule comptabilité de la valeur.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Nouvelle monnaie</div><div class="tag">La voie de sortie</div></div>
+        <div class="title-box">
+          <h3>Faire mesurer à la monnaie les trois valeurs à la fois, la division devient multiplication</h3>
+          <p class="lead">La monnaie ne devrait pas être « un chiffre d'argent », mais la mesure unifiée des trois valeurs E, S, T.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Connotation 1 · Valeur économique E (pouvoir d'achat)</span><ul>
+          <li>La monnaie correspond à une création réelle de biens et de services — <b>chaque centime a une production derrière lui</b></li>
+          <li>Fini « imprimer sans produire » — l'émission doit avoir un support réel (la leçon des Song et de la fin des Ming)</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotation 2 · Valeur sociale S (degré de confiance)</span><ul>
+          <li>La circulation monétaire repose sur la confiance sociale — <b>stabilité de la monnaie = direction du cœur du peuple</b></li>
+          <li>Faire récompenser par la monnaie la création d'emplois, l'amélioration de la répartition, la richesse laissée au peuple (à l'opposé du règne de Wen et Jing)</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotation 3 · Valeur temporelle T (durabilité)</span><ul>
+          <li>La monnaie est une promesse intertemporelle — <b>l'argent d'aujourd'hui doit répondre de demain</b></li>
+          <li>La terre, l'éducation, l'innovation, la transmission entrent dans la mesure — fini de « manger le riz des enfants »</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Mesure unifiée · la clé du cycle vertueux</span><p><b>Quand la monnaie contient à la fois les connotations E, S, T</b>, la fiscalité de l'État investit le cœur du peuple et l'avenir, l'entreprise gagne en créant emplois et transmission, l'individu achète avec son revenu du bonheur et une accumulation long terme — <b>la division qui dispute les profits au peuple perd son terrain, la multiplication qui laisse la richesse au peuple tourne toute seule</b>. C'est la clé pour briser le cycle bimillénaire de l'ascension et de la chute.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>Cycle vertueux : le triple gagnant, État, entreprise, individu</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>La fiscalité investit le cœur du peuple et l'avenir → monnaie stable, richesse au peuple → paix durable</td><td>S+T</td></tr>
+        <tr><td>Entreprise</td><td>Créer une production et un emploi réels → gagner confiance et rendement long terme → prospérité durable</td><td>E+S+T</td></tr>
+        <tr><td>Individu</td><td>Le revenu achète le bonheur et la croissance → créer et consommer activement → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>L'histoire ne se répète pas, mais les lois de la fiscalité ne manquent jamais.</b><br/>Quand la monnaie devient la mesure unifiée des valeurs économique, sociale et temporelle,<br/>chaque création renforce la formule de multiplication, chaque confiance alimente le cycle vertueux.<br/><b>E, S, T au-dessus de 1 ensemble — c'est le code fondamental pour sortir du cycle de l'ascension et de la chute.</b></p>
+    </div>
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>Ne prenez pas « la richesse comptable » pour « la valeur réelle ». Le jour où les trésors des dynasties étaient pleins était souvent le jour où le cœur du peuple se dispersait — la santé fiscale, c'est créer E, S, T en même temps.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>Le socle de la monnaie est le cœur du peuple. Chaque émission débridée et chaque spoliation hypothèquent la confiance — et la confiance met une génération à se réparer.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Faire acheter à l'argent à la fois le matériel, le bonheur et l'avenir — le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale du « Code fiscal des empires centraux » de Guo Jianlong ?</p>
+        <p class="a">A : La montée et la chute de l'empire centralisé sont décidées par la logique fiscale — la terre, la monnaie, l'économie d'État : trois piliers qui portent l'empire et l'écrasent. Quand la fiscalité dispute les profits au peuple, la dynastie court à l'effondrement.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi chaque dynastie échoue-t-elle au cycle « fondation → prospérité → corruption → effondrement » ?</p>
+        <p class="a">A : Les ères prospères reposent sur les trois valeurs qui croissent ensemble (multiplication) ; les fins de règne ne répondent qu'au revenu fiscal E, hypothéquant le cœur du peuple S et les institutions T (division). Tant que la logique fiscale ne change pas, le cycle se rejoue.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Faits historiques issus d'ouvrages publics · Contenu conforme à la réglementation publicitaire · Réflexion intellectuelle, ne constitue pas un conseil en investissement
+</div>
+
+<button id="toTop" title="Retour en haut">↑</button>
+</body>
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</html>

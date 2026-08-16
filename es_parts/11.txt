@@ -1,0 +1,192 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Doble Florecimiento · Serie de Aplicación de la Ley de Conservación del Valor 11</div>
+  <h1>Gran Nación, Gran Ciudad, explicado por una fórmula:<br><span class="hl">El costo de desubicar personas y recursos</span></h1>
+  <div class="hl-sub">Lu Ming · "Gran Nación, Gran Ciudad" (2016)</div>
+  <p class="sub">La gente que se mueve a las grandes ciudades es una ley económica, no una "enfermedad metropolitana". La idea de Lu Ming: la mano administrativa ha distorsionado la ley de la aglomeración — limitando las grandes ciudades y otorgando cuotas de suelo a las pequeñas, desubicando a personas y tierra. La Ley de Conservación del Valor ofrece el marco: Y = E × S × T — la eficiencia (E), el bienestar de las personas (S) y la sostenibilidad de los recursos (T) son descontados todos por la misma desubicación.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">ÍNDICE</div>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Un solo fórmula para entenderlo</a></li>
+        <li><a href="#sec-what">De qué trata este libro</a></li>
+        <li><a href="#sec-pillars">Cómo se forma la desubicación</a></li>
+        <li><a href="#sec-crisis">Tres actos de desubicación observados</a></li>
+        <li><a href="#sec-scenes">Espejos en el mundo actual</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La desubicación de personas y recursos es una historia de división — "la intervención administrativa distorsionando los precios de los factores"</strong>: limitar las grandes ciudades suprimió las economías de escala (E); el hukou y la desubicación de las cuotas de suelo sacrificaron el bienestar de las personas y la reunión familiar (S); las ciudades vacías, las obras inconclusas y la deuda son la cuenta de los recursos desubicados (T) — las tres valores descontadas a la vez, y la gran nación nunca se volvió gran ciudad.</p>
+      <p><strong>La solución está en la nueva connotación de la moneda</strong>: que el dinero cargue a la vez el valor económico, el social y el temporal, transformando "las personas girando alrededor de las cuotas" en "las cuotas girando alrededor de las personas". Cuando las tres valores se miden con una sola vara, la eficiencia de la aglomeración, la reunión de las familias y la sostenibilidad de los recursos se ven todas en una contabilidad — arranca el ciclo virtuoso auto-regulado, y nación, empresa e individuo ganan todos.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un solo fórmula para entenderlo</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LEY DE MULTIPLICACIÓN · LA LÓGICA DE LA GRAN NACIÓN Y LA GRAN CIUDAD</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> eficiencia de la aglomeración (escala y división del trabajo) · <b>S</b> bienestar de las personas (empleo · familia · servicios públicos) · <b>T</b> sostenibilidad de los recursos (suelo · deuda · generaciones)</p>
+        <p class="f-note">Las personas siguen a la industria, los servicios siguen a las personas — las tres multiplican; <b>donde se desubican por diseño, las tres caen juntas</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LEY DE DIVISIÓN · CÓMO SE FORMA LA DESUBICACIÓN</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando <b>el poder administrativo responde solo a la conveniencia de gestionar E</b> — limitando ciudades, desubicando cuotas, separando personas de la tierra —</p>
+        <p class="f-note"><b>S se sacrifica, T se despilfarra</b>: un aparente equilibrio que es una pérdida en ambos lados.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De qué trata este libro</h2></div>
+    <div class="what-card">
+      <div class="quote">"China es una gran nación, y debería construir grandes ciudades. El tamaño de la ciudad no es la enfermedad; la enfermedad es la política que desafía la ley económica."<br><span>— Lu Ming · Gran Nación, Gran Ciudad</span></div>
+      <p><b>Origen</b>: en 2016, Lu Ming, profesor de la Universidad Jiao Tong de Shanghái, publicó <i>Gran Nación, Gran Ciudad</i>, diseccionando con mirada de economista las distorsiones profundas del desarrollo urbano-rural y regional de China. Su juicio central: <b>la gente que se mueve a las grandes ciudades es la necesidad de las economías de escala; el problema real es que fuerzas administrativas como el hukou y las cuotas de suelo desubican a las personas de los recursos</b> — la gente se mueve al este, las cuotas van al oeste, y ambos lados pierden.</p>
+      <p><b>Su prescripción</b>: que el mercado decida dónde se aglomeran personas e industria, y que los servicios públicos y las cuotas de suelo "sigan a las personas" — <b>reconocer la ley cuesta menos, y es más justo, que combatirla</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Cómo se forma la desubicación</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Limitar las grandes ciudades · Aglomeración suprimida</h3><span class="p-tag">Origen de la división</span></div>
+        <p><b>Formación</b>: de "controlar estrictamente la población de las megaciudades" a restricciones de compra y frenos a la relocalización, <b>la mano administrativa contuvo a las personas de aglomerarse en las ciudades de alta productividad (la eficiencia de E descontada)</b> — los empleos están en la costa, las personas son bloqueadas en la puerta, y las economías de escala nunca se despliegan.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Personas y tierra desubicadas · Bienestar sacrificado</h3><span class="p-tag">El término sacrificado</span></div>
+        <p><b>Formación</b>: las personas fluyen a las grandes ciudades mientras las cuotas de suelo de construcción se inclinan hacia las pequeñas ciudades y las aldeas — <b>las personas no pueden asentarse, las familias viven separadas, los niños quedan atrás (S dañado)</b>; los servicios públicos no "siguen a las personas", y la reunión y la dignidad se tasan como costos.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Ciudades vacías · Recursos despilfarrados</h3><span class="p-tag">El costo oculto</span></div>
+        <p><b>Formación</b>: las pequeñas ciudades y los distritos nuevos construyen rápido y furioso, <b>dejando ciudades vacías, ciudades fantasma y obras inconclusas (los recursos de T despilfarrados)</b>; la deuda local y la dependencia del suelo se acumulan junto con ellas — los recursos se colocan donde no hay personas, y el tiempo paga el error.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Tres actos de desubicación observados</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-huji">
+        <div class="head">
+          <div class="year"><div class="yy">HUKOU</div><div class="tag">Migración</div></div>
+          <div class="title-box">
+            <h3>En la ciudad, pero "fuera del sistema"</h3>
+            <p class="lead">Trabajando en la ciudad durante años, y la escuela y el seguro médico siguen siendo obstáculos — la persona entró a la ciudad, la identidad no.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>El hukou ata los servicios públicos al registro: <b>el trabajo crea un E enorme para la ciudad sin recibir el S correspondiente (educación, salud, pensiones)</b>; más de doscientos millones de trabajadores migrantes "circulan sin asentarse", y los niños y ancianos abandonados se vuelven el precio de la separación familiar — separar personas de la tierra descuenta dos variables de la fórmula de multiplicación a la vez.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Que los servicios públicos "sigan a las personas": <b>el lugar de residencia provee educación, salud y pensiones (el retorno de E realizado como bienestar de S)</b> — que las personas se asienten donde crean.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-tudi">
+        <div class="head">
+          <div class="year"><div class="yy">CUOTAS DE SUELO</div><div class="tag">Desubicación personas-suelo</div></div>
+          <div class="title-box">
+            <h3>La gente se mueve al este, las cuotas van al oeste</h3>
+            <p class="lead">Las cuotas de suelo de construcción se inclinan hacia el centro y el oeste mientras las megaciudades del este se quedan sin suelo — la tierra sigue al plan, no a la gente.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>Las cuotas de suelo se asignan administrativamente en lugar de por el mercado: <b>las megaciudades del este carecen de oferta → los precios de la vivienda se disparan (suben los costos de E)</b>, mientras el centro y el oeste reciben sobre-oferta → ciudades vacías y ciudades fantasma (desperdicio de T); personas y tierra se separan en el espacio, <b>ninguno de los lados queda "persona-tierra adecuados", y el bienestar residencial de S se daña en ambos extremos</b>.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Cuotas de suelo que "siguen a las personas": <b>las regiones de entrada ofrecen más suelo, las de salida preservan la ecología (una ganancia para E y S)</b> — que la tierra siga las elecciones de las personas, en lugar de hacer que las elecciones de las personas se acomoden a las cuotas.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-kongcheng">
+        <div class="head">
+          <div class="year"><div class="yy">DISTRITOS NUEVOS</div><div class="tag">Ciudades vacías y precios astronómicos</div></div>
+          <div class="title-box">
+            <h3>Ciudades vacías a un lado, precios astronómicos al otro</h3>
+            <p class="lead">La vacancia es alta en los distritos nuevos del centro y el oeste, mientras la vivienda de primera línea queda fuera del alcance — las dos caras de la desubicación de recursos.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>Las "campañas de construcción de ciudades" impulsadas administrativamente erigieron viviendas masivas en lugares que pierden población, <b>dejando ciudades vacías y obras inconclusas (T hundido)</b>; mientras tanto, en las grandes ciudades donde la gente fluye, la oferta restringida de suelo deja que <b>los precios de la vivienda expulsen a los jóvenes (S excluida)</b> — despilfarro silencioso de recursos a un lado, salida forzada del talento al otro: la prueba viviente de "cuotas contra los corazones de las personas".</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Trata la migración como un "voto": <b>donde las personas crean, asigna recursos (la eficiencia de E); donde las personas viven, construye servicios públicos (la equidad de S)</b> — que el tamaño de la ciudad lo decidan las personas, no la imaginación del planificador.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Espejos en el mundo actual</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Individuo</span><p>Después de años en Pekín o Shanghái, el hukou y la vivienda siguen siendo el "techo" — contribuyendo E, sin poder sostener S.</p></div>
+      <div class="scene"><span class="s-tag">Familia</span><p>Los padres trabajan en las ciudades mientras los hijos quedan atrás — f(m) sube, la reunión familiar f(h) se descuenta.</p></div>
+      <div class="scene"><span class="s-tag">Empresa</span><p>El talento que quieres no puede entrar a la ciudad ni quedarse — la desubicación del talento es la pérdida oculta de una empresa.</p></div>
+      <div class="scene"><span class="s-tag">Pueblo natal</span><p>Los distritos nuevos del condado se vuelven ciudades vacías, los hogares viejos quedan vacantes — recursos invertidos donde nadie va es el costo hundido de T.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Gran Nación, Gran Ciudad</div><div class="b-author">Lu Ming · 2016</div><p>Una gran nación necesita grandes ciudades: <b>la aglomeración es la ley, la desubicación es la política; que el mercado decida la aglomeración, que el gobierno asegure los medios de vida</b> — personas y tierra cada una en su lugar, y las tres valores se multiplican.</p></div>
+      <div class="book"><div class="b-name">La Ciudad Centrípeta</div><div class="b-author">Lu Ming · 2022</div><p>La naturaleza de la ciudad es "centrípeta" — <b>la aglomeración no es una enfermedad sino la expresión natural de las economías de escala</b>; gobierna la ciudad canalizando la fuerza centrípeta, no amurallándola.</p></div>
+      <div class="book"><div class="b-name">China Urbana y Rural</div><div class="b-author">Zhou Qiren · 2013</div><p>Personas y tierra entre la ciudad y el campo son el núcleo de la segunda mitad de la reforma: <b>dejar que las personas se muevan libremente y que la tierra siga a las personas libera E, repara S y endereza T en un solo acto</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solución: una nueva connotación de la moneda</h2></div>
+    <div class="what-card">
+      <div class="quote">"La vieja contabilidad registraba solo el costo de 'gestionar personas'; la nueva contabilidad del dinero debe registrar el valor de 'personas que crean' y el bienestar de 'personas asentadas'."<br><span>— La Ley de Conservación del Valor · El Camino</span></div>
+      <p><b>Escapar de la desubicación personas-suelo no es abandonar la planificación, sino hacer que la planificación sirva a tres valores</b>: la aglomeración pasa de "ser restringida" a "ser reconocida" — que el mercado decida la distribución espacial de personas e industria (multiplicación de E); el bienestar de las personas pasa de "ser tasado" a "ser asegurado" — los servicios públicos siguen a las personas (multiplicación de S); los recursos pasan de "desubicados" a "devueltos a su lugar" — tierra, deuda e inversión siguen a la población (multiplicación de T).</p>
+      <p><strong>La nueva connotación de la moneda</strong> — que el dinero cargue tres valores a la vez:</p>
+      <p>· <b>Valor económico E</b>: cada yuan corresponde a bienes y servicios reales creados, acabando con "imprimir sin producir";<br>
+         · <b>Valor social S</b>: la moneda circula sobre confianza — recompensar a quienes crean empleo, reúnen familias y asientan personas en hogares;<br>
+         · <b>Valor temporal T</b>: el dinero es una promesa entre generaciones — la educación, la innovación, el verde y la continuidad se miden, para no "comernos el arroz de nuestros hijos".</p>
+      <p><b>Cuando el dinero mide E, S y T a la vez</b>, la eficiencia de la aglomeración, la reunión de las familias y la sostenibilidad de los recursos se ven todas en una contabilidad — <b>la fórmula de división pierde su terreno, la fórmula de multiplicación se auto-regula y se dispara el ciclo virtuoso</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Ciclo virtuoso: triple ganancia</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Sujeto</th><th>El ciclo virtuoso bajo la nueva connotación de la moneda</th><th>Valores</th></tr>
+        <tr><td>Nación</td><td>Personas y tierra en su lugar, aglomeración más eficiente → regiones equilibradas, demanda interna fuerte → la gran nación como gran ciudad</td><td>E + T</td></tr>
+        <tr><td>Empresa</td><td>Talento convergente, mercados suficientemente grandes → escala e innovación a la vez → negocio perdurable</td><td>E + S + T</td></tr>
+        <tr><td>Individuo</td><td>Asentarse en la ciudad, reunión asegurada → atreverse a moverse, atreverse a hacer hogar → vida multiplicada</td><td>Las tres</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DE LA RIQUEZA</span><p>La migración es "votar con los pies" — <b>a donde fluyen las personas es la señal del valor; asignar recursos contra la señal es una terquedad costosa</b>.</p></div>
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DEL BIENESTAR</span><p>Una ciudad no es meramente un recipiente del PIB, sino el lugar donde millones de familias se reúnen — <b>que los padres ya no dejen a sus hijos atrás, y que los que luchan se asienten en hogares, es el calor más profundo del desarrollo</b>.</p></div>
+      <div class="role"><span class="r-tag">EL CAMINO DE LA DOBLE FLORECIMIENTO</span><p>El f(m)×f(h)×f(t) del individuo y el E×S×T de la nación son una misma cosa: <b>solo cuando las tres valores crecen juntas, el crecimiento es real</b> — personas y tierra cada una en su lugar, y la riqueza y el bienestar florecen como gemelas.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>La fortuna de una gran nación yace en sus grandes ciudades; el hacer de las grandes ciudades yace en que las personas lleguen a su lugar.</b><br/>Aglomeración con velocidad, reunión con calor, recursos con continuidad — las tres por encima de 1 a la vez es la fórmula de la gran nación y la gran ciudad;<br/><b>creación, confianza, continuidad — tres valores medidos juntos, es el código de fondo de la triple ganancia para nación, empresa e individuo.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Cuál es el argumento central del libro de Lu Ming?</p>
+        <p class="a">R: La gente que se mueve a las grandes ciudades es la necesidad de las economías de escala, no una "enfermedad metropolitana". El problema real es que fuerzas administrativas como el hukou y las cuotas de suelo desubican a personas y recursos — que el mercado decida la aglomeración, y que los servicios públicos y el suelo sigan a las personas.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué coexisten "ciudades vacías" y "precios de vivienda astronómicos"?</p>
+        <p class="a">R: Las cuotas de suelo se asignan administrativamente en lugar de por el mercado — las grandes ciudades a donde fluye la gente carecen de oferta (precios altos), mientras los lugares que pierden población reciben sobre-oferta (ciudades vacías). Personas y suelo desubicados: la causa directa de que E, S y T caigan juntos.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significa la "nueva connotación de la moneda" para la gente común?</p>
+        <p class="a">R: Que el dinero mida a la vez las tres valores. En el plano personal es la fórmula micro — que el ingreso no agote salud, relaciones ni acumulación de largo plazo; guarda f(h) y f(t), y tu vida gana interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

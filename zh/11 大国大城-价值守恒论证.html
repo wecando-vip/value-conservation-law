@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大国大城,一个公式看懂 - 价值守恒定律 Y=E×S×T</title>
+<meta name="description" content="用价值守恒定律论证陆铭《大国大城》:人口与资源错配的成因与破解,新货币价值内涵如何触发良性循环实现国家、企业、个人共赢。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 46px 24px 38px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: var(--gold); border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 18px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 14px; max-width: 860px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; background: linear-gradient(transparent 62%, rgba(166,124,46,.35) 62%); padding: 0 4px; }
+  .hl-sub { display: inline-block; margin-top: 4px; font-size: 14px; color: #b9c6d4; border: 1px dashed rgba(185,198,212,.4); padding: 5px 16px; border-radius: 999px; letter-spacing: 1px; }
+  .hero p.sub { max-width: 800px; margin: 16px auto 0; font-size: 15.5px; color: #cdd6e0; line-height: 1.9; }
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 36px; align-items: start; }
+  .toc-wrap { position: sticky; top: 20px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 14px; box-shadow: var(--shadow); }
+  .toc .toc-title { font-size: 14px; font-weight: 700; color: var(--navy); letter-spacing: 2px; padding: 0 8px 10px; border-bottom: 1px dashed var(--line); margin-bottom: 8px; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc a { display: block; padding: 6px 8px; font-size: 13.5px; color: var(--ink-soft); border-radius: 6px; border-left: 3px solid transparent; }
+  .toc a:hover { color: var(--navy); background: var(--blue-soft); }
+  .toc a.active { color: var(--gold); font-weight: 700; border-left-color: var(--gold); background: var(--gold-soft); }
+  .content { min-width: 0; }
+  .label { display: inline-block; font-size: 12.5px; letter-spacing: 2px; color: var(--gold); background: var(--gold-soft); border: 1px solid rgba(166,124,46,.3); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+  .answer-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 28px; box-shadow: var(--shadow); margin-bottom: 26px; border-left: 4px solid var(--gold); }
+  .answer-card p { margin: 8px 0; }
+  .answer-card strong { color: var(--navy); }
+  .section-title { display: flex; align-items: center; gap: 12px; margin: 34px 0 16px; }
+  .section-title .sn { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
+  .section-title h2 { margin: 0; font-size: 22px; color: var(--navy); letter-spacing: 1px; }
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 13px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; }
+  .formula { font-family: Georgia, "Cambria Math", serif; font-size: 26px; font-weight: 700; color: var(--navy); text-align: center; padding: 10px 0; letter-spacing: 2px; }
+  .formula .var { color: var(--gold); }
+  .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 6px 0; }
+  .f-note b { color: var(--navy); }
+  .formula-card.mul { border-top: 4px solid var(--green); }
+  .formula-card.div { border-top: 4px solid var(--red); }
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); margin-bottom: 26px; }
+  .what-card .quote { font-family: Georgia, serif; font-style: italic; font-size: 16px; color: var(--navy-2); border-left: 3px solid var(--gold); padding-left: 16px; margin-bottom: 14px; }
+  .what-card .quote span { display: block; font-family: "Alibaba PuHuiTi 2.0", sans-serif; font-style: normal; font-size: 14px; color: var(--ink-soft); margin-top: 4px; }
+  .pillars { display: grid; gap: 18px; margin-bottom: 26px; }
+  .pillar { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow); border-left: 4px solid var(--navy-2); }
+  .pillar .p-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .pillar .p-num { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: var(--gold); }
+  .pillar h3 { margin: 0; font-size: 18px; color: var(--navy); }
+  .pillar .p-tag { font-size: 12px; color: var(--ink-soft); background: var(--blue-soft); padding: 2px 10px; border-radius: 999px; }
+  .pillar p { margin: 6px 0; font-size: 14.5px; }
+  .pillar b { color: var(--navy); }
+  .crisis-grid { display: grid; gap: 18px; margin-bottom: 26px; }
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .crisis .head { display: flex; gap: 16px; padding: 18px 22px; background: linear-gradient(135deg, var(--blue-soft), #fff); border-bottom: 1px solid var(--line); }
+  .crisis .year { text-align: center; min-width: 84px; }
+  .crisis .yy { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: var(--gold); line-height: 1.2; }
+  .crisis .tag { font-size: 12px; color: var(--navy-2); background: var(--gold-soft); border-radius: 999px; padding: 2px 10px; display: inline-block; margin-top: 4px; }
+  .crisis h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
+  .crisis .lead { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+  .crisis .body { padding: 18px 22px; }
+  .arg, .fix { margin-bottom: 12px; }
+  .arg:last-child, .fix:last-child { margin-bottom: 0; }
+  .arg-label, .fix-label { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: 1px; padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .arg-label { color: var(--red); background: var(--red-soft); border: 1px solid rgba(166,58,43,.25); }
+  .fix-label { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
+  .arg p, .fix p { margin: 4px 0; font-size: 14.5px; }
+  .arg b, .fix b { color: var(--navy); }
+  .fix ul { margin: 6px 0 0; padding-left: 20px; }
+  .fix li { font-size: 14px; margin-bottom: 4px; }
+  .scenes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 26px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--navy-2); background: var(--blue-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .scene p { margin: 4px 0; font-size: 14px; }
+  .books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 26px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+  .b-name { font-size: 16px; font-weight: 700; color: var(--navy); }
+  .b-author { font-size: 12.5px; color: var(--gold); margin-bottom: 8px; }
+  .book p { margin: 6px 0; font-size: 13.5px; color: var(--ink-soft); }
+  .book b { color: var(--navy); }
+  .overview-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 26px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-weight: 600; letter-spacing: 1px; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { font-weight: 700; color: var(--navy); white-space: nowrap; }
+  .roles { display: grid; gap: 14px; margin-bottom: 26px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--gold); background: var(--gold-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .role p { margin: 4px 0; font-size: 14.5px; }
+  .role b { color: var(--navy); }
+  .closing { background: linear-gradient(135deg, #0f2439, #16324f); color: #f4efe4; border-radius: var(--radius); padding: 30px 32px; text-align: center; margin-bottom: 26px; box-shadow: var(--shadow); }
+  .closing p { margin: 6px 0; font-size: 15.5px; line-height: 2; }
+  .closing b { color: #d9b367; }
+  .faq { display: grid; gap: 12px; margin-bottom: 26px; }
+  .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 20px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  .toTop { position: fixed; right: 24px; bottom: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; border: none; font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: .3s; box-shadow: 0 4px 14px rgba(22,50,79,.35); z-index: 99; }
+  .toTop.show { opacity: 1; pointer-events: auto; }
+  #progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--gold), #d9b367); width: 0; z-index: 100; }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; padding: 24px 16px 10px; }
+    .toc-wrap { display: none; }
+    .formula-box, .books, .scenes { grid-template-columns: 1fr; }
+    .crisis .head { flex-direction: column; gap: 6px; }
+    .crisis .year { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="hero">
+  <div class="kicker">财情双生智库 · 价值守恒定律应用系列 11</div>
+  <h1>大国大城,一个公式看懂<br><span class="hl">人口与资源错配的代价</span></h1>
+  <div class="hl-sub">陆铭 · 《大国大城》(2016)</div>
+  <p class="sub">人往大城市走,是经济规律,不是"大城市病"。陆铭的洞见:行政之手扭曲了集聚规律——限制大城市、给中小城市供地,造成人口与土地错配。价值守恒定律给出框架:Y = E × S × T——效率(E)、人的福祉(S)、资源可持续(T),三者被错配同时折损。</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">目 录</div>
+      <ul>
+        <li><a href="#sec-answer">一句话结论</a></li>
+        <li><a href="#sec-formula">一个公式看懂</a></li>
+        <li><a href="#sec-what">这本书讲什么</a></li>
+        <li><a href="#sec-pillars">错配形成:如何形成</a></li>
+        <li><a href="#sec-crisis">现实观察:三幕错位</a></li>
+        <li><a href="#sec-scenes">现实中的镜像</a></li>
+        <li><a href="#sec-books">书里的印证</a></li>
+        <li><a href="#sec-fix">破解:新货币内涵</a></li>
+        <li><a href="#sec-cycle">良性循环:三赢</a></li>
+        <li><a href="#sec-insight">财情双生启示</a></li>
+        <li><a href="#sec-faq">常见问题 FAQ</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">答案优先 · 一句话结论</span>
+      <p><strong>人口与资源的错配,是一部"行政干预扭曲要素价格"的除法史</strong>:限制大城市集聚,压制了规模效应(E);户籍与土地指标错配,牺牲了人的福祉与家庭团聚(S);空城、烂尾与债务,是资源被错放的账单(T)——三值同时折损,大国没有变成"大城"。</p>
+      <p><strong>破解之道,在于新货币价值内涵</strong>:让货币同时承载经济、社会、时间三种价值,把"人围着指标转"改造成"指标围着人转"——三种价值统一计量,集聚的效率、人的团聚、资源的可持续在同一本账上被看见,良性循环启动,国家、企业、个人共赢。</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>一个公式看懂</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">乘法定律 · 大国大城的逻辑</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> 集聚效率(规模与分工)· <b>S</b> 人的福祉(就业·家庭·公共服务)· <b>T</b> 资源可持续(土地·债务·代际)</p>
+        <p class="f-note">人随业走、服务随人走,三者相乘;<b>人为错配,三值齐损</b>。</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">除法定律 · 错配的形成</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">当<b>行政力量只认管理 E 的方便</b>:限大城市、指标错配、人地分离——</p>
+        <p class="f-note"><b>S 被牺牲、T 被空耗</b>,表面均衡,实则双输。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>这本书讲什么</h2></div>
+    <div class="what-card">
+      <div class="quote">"中国是一个大国,也应该建设'大城'。城市规模不是'病',违背经济规律的政策才是病。"<br><span>——陆铭 · 《大国大城》</span></div>
+      <p><b>出处</b>:2016 年,上海交通大学陆铭教授出版《大国大城》,用经济学视角剖析中国城乡与区域发展的深层扭曲。核心判断:<b>人口向大城市集聚是规模经济必然;真正的问题,是户籍、土地等行政力量让人口与资源错配</b>——人往东走,指标往西给,两头受损。</p>
+      <p><b>陆铭的药方</b>:让市场决定人口与产业集聚,让公共服务与土地指标"随人走"——<b>承认规律,比对抗规律更省力,也更公平</b>。</p>    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>错配形成:如何形成</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>限大城市 · 集聚被压制</h3><span class="p-tag">除法之源</span></div>
+        <p><b>形成</b>:从"严格控制特大城市人口规模"到各种限购限迁,<b>行政之手抑制了人口向大城市集聚(E 效率打折)</b>——就业在沿海,人却被拦在门外,规模效应无从释放。</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>人地错配 · 福祉被牺牲</h3><span class="p-tag">被牺牲项</span></div>
+        <p><b>形成</b>:人口流向大城市,建设用地指标却向中小城市与农村倾斜——<b>人进不了城、家人两地分居、留守儿童(S 受损)</b>;公共服务不"随人走",团聚与尊严被折算成成本。</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>空城烂尾 · 资源被空耗</h3><span class="p-tag">隐性代价</span></div>
+        <p><b>形成</b>:中小城市与新区大干快上,<b>空城、鬼城、烂尾楼(T 的资源空耗)</b>;地方债务与土地依赖随之累积——资源被错放到没有人的地方,时间替错误买了单。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>现实观察:三幕错位</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-huji">
+        <div class="head">
+          <div class="year"><div class="yy">户籍</div><div class="tag">人口流动</div></div>
+          <div class="title-box">
+            <h3>人在城市,心在"体制外"</h3>
+            <p class="lead">进城务工十几年,孩子上学、看病报销仍是难题——人进了城,身份没进城。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>户籍与公共服务绑定,<b>劳动力为城市创造巨大的 E,却分不到相应的 S(教育、医疗、养老)</b>;两亿多农民工"流动而不迁移",留守儿童与留守老人成为代价——人地分离,让乘法两个变量同时折损。</p></div>
+          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>公共服务"随人走":<b>常住地提供教育医疗养老(E 的回报兑现为 S 的福祉)</b>——让人在哪创造,就在哪安家。</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-tudi">
+        <div class="head">
+          <div class="year"><div class="yy">土地指标</div><div class="tag">人地错配</div></div>
+          <div class="title-box">
+            <h3>人往东走,指标往西给</h3>
+            <p class="lead">建设用地指标向中西部倾斜,东部大城市"缺地"——土地跟着计划走,不跟着人走。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>土地指标由行政分配而非市场配置,<b>东部大城市供地不足 → 房价高企(E 的成本抬高)</b>,中西部供地过剩 → 空城鬼城(T 的资源浪费);人口与土地在空间上分离,<b>两边都不"人地相宜",S 的居住福祉两头受损</b>。</p></div>          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>土地指标"随人走":<b>流入地多供地、流出地保生态(E、S 双赢)</b>——让土地跟着人走,而非人迁就指标。</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-kongcheng">
+        <div class="head">
+          <div class="year"><div class="yy">新城</div><div class="tag">空城与高房价</div></div>
+          <div class="title-box">
+            <h3>一边空城,一边天价</h3>
+            <p class="lead">中西部新区空置率居高,一线城市房价望尘莫及——资源错配的两端景象。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>行政推动的"造城运动"在人口流出地盖了大量房子,<b>空城烂尾(T 的沉淀)</b>;而人口流入的大城市因供地受限,<b>房价把年轻人挤出(S 的排斥)</b>——一边资源沉默浪费,一边人才被迫离开,正是"指标与人心错位"的实证。</p></div>
+          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>把人口流动当"投票"来看:<b>人在哪里创造,资源就向哪里配置(E 的效率);人在哪里生活,公共服务就建在哪里(S 的公正)</b>——城市规模由人决定,而非规划想象。</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>现实中的镜像</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">个体</span><p>北漂沪漂十几年,户口与房子仍是"天花板"——贡献了 E,守不住 S。</p></div>      <div class="scene"><span class="s-tag">家庭</span><p>父母进城务工,孩子留守老家——f(m) 上去了,家庭团圆 f(h) 被打折。</p></div>
+      <div class="scene"><span class="s-tag">企业</span><p>想招的人进不了城、留不下人——人才错配,是企业的隐性亏损。</p></div>      <div class="scene"><span class="s-tag">老家</span><p>县城新区成"空城",老宅空置——资源投在没人去的地方,是 T 的沉默成本。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>书里的印证</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">《大国大城》</div><div class="b-author">陆铭 · 2016</div><p>大国需要大城:<b>集聚是规律,错配是政策;让市场决定集聚,让政府保障民生</b>——人地归位,三值相乘。</p></div>
+      <div class="book"><div class="b-name">《向心城市》</div><div class="b-author">陆铭 · 2022</div><p>城市的本质是"向心"——<b>集聚不是病,是规模经济的自然表达</b>;治理城市,要顺着向心力疏导,而非逆着围堵。</p></div>
+      <div class="book"><div class="b-name">《城乡中国》</div><div class="b-author">周其仁 · 2013</div><p>城乡之间的人与地,是改革下半场的核心:<b>让人自由流动、让地随人配置,是释放 E、修复 S、理顺 T 的同一件事</b>。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>如何破解:新货币的价值内涵</h2></div>
+    <div class="what-card">
+      <div class="quote">"旧账本只记'管住人'的成本;新货币的账本,要记'人创造'的价值与'人安顿'的福祉。"<br><span>——价值守恒定律 · 破解之道</span></div>
+      <p><b>破解人地错配,不是不要规划,而是让规划服从三个价值</b>:集聚从"被限制"转向"被承认"——让市场决定人口与产业的空间分布(E 的乘法);人的福祉从"被折算"转向"被保障"——公共服务随人走(S 的乘法);资源从"错放"转向"归位"——土地、债务与投资跟着人口走(T 的乘法)。</p>
+      <p><strong>新货币价值内涵</strong>——让货币同时承载三种价值:</p>
+      <p>· <b>经济价值 E</b>:每分钱对应真实的商品与服务创造,杜绝"只印钞不生产";<br>
+         · <b>社会价值 S</b>:货币流通依赖信任——让创造就业、家庭团聚、安居乐业获得货币化激励;<br>
+         · <b>时间价值 T</b>:货币是跨期承诺——教育、创新、绿色、代际传承纳入计量,杜绝"吃子孙饭"。</p>
+      <p><b>当货币同时计量 E、S、T</b>,集聚的效率、人的团聚、资源的可持续在同一本账上被看见——<b>除法公式失去生存空间,乘法公式开始自我调节,良性循环由此触发</b>。</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>良性循环:三赢</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>主体</th><th>新货币内涵下的良性循环</th><th>对应价值</th></tr>
+        <tr><td>国家</td><td>人地归位、集聚增效 → 区域协调、内需强劲 → 大国大城</td><td>E + T</td></tr>
+        <tr><td>企业</td><td>人才可聚、市场够大 → 规模与创新兼得 → 基业长青</td><td>E + S + T</td></tr>
+        <tr><td>个人</td><td>进城可落户、团圆有保障 → 敢流动、敢安家 → 人生倍增</td><td>三合一</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>财情双生启示</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">财的启示</span><p>人口流动是"用脚投票"——<b>人流向哪里,哪里就是价值的信号;逆着信号配置资源,是代价高昂的倔强</b>。</p></div>
+      <div class="role"><span class="r-tag">情的启示</span><p>城市不只是 GDP 的容器,更是千万家庭的团圆之所——<b>让父母不再留守孩子、让奋斗者能安家,是发展最深的温情</b>。</p></div>
+      <div class="role"><span class="r-tag">双生的解</span><p>个人的 f(m)×f(h)×f(t) 与国家的 E×S×T 本质是同一件事:<b>三种价值同步增长,才是真的增长</b>——人地归位,财情双生。</p></div>
+    </div>
+    <div class="closing">
+      <p><b>大国之幸,在于大城;大城之成,在于人归其位。</b><br/>集聚有速、团聚有温、资源有续——三者同步大于 1,是大国大城的公式;<br/><b>创造、信任、传承——三种价值一起被计量,就是实现国家·企业·个人共赢的底层密码。</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>常见问题 FAQ</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q:陆铭《大国大城》的核心观点是什么?</p>
+        <p class="a">A:人口向大城市集聚是规模经济的必然,不是"大城市病"。真正的问题是户籍、土地指标等行政力量让人口与资源错配——应让市场决定集聚,让公共服务与土地随人走。</p>      </div>
+      <div class="faq-item">
+        <p class="q">Q:为什么会出现"一边空城、一边高房价"?</p>
+        <p class="a">A:土地指标由行政分配而非市场配置——人口流入的大城市供地不足(房价高),人口流出的地方供地过剩(空城)。人地错位,是 E、S、T 三值齐损的原因。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q:"新货币价值内涵"和普通人有什么关系?</p>
+        <p class="a">A:它让货币同时计量经济、社会、时间三种价值。个人层面即微观公式——别让收入追逐透支健康、关系与长期积累;守住 f(h) 与 f(t),人生才有复利。</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  本文依据《财情倍增的价值守恒定律》撰写 · 公式经统一价值计量体系渲染 · 内容符合广告法合规要求<br>
+  观点为思想科普,不构成任何投资建议
+</footer>
+
+<button class="toTop" id="toTop">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+  }, { passive: true });
+  document.getElementById('toTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const tocLinks = document.querySelectorAll('.toc a');
+  const secs = [...tocLinks].map(a => document.querySelector(a.getAttribute('href')));
+  function updateToc() {
+    let cur = secs[0];
+    secs.forEach(s => { if (s && s.getBoundingClientRect().top <= 120) cur = s; });
+    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur.id));
+  }
+  window.addEventListener('scroll', updateToc, { passive: true });
+  updateToc();
+</script>
+</body>
+</html>

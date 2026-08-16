@@ -1,0 +1,249 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Ley de Conservación del Valor · Descifrando la deuda</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Doble Florecimiento</span>
+      <span class="pill">Crisis de deuda × Connotación de la moneda</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">GRANDES CRISIS DE DEUDA × CONSERVACIÓN DEL VALOR</div>
+  <h1>La crisis de deuda, <span class="hl">explicada por una fórmula</span></h1>
+  <p class="hl-sub">Dalio "Crisis de Deuda" × La nueva connotación de la moneda × Ley de Conservación del Valor</p>
+  <div class="divider"></div>
+  <p class="sub">La deuda es el "valor del futuro" cobrado por adelantado. Toda gran crisis es el resultado inevitable de responder solo por el valor económico E, agotando el valor social S y el valor temporal T. Entiende el macro Y = E × S × T y el micro y = f(m) × f(h) × f(t), y entenderás cómo se forma la crisis y cómo la moneda la resuelve.</p>
+  <div class="chips">
+    <span class="chip">Fórmula macro <b>Y=E×S×T</b></span>
+    <span class="chip">Fórmula micro <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">Nueva moneda <b>triple</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">ÍNDICE</p>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Doble fórmula macro + micro</a></li>
+        <li><a href="#sec-what">Dalio "Crisis de Deuda"</a></li>
+        <li><a href="#sec-form">Cómo se forma la crisis</a></li>
+        <li><a href="#sec-scenes">La deuda en la vida real</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La esencia de la crisis de deuda es la fórmula de división de "tomar prestado el T del futuro para gastarlo hoy"</strong>: la deuda infla el E contable a corto plazo, pero si el dinero prestado no se convierte en confianza (S) ni sostenibilidad (T), cuando llega el plazo de pago la cadena de la multiplicación se rompe — 1929, 2008, la deuda europea: sin excepción.</p>
+      <p><strong>El camino de salida está en redefinir la connotación de valor de la moneda</strong>: que la moneda cargue a la vez las tres valores — económica, social y temporal — y que con una vara de medir unificada se mida la creación de valor de la nación, la familia, el pueblo y la empresa. Cuando cada centavo tiene detrás el respaldo triple de E, S y T, la emisión monetaria ya no es un "juego de números", sino el disparador de la auto-regulación del ciclo virtuoso — la ganancia común de nación, empresa e individuo.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">Fórmula macro · gobernanza nacional</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> valor total · <b>E</b> valor económico · <b>S</b> valor social (confianza·equidad) · <b>T</b> valor temporal (sostenibilidad·intergeneracional)</p>
+        <p class="f-note">Solo con los tres mayores que 1 se entra en fase de desarrollo; <b>si cualquiera llega a cero o negativo, el total colapsa</b>.</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">Fórmula micro · la persona y la empresa</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> valor monetario · <b>f(h)</b> experiencia de felicidad · <b>f(t)</b> valor temporal</p>
+        <p class="f-note">Perseguir solo el ingreso (f(m)) y agotar salud y largo plazo: <b>la vida también tiene su "crisis de deuda"</b>.</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">Ley de división · el origen de la crisis de deuda</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando el agente <b>solo debe responder por E</b>, usa deuda para inflar el E contable, agotando confianza y futuro.</p>
+        <p class="f-note"><b>El denominador se agota y el numerador es prestado</b> — la prosperidad es falsa y la deuda hay que pagarla.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">Ley de multiplicación · la llave del ciclo virtuoso</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">Cuando la moneda mide las tres valores a la vez, <b>ganar dinero = felicidad + sostenibilidad</b>, y la auto-regulación se pone en marcha.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qué dice Dalio en "Crisis de Deuda"</h2></div>
+    <div class="what-card">
+      <div class="quote">"A debt crisis is a time when debts can no longer be serviced."<br/><span>Una crisis de deuda es el momento en que las deudas ya no pueden pagarse</span></div>
+      <p><b>Origen</b>: en 2018, Ray Dalio, fundador de Bridgewater, revisó con 48 casos la ley del ciclo de la deuda en <i>Crisis de Deuda</i>. La idea central: <b>la deuda es "consumir el futuro por adelantado"</b> — cuando la cadena de "pedir prestado para pagar lo anterior" ya no gira, llega la crisis.</p>
+      <p><b>La receta de Dalio</b>: el "desapalancamiento elegante" — digerir la deuda con suavidad mediante una combinación de impresión de dinero y reestructuración. Pero debemos preguntar: <b>¿por qué con la misma receta unos países se recuperan en diez años y otros pierden tres décadas?</b> La respuesta está escondida en la connotación de valor de la moneda.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Cómo se forman las grandes crisis</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">Gran Depresión</div></div>
+        <div class="title-box">
+          <h3>La fiesta del crédito agotó el poder de compra; tras el estallido, la liquidación total</h3>
+          <p class="lead">El apalancamiento bursátil infló E, el poder de compra (S) fue vaciado, el sistema financiero (T) agotado.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>En los años veinte, crédito laxo y compra de acciones con margen en todo el país: el E contable se disparó; pero el 1% superior poseía más del 40% de la riqueza, <b>el poder de compra (S) cayó por debajo de 1</b>, y el patrón oro con el apalancamiento (T) eran insostenibles. En 1929 la bolsa se desplomó, E se derrumbó y Y cayó en cadena a cero — el modelo de la "crisis de deuda deflacionaria".</p></div>
+        <div class="fix"><span class="fix-label">Solución · el Nuevo Trato de Roosevelt</span><ul>
+          <li><b>Reparar S</b>: seguridad social, ayuda al desempleo — devolver el poder de compra al pueblo</li>
+          <li><b>Reparar T</b>: regulación bancaria, salida del patrón oro — reconstruir el crédito de largo plazo</li>
+          <li><b>Reparar E</b>: obras públicas, empleo asistido — E vuelve a la creación real</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">Crisis de las hipotecas subprime</div></div>
+        <div class="title-box">
+          <h3>El crédito fue troceado y titulizado; colapsó el sistema de confianza</h3>
+          <p class="lead">La innovación financiera infló E hasta perder el control; el crédito (S) fue trasladado, el riesgo (T) postergado sin límite.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Las hipotecas subprime fueron empaquetadas como AAA (falsificación de S), la cadena de derivados empujó el riesgo hacia el futuro (agotamiento de T), y Lehman operó con más de 30 veces de apalancamiento (E inflado). <b>No colapsaron las casas, colapsó la confianza</b>.</p></div>
+        <div class="fix"><span class="fix-label">Solución · reconstrucción institucional</span><ul>
+          <li><b>Rescatar E</b>: QE — evitar repetir la Gran Depresión</li>
+          <li><b>Reparar S</b>: Ley Dodd-Frank — reconstruir la ética financiera</li>
+          <li><b>Reparar T</b>: supervisión macroprudencial, pruebas de estrés — "candado" al apalancamiento</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-japan">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">Burbuja japonesa</div></div>
+        <div class="title-box">
+          <h3>La muestra del fracaso de reparar solo E: las tres décadas perdidas</h3>
+          <p class="lead">Activos inflados (E), sentido de equidad perdido (S), sostenibilidad intergeneracional en cero (T).</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Tras el Acuerdo Plaza, el yen se apreció y el banco central bajó tasas: capitales ingentes inundaron bolsa e inmuebles, E parecía hervir; pero la industria real (el empleo que sostiene S) se vació y el envejecimiento (T) se agotó. En 1990 la burbuja estalló, <b>E se desplomó → S y T sangraron</b>, entrando en la recesión de balance.</p></div>
+        <div class="fix"><span class="fix-label">Solución · la multiplicación que llegó 20 años tarde</span><ul>
+          <li><b>El camino fracasado</b>: tasas cero, QQE — solo reparar E</li>
+          <li><b>La solución correcta</b>: reparar a la vez S (reestructuración de deuda) y T (industrias innovadoras)</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-euro">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">Crisis de deuda europea</div></div>
+        <div class="title-box">
+          <h3>La moneda se unificó; la responsabilidad fiscal y la confianza social, no</h3>
+          <p class="lead">La deuda soberana apuntaló E; la disciplina fiscal (S) nadie la cumplía; la sostenibilidad (T) se deterioró.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Países del sur como Grecia subieron al tren del euro de bajas tasas para mantener el alto bienestar emitiendo deuda: E de superficie próspera; pero la disciplina fiscal (S) nadie la cumplía y la carga de pensiones (T) empeoraba. La crisis de 2008 reveló la verdad: rebaja de calificación → costo de financiación disparado → ruptura del refinanciamiento. <b>La moneda se unificó, pero el valor no se midió de forma unificada</b>.</p></div>
+        <div class="fix"><span class="fix-label">Solución · restricción institucional + reforma estructural</span><ul>
+          <li><b>Rescatar E</b>: OMT y LTRO del BCE apuntalaron el suelo</li>
+          <li><b>Reparar S</b>: Pacto Fiscal, Mecanismo Europeo de Estabilidad — limitar el déficit</li>
+          <li><b>Reparar T</b>: mercado laboral, transformación industrial — reconstruir el dinamismo</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>La deuda en la vida real: nadie la esquiva</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">La hipoteca</span><p>Una hipoteca de 30 años aplasta; el salario no alcanza para los intereses — f(m) queda secuestrado, f(h) y f(t) apretados.</p></div>
+      <div class="scene"><span class="s-tag">Deuda corporativa</span><p>Pedir prestado para pagar lo anterior y seguir; si la financiación se corta, el valor de mercado se evapora en una noche — E es prestado.</p></div>
+      <div class="scene"><span class="s-tag">El "acostarse"</span><p>El dinero ganado en jornadas 996 no compra tiempo de felicidad — f(m) sube pero f(h)×f(t) baja: el total se encoge.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Crisis de Deuda</div><div class="b-author">Ray Dalio</div><p>El ciclo de la deuda impulsa el ciclo económico. 48 casos demuestran: <b>la crisis no es un accidente, es la necesidad de la acumulación de apalancamiento</b>; el "desapalancamiento elegante" solo repara E, no repara S ni T.</p></div>
+      <div class="book"><div class="b-name">Estudio comparativo de las dos grandes crisis mundiales</div><div class="b-author">Liu He, ed.</div><p>1929 y 2008 se parecen de forma asombrosa: <b>la crisis se gesta siempre en "innovación financiera + expansión del crédito + regulación rezagada"</b> — en esencia, la amplificación de la fórmula de división.</p></div>
+      <div class="book"><div class="b-name">El sentido común de los fondos de inversión</div><div class="b-author">John Bogle</div><p>Volver al valor de largo plazo (T) y a la rentabilidad real (E) — <b>no dejes que la "ilusión de rentabilidad" secuestre tu vida</b>; el interés compuesto prudente es el regalo del tiempo.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Cómo resolverla: la nueva connotación de valor de la moneda</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Nueva moneda</div><div class="tag">Camino de salida</div></div>
+        <div class="title-box">
+          <h3>Que la moneda mida las tres valores a la vez, y la división se vuelva multiplicación</h3>
+          <p class="lead">La moneda no debería ser solo "el número del dinero", sino la vara de medir unificada de las tres valores E, S y T.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Connotación uno · valor económico E (poder de compra)</span><ul>
+          <li>La moneda corresponde a la creación real de bienes y servicios — <b>detrás de cada centavo hay producción</b></li>
+          <li>Acabar con "imprimir sin producir" — la emisión debe tener respaldo real</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotación dos · valor social S (confianza)</span><ul>
+          <li>La circulación de la moneda depende de la confianza social — <b>moneda estable = crédito institucional</b></li>
+          <li>Incentivos monetizados para quienes crean empleo y mejoran la distribución</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotación tres · valor temporal T (sostenibilidad)</span><ul>
+          <li>La moneda es una promesa intertemporal — <b>el dinero de hoy debe responder por el mañana</b></li>
+          <li>La innovación, la educación, el verde y la herencia intergeneracional entran en la medición</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Medición unificada · la llave del ciclo virtuoso</span><p><b>Cuando la moneda contiene a la vez las connotaciones de E, S y T</b>, el Estado emite deuda invirtiendo en confianza y futuro, la empresa gana dinero creando a la vez empleo y herencia, y el individuo compra con su ingreso felicidad y acumulación de largo plazo — <b>la fórmula de división pierde su espacio vital y la fórmula de multiplicación opera sola</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>Ciclo virtuoso: triple ganancia</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Sujeto</th><th>Ciclo virtuoso bajo la nueva connotación de la moneda</th><th>Valores</th></tr>
+        <tr><td>Nación</td><td>Emisión invirtiendo en confianza y futuro → moneda estable, riqueza con el pueblo → paz duradera</td><td>S + T</td></tr>
+        <tr><td>Empresa</td><td>Creación real y empleo → confianza y retorno de largo plazo → negocio perdurable</td><td>E + S + T</td></tr>
+        <tr><td>Individuo</td><td>Ingreso que compra felicidad y crecimiento → crear con confianza, acumular con calma → vida multiplicada</td><td>Triple</td></tr>
+      </table>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Perspectiva</th><th>Enseñanza</th></tr>
+        <tr><td>Riqueza</td><td>La deuda es apalancamiento del tiempo: <b>pide prestado solo para crear, nunca para consumir el futuro</b>.</td></tr>
+        <tr><td>Bienestar</td><td>El dinero que no compra felicidad es deuda con la vida — <b>el ingreso es un medio; la experiencia, el fin</b>.</td></tr>
+        <tr><td>Doble</td><td>La nueva moneda no es un sistema técnico, es una declaración de valores: <b>cuando el dinero vuelve a medir el valor real, la confianza se repara sola</b>.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>La deuda no es el enemigo; el enemigo es el dinero que mide solo el presente.</b><br/>Cuando el dinero carga E, S y T a la vez, el préstamo se convierte en inversión y la crisis en oportunidad.<br/><b>Creación, confianza, herencia — tres valores medidos juntos: esa es la clave de fondo de la triple ganancia de nación, empresa e individuo.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Cuál es la esencia de la crisis de deuda?</p>
+        <p class="a">R: Tomar prestado el valor del futuro para gastarlo hoy: el E contable se infla a corto plazo, pero si el dinero prestado no se convierte en confianza (S) ni sostenibilidad (T), la cadena de la multiplicación se rompe al llegar el vencimiento.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué el mismo rescate a veces fracasa, como en Japón?</p>
+        <p class="a">R: Porque solo se repara E. Imprimir dinero apuntala los precios de los activos, pero no repara la demanda, la confianza empresarial (S) ni el impulso innovador (T) — la raíz del mal sigue viva.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significa la "nueva connotación de la moneda" para la gente común?</p>
+        <p class="a">R: Que el dinero mida a la vez las tres valores. En el plano personal es la fórmula micro — que el ingreso no agote salud, relaciones ni acumulación de largo plazo; guarda f(h) y f(t), y tu vida gana interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</div>
+
+<button id="toTop" title="Volver arriba">↑</button>

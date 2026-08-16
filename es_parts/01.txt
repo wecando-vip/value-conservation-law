@@ -1,0 +1,251 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Ley de Conservación del Valor · Descifrando las Crisis</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Doble Florecimiento</span>
+      <span class="pill">Argumento de las Cinco Crisis</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">LEY DE CONSERVACIÓN DEL VALOR</div>
+  <h1>Argumento de las Cinco Grandes Crisis Económicas bajo la Ley de Conservación del Valor</h1>
+  <div class="divider"></div>
+  <p class="sub">Con la Ley de Conservación del Valor Y = E × S × T, desciframos cómo se forman y cómo se resuelven las crisis. 1929 · 1990 · 1997 · 2008 · 2010: cinco guiones, la misma clave.</p>
+  <div class="chips">
+    <span class="chip">Valor económico <b>E</b></span>
+    <span class="chip">Valor social <b>S</b></span>
+    <span class="chip">Valor temporal <b>T</b></span>
+    <span class="chip">Ley de multiplicación <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">ÍNDICE</p>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Primero la vara de medir: la ley diagnostica</a></li>
+        <li><a href="#sec-crises">Argumento de las cinco crisis</a>
+          <ul>
+            <li><a href="#crisis-1929">1929 Gran Depresión</a></li>
+            <li><a href="#crisis-1990">1990 Burbuja japonesa</a></li>
+            <li><a href="#crisis-1997">1997 Crisis asiática</a></li>
+            <li><a href="#crisis-2008">2008 Crisis global</a></li>
+            <li><a href="#crisis-2010">2010 Deuda soberana europea</a></li>
+          </ul>
+        </li>
+        <li><a href="#sec-overview">Visión transversal: la clave unificada</a></li>
+        <li><a href="#sec-insight">Enseñanzas universales de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>Toda crisis económica, en esencia, no es que "E colapsó de repente", sino que E fue inflada hasta distorsionarse, mientras S y T fueron erosionados hasta anularse, y la cadena de la multiplicación finalmente se rompió.</strong> Rescatar solo E (inyectar liquidez, apuntalar el suelo) equivale a dar solo antipirético sin curar la inflamación — es la razón de fondo por la que muchas crisis duran "una década o tres décadas perdidas".</p>
+      <p><strong>Hay un solo camino de salida: volver a la fórmula de la multiplicación</strong>: E debe ser "verdadero" (de lo virtual a lo real), S debe ser "profundo" (instituciones y confianza), T debe ser "largo" (sostenibilidad e intergeneracional); solo cuando los tres superan 1 al mismo tiempo, Y se multiplica de verdad.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">Ley de multiplicación · condición de la prosperidad</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> valor económico (moneda·recursos·eficiencia) · <b>S</b> valor social (equidad·confianza·instituciones) · <b>T</b> valor temporal (sostenibilidad·intergeneracional)</p>
+        <p class="f-note">Solo cuando los tres son mayores que 1 se entra en fase de desarrollo; <b>si cualquiera cae a cero o a negativo, el total Y cae directamente a cero o a negativo</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">Ley de división · origen de la crisis</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando los agentes del mercado <b>no tienen que responder por S ni por T</b>, instintivamente sacrifican el valor social y el valor temporal de largo plazo para maximizar el E de corto plazo.</p>
+        <p class="f-note"><b>Se reduce el denominador y se agranda el numerador</b>: visto solo E es hermoso, pero los cimientos de Y ya están vaciados.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crises"><span class="sn">01</span><h2>Argumento de las cinco crisis, una por una</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">Gran Depresión</div></div>
+        <div class="title-box">
+          <h3>Prosperidad de los ricos, consumo desconectado de los pobres</h3>
+          <p class="lead">La especulación bursátil con apalancamiento infló E; el poder de compra social (S) y la sostenibilidad institucional (T) fueron vaciados, y tras el estallido vino la liquidación total.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Ilusión del auge</th><th>Verdad de la crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Ilusión</span>Bolsa al alza, compra con margen, crédito laxo</td><td class="truth"><span class="truth-tag">Verdad</span>E inflado solo por la especulación financiera: el Dow tocó techo en sept. de 1929 con <b>381 puntos</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Ilusión</span>"Los felices años veinte"</td><td class="truth"><span class="truth-tag">Verdad</span>El 1% superior poseía más del <b>40% de la riqueza</b>; los salarios obreros se estancaron y el poder de compra fue vaciado</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Ilusión</span>Optimismo de "todos son genios de la bolsa"</td><td class="truth"><span class="truth-tag">Verdad</span>Apalancamiento insostenible, patrón oro rígido, guerras arancelarias antiglobalización: crédito de largo plazo agotado</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>En la ley de multiplicación, E creció artificialmente por el apalancamiento, pero S (poder de compra social) cayó por debajo de 1 y T (sostenibilidad institucional) se acercó a 0. Al estallar la burbuja, E se derrumbó al instante y Y cayó en cadena a cero — la Gran Depresión fue, en esencia, la desconexión severa entre "la prosperidad de los ricos" y "el consumo de los pobres".</p></div>
+        <div class="fix"><span class="fix-label">Camino de salida · el Nuevo Trato de Roosevelt</span><ul>
+          <li><b>Reparar S</b>: Ley de Seguridad Social, ayuda al desempleo, Ley Nacional de Relaciones Laborales — devolver poder de compra al pueblo</li>
+          <li><b>Reparar T</b>: regulación bancaria (Ley Glass-Steagall), seguro de depósitos, salida del patrón oro — reconstruir el crédito de largo plazo</li>
+          <li><b>Reparar E</b>: obras públicas, empleo asistido — devolver E a la creación real, no a la especulación financiera</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspectiva de la doble florecimiento</span><p>La sabiduría del Nuevo Trato: <b>salvar la economía empieza por salvar a las personas</b>. Cuando S se repara, E realmente regresa.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1990">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">Burbuja japonesa</div></div>
+        <div class="title-box">
+          <h3>Treinta años de lección: "riqueza" desmedida, "bienestar" ausente</h3>
+          <p class="lead">Precios de activos inflados (E), sentido de equidad social perdido (S), sostenibilidad intergeneracional anulada (T): el fracaso de rescatar solo E.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Ilusión del auge</th><th>Verdad de la crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Ilusión</span>Nikkei 225 subió a <b>38.915 puntos</b>; el suelo de Tokio "podía comprar todo Estados Unidos"</td><td class="truth"><span class="truth-tag">Verdad</span>Gran parte del valor bursátil era tierra y circulación financiera vacía; E gravemente inflado</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Ilusión</span>Empleo vitalicio, el mito de "los 100 millones de clase media"</td><td class="truth"><span class="truth-tag">Verdad</span>Los jóvenes no podían comprar vivienda; la riqueza se concentraba en la élite terrateniente: la equidad social se erosionaba</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Ilusión</span>Exceso de liquidez tras el Acuerdo Plaza, consenso de "sube siempre"</td><td class="truth"><span class="truth-tag">Verdad</span>Capital desviado de lo real a lo virtual; <b>envejecimiento + burbuja agotada = sostenibilidad intergeneracional en cero</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Tras el Acuerdo Plaza de 1985, el yen se apreció y el banco central recortó tasas una y otra vez; capitales ingentes inundaron la bolsa y el sector inmobiliario. E parecía hervir, pero la industria real (el empleo que sostiene S) se vació y los precios de activos (la sostenibilidad de T) se agotaron. Al pincharse la burbuja en 1990, los bancos se hundieron en morosidad y las empresas cayeron en la "recesión de balance" — cuando E se desploma, S y T sangran al mismo tiempo, formando una espiral deflacionaria de 30 años.</p></div>
+        <div class="fix"><span class="fix-label">Camino de salida · la lección de las tres décadas perdidas</span><ul>
+          <li><b>Muestra del fracaso de rescatar solo E</b>: décadas de tasas cero y QQE masivo, pero la demanda, la confianza empresarial (S) y el impulso innovador (T) nunca se repararon</li>
+          <li><b>La solución correcta</b>: debió reparar S (reestructuración de deuda empresarial, empleo y seguridad social) y T (natalidad, industrias innovadoras, nuevos polos de crecimiento) al mismo tiempo; lamentablemente, llegó 20 años tarde</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspectiva de la doble florecimiento</span><p>Japón es el caso de manual de la <b>"riqueza" desmedida con "bienestar" (confianza social y esperanza de vida) ausente por décadas</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-1997">
+      <div class="head">
+        <div class="year"><div class="yy">1997</div><div class="tag">Crisis asiática</div></div>
+        <div class="title-box">
+          <h3>La prosperidad amontonada por "dinero rápido" fue devorada por "dinero rápido que huye más rápido"</h3>
+          <p class="lead">Capital especulativo de corto plazo amontonó E; la transparencia institucional (S) y la sostenibilidad (T) eran débiles; la fuga de pánico desató impagos en cadena.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Ilusión del auge</th><th>Verdad de la crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Ilusión</span>"Milagro asiático": alto crecimiento, capital extranjero en tropel</td><td class="truth"><span class="truth-tag">Verdad</span>E amontonado con dinero caliente de corto plazo: la deuda externa de Tailandia tenía proporción anormal de corto plazo y déficit corriente persistente</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Ilusión</span>Aura del crecimiento dirigido por el gobierno</td><td class="truth"><span class="truth-tag">Verdad</span>Capitalismo de compadres, corrupción financiera, falta de transparencia: confianza institucional frágil</td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Ilusión</span>El "trilema imposible" de tipo fijo + libre flujo de capital</td><td class="truth"><span class="truth-tag">Verdad</span>Deuda externa de corto plazo y exceso de capacidad se acumularon a la vez; la sostenibilidad de la balanza de pagos se agotó</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Los países del sudeste asiático atrajeron dinero caliente global con "tipo de cambio fijo + tasas altas", y E se disparó a corto plazo. Pero cuando los fundamentos no aguantaron, S (transparencia y regulación) no pudo contener nada y T (sostenibilidad de la balanza de pagos) se deterioró primero. Los especuladores atacaron el baht tailandés → fuga de capital en pánico → colapso del tipo de cambio → impagos en cadena.</p></div>
+        <div class="fix"><span class="fix-label">Camino de salida</span><ul>
+          <li><b>Ayuda internacional + reformas estructurales</b>: el rescate del FMI estabilizó E; la clave fue la reconstrucción regulatoria (reparar S) y la flexibilidad cambiaria con la mejora industrial (reparar T)</li>
+          <li><b>Muestra comparada</b>: China se salvó por el control de capitales (protegiendo la estabilidad de S y la autonomía de T) — prueba del valor institucional de "no dejar desnuda la fórmula de división"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspectiva de la doble florecimiento</span><p>La lección profunda de la crisis asiática: <b>"crecer" no es "desarrollarse"</b> — un crecimiento sin el respaldo de las instituciones (S) y la sostenibilidad (T) es solo prosperidad prestada.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">Crisis global</div></div>
+        <div class="title-box">
+          <h3>No colapsaron las casas: colapsó la "confianza"</h3>
+          <p class="lead">La innovación financiera infló E hasta perder el control; el crédito (S) fue troceado y titulizado; el riesgo sistémico (T) se postergó indefinidamente — el apogeo de la fórmula de división.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Ilusión del auge</th><th>Verdad de la crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Ilusión</span>Precios de vivienda en EE.UU. se duplicaron en 10 años; derivados por decenas de billones de dólares</td><td class="truth"><span class="truth-tag">Verdad</span>E inflado solo por innovación financiera: Lehman con apalancamiento de más de <b>30 veces</b>; banca en la sombra fuera de regulación</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Ilusión</span>Narrativa de "democratización del crédito: casa propia para todos"</td><td class="truth"><span class="truth-tag">Verdad</span>Préstamos fraudulentos; las agencias calificaron activos basura como AAA: <b>la confianza social fue perforada de forma sistémica</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Ilusión</span>Precios "siempre al alza", riesgo trasladado de capa en capa</td><td class="truth"><span class="truth-tag">Verdad</span>La cadena de apalancamiento (MBS→CDO→CDS) postergó el riesgo indefinidamente: riesgo sistémico agotado</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Los financieros trocearon, empaquetaron y titulizaron la preciosa S llamada "confianza" para obtener un E de corto plazo astronómico; al mismo tiempo trasladaron el riesgo, capa sobre capa, hacia el futuro (grave agotamiento de T). Cuando el único ancla —el precio de la vivienda— cayó, la cadena CDO/CDS estalló en cadena y la liquidez global se congeló al instante. <b>En una frase: no colapsaron las casas, colapsó la "confianza" — y la confianza (S) es el cimiento de todo el sistema financiero.</b></p></div>
+        <div class="fix"><span class="fix-label">Camino de salida</span><ul>
+          <li><b>Rescatar E</b>: tres rondas de QE de la Fed, rescate de AIG y quiebra de Lehman, evitando repetir la Gran Depresión</li>
+          <li><b>Reparar S</b>: Ley Dodd-Frank, regla Volcker, Oficina de Protección Financiera del Consumidor — reconstruir la ética financiera</li>
+          <li><b>Reparar T</b>: supervisión macroprudencial, capital adicional para instituciones sistémicas, pruebas de estrés — "poner candado" al apalancamiento</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspectiva de la doble florecimiento</span><p>2008 es el fruto extremo de la "riqueza" (ingeniería financiera) por encima del "bienestar" (confianza y personas). Desde entonces, el mundo giró hacia "que la finanza vuelva a servir a la economía real": un regreso a la fórmula de multiplicación.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2010">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">Deuda soberana europea</div></div>
+        <div class="title-box">
+          <h3>"Juntos" pero no "de un mismo corazón": la crisis de deuda por instituciones ausentes</h3>
+          <p class="lead">La deuda soberana apuntaló E; la disciplina fiscal (S) nadie la ejecutaba; la sostenibilidad intergeneracional (T) empeoraba — la ausencia institucional es el mal común de toda crisis de deuda soberana.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Ilusión del auge</th><th>Verdad de la crisis</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Ilusión</span>Moneda única, alto bienestar y consumo en el sur de Europa, costos de préstamo muy bajos</td><td class="truth"><span class="truth-tag">Verdad</span>E apuntalado por deuda soberana: la deuda pública griega llegó a superar el <b>150% del PIB</b>, refinanciándose con nueva deuda</td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Ilusión</span>Aura institucional de la integración europea</td><td class="truth"><span class="truth-tag">Verdad</span>Disciplina fiscal ausente, desequilibrio estructural Alemania-sur: <b>el "estanque de confianza" de la integración fue agotado</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Ilusión</span>El euro = la fe de que nunca hay default</td><td class="truth"><span class="truth-tag">Verdad</span>Envejecimiento, carga de pensiones, brecha de productividad creciente: la sostenibilidad intergeneracional se deterioró</td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Países del sur como Grecia subieron al tren de las bajas tasas del euro y mantuvieron un alto bienestar emitiendo deuda: E de superficie próspera; pero la disciplina del déficit fiscal (S) nadie la cumplía y la sostenibilidad de la deuda (T) se deterioraba sin tregua. Tras la crisis de 2008 se reveló la verdad: rebaja de calificación → disparo del costo de financiación → ruptura del refinanciamiento → crisis de default. <b>La moneda se unificó, pero la responsabilidad fiscal y la confianza social no.</b></p></div>
+        <div class="fix"><span class="fix-label">Camino de salida</span><ul>
+          <li><b>Rescatar E</b>: OMT y LTRO del BCE; el "whatever it takes" de Draghi apuntaló el suelo</li>
+          <li><b>Reparar S</b>: Pacto Fiscal limitando déficits, Mecanismo Europeo de Estabilidad (ESM), austeridad y reforma de pensiones</li>
+          <li><b>Reparar T</b>: reformas estructurales (mercado laboral, competitividad, transformación industrial) para reconstruir el dinamismo de largo plazo</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Perspectiva de la doble florecimiento</span><p>La crisis de la deuda europea nos recuerda: <b>"estar juntos" (E, el mercado unificado) sin "un mismo corazón" (S, el consenso institucional) ni "caminar lejos juntos" (T, la sostenibilidad intergeneracional) es dormir en la misma cama con sueños distintos.</b></p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-overview"><span class="sn">02</span><h2>Visión transversal: la clave unificada de las cinco crisis</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Crisis</th><th>Cómo se infló E</th><th>S erosionada</th><th>T agotada</th><th>Clave del resultado</th></tr>
+        <tr><td>1929 Gran Depresión</td><td>Especulación bursátil con apalancamiento</td><td>Poder de compra / equidad distributiva</td><td>Sistema financiero / patrón oro</td><td>Reparar S (poder de compra) → éxito</td></tr>
+        <tr><td>1990 Japón</td><td>Circulación vacía de tierra y bolsa</td><td>Equidad social / empleo real</td><td>Demografía / mejora industrial</td><td>Solo reparar E → 30 años de fracaso</td></tr>
+        <tr><td>1997 Asia</td><td>Dinero caliente de corto plazo</td><td>Transparencia institucional / regulación</td><td>Balanza de pagos / reservas</td><td>Reparar S+T → recuperación</td></tr>
+        <tr><td>2008 Global</td><td>Innovación en derivados financieros</td><td>Confianza / ética financiera</td><td>Cadena de apalancamiento / riesgo sistémico</td><td>Reparar S+T institucionalizado → reparación gradual</td></tr>
+        <tr><td>2010 Deuda europea</td><td>Expansión de deuda soberana</td><td>Disciplina fiscal / confianza en la integración</td><td>Deuda / estructura demográfica</td><td>Restricción institucional + reforma estructural</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="laws">
+      <div class="law"><div class="num">1</div><p><b>La crisis siempre "filtra" primero por S o T, y solo al final "colapsa" en E.</b> La gente mira las acciones, la vivienda, el tipo de cambio —los indicadores de E— pero ignora la distribución, la confianza, las instituciones y la sostenibilidad, los cimientos que se deterioran primero.</p></div>
+      <div class="law"><div class="num">2</div><p><b>La fórmula de división es el origen de todos los males.</b> Mientras las instituciones permitan "responder solo por el beneficio, no por la sociedad ni el futuro", los agentes elegirán espontáneamente sacrificar S y T por E — es el mecanismo interno de la ceguera, la espontaneidad y el rezago del mercado.</p></div>
+      <div class="law"><div class="num">3</div><p><b>La solución correcta de la gobernanza es siempre el regreso a la multiplicación.</b> E "verdadero" (de lo virtual a lo real), S "profundo" (instituciones y confianza), T "largo" (sostenibilidad e intergeneracional): solo con los tres mayores que 1 a la vez, Y se multiplica de verdad.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">03</span><h2>Enseñanzas universales desde la perspectiva de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Para quienes deciden</span><p>La regulación macro no debe mirar solo el PIB (E). Cuando la brecha de riqueza, la confianza social, la calidad institucional y la sostenibilidad de la deuda (S, T) alertan a la vez, cualquier "estímulo con liquidez" es restar del denominador y enterrar minas para el futuro. <b>El crecimiento de verdadera calidad es el crecimiento multiplicativo de E, S y T a la vez.</b></p></div>
+      <div class="role"><span class="r-tag">Para las empresas</span><p>Buscar beneficio (E) no es un error; pero si se hace a costa del bienestar de los empleados, la confianza del cliente y la reputación social (S), y de la marca de largo plazo y la herencia intergeneracional (T), el dinero ganado acabará devolviéndose con intereses en alguna crisis. <b>Las empresas que duran son las que hacen que "riqueza" y "bienestar" generen interés compuesto en la dimensión del tiempo.</b></p></div>
+      <div class="role"><span class="r-tag">Para las personas</span><p>La fórmula micro y = f(m) × f(h) × f(t) es igual: perseguir solo el ingreso (f(m)) mientras se agota la salud y las relaciones (f(h)) y la acumulación de largo plazo (f(t)) — la vida también tiene su "crisis económica". <b>La esencia de la doble florecimiento es que el valor monetario, la experiencia de felicidad y el interés compuesto del tiempo sean mayores que 1 al mismo tiempo.</b></p></div>
+    </div>
+    <div class="closing">
+      <p><b>La historia no se repite, pero la ley de la conservación del valor nunca falta.</b> Las cinco crisis demuestran una y otra vez: cuando la "riqueza" (E) olvida que debe responder por el "bienestar" (S) y el "futuro" (T), la multiplicación se convierte en división y la prosperidad en crisis.<br/>Y el camino de salida siempre es uno solo: <b>que el valor vuelva a conservarse, que el crecimiento regrese a la órbita multiplicativa de E × S × T.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">04</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué se dice que la crisis no es "que E colapsó de repente"?</p>
+        <p class="a">R: Porque el colapso de E es solo la superficie. Lo que primero se deteriora de verdad es S (distribución, confianza, instituciones) y T (sostenibilidad) — cuando se erosionan hasta el punto crítico, cualquier brisa enciende la cadena de la multiplicación.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué los rescates suelen fracasar, como las tres décadas perdidas de Japón?</p>
+        <p class="a">R: Porque "solo se repara E, no S ni T". La liquidez apuntala los precios de los activos, pero no repara la demanda, la confianza empresarial (S) ni el impulso innovador (T). Dar solo antipirético sin curar la inflamación deja la raíz del mal.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Cómo aplica esta fórmula la gente común?</p>
+        <p class="a">R: Al gestionar el valor personal, atiende a la vez el ingreso (f(m)), la experiencia de felicidad (f(h)) y la acumulación de largo plazo (f(t)); no cambies salud y relaciones por cifras contables de corto plazo.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿De dónde vienen los datos de este artículo?</p>
+        <p class="a">R: El Dow en 381 puntos, el Nikkei en 38.915, la deuda griega por encima del 150% del PIB y el apalancamiento de Lehman por encima de 30 veces son datos históricos públicos, citados como referencia de argumentación; no constituyen asesoramiento de inversión.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</div>
+
+<button id="toTop" title="Volver arriba">↑</button>

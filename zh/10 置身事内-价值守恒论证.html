@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>置身事内,一个公式看懂 - 价值守恒定律 Y=E×S×T</title>
+<meta name="description" content="用价值守恒定律论证兰小欢《置身事内:中国政府与经济发展》:发展型政府的增长奇迹与代价,新货币价值内涵如何触发良性循环实现国家、企业、个人共赢。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 46px 24px 38px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: var(--gold); border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 18px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 14px; max-width: 860px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; background: linear-gradient(transparent 62%, rgba(166,124,46,.35) 62%); padding: 0 4px; }
+  .hl-sub { display: inline-block; margin-top: 4px; font-size: 14px; color: #b9c6d4; border: 1px dashed rgba(185,198,212,.4); padding: 5px 16px; border-radius: 999px; letter-spacing: 1px; }
+  .hero p.sub { max-width: 800px; margin: 16px auto 0; font-size: 15.5px; color: #cdd6e0; line-height: 1.9; }
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 36px; align-items: start; }
+  .toc-wrap { position: sticky; top: 20px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 14px; box-shadow: var(--shadow); }
+  .toc .toc-title { font-size: 14px; font-weight: 700; color: var(--navy); letter-spacing: 2px; padding: 0 8px 10px; border-bottom: 1px dashed var(--line); margin-bottom: 8px; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc a { display: block; padding: 6px 8px; font-size: 13.5px; color: var(--ink-soft); border-radius: 6px; border-left: 3px solid transparent; }
+  .toc a:hover { color: var(--navy); background: var(--blue-soft); }
+  .toc a.active { color: var(--gold); font-weight: 700; border-left-color: var(--gold); background: var(--gold-soft); }
+  .content { min-width: 0; }
+  .label { display: inline-block; font-size: 12.5px; letter-spacing: 2px; color: var(--gold); background: var(--gold-soft); border: 1px solid rgba(166,124,46,.3); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+  .answer-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 28px; box-shadow: var(--shadow); margin-bottom: 26px; border-left: 4px solid var(--gold); }
+  .answer-card p { margin: 8px 0; }
+  .answer-card strong { color: var(--navy); }
+  .section-title { display: flex; align-items: center; gap: 12px; margin: 34px 0 16px; }
+  .section-title .sn { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
+  .section-title h2 { margin: 0; font-size: 22px; color: var(--navy); letter-spacing: 1px; }
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 13px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; }
+  .formula { font-family: Georgia, "Cambria Math", serif; font-size: 26px; font-weight: 700; color: var(--navy); text-align: center; padding: 10px 0; letter-spacing: 2px; }
+  .formula .var { color: var(--gold); }
+  .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 6px 0; }
+  .f-note b { color: var(--navy); }
+  .formula-card.mul { border-top: 4px solid var(--green); }
+  .formula-card.div { border-top: 4px solid var(--red); }
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); margin-bottom: 26px; }
+  .what-card .quote { font-family: Georgia, serif; font-style: italic; font-size: 16px; color: var(--navy-2); border-left: 3px solid var(--gold); padding-left: 16px; margin-bottom: 14px; }
+  .what-card .quote span { display: block; font-family: "Alibaba PuHuiTi 2.0", sans-serif; font-style: normal; font-size: 14px; color: var(--ink-soft); margin-top: 4px; }
+  .pillars { display: grid; gap: 18px; margin-bottom: 26px; }
+  .pillar { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow); border-left: 4px solid var(--navy-2); }
+  .pillar .p-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .pillar .p-num { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: var(--gold); }
+  .pillar h3 { margin: 0; font-size: 18px; color: var(--navy); }
+  .pillar .p-tag { font-size: 12px; color: var(--ink-soft); background: var(--blue-soft); padding: 2px 10px; border-radius: 999px; }
+  .pillar p { margin: 6px 0; font-size: 14.5px; }
+  .pillar b { color: var(--navy); }
+  .crisis-grid { display: grid; gap: 18px; margin-bottom: 26px; }
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .crisis .head { display: flex; gap: 16px; padding: 18px 22px; background: linear-gradient(135deg, var(--blue-soft), #fff); border-bottom: 1px solid var(--line); }
+  .crisis .year { text-align: center; min-width: 84px; }
+  .crisis .yy { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: var(--gold); line-height: 1.2; }
+  .crisis .tag { font-size: 12px; color: var(--navy-2); background: var(--gold-soft); border-radius: 999px; padding: 2px 10px; display: inline-block; margin-top: 4px; }
+  .crisis h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
+  .crisis .lead { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+  .crisis .body { padding: 18px 22px; }
+  .arg, .fix { margin-bottom: 12px; }
+  .arg:last-child, .fix:last-child { margin-bottom: 0; }
+  .arg-label, .fix-label { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: 1px; padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .arg-label { color: var(--red); background: var(--red-soft); border: 1px solid rgba(166,58,43,.25); }
+  .fix-label { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
+  .arg p, .fix p { margin: 4px 0; font-size: 14.5px; }
+  .arg b, .fix b { color: var(--navy); }
+  .fix ul { margin: 6px 0 0; padding-left: 20px; }
+  .fix li { font-size: 14px; margin-bottom: 4px; }
+  .scenes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 26px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--navy-2); background: var(--blue-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .scene p { margin: 4px 0; font-size: 14px; }
+  .books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 26px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+  .b-name { font-size: 16px; font-weight: 700; color: var(--navy); }
+  .b-author { font-size: 12.5px; color: var(--gold); margin-bottom: 8px; }
+  .book p { margin: 6px 0; font-size: 13.5px; color: var(--ink-soft); }
+  .book b { color: var(--navy); }
+  .overview-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 26px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-weight: 600; letter-spacing: 1px; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { font-weight: 700; color: var(--navy); white-space: nowrap; }
+  .roles { display: grid; gap: 14px; margin-bottom: 26px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--gold); background: var(--gold-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .role p { margin: 4px 0; font-size: 14.5px; }
+  .role b { color: var(--navy); }
+  .closing { background: linear-gradient(135deg, #0f2439, #16324f); color: #f4efe4; border-radius: var(--radius); padding: 30px 32px; text-align: center; margin-bottom: 26px; box-shadow: var(--shadow); }
+  .closing p { margin: 6px 0; font-size: 15.5px; line-height: 2; }
+  .closing b { color: #d9b367; }
+  .faq { display: grid; gap: 12px; margin-bottom: 26px; }
+  .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 20px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  .toTop { position: fixed; right: 24px; bottom: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; border: none; font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: .3s; box-shadow: 0 4px 14px rgba(22,50,79,.35); z-index: 99; }
+  .toTop.show { opacity: 1; pointer-events: auto; }
+  #progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--gold), #d9b367); width: 0; z-index: 100; }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; padding: 24px 16px 10px; }
+    .toc-wrap { display: none; }
+    .formula-box, .books, .scenes { grid-template-columns: 1fr; }
+    .crisis .head { flex-direction: column; gap: 6px; }
+    .crisis .year { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="hero">
+  <div class="kicker">财情双生智库 · 价值守恒定律应用系列 10</div>
+  <h1>置身事内,一个公式看懂<br><span class="hl">发展型政府的增长与代价</span></h1>
+  <div class="hl-sub">兰小欢 · 《置身事内:中国政府与经济发展》(2021)</div>
+  <p class="sub">理解中国经济,先理解中国政府——它不只是"守夜人",而是深度参与发展的"置身事内者"。价值守恒定律给出框架:Y = E × S × T——投资驱动的增长让 E 快速放大,但民生、分配与债务可持续,是这笔账迟早要还的两端。</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">目 录</div>
+      <ul>
+        <li><a href="#sec-answer">一句话结论</a></li>
+        <li><a href="#sec-formula">一个公式看懂</a></li>
+        <li><a href="#sec-what">这本书讲什么</a></li>
+        <li><a href="#sec-pillars">发展模式:如何形成</a></li>
+        <li><a href="#sec-crisis">现实观察:三幕进程</a></li>
+        <li><a href="#sec-scenes">现实中的镜像</a></li>
+        <li><a href="#sec-books">书里的印证</a></li>
+        <li><a href="#sec-fix">破解:新货币内涵</a></li>
+        <li><a href="#sec-cycle">良性循环:三赢</a></li>
+        <li><a href="#sec-insight">财情双生启示</a></li>
+        <li><a href="#sec-faq">常见问题 FAQ</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">答案优先 · 一句话结论</span>
+      <p><strong>中国经济发展模式的形成,是一部"E 单兵突进"的除法史</strong>:分税制集中财权,地方政府转向土地财政与投资驱动,经济价值(E)高速增长;但民生分配(对应 S)与债务可持续(对应 T)长期被延后——增长越快,账越厚。</p>
+      <p><strong>破解之道,在于新货币价值内涵</strong>:让货币同时承载经济价值、社会价值、时间价值,把"生产型政府"改造成"服务型政府"——三种价值统一计量,增长的红利流向民生与未来,良性循环的自我调节机制启动,国家、企业、个人共赢。</p>    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>一个公式看懂</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">乘法定律 · 可持续的增长</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> 经济价值(增长与投资)· <b>S</b> 社会价值(民生·分配·环境)· <b>T</b> 时间价值(债务可持续·代际)</p>
+        <p class="f-note">三者同步大于 1,增长才转化为福祉;<b>任一被透支,繁荣打折</b>。</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">除法定律 · 发展型政府的惯性</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">当政府<b>只对经济价值 E 负责</b>:土地财政、投资拉动、举债上项目——</p>
+        <p class="f-note"><b>S 被延后、T 被透支</b>,短期增速亮眼,长期风险累积。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>这本书讲什么</h2></div>
+    <div class="what-card">
+      <div class="quote">"在中国,政府不是旁观者,而是经济发展的深度参与者。要理解中国经济,就必须理解中国政府。"<br><span>——兰小欢 · 《置身事内》</span></div>
+      <p><b>出处</b>:2021 年,复旦大学兰小欢教授出版《置身事内》,从<b>分税制、土地财政、地方竞争、招商引资、债务与风险</b>一路讲到底,呈现"发展型政府"的运作全景。核心判断:<b>政府深度参与经济,既造就了快速工业化与城市化的奇迹,也留下了债务、产能与分配的考题</b>。</p>
+      <p><b>兰小欢的提醒</b>:评价这套模式,不能只看 E 的增速,还要看 S 与 T 的账单——<b>红利有没有分到民生,引擎能否持续到明天</b>。</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>发展模式:如何形成</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>投资驱动 · E 单兵突进</h3><span class="p-tag">除法之源</span></div>
+        <p><b>形成</b>:分税制后地方财权上收,地方政府靠"卖地—融资—基建—招商"闭环拉动增长,<b>经济价值(E)快速放大</b>——这是奇迹的引擎,也是惯性的起点。</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>民生滞后 · 分配待解</h3><span class="p-tag">被延后项</span></div>
+        <p><b>形成</b>:资源长期倾斜向投资与生产,<b>教育、医疗、养老、收入分配(S)的改善被延后</b>;房价高企、内需不足、城乡差距,是"重投资、轻民生"的账单。</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>债务累积 · 未来透支</h3><span class="p-tag">隐性代价</span></div>
+        <p><b>形成</b>:土地金融与城投债务支撑了基建,也<b>把偿还压力推给未来(T 透支)</b>;产能过剩、资产价格虚高,是"用明天换今天"的时差账。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>现实观察:三幕进程</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-fenshui">
+        <div class="head">
+          <div class="year"><div class="yy">1994</div><div class="tag">分税制</div></div>
+          <div class="title-box">
+            <h3>财权上收,地方转向土地财政</h3>
+            <p class="lead">分税制让中央财权大增,地方收入锐减——"卖地生财"由此登场。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>1994 年分税制改革,增值税与所得税大头归中央,<b>地方财权(相对的 E)被抽走</b>;地方于是转向土地出让金与土地抵押融资,<b>土地财政成为新引擎(E 再放大)</b>——支撑了城市化,也让"增长—卖地—再增长"成为路径依赖,S 与 T 的账单越记越厚。</p></div>
+          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>财政分配要激励相容:<b>事权财权相匹配(E)、考核加入民生环境(S)、土地财政转向公共服务(T)</b>——让地方愿意算长账。</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-jingzheng">
+        <div class="head">
+          <div class="year"><div class="yy">地方竞争</div><div class="tag">招商引资</div></div>
+          <div class="title-box">
+            <h3>锦标赛下的工业化奇迹与产能过剩</h3>
+            <p class="lead">地方之间"为增长而竞争",工业规模迅速做大——也埋下重复建设的种子。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>地方官员在"晋升锦标赛"中竞相招商、补贴、上项目,<b>工业化与基础设施(E)跨越式增长</b>;但各地一拥而上,<b>光伏、钢铁、汽车产能过剩(S 的浪费)</b>,补贴退坡后一地鸡毛——竞争促成了规模,也透支了效率与资源(T)。</p></div>
+          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>竞争要有规则、分工交给市场:<b>产能取舍让市场说线(S)、考核从"比增长"转向"比质量"(E)、产业政策为创新服务(T)</b>。</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-zhaiwu">
+        <div class="head">
+          <div class="year"><div class="yy">土地金融</div><div class="tag">债务与风险</div></div>
+          <div class="title-box">
+            <h3>借来的繁荣:从城投到风险化解</h3>
+            <p class="lead">土地抵押加城投举债,基建"今天建好、明天还钱"——时间开始结算。</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">形成 · 除法</span><p>城投公司以土地为抵押融资搞基建,<b>短期把城市面貌(E)推向新台阶</b>;但债务规模持续膨胀,<b>偿还压力与金融风险(T 透支)累积</b>,部分城市进入"存量博弈"——卖不动地、还不上债,把明天的钱提前花完。</p></div>
+          <div class="fix"><span class="fix-label">破解 · 乘法</span><p>化债不是不发展,而是换引擎:<b>债务置换与约束(T 修复)、财政转向公共服务(S 补课)、增长转向创新与消费(E 换质)</b>——把"借来的繁荣"换成"挣来的增长"。</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>现实中的镜像</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">家庭</span><p>举债买房、超前消费,收入全投进房贷——E 账面好看,f(h) 与 f(t) 被锁死。</p></div>
+      <div class="scene"><span class="s-tag">企业</span><p>只追规模补贴(E),不建技术品牌(S)、不积累研发(T)——补贴退坡,一夜归零。</p></div>
+      <div class="scene"><span class="s-tag">个人</span><p>996 换高薪,健康关系透支——f(m)↑,f(h)×f(t)↓,人生缩水。</p></div>
+      <div class="scene"><span class="s-tag">城市</span><p>基建先行、产业滞后,新城变"睡城"——重 E 轻 S、T 的微观版。</p></div>    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>书里的印证</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">《置身事内》</div><div class="b-author">兰小欢 · 2021</div><p>从分税制讲到债务化解:<b>政府深度参与经济,成于"置身事内",考卷也出在"置身事内"</b>——增长要转向民生与创新,才是乘法。</p></div>
+      <div class="book"><div class="b-name">《以利为利》</div><div class="b-author">周飞舟 · 2012</div><p>财政关系塑造地方政府行为:<b>考核什么,地方就追逐什么</b>——要让 S、T 进考核,它们才有人负责。</p></div>
+      <div class="book"><div class="b-name">《大国大城》</div><div class="b-author">陆铭 · 2016</div><p>人口与资源错配的代价:<b>行政力量过度干预要素配置,放大城乡与区域失衡(S 受损)</b>——让市场决定集聚,让政府补足民生。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>如何破解:新货币的价值内涵</h2></div>
+    <div class="what-card">
+      <div class="quote">"旧模式的账本只记增长的数字;新货币的账本,要同时记下民生与未来。"<br><span>——价值守恒定律 · 破解之道</span></div>
+      <p><b>破解发展型政府惯性,不是不要增长,而是让增长为三种价值服务</b>:投资从"摊大饼"转向"补短板"(E 的乘法);民生从"延后"转向"优先"——教育、医疗、养老、分配被制度善待(S 的乘法);债务从"滚雪球"转向"可消化"——创新与消费成为新引擎(T 的乘法)。</p>
+      <p><strong>新货币价值内涵</strong>——让货币同时承载三种价值:</p>
+      <p>· <b>经济价值 E</b>:每分钱对应真实的商品与服务创造,杜绝"只印钞不生产";<br>
+         · <b>社会价值 S</b>:货币流通依赖信任——让创造就业、改善民生、藏富于民获得货币化激励;<br>
+         · <b>时间价值 T</b>:货币是跨期承诺——教育、创新、绿色、代际传承纳入计量。</p>
+      <p><b>当货币同时计量 E、S、T</b>,投资的回报、民生的改善、债务的消化在同一本账上被看见——<b>除法公式失去生存空间,乘法公式开始自我调节,良性循环由此触发</b>。</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>良性循环:三赢</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>主体</th><th>新货币内涵下的良性循环</th><th>对应价值</th></tr>
+        <tr><td>国家</td><td>增长转向民生与创新 → 内需增强、债务消化 → 高质量发展</td><td>S + T</td></tr>
+        <tr><td>企业</td><td>靠技术与品牌盈利 → 赢得市场与长期回报 → 基业长青</td><td>E + S + T</td></tr>
+        <tr><td>个人</td><td>劳动有回报、民生有保障 → 敢消费、敢创新 → 人生倍增</td><td>三合一</td></tr>      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>财情双生启示</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">财的启示</span><p>增速不是健康度。<b>看一个经济体,先看账单分给谁:民生(S)与未来(T)分到的比例,才是增长的成色</b>。</p></div>
+      <div class="role"><span class="r-tag">情的启示</span><p>发展的温度,藏在普通人的账本里——<b>房贷之外有没有生活、加班之外有没有成长,才是"置身事内"该被看见的民生</b>。</p></div>      <div class="role"><span class="r-tag">双生的解</span><p>个人的 f(m)×f(h)×f(t) 与国家的 E×S×T 本质是同一件事:<b>三种价值同步增长,才是真的增长</b>——国家如是,家庭个人亦如是。</p></div>
+    </div>
+    <div class="closing">
+      <p><b>增长可以快,但账不能总让民生与未来来还。</b><br/>投资有质、民生有份、债务有续——三者同步大于 1,是高质量发展的公式;<br/><b>创造、信任、传承——三种价值一起被计量,就是实现三赢的底层密码。</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>常见问题 FAQ</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q:兰小欢《置身事内》的核心观点是什么?</p>
+        <p class="a">A:理解中国经济必须先理解中国政府——政府深度参与经济,既成就了快速工业化与城市化,也留下债务与分配的考题;转型方向是走向"服务型政府"。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q:土地财政为什么会带来风险?</p>
+        <p class="a">A:增长依赖"卖地—融资—基建"的循环(E 单兵突进),民生分配(S)被延后、债务偿还(T)被推给未来。一旦土地卖不动,循环就转不动——除法定律的时差账。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q:"新货币价值内涵"和普通人有什么关系?</p>
+        <p class="a">A:它让货币同时计量经济、社会、时间三种价值。个人层面即微观公式——别让收入追逐透支健康、关系与长期积累;守住 f(h) 与 f(t),人生才有复利。</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  本文依据《财情倍增的价值守恒定律》撰写 · 公式经统一价值计量体系渲染 · 内容符合广告法合规要求<br>
+  观点为思想科普,不构成任何投资建议
+</footer>
+
+<button class="toTop" id="toTop">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+  }, { passive: true });
+  document.getElementById('toTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const tocLinks = document.querySelectorAll('.toc a');
+  const secs = [...tocLinks].map(a => document.querySelector(a.getAttribute('href')));
+  function updateToc() {
+    let cur = secs[0];
+    secs.forEach(s => { if (s && s.getBoundingClientRect().top <= 120) cur = s; });
+    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur.id));
+  }
+  window.addEventListener('scroll', updateToc, { passive: true });
+  updateToc();
+</script>
+</body>
+</html>

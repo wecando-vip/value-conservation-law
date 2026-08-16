@@ -1,0 +1,174 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Ley de Conservación del Valor · Descifrando leyes</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Doble Florecimiento</span>
+      <span class="pill">Argumento de la Ley de Parkinson</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">LEY DE PARKINSON × CONSERVACIÓN DEL VALOR</div>
+  <h1>La Ley de Parkinson, <span class="hl">explicada por una fórmula</span></h1>
+  <p class="hl-sub">(Una de las tres grandes leyes de la cultura occidental del siglo XX)</p>
+  <div class="divider"></div>
+  <p class="sub">"El trabajo se expande hasta llenar todo el tiempo disponible." — No es pereza, es la falla del valor temporal T. Entiende Y = E × S × T y entenderás cómo se forma y cómo se resuelve.</p>
+  <div class="chips">
+    <span class="chip">Valor económico <b>E</b></span>
+    <span class="chip">Valor social <b>S</b></span>
+    <span class="chip">Valor temporal <b>T</b></span>
+    <span class="chip">Frontera de tiempo <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">ÍNDICE</p>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Un solo fórmula para entenderla</a></li>
+        <li><a href="#sec-what">Qué es la Ley de Parkinson</a></li>
+        <li><a href="#sec-form">Cómo se forma: la falla del valor temporal</a></li>
+        <li><a href="#sec-scenes">Parkinson en la vida real</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">Cómo resolverla: la multiplicación</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La esencia de la Ley de Parkinson es la "falla del valor temporal T"</strong>: cuando el tiempo no tiene frontera, la gente usa "llenar el tiempo" para suplantar "hacer bien las cosas"; la producción unitaria E se diluye y el valor total Y se encoge en silencio — cuanto más ocupado, más vacío.</p>
+      <p><strong>Hay un solo camino de salida: instalar la "frontera de multiplicación" al tiempo</strong>: aprieta T con fechas límite y calibra E con estándares de entrega. Cuando el tiempo deja de ser relleno y vuelve a ser medida, la Ley de Parkinson deja de operar.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">Ley de multiplicación · la solución correcta del tiempo</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> producción unitaria · <b>S</b> estándar de entrega (aceptación·valor) · <b>T</b> frontera de tiempo (fecha límite·concentración)</p>
+        <p class="f-note">Con los tres mayores que 1 el valor se multiplica; <b>si T tiene frontera, E es verdadero</b> — el tiempo es la escala, no el recipiente.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">Ley de división · el origen de Parkinson</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando <b>no hay estándar de entrega (S)</b> y el tiempo no tiene frontera, el trabajo instintivamente se derrama sobre todo el tiempo disponible — <b>el denominador crece y la producción se diluye</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qué es la Ley de Parkinson</h2></div>
+    <div class="what-card">
+      <div class="quote">"Work expands so as to fill the time available for its completion."<br/><span>El trabajo se expande hasta llenar todo el tiempo disponible para completarlo</span></div>
+      <p><b>Origen</b>: en 1958, el historiador británico Cyril Parkinson la planteó en <i>La Ley de Parkinson</i>. Observó que en el Almirantazgo británico, mientras la flota se reducía, los funcionarios crecían año tras año — <b>cuanta más gente, más trámites y menos eficiencia</b>.</p>
+      <p><b>No habla de "pereza"</b>, sino de una ley del sistema: cuando una tarea no tiene criterio claro de terminación ni restricción de tiempo, se pule sin fin dentro del tiempo disponible — una anciana tarda un día entero en enviar una postal; un empresario atareado la envía en tres minutos. La diferencia está en <b>si el tiempo tiene frontera y la entrega tiene estándar</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Cómo se forma: la falla del valor temporal</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">Falla</div><div class="tag">Mecanismo de formación</div></div>
+        <div class="title-box">
+          <h3>Tres "aflojes": el tiempo pasa de escala a recipiente</h3>
+          <p class="lead">Aflojar T (sin fecha límite) → falta S (sin estándar) → diluir E (sin producción): la Ley de Parkinson se pone en marcha.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimensión</th><th>Estado normal</th><th>Después de aflojar</th></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Normal</span>Hay fecha límite; el tiempo es restricción</td><td class="truth"><span class="truth-tag">Aflojado</span>La fecha límite se pierde en el horizonte — <b>el tiempo pierde su frontera</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Normal</span>Hay estándar de aceptación; la entrega se mide</td><td class="truth"><span class="truth-tag">Aflojado</span>"Más o menos sirve" — <b>sin estándar no hay meta</b></td></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Normal</span>Alta producción por unidad de tiempo</td><td class="truth"><span class="truth-tag">Aflojado</span>Usar "llenar el tiempo" para suplantar "hacer bien" — <b>la producción se diluye</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Argumento de formación · falla del tiempo</span><p>La Ley de Parkinson no es que "la gente se volvió perezosa", sino que <b>el denominador se agrandó sin límite</b>. T (el tiempo) es un recurso escaso; una vez que se lo afloja hasta convertirlo en "un recipiente inagotable", y S (el estándar de entrega) está ausente, la gente sustituye "horas invertidas" por "valor producido" — las reuniones se alargan sin fin, los informes se engordan. En Y = E × S × T, <b>T se hincha, E pierde agua, S queda ausente</b>: se ve actividad frenética, pero el valor total se queda quieto.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Parkinson en la vida real: todos lo hemos vivido</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">El examen</span><p>Un examen que se resuelve en 1 hora, con 3 horas disponibles "descubre" todo tipo de problemas — cuanto más tiempo, más dudas.</p></div>
+      <div class="scene"><span class="s-tag">La oficina</span><p>Ocho horas de trabajo se estiran a ocho horas, aunque tres bastarían — el resto del tiempo se "aparenta estar ocupado".</p></div>
+      <div class="scene"><span class="s-tag">La reunión</span><p>Una reunión sin agenda ni duración puede ir de la tarde hasta el anochecer — el contenido no cambia, la duración se duplica.</p></div>
+      <div class="scene"><span class="s-tag">La fecha límite</span><p>Faltan dos semanas: dos semanas de arrastrar; faltan dos horas: dos horas bastan — la eficiencia se crea bajo presión.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">La Ley de Parkinson</div><div class="b-author">Cyril Northcote Parkinson</div><p>Los funcionarios del Almirantazgo británico crecían mientras la flota se reducía — <b>el trabajo no se relaciona con el volumen, sino con el tiempo disponible</b>.</p></div>
+      <div class="book"><div class="b-name">Escasez</div><div class="b-author">Sendhil Mullainathan</div><p>El plazo final, paradójicamente, agudiza la concentración: <b>la escasez de tiempo hace enfocar</b>. La fecha límite no es la enemiga, es la amiga de la eficiencia.</p></div>
+      <div class="book"><div class="b-name">Trabajo profundo</div><div class="b-author">Cal Newport</div><p>Usa bloques de tiempo fijos (p. ej. 90 minutos diarios) para poner frontera al trabajo profundo — <b>primero enmarca el tiempo, después habla de producción</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Cómo resolverla: tres caminos de la fórmula de multiplicación</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Multiplicación</div><div class="tag">Camino de salida</div></div>
+        <div class="title-box">
+          <h3>Recoge el tiempo, fija el estándar, mide la producción — que el tiempo vuelva a ser escala</h3>
+          <p class="lead">La Ley de Parkinson no cambia la naturaleza humana, pero sí el diseño: T con frontera, S con estándar, E con número.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Reparar T · poner frontera al tiempo</span><ul>
+          <li><b>Fecha límite dura</b>: primero define la entrega, después el contenido — un trabajo sin plazo jamás termina</li>
+          <li><b>Caja de tiempo</b>: reuniones de 30 minutos, técnica pomodoro de 25 minutos; cuando suena, se acaba</li>
+          <li><b>Auto-límite</b>: informe en 10 páginas, propuesta en 1 día</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Reparar S · erigir el estándar</span><ul>
+          <li><b>Entregable</b>: define qué es "terminado" — verificable y cuantificable</li>
+          <li><b>Lista de aceptación</b>: se completa solo cuando se marca cada casilla (la idea de <i>La lista</i>)</li>
+          <li><b>Valor, no horas</b>: evalúa por resultados, no por horas extra ni tiempo de trabajo</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Reparar E · que la producción sea medible</span><ul>
+          <li><b>Lo importante primero</b>: haz primero lo que tiene palanca; el tiempo se llena solo de "ocupación correcta"</li>
+          <li><b>Hacer bien a la primera</b>: piensa antes de empezar, evita el "retrabajo por dilación"</li>
+          <li><b>Repaso e iteración</b>: pregúntate cada semana "¿estoy llenando tiempo o valor?"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Una frase para cerrar</span><p><b>La Ley de Parkinson no es la excusa de los perezosos, es el espejo del sistema</b> — refleja cuánta frontera le damos al tiempo y cuánto estándar a la entrega. Cuando el tiempo tiene límite, el valor empieza a multiplicarse.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Perspectiva</th><th>Enseñanza</th></tr>
+        <tr><td>Riqueza</td><td>El tiempo es el activo más caro. Poner frontera al trabajo es ponerle precio a la eficiencia — el tiempo ahorrado es ingreso.</td></tr>
+        <tr><td>Bienestar</td><td>No expreses responsabilidad con "horas extra"; construye confianza con "calidad de entrega" — ser confiable es cumplir lo dicho.</td></tr>
+        <tr><td>Doble</td><td>Pon frontera al tiempo (T), piso al estándar (S) y escala a la producción (E) — la ocupación con los tres mayores que 1 es ocupación eficaz.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>El trabajo se expande hasta llenar todo el tiempo — pero el valor solo crece dentro de la frontera.</b><br/>En lugar de quejarte de la postergación, instala a cada tarea fecha límite, estándar y escala.<br/><b>Cuando T tiene frontera, S tiene estándar y E tiene número, la Ley de Parkinson es solo una fábula de los libros.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Dice la Ley de Parkinson que el ser humano es perezoso por naturaleza?</p>
+        <p class="a">R: No. Dice una ley del sistema: sin frontera de tiempo ni estándar de entrega, cualquier trabajo se expande sin fin dentro del tiempo disponible. Cambiar el diseño es más eficaz que cambiar la naturaleza.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Con más tiempo se hace mejor trabajo de verdad?</p>
+        <p class="a">R: Por lo general, no. Cuanto más tiempo, más fácil caer en el pulido y las dudas sin fin. Un plazo razonable agudiza la concentración (el "efecto plazo final" de <i>Escasez</i>).</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Cómo usa esta fórmula la gente común?</p>
+        <p class="a">R: Ponle tres números a cada tarea — fecha límite (T), estándar de entrega (S), duración estimada (E). Con los tres definidos, la Ley de Parkinson no tiene dónde vivir.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</div>
+
+<button id="toTop" title="Volver arriba">↑</button>

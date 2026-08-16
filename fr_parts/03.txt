@@ -1,0 +1,163 @@
+<header class="hero">
+  <div class="kicker">LOI DE CONSERVATION DE LA VALEUR</div>
+  <h1>La Loi de Parkinson par la formule de conservation de la valeur</h1>
+  <div class="divider"></div>
+  <p class="sub">Utiliser la Loi de Conservation de la Valeur Y = E × S × T pour comprendre comment la Loi de Parkinson se forme et comment la briser. Donner au temps une frontière, à la livraison un standard, à la production une mesure : la loi perd son terrain.</p>
+  <div class="chips">
+    <span class="chip">Valeur économique <b>E</b></span>
+    <span class="chip">Valeur sociale <b>S</b></span>
+    <span class="chip">Valeur temporelle <b>T</b></span>
+    <span class="chip">Loi de multiplication <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">SOMMAIRE</p>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">D'abord l'étalon : le diagnostic de la loi</a></li>
+        <li><a href="#sec-what">Qu'est-ce que la Loi de Parkinson</a></li>
+        <li><a href="#sec-form">Comment elle se forme : la défaillance du temps</a></li>
+        <li><a href="#sec-scenes">Parkinson dans la vie réelle</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">Comment briser : trois voies de multiplication</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La Loi de Parkinson est la « défaillance de la valeur temporelle T »</strong> : quand le temps n'a pas de frontière, on fait passer « remplir le temps » pour « bien faire les choses » ; la production unitaire E se dilue, la valeur totale Y rétrécit en silence — plus on est « occupé », plus c'est vide.</p>
+      <p><strong>Une seule voie — donner au temps une « frontière de multiplication »</strong> : resserrer T par l'échéance, calibrer E par le standard de livraison. Le temps redevient un étalon au lieu d'un remplissage — la Loi de Parkinson s'éteint.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LA BONNE SOLUTION DU TEMPS</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> production unitaire · <b>S</b> standard de livraison (validation · valeur) · <b>T</b> frontière de temps (échéance · concentration)</p>
+        <p class="f-note">Les trois au-dessus de 1 : la valeur se multiplie ; <b>T borné, E devient vrai</b> — le temps est une mesure, pas un récipient.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'ORIGINE DE PARKINSON</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Sans <b>standard de livraison (S)</b> et avec un temps sans frontière, le travail remplit instinctivement tout le temps disponible — <b>dénominateur gonflé, production diluée</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qu'est-ce que la Loi de Parkinson</h2></div>
+    <div class="what-card">
+      <div class="quote">« Work expands so as to fill the time available for its completion. »<br/><span>Le travail se dilate jusqu'à remplir tout le temps disponible</span></div>
+      <p><b>Origine</b> : en 1958, l'historien britannique Cyril Parkinson la formule dans son livre éponyme. Il observe : tandis que la flotte britannique se réduit, les officiers de l'Amirauté augmentent année après année — <b>plus de monde, plus de complications, moins d'efficacité</b>.</p>
+      <p><b>Ce n'est pas la « paresse »</b>, c'est une loi de système : quand une tâche n'a ni standard d'achèvement ni contrainte de temps, elle se polit sans fin dans le temps disponible — la vieille dame met une journée à poster une carte, l'homme d'affaires pressé trois minutes. La différence : <b>le temps a-t-il une frontière, la livraison a-t-elle un standard ?</b></p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Comment elle se forme : la défaillance du temps</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">Défaillance</div><div class="tag">Mécanisme de formation</div></div>
+        <div class="title-box">
+          <h3>Trois « relâchements », du temps-mesure au temps-récipient</h3>
+          <p class="lead">Relâcher T (pas d'échéance) → perdre S (pas de standard) → diluer E (pas de production) : la Loi de Parkinson se met en marche.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>État normal</th><th>Après relâchement</th></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Normal</span>Une échéance existe, le temps contraint</td><td class="truth"><span class="truth-tag">Relâché</span>Une échéance lointaine, sans fin — <b>le temps perd sa frontière</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Normal</span>Un standard de validation, la livraison mesurable</td><td class="truth"><span class="truth-tag">Relâché</span>« À peu près suffit » — <b>sans standard, pas de point d'arrivée</b></td></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Normal</span>Production élevée par unité de temps</td><td class="truth"><span class="truth-tag">Relâché</span>« Remplir le temps » pour « bien faire » — <b>production diluée</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Défaillance du temps</span><p>La Loi de Parkinson n'est pas « l'humain devient paresseux », c'est <b>le dénominateur qui se gonfle sans fin</b>. T (le temps) est une ressource rare ; une fois relâché en « récipient inépuisable », et S (standard de livraison) absent, on remplace « la valeur produite » par « la durée investie » — les réunions s'allongent, les rapports s'épaississent. Dans Y = E × S × T, <b>T s'empâte, E perd de l'eau, S manque</b> : tout paraît occupé, la valeur totale piétine.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Parkinson dans la vie réelle : nous l'avons tous vécu</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Examen</span><p>Une épreuve faisable en 1 heure, avec 3 heures « trouve » toutes sortes de problèmes — plus de temps, plus de tergiversations.</p></div>
+      <div class="scene"><span class="s-tag">Bureau</span><p>Un travail de 8 heures remplit 8 heures, alors que 3 suffisent — le reste du temps « paraît occupé ».</p></div>
+      <div class="scene"><span class="s-tag">Réunion</span><p>Une réunion sans ordre du jour ni durée peut courir de l'après-midi à la nuit — le contenu ne change pas, la durée double.</p></div>
+      <div class="scene"><span class="s-tag">Échéance</span><p>Deux semaines avant le terme, deux semaines à lambiner ; les deux dernières heures, tout se fait — l'efficacité naît de la contrainte.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">La Loi de Parkinson</div><div class="b-author">Cyril Northcote Parkinson</div><p>Les officiers de l'Amirauté augmentent pendant que la flotte se réduit — <b>le travail n'est pas lié au volume de tâches, mais au temps disponible</b>.</p></div>
+      <div class="book"><div class="b-name">Scarcity</div><div class="b-author">Sendhil Mullainathan &amp; Eldar Shafir</div><p>L'échéance rapprochée stimule la concentration : <b>la rareté du temps focalise</b>. La date limite n'est pas l'ennemie, c'est l'amie de l'efficacité.</p></div>
+      <div class="book"><div class="b-name">Deep Work</div><div class="b-author">Cal Newport</div><p>Utiliser des blocs de temps fixes (par exemple 90 minutes par jour) pour borner le travail profond — <b>encadrer d'abord le temps, parler ensuite de production</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Comment briser : trois voies de multiplication</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Multiplication</div><div class="tag">La voie de sortie</div></div>
+        <div class="title-box">
+          <h3>Resserrer le temps, poser le standard, compter la production — ramener le temps à la mesure</h3>
+          <p class="lead">La Loi de Parkinson ne change pas la nature humaine, mais elle change le design : T borné, S étalonné, E mesuré.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Réparer T · donner une frontière au temps</span><ul>
+          <li><b>Échéance ferme</b> : fixer d'abord la livraison, parler ensuite du contenu — un travail sans terme ne finit jamais</li>
+          <li><b>Time-box</b> : réunion de 30 minutes, pomodoro de 25 — quand le temps est écoulé, on s'arrête</li>
+          <li><b>Limite volontaire</b> : rapport limité à 10 pages, plan limité à une journée</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Réparer S · poser le standard</span><ul>
+          <li><b>Livrable</b> : définir ce qu'est « avoir fini » — validable, quantifiable</li>
+          <li><b>Checklist de validation</b> : cocher chaque point avant de conclure (l'esprit de The Checklist Manifesto)</li>
+          <li><b>La valeur, pas la durée</b> : évaluer le résultat, non les heures supplémentaires et le temps de présence</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Réparer E · rendre la production mesurable</span><ul>
+          <li><b>L'essentiel d'abord</b> : commencer par ce qui a un effet de levier — le temps se remplit alors d'« occupation juste »</li>
+          <li><b>Faire juste du premier coup</b> : réfléchir avant de démarrer, éviter les « reprises-lambinage »</li>
+          <li><b>Bilan et itération</b> : chaque semaine, une question — « j'ai rempli du temps ou de la valeur ? »</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Une phrase pour conclure</span><p><b>La Loi de Parkinson n'est pas l'excuse des paresseux, c'est le miroir du système</b> — elle révèle combien de frontières nous donnons au temps, combien de standards nous donnons à la livraison. Le temps borné, la valeur commence à se multiplier.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Perspective</th><th>Enseignement</th></tr>
+        <tr><td>Richesse</td><td>Le temps est l'actif le plus cher. Borner le travail, c'est donner un prix à l'efficacité — chaque heure gagnée est un revenu.</td></tr>
+        <tr><td>Affect</td><td>N'exprimez pas la responsabilité par « les heures de présence », construisez la confiance par « la qualité de la livraison » — la vraie fiabilité, c'est tenir parole.</td></tr>
+        <tr><td>Double floraison</td><td>Donner au temps sa frontière (T), au standard sa ligne de base (S), à la production sa mesure (E) — une occupation où les trois dépassent 1 est une occupation efficace.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>Le travail se dilate jusqu'à remplir tout le temps — mais la valeur ne pousse que dans les frontières.</b><br/>Plutôt que maudire la procrastination, équipez chaque chose d'une échéance, d'un standard et d'une mesure.<br/><b>Quand T est borné, S étalonné, E mesuré, la Loi de Parkinson n'est plus qu'une fable dans les livres.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : La Loi de Parkinson dit-elle que l'humain procrastine par nature ?</p>
+        <p class="a">A : Non. Elle décrit une loi de système : sans frontière de temps ni standard de livraison, tout travail se dilate dans le temps disponible. Changer le design est plus efficace que changer la nature.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Plus de temps fait-il vraiment mieux ?</p>
+        <p class="a">A : En général non. Plus de temps mène au polissage et à la tergiversation sans fin. Une échéance modérée stimule la concentration (l'« effet d'échéance » de Scarcity).</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Comment une personne ordinaire utilise-t-elle cette formule ?</p>
+        <p class="a">A : Donner à chaque chose trois nombres — l'échéance (T), le standard de livraison (S), la durée prévue (E). Trois nombres en place, la Loi de Parkinson n'a plus où se loger.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Contenu conforme à la réglementation publicitaire
+</div>
+
+<button id="toTop" title="Retour en haut">↑</button>

@@ -1,0 +1,193 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Double Floraison · Série d'application de la Loi de Conservation de la Valeur 08</div>
+  <h1>Gains et Pertes des Réformes Économiques, expliqués par une formule<br><span class="hl">Le millénaire face-à-face entre l'extraction de l'État et la vitalité du peuple</span></h1>
+  <div class="hl-sub">Wu Xiaobo · Gains et pertes des réformes économiques à travers les dynasties (2013)</div>
+  <p class="sub">De Guan Zhong à la Réforme et l'Ouverture, deux mille sept cents ans de réformes posent une seule question : jusqu'où la main de l'État peut-elle s'étendre pour que la main du peuple se libère ? La réponse de la Loi de Conservation de la Valeur : Y = E × S × T — serrer trop fort, S tombe à zéro ; lâcher trop, T se perd. La voie de l'équilibre est la voie de la multiplication.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">SOMMAIRE</div>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Un seule formule pour comprendre</a></li>
+        <li><a href="#sec-what">De quoi parle ce livre</a></li>
+        <li><a href="#sec-pillars">Succès et échecs : comment ils se forment</a></li>
+        <li><a href="#sec-crisis">Relecture historique : trois actes de réforme</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>Le succès des réformes économiques à travers les dynasties dépend de l'équilibre entre l'extraction de l'État (correspondant à E) et la vitalité du peuple (correspondant à S)</strong> : la réforme renforce les finances nationales (E amplifié), mais comprime souvent la création populaire (S en contraction) et hypothèque la stabilité institutionnelle (T atteinte) — d'où le cercle vicieux bimillénaire : « si l'on lâche, le chaos ; si l'on serre, la mort ».</p>
+      <p><strong>La solution réside dans la nouvelle connotation de la monnaie</strong> : faire porter à la monnaie les valeurs économique, sociale et temporelle, transformer « l'État qui dispute les profits au peuple » en « l'État qui vit en symbiose avec le peuple » — les trois valeurs mesurées ensemble, la vitalité populaire est traitée avec soin, les institutions long terme sont respectées, le mécanisme d'auto-régulation du cycle vertueux se déclenche : l'État, l'entreprise, l'individu gagnent tous.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un seule formule pour comprendre</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LE CODE DU SUCCÈS DES RÉFORMES</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> extraction de l'État (capacité fiscale) · <b>S</b> vitalité du peuple (création et échanges) · <b>T</b> stabilité institutionnelle (propriété et confiance)</p>
+        <p class="f-note">Les trois au-dessus de 1 : la réforme apporte l'ère prospère ; <b>le moindre sacrifice, le total se rétracte</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · LE CERCLE DE L'ÉCHEC DES RÉFORMES</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand la réforme <b>ne répond que de la fiscalité E</b> : enrôler les capitaux privés, changer les règles du jour au lendemain —</p>
+        <p class="f-note"><b>S compressé, T hypothéqué</b> : la fiscalité de court terme se renforce, le total de long terme s'effondre.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De quoi parle ce livre</h2></div>
+    <div class="what-card">
+      <div class="quote">« Chaque réforme économique de l'histoire chinoise s'articule autour de quatre relations fondamentales : centre et provinces, gouvernement et peuple, gouvernement et capital, Chine et monde. »<br><span>— Wu Xiaobo · Gains et pertes des réformes économiques à travers les dynasties</span></div>
+      <p><b>Origine</b> : en 2013, l'écrivain économique Wu Xiaobo remonte de Guan Zhong à la Réforme et l'Ouverture, revisitant deux mille sept cents ans de réformes à travers les « quatre relations fondamentales » et deux fils conducteurs — « nationalisation / privatisation, centralisation / décentralisation ». Découverte centrale : <b>le succès d'une réforme ne tient pas à la technique, mais à l'équilibre entre la régulation de l'État et la vitalité du peuple</b>.</p>
+      <p><b>La question</b> : pourquoi les bonnes réformes tombent-elles toujours dans « si l'on lâche, le chaos ; si l'on serre, la mort » ? Parce qu'on ne calcule que la comptabilité de l'État (E), jamais celle du peuple (S) ni celle du long terme (T) — <b>l'algorithme de ce grand livre, c'est la Loi de Conservation de la Valeur</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Succès et échecs : comment ils se forment</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Extraction excessive · l'État avance, le peuple recule</h3><span class="p-tag">Source de la division</span></div>
+        <p><b>Formation</b> : au début des réformes, on renforce souvent l'extraction fiscale au nom de « l'État riche et l'armée forte » — monopoles du sel et du fer, systèmes d'exclusivité : <b>les finances nationales se remplissent à court terme, mais on dispute les profits au peuple</b>, chassant du marché les plus créatifs.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Peuple inerte · création tarie</h3><span class="p-tag">Victime sacrifiée</span></div>
+        <p><b>Formation</b> : le commerce privé est enrôlé, étatisé ; le marchand s'accroche au pouvoir ou se replie sur la terre — <b>la créativité et la vitalité des échanges (S) se contractent en système</b>, le marché ne survit que de la prospérité nourrie par la politique.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Institutions instables · confiance hypothéquée</h3><span class="p-tag">Coût caché</span></div>
+        <p><b>Formation</b> : le cycle « réforme — renversement — nouvelle réforme » rend la propriété, la monnaie, la fiscalité <b>capricieuses (T atteint)</b> — le peuple n'ose plus investir le long terme, il ne court que le court ; quand le crédit est hypothéqué, même les bonnes politiques ne trouvent plus créance.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Relecture historique : trois actes de réforme</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-qin">
+        <div class="head">
+          <div class="year"><div class="yy">Shang Yang</div><div class="tag">356 av. J.-C.</div></div>
+          <div class="title-box">
+            <h3>Fonder l'État sur la guerre des champs : l'État fort, le peuple domestiqué</h3>
+            <p class="lead">La réforme propulse le Qin parmi les grandes puissances (E en hausse), mais harnache tout le peuple au char de la guerre agricole — la diversité de S est éliminée.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Shang Yang « abolit les champs en damier, récompense le mérite militaire » : la capacité de mobilisation fiscale (E) au sommet de l'Antiquité ; mais « privilégier l'agriculture, abaisser le commerce », délation et responsabilité collective : <b>le commerce privé et la vitalité de la pensée (S) déracinés</b>, les institutions tenues par la loi sévère (T sans tampon). Le Qin conquiert l'empire par E, et s'effondre vite parce que S, T tombent à zéro — <b>ne compter que la comptabilité du grand État, jamais celle du peuple</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Les Han « héritent des institutions Qin, mais changent la voie » : impôts légers, laisser les profits au peuple (réparer S), lois sobres pour stabiliser les institutions (réparer T) — <b>l'État fort sans monopole, le peuple vivant sans chaos</b>.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-han">
+        <div class="head">
+          <div class="year"><div class="yy">Wudi → Wang Anshi</div><div class="tag">119 av. J.-C. / 1069</div></div>
+          <div class="title-box">
+            <h3>Deux vagues de « l'État avance, le peuple recule », deux enrôlements du capital privé</h3>
+            <p class="lead">Les monopoles du sel et du fer et la loi des jeunes pousses, mille ans d'écart — la même division : l'État entre sur le terrain, disputant les profits au peuple.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>L'empereur Wu : monopoles du sel et du fer, impôt sur les fortunes et délation : <b>le trésor (E) plein, mais les grands marchands saisis, le commerce privé (S) gravement blessé</b> ; mille ans plus tard, la « loi des jeunes pousses » de Wang Anshi, née pour aider les paysans, devient à l'exécution <b>un prêt usuraire de l'administration, une nouvelle spoliation (S blessé à nouveau)</b> ; s'y ajoute la querelle des factions qui rend les institutions capricieuses (T hypothéqué) — deux enrôlements du peuple, deux germes de déclin.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>L'État est arbitre, pas joueur : <b>poser les règles (réparer T), combler les manques (réparer S), taxer pour nourrir l'État (E mesuré)</b> — laisser la création au peuple, l'équité aux institutions.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-yang">
+        <div class="head">
+          <div class="year"><div class="yy">Auto-renforcement → Réforme</div><div class="tag">1861 / 1978</div></div>
+          <div class="title-box">
+            <h3>Supervision officielle du commerce et libération de l'économie privée : un échec, une réussite</h3>
+            <p class="lead">Le Mouvement d'auto-renforcement « supervise officiellement le commerce » ; la Réforme et l'Ouverture libère l'économie privée — le contraste de la multiplication et de la division.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Le Mouvement d'auto-renforcement, « supervision officielle et gestion marchande » : <b>la logique bureaucratique domine le commerce (S capturé)</b>, les entreprises deviennent des appendices des fonctionnaires, un siècle sans résultat ; à l'inverse, après 1978, le système de responsabilité familiale, les entreprises villageoises, l'économie privée libérés — <b>l'État recule d'un demi-pas, le peuple avance d'un pas (S en forte hausse), les institutions se stabilisent (T réparé)</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Libérer et réguler de concert : <b>la propriété protégée (S), les règles prévisibles (T), l'impôt mesuré (E)</b> — le peuple a une propriété stable, il a un cœur stable ; l'État a de l'ordre, il a un avenir.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Les miroirs dans le monde réel</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Entreprise</span><p>Ne courir que les dividendes de la politique (E), sans bâtir la capacité (S) ni la stratégie (T) — la politique change, tout s'annule.</p></div>
+      <div class="scene"><span class="s-tag">Individu</span><p>Ne regarder que le revenu court f(m), sans accumuler compétences et réseau f(h), sans investir le long terme f(t) — l'époque change, plus de retraite.</p></div>
+      <div class="scene"><span class="s-tag">Région</span><p>Tenir les finances courtes par la vente des terres et l'endettement, hypothéquant l'environnement et les générations — la version moderne du « vider l'étang pour pêcher ».</p></div>
+      <div class="scene"><span class="s-tag">Institutions</span><p>Des politiques qui changent matin et soir, les meilleures incitations s'éteignent — <b>la stabilité institutionnelle (T) est l'intérêt de la confiance du peuple</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Gains et pertes des réformes économiques à travers les dynasties</div><div class="b-author">Wu Xiaobo · 2013</div><p>Quatre relations fondamentales + deux fils conducteurs, deux mille ans revisités : <b>le succès d'une réforme ne tient pas à la technique, mais à la répartition de la valeur entre l'État et le peuple</b> — disputer les profits au peuple, c'est le déclin ; laisser les profits au peuple, c'est l'essor.</p></div>
+      <div class="book"><div class="b-name">Big Failures</div><div class="b-author">Wu Xiaobo · 2001</div><p>Les entreprises privées « montent en un éclair, tombent en un éclair » : <b>croître par les relations et la rente (E creux), sans capacité ni gouvernance (S, T minces)</b> — le déséquilibre de valeur à l'échelle de l'entreprise.</p></div>
+      <div class="book"><div class="b-name">1587, A Year of No Significance</div><div class="b-author">Ray Huang · 1982</div><p>Le « management par les nombres » manquant explique la stagnation dynastique : <b>quand les institutions ne peuvent quantifier la contribution du peuple (S, T non mesurés)</b>, la prospérité ne s'accumule pas en avenir dans les comptes.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="what-card">
+      <div class="quote">« Le grand livre des réformes passées ne notait que les revenus de l'État ; le grand livre de la nouvelle monnaie doit noter la montée et la chute des trois valeurs. »<br><span>— Loi de Conservation de la Valeur · la voie de sortie</span></div>
+      <p><b>Briser le cercle vicieux bimillénaire, ce n'est pas supprimer l'État, c'est donner à chacun sa juste part</b> : la fiscalité, de « disputer les profits au peuple » à « prendre avec mesure, dépenser avec méthode » (multiplication de E) ; le peuple, de « enrôlé » à « traité avec soin » — propriété protégée, contrats respectés (multiplication de S) ; les institutions, de « capricieuses » à « stables et prévisibles » (multiplication de T).</p>
+      <p><strong>La nouvelle connotation de la monnaie</strong> — faire porter trois valeurs à la fois :</p>
+      <p>· <b>Valeur économique E</b> : chaque centime correspond à une création réelle de biens et de services, fini « imprimer sans produire » ;<br>
+         · <b>Valeur sociale S</b> : la circulation monétaire repose sur la confiance — création d'emplois, richesse au peuple, intégrité récompensées par la monnaie ;<br>
+         · <b>Valeur temporelle T</b> : la monnaie est une promesse intertemporelle — l'éducation, l'innovation, l'écologie, la transmission entrent dans la mesure.</p>
+      <p><b>Quand la monnaie mesure à la fois E, S, T</b>, l'extraction de l'État a une frontière, la création du peuple a sa récompense, la stabilité des institutions a sa mesure — <b>la loi de division perd son terrain, la loi de multiplication s'auto-régule, le cycle vertueux se déclenche</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Cycle vertueux : triple gagnant</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>Prendre avec mesure, investir le cœur du peuple → finances saines, richesse au peuple → paix durable</td><td>S + T</td></tr>
+        <tr><td>Entreprise</td><td>Créer avec intégrité, gérer en paix → gagner confiance et rendement long terme → prospérité durable</td><td>E + S + T</td></tr>
+        <tr><td>Individu</td><td>Un travail digne, une accumulation garantie → créer activement, investir le long terme → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>N'opposez pas « la comptabilité de l'État » et « la comptabilité du peuple » — <b>si le peuple s'enrichit, l'État a ses recettes ; pressurez le peuple, les finances finissent en eau sans source</b>.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>Le socle de la réforme est la confiance. Le peuple n'ose pas investir le long terme, non par manque d'argent, mais par peur que les institutions changent de visage — <b>la stabilité est la déclaration d'affection la plus profonde aux créateurs</b>.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b> — entre lâcher et serrer, choisissez toujours le côté qui fait multiplier les valeurs.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>L'histoire ne se répète pas, mais la leçon « si l'on lâche, le chaos ; si l'on serre, la mort » n'a jamais expiré.</b><br/>L'État a sa frontière, le peuple sa vitalité, les institutions leur crédit — les trois au-dessus de 1, la formule du succès des réformes ;<br/><b>création, confiance, transmission — trois valeurs mesurées ensemble, c'est le code fondamental pour sortir du cercle vicieux millénaire et réaliser le triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale de « Gains et pertes des réformes économiques » de Wu Xiaobo ?</p>
+        <p class="a">A : Toutes les réformes économiques chinoises s'articulent autour des « quatre relations fondamentales » ; le succès dépend de l'équilibre entre la régulation de l'État et la vitalité du peuple — disputer les profits au peuple, c'est le déclin ; laisser les profits au peuple, c'est l'essor.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi les bonnes réformes tombent-elles dans « si l'on lâche, le chaos ; si l'on serre, la mort » ?</p>
+        <p class="a">A : Parce qu'on ne calcule que la comptabilité fiscale (E), jamais celle du peuple (S) ni celle du long terme (T). Lâcher sans règles, c'est le chaos ; serrer en blessant la vitalité, c'est la mort. La solution : concevoir les trois ensemble, pour que S, T, E dépassent 1 de concert.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Faits historiques issus des ouvrages publics de Wu Xiaobo · Contenu conforme à la réglementation publicitaire<br>
+  Idées de vulgarisation, ne constituent pas un conseil en investissement
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

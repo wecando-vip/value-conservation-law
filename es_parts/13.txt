@@ -1,0 +1,206 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Doble Florecimiento · Serie de Aplicación de la Ley de Conservación del Valor 13</div>
+  <h1>Los Tres Cambios del I Ching, explicados por una fórmula:<br><span class="hl">Sencillez, Cambio y Constancia en código moderno</span></h1>
+  <div class="hl-sub">Los Cambios de Zhou · Numerología Hetu-Luoshu · Aplicados en cuatro niveles</div>
+  <p class="sub">Con nada más que líneas de yin y yang, el I Ching abraza las diez mil cosas, y con tres palabras — Sencillez, Cambio, Constancia — captura la ley del cambio mismo. La Ley de Conservación del Valor es isomórfica con él: Sencillez — una fórmula para ver el mundo, Y = E × S × T; Cambio — las tres valores se desplazan con los tiempos, avanzando en el paso con la hora; Constancia — la ley de la multiplicación se mantiene: solo cuando las tres valores crecen juntas, el crecimiento es real.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">ÍNDICE</div>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Un solo fórmula para entenderlo</a></li>
+        <li><a href="#sec-what">Qué son los Tres Cambios</a></li>
+        <li><a href="#sec-pillars">Cómo se forma el desequilibrio</a></li>
+        <li><a href="#sec-crisis">Cuatro niveles aplicados</a></li>
+        <li><a href="#sec-scenes">Espejos en el mundo actual</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>Los tres cambios del I Ching son el prototipo filosófico de la Ley de Conservación del Valor</strong>: <b>Sencillez</b> — el gran Camino es simple; una fórmula, Y = E × S × T, atraviesa el auge y la caída. <b>Cambio</b> — las tres valores se desplazan con los tiempos; hay que "avanzar en el paso con la hora", y la multiplicación y la división cambian según gira el momento. <b>Constancia</b> — bajo todo cambio hay una ley que no cambia: solo cuando las tres valores superan 1 juntas, el crecimiento es real.</p>
+      <p><strong>La solución está en la nueva connotación de la moneda</strong>: así como el Luoshu reúne los números de todas las cosas en su cuadrícula de nueve palacios, que el dinero cargue a la vez el valor económico, el social y el temporal, fusionando las tres contabilidades dispersas en una. Cuando las tres valores se miden con una sola vara, el yin y el yang se equilibran, el cambio avanza con los tiempos y la constancia se mantiene dentro del cambio — el ciclo virtuoso auto-regulado comienza, y nación, empresa e individuo ganan todos.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un solo fórmula para entenderlo</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">SENCILLEZ + CONSTANCIA · UNA FÓRMULA, UNA LEY CONSTANTE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> valor económico (yang · creación) · <b>S</b> valor social (yin · confianza) · <b>T</b> valor temporal (la hora · el cambio)</p>
+        <p class="f-note"><b>Constancia</b>: cuando las tres valores superan 1 juntas, el valor se multiplica; <b>Sencillez</b>: todo auge y caída regresa a esta única fórmula.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">CAMBIO · AVANZAR EN EL PASO CON LOS TIEMPOS</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando un sistema <b>reconoce solo el yang de E, ciego al yin de S y a la hora de T</b>: el dragón arrogante se arrepiente, las cosas en su extremo dan la vuelta —</p>
+        <p class="f-note"><b>el yang en su cumbre da a luz al yin</b>; el multiplicador se vuelve divisor, el cenit se vuelve declive: esto es el "Cambio".</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qué son los Tres Cambios</h2></div>
+    <div class="what-card">
+      <div class="quote">"Los Cambios toman el cielo y la tierra como su estándar, y por tanto pueden abrazar el Camino del cielo y de la tierra. Un yin, un yang — ese es el Camino. Cuando el curso se agota, cambiar; cuando cambia, se desbloquea; cuando se desbloquea, perdura."<br><span>— El Gran Tratado de los Cambios de Zhou</span></div>
+      <p><b>Origen</b>: Los Cambios de Zhou tomaron forma alrededor del Zhou occidental, usando líneas de yin y yang para desplegar los ocho trigramas y los sesenta y cuatro hexagramas — uno de los manantiales del pensamiento oriental. <b>Los "tres cambios" — Sencillez, Cambio, Constancia —</b> son sus tres niveles para resumir los cambios del cosmos: <b>Sencillez</b> — el mundo complejo reducido a los signos y leyes más simples; <b>Cambio</b> — todas las cosas cambian con la hora y deben seguir el momento; <b>Constancia</b> — dentro del cambio hay una ley que no cambia.</p>
+      <p><b>El Hetu, el Luoshu y la numerología</b>: el Hetu y el Luoshu modelan el mundo a través de "imágenes y números" — la cuadrícula de nueve palacios del Luoshu, "nueve en la cabeza, uno en el pie, tres a la izquierda, siete a la derecha" — <b>una sabiduría numerológica antigua que coloca todas las cosas en estructura y medida</b>, trabajando en el mismo espíritu que un moderno "sistema de medición unificada".</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Cómo se forma el desequilibrio</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>El dragón arrogante se arrepiente · El yang fuera de equilibrio</h3><span class="p-tag">Origen de la división</span></div>
+        <p><b>Formación</b>: perseguir solo el crecimiento y la expansión, llevando E a su cumbre — <b>la línea superior del hexagrama Qian, "el dragón arrogante tendrá motivo de arrepentimiento"</b>: vuela demasiado alto, y el arrepentimiento lo sigue. Las empresas sobre-apalancadas y los individuos que drenan su salud son "yang" que no sabe dónde detenerse.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>El yin solitario no crece · La confianza se enfría</h3><span class="p-tag">El término sacrificado</span></div>
+        <p><b>Formación</b>: hablar solo de interés, nunca de afecto; llevar solo cuentas, nunca personas — <b>el Kun de "sostener todas las cosas por la virtud de la tierra" queda a un lado (S dañado)</b>; el yin solitario no crece, el yang solitario no vive — pierde la confianza y los corazones del pueblo, y ninguna fuerza de E tiene algo que sostener.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Caminar contra la hora · Perder el momento</h3><span class="p-tag">El costo oculto</span></div>
+        <p><b>Formación</b>: el momento ha cambiado mientras el viejo camino permanece — actuar contra la marea: <b>la misma palabra "cambio y desbloqueo" se olvida (T falla)</b>; el sol al mediodía declina, la luna llena mengua, y un sistema que no avanza con los tiempos será liquidado por los tiempos.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Cuatro niveles aplicados</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-person">
+        <div class="head">
+          <div class="year"><div class="yy">INDIVIDUO</div><div class="tag">Yin-yang y el momento</div></div>
+          <div class="title-box">
+            <h3>Trabajo y descanso fuera de equilibrio: el "dragón arrogante" personal</h3>
+            <p class="lead">Trabajar sin descansar, avanzar sin retroceder — el yang que no conoce límite rompe primero la salud y la mente.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DESEQUILIBRIO</span><p>Las seis líneas de Qian, de "el dragón oculto no debe actuar" a "el dragón arrogante se arrepiente", enseñan que <b>en el curso del ascenso hay que saber cuándo avanzar y cuándo sostener, y guardar el tiempo y el lugar</b> — perseguir solo el yang de f(m) mientras se drena el yin de f(h): se cae en el punto de la "arrogancia".</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · EL CAMINO MEDIO</span><p>Los "tres cambios" del individuo: <b>Sencillez — guardar tres esenciales; Cambio — ajustar el ritmo al momento; Constancia — sostener el suelo de la salud y la integridad</b> — yin y yang en apoyo mutuo, avance y retroceso con medida.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-family">
+        <div class="head">
+          <div class="year"><div class="yy">FAMILIA</div><div class="tag">Sostener todas las cosas por la virtud de la tierra</div></div>
+          <div class="title-box">
+            <h3>Solo argumentos, sin calor: el hogar pierde su Kun</h3>
+            <p class="lead">Contender por el bien y el mal, pesar ganancias y pérdidas — olvidar el Kun de "sostener todas las cosas", y el afecto no tiene dónde apoyarse.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DESEQUILIBRIO</span><p>Una familia que pesa demasiado la "razón" y demasiado poco el "sentimiento" se enfría; pesar demasiado poco la "razón" y demasiado el "sentimiento" la vuelve caótica — <b>en un hogar de yin-yang desequilibrado, cuantas más reglas, más distancia (S se enfría)</b>; llevar la familia solo en la contabilidad de E, y el afecto se vuelve un costo que puede amortizarse.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · EL CAMINO MEDIO</span><p>El camino del hogar está en Kun: <b>llevar a las personas con tolerancia, llevar los asuntos con confianza (la profundidad de la virtud de S)</b>, con una medida de "Cambio" para la elasticidad — la tolerancia de hoy es la raíz para que una familia resista las tormentas de mañana.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-company">
+        <div class="head">
+          <div class="year"><div class="yy">EMPRESA</div><div class="tag">Cambio y constancia</div></div>
+          <div class="title-box">
+            <h3>Olvidar el cambio en los buenos tiempos, olvidar el camino en los malos: ambas trampas atrapan a la firma</h3>
+            <p class="lead">En los buenos tiempos solo expansión, sin reserva; en los malos solo recortes, sin innovación — Cambio y Constancia, ambas perdidas.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DESEQUILIBRIO</span><p>En la expansión rápida la empresa olvida el "Cambio" (el entorno se ha desplazado, el modelo no), y <b>cuando gira el viento, el inventario y el apalancamiento presionan juntos (E se vuelve contra ella)</b>; en el valle solo recorta presupuestos (S se enfría) y deja intacta la cultura — tratar la "Constancia" como eslogan y el "Cambio" como lujo.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · EL CAMINO MEDIO</span><p>Los "tres cambios" de la empresa: <b>Sencillez — organización y proceso esbeltos; Cambio — estrategia ajustada al momento; Constancia — valores y líneas rojas firmes</b> — en los buenos tiempos cultivar el poder del "cambio y desbloqueo", en los malos sostener el camino de la "Constancia".</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-nation">
+        <div class="head">
+          <div class="year"><div class="yy">NACIÓN</div><div class="tag">Cambio y el arte de gobernar</div></div>
+          <div class="title-box">
+            <h3>Cuando las instituciones "se agotan", deben cambiar — o el camino queda bloqueado</h3>
+            <p class="lead">El auge y la caída dinástica gira en una sola palabra: cambio — desbloqueado, perdura; bloqueado, perece.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DESEQUILIBRIO</span><p>Las dinastías sucesivas cayeron en su cenit precisamente porque <b>guardaron solo el nombre de la "Constancia" (instituciones ancestrales sacralizadas) mientras rechazaban la sustancia del "Cambio" (instituciones rígidas)</b>; el yang de E se volvió dominante mientras el yin de S (los corazones del pueblo) se drenaba, y cuando las instituciones llegaron al punto "agotado" seguían sin cambiar — <b>"desbloqueado, perdura" fue arrojado a un lado, y el ciclo de auge y caída tomó forma</b>.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · CAMBIO Y DESBLOQUEO</span><p>El arte de gobernar une "Cambio" con "Constancia": <b>Cambio — instituciones renovadas con la edad; Constancia — el propósito perdurable de servir al pueblo y a la equidad</b> — cuando el curso se agota, cambiar; cuando cambia, se desbloquea; cuando se desbloquea, perdura.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Espejos en el mundo actual</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Ciclo</span><p>Subidas y bajadas del mercado, calor y frío de la industria — todo es "Cambio": sigue la corriente y vive, lucha contra ella y te quemas.</p></div>
+      <div class="scene"><span class="s-tag">Mentalidad</span><p>No inflarse en el éxito (el dragón arrogante se arrepiente), no desesperar en el revés (el dragón oculto no debe actuar) — el equilibrio yin-yang del individuo.</p></div>
+      <div class="scene"><span class="s-tag">Decisión</span><p>Simplifica lo complejo primero (Sencillez), luego pregunta por el momento y la tendencia (Cambio), luego sostén el principio (Constancia).</p></div>
+      <div class="scene"><span class="s-tag">Medición</span><p>La cuadrícula de nueve palacios del Luoshu recibe todas las cosas — el moderno "contabilidad unificada", donde tres valores encuentran su lugar.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Los Cambios de Zhou</div><div class="b-author">Tomó forma alrededor del Zhou occidental</div><p>Los tres cambios establecen el marco: Sencillez, Cambio, Constancia; <b>"cuando el curso se agota, cambiar; cuando cambia, se desbloquea; cuando se desbloquea, perdura"</b> — el cambio contemplando el auge y la caída, un sistema de pensamiento en la propia voz del Este.</p></div>
+      <div class="book"><div class="b-name">Discursos sobre el Libro de los Cambios</div><div class="b-author">Nan Huai-chin · 1987</div><p>Recontar el clásico con lente moderna: <b>los Cambios son filosofía, no superstición — la razón del cambio y la medida de ser humano</b>.</p></div>
+      <div class="book"><div class="b-name">Los Secretos del Libro de los Cambios</div><div class="b-author">Zeng Shiqiang · 2009</div><p>"Un yin, un yang — ese es el Camino" habla del equilibrio: <b>deja espacio en todas las cosas; lo que es extremo da la vuelta; toma el beneficio y detente a tiempo</b> — la sabiduría del yin-yang, un espejo antiguo para las decisiones modernas.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solución: una nueva connotación de la moneda</h2></div>
+    <div class="what-card">
+      <div class="quote">"La vieja contabilidad registraba solo el libro 'yang'; la nueva contabilidad del dinero, como el Hetu y el Luoshu, debe traer el yin, el yang y el tiempo a un solo patrón."<br><span>— La Ley de Conservación del Valor · El Camino</span></div>
+      <p><b>Resolver el desequilibrio no es abolir el cambio, sino modelar con Sencillez, reequilibrar con Cambio y sostener el Camino con Constancia</b>: el valor económico pasa de "arrogancia" a "medida" (multiplicación de E); el valor social pasa de "sacrificado" a "apreciado" — confianza, calor humano y equidad entran a la contabilidad (multiplicación de S); el valor temporal pasa de "sobre-dibujado" a "medido" — seguir la época e invertir en el futuro (multiplicación de T).</p>
+      <p><strong>La nueva connotación de la moneda</strong> — que el dinero cargue tres valores a la vez:</p>
+      <p>· <b>Valor económico E (yang)</b>: cada yuan corresponde a bienes y servicios reales creados, acabando con "imprimir sin producir";<br>
+         · <b>Valor social S (yin)</b>: la moneda circula sobre confianza — recompensar el trato honesto, el cuidado mutuo y el calor humano;<br>
+         · <b>Valor temporal T (la hora)</b>: el dinero es una promesa entre generaciones — la educación, la innovación, el verde y la continuidad se miden, animando a "avanzar con los tiempos".</p>
+      <p><b>Cuando el dinero mide E, S y T a la vez</b>, como el Luoshu reúne todas las cosas en la cuadrícula de nueve palacios — <b>yin y yang en apoyo mutuo, avanzando con los tiempos, sosteniendo la constancia dentro del cambio: la fórmula de división pierde su terreno, la fórmula de multiplicación se auto-regula y se dispara el ciclo virtuoso</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Ciclo virtuoso: triple ganancia</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Sujeto</th><th>El ciclo virtuoso bajo la nueva connotación de la moneda</th><th>Valores</th></tr>
+        <tr><td>Nación</td><td>Instituciones cambiadas y desbloqueadas, riqueza con el pueblo → yin y yang en equilibrio, paz duradera → desbloqueado, perdura</td><td>T + S</td></tr>
+        <tr><td>Empresa</td><td>Gestión esbelta, desplazarse con la corriente → confianza profunda, negocio perdurable → sostener todas las cosas por la virtud de la tierra</td><td>E + S + T</td></tr>
+        <tr><td>Individuo</td><td>Avanzar con límites, moverse con la hora → yin y yang equilibrados, vida que capitaliza → avanzar en el paso con los tiempos</td><td>Las tres</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DE LA RIQUEZA</span><p>La riqueza es yang, y el yang debe saber dónde detenerse — <b>el crecimiento llevado a su extremo es "el dragón arrogante se arrepiente"; deja una medida de espacio, y ese es el camino del "nueve-cinco"</b>.</p></div>
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DEL BIENESTAR</span><p>El sentimiento es yin, y el yin debe "sostener profundamente" — <b>la virtud de Kun sostiene todas las cosas: capaz de sostener personas, capaz de sostener asuntos, el hogar y la organización tienen su raíz</b>; donde el sentimiento se va, ¿sobre qué descansará la riqueza?</p></div>
+      <div class="role"><span class="r-tag">EL CAMINO DE LA DOBLE FLORECIMIENTO</span><p>El f(m)×f(h)×f(t) del individuo y el E×S×T de la nación son una misma cosa: <b>modelar con Sencillez, reequilibrar con Cambio, sostener el Camino con Constancia — solo cuando las tres valores crecen juntas, el crecimiento es real</b>.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>Los Cambios tienen tres significados, y los tres regresan a uno: avanza con los tiempos, y las tres valores se multiplican.</b><br/>La Sencillez aclara, el Cambio desbloquea, la Constancia perdura — los tres sostenidos juntos es la fórmula del florecimiento;<br/><b>creación, confianza, continuidad — tres valores medidos juntos, es el código de fondo de la triple ganancia para nación, empresa e individuo.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significan los "tres cambios" del I Ching?</p>
+        <p class="a">R: Sencillez — el mundo complejo reducido a la ley más simple; Cambio — todas las cosas se desplazan con la hora y deben seguir la corriente; Constancia — dentro del cambio hay una ley que no cambia. Juntos forman un sistema oriental de pensamiento sobre "cambio y equilibrio".</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué tienen que ver el Hetu y el Luoshu con la vida moderna?</p>
+        <p class="a">R: El Hetu y el Luoshu reúnen los números de todas las cosas en la estructura de nueve palacios — en esencia, una sabiduría antigua de "medición estructurada". La versión moderna es la contabilidad unificada — traer el valor económico, social y temporal a un solo sistema de medida, para que cada acto de dar encuentre su lugar.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significa la "nueva connotación de la moneda" para la gente común?</p>
+        <p class="a">R: Que el dinero mida a la vez las tres valores. En el plano personal es la fórmula micro — que el ingreso no agote salud, relaciones ni acumulación de largo plazo; guarda f(h) y f(t), y tu vida gana interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido del I Ching presentado como interpretación filosófica · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

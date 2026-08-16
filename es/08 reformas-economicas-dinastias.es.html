@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganancias y Pérdidas de las Reformas Económicas — Ley de Conservación del Valor Y=E×S×T</title>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 46px 24px 38px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: var(--gold); border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 18px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 14px; max-width: 860px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; background: linear-gradient(transparent 62%, rgba(166,124,46,.35) 62%); padding: 0 4px; }
+  .hl-sub { display: inline-block; margin-top: 4px; font-size: 14px; color: #b9c6d4; border: 1px dashed rgba(185,198,212,.4); padding: 5px 16px; border-radius: 999px; letter-spacing: 1px; }
+  .hero p.sub { max-width: 780px; margin: 16px auto 0; font-size: 15.5px; color: #cdd6e0; line-height: 1.9; }
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 36px; align-items: start; }
+  .toc-wrap { position: sticky; top: 20px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 14px; box-shadow: var(--shadow); }
+  .toc .toc-title { font-size: 14px; font-weight: 700; color: var(--navy); letter-spacing: 2px; padding: 0 8px 10px; border-bottom: 1px dashed var(--line); margin-bottom: 8px; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc a { display: block; padding: 6px 8px; font-size: 13.5px; color: var(--ink-soft); border-radius: 6px; border-left: 3px solid transparent; }
+  .toc a:hover { color: var(--navy); background: var(--blue-soft); }
+  .toc a.active { color: var(--gold); font-weight: 700; border-left-color: var(--gold); background: var(--gold-soft); }
+  .content { min-width: 0; }
+  .label { display: inline-block; font-size: 12.5px; letter-spacing: 2px; color: var(--gold); background: var(--gold-soft); border: 1px solid rgba(166,124,46,.3); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+  .answer-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 28px; box-shadow: var(--shadow); margin-bottom: 26px; border-left: 4px solid var(--gold); }
+  .answer-card p { margin: 8px 0; }
+  .answer-card strong { color: var(--navy); }
+  .section-title { display: flex; align-items: center; gap: 12px; margin: 34px 0 16px; }
+  .section-title .sn { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
+  .section-title h2 { margin: 0; font-size: 22px; color: var(--navy); letter-spacing: 1px; }
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 13px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; }
+  .formula { font-family: Georgia, "Cambria Math", serif; font-size: 26px; font-weight: 700; color: var(--navy); text-align: center; padding: 10px 0; letter-spacing: 2px; }
+  .formula .var { color: var(--gold); }
+  .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 6px 0; }
+  .f-note b { color: var(--navy); }
+  .formula-card.mul { border-top: 4px solid var(--green); }
+  .formula-card.div { border-top: 4px solid var(--red); }
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); margin-bottom: 26px; }
+  .what-card .quote { font-family: Georgia, serif; font-style: italic; font-size: 16px; color: var(--navy-2); border-left: 3px solid var(--gold); padding-left: 16px; margin-bottom: 14px; }
+  .what-card .quote span { display: block; font-family: "Alibaba PuHuiTi 2.0", sans-serif; font-style: normal; font-size: 14px; color: var(--ink-soft); margin-top: 4px; }
+  .pillars { display: grid; gap: 18px; margin-bottom: 26px; }
+  .pillar { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow); border-left: 4px solid var(--navy-2); }
+  .pillar .p-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .pillar .p-num { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: var(--gold); }
+  .pillar h3 { margin: 0; font-size: 18px; color: var(--navy); }
+  .pillar .p-tag { font-size: 12px; color: var(--ink-soft); background: var(--blue-soft); padding: 2px 10px; border-radius: 999px; }
+  .pillar p { margin: 6px 0; font-size: 14.5px; }
+  .pillar b { color: var(--navy); }
+  .crisis-grid { display: grid; gap: 18px; margin-bottom: 26px; }
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .crisis .head { display: flex; gap: 16px; padding: 18px 22px; background: linear-gradient(135deg, var(--blue-soft), #fff); border-bottom: 1px solid var(--line); }
+  .crisis .year { text-align: center; min-width: 84px; }
+  .crisis .yy { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: var(--gold); line-height: 1.2; }
+  .crisis .tag { font-size: 12px; color: var(--navy-2); background: var(--gold-soft); border-radius: 999px; padding: 2px 10px; display: inline-block; margin-top: 4px; }
+  .crisis h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
+  .crisis .lead { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+  .crisis .body { padding: 18px 22px; }
+  .arg, .fix { margin-bottom: 12px; }
+  .arg:last-child, .fix:last-child { margin-bottom: 0; }
+  .arg-label, .fix-label { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: 1px; padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .arg-label { color: var(--red); background: var(--red-soft); border: 1px solid rgba(166,58,43,.25); }
+  .fix-label { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
+  .arg p, .fix p { margin: 4px 0; font-size: 14.5px; }
+  .arg b, .fix b { color: var(--navy); }
+  .fix ul { margin: 6px 0 0; padding-left: 20px; }
+  .fix li { font-size: 14px; margin-bottom: 4px; }
+  .scenes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 26px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--navy-2); background: var(--blue-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .scene p { margin: 4px 0; font-size: 14px; }
+  .books { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 26px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+  .b-name { font-size: 16px; font-weight: 700; color: var(--navy); }
+  .b-author { font-size: 12.5px; color: var(--gold); margin-bottom: 8px; }
+  .book p { margin: 6px 0; font-size: 13.5px; color: var(--ink-soft); }
+  .book b { color: var(--navy); }
+  .overview-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 26px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-weight: 600; letter-spacing: 1px; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { font-weight: 700; color: var(--navy); white-space: nowrap; }
+  .roles { display: grid; gap: 14px; margin-bottom: 26px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--gold); background: var(--gold-soft); padding: 2px 10px; border-radius: 6px; margin-bottom: 6px; }
+  .role p { margin: 4px 0; font-size: 14.5px; }
+  .role b { color: var(--navy); }
+  .closing { background: linear-gradient(135deg, #0f2439, #16324f); color: #f4efe4; border-radius: var(--radius); padding: 30px 32px; text-align: center; margin-bottom: 26px; box-shadow: var(--shadow); }
+  .closing p { margin: 6px 0; font-size: 15.5px; line-height: 2; }
+  .closing b { color: #d9b367; }
+  .faq { display: grid; gap: 12px; margin-bottom: 26px; }
+  .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 20px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  .toTop { position: fixed; right: 24px; bottom: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; border: none; font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: .3s; box-shadow: 0 4px 14px rgba(22,50,79,.35); z-index: 99; }
+  .toTop.show { opacity: 1; pointer-events: auto; }
+  #progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--gold), #d9b367); width: 0; z-index: 100; }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; padding: 24px 16px 10px; }
+    .toc-wrap { display: none; }
+    .formula-box, .books, .scenes { grid-template-columns: 1fr; }
+    .crisis .head { flex-direction: column; gap: 6px; }
+    .crisis .year { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header class="hero">
+  <div class="kicker">Think Tank de Doble Florecimiento · Serie de Aplicación de la Ley de Conservación del Valor 08</div>
+  <h1>Las Reformas Económicas a Través de las Dinastías, explicadas por una fórmula:<br><span class="hl">La cuerda milenaria entre la extracción estatal y la vitalidad del pueblo</span></h1>
+  <div class="hl-sub">Wu Xiaobo · "Ganancias y Pérdidas de las Reformas Económicas" (2013)</div>
+  <p class="sub">De Guan Zhong a la Reforma y Apertura, 2.700 años de reformas responden una pregunta: ¿hasta dónde llega la mano del Estado antes de que la mano del pueblo quede libre? La Ley de Conservación del Valor responde: Y = E × S × T — si se aprieta demasiado, S cae a cero; si se afloja demasiado, T se pierde. El camino del equilibrio es el camino de la multiplicación.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">ÍNDICE</div>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Un solo fórmula para entenderlo</a></li>
+        <li><a href="#sec-what">De qué trata este libro</a></li>
+        <li><a href="#sec-pillars">Por qué las reformas triunfan o fracasan</a></li>
+        <li><a href="#sec-crisis">Tres actos de reforma repasados</a></li>
+        <li><a href="#sec-scenes">Espejos en el mundo actual</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>El triunfo o el fracaso de las reformas dinásticas descansa en el equilibrio entre la extracción estatal (E) y la vitalidad del pueblo (S)</strong>: la reforma fortalece la bolsa del Estado (E se expande), pero con demasiada frecuencia reprime la creatividad popular (S se contrae) y erosiona la estabilidad institucional (T se degrada) — y así el ciclo de "aflojar y viene el caos, apretar y muere" se repite durante dos milenios.</p>
+      <p><strong>La solución está en la nueva connotación de la moneda</strong>: que el dinero cargue a la vez el valor económico, el social y el temporal, transformando "el Estado arrebatando el beneficio al pueblo" en "el Estado y el pueblo creciendo juntos". Cuando las tres valores se miden con una sola vara, la vitalidad popular es apreciada y las instituciones de largo plazo son respetadas — arranca el ciclo virtuoso auto-regulado, y nación, empresa e individuo ganan todos.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un solo fórmula para entenderlo</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LEY DE MULTIPLICACIÓN · EL CÓDIGO DE LA REFORMA EXITOSA</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> extracción estatal (capacidad fiscal) · <b>S</b> vitalidad del pueblo (creación e intercambio) · <b>T</b> estabilidad institucional (propiedad y confianza)</p>
+        <p class="f-note">Cuando las tres superan 1 juntas, la reforma inaugura una edad de esplendor; <b>si se sacrifica una, el todo devuelve sus ganancias</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LEY DE DIVISIÓN · EL CICLO DE LA REFORMA FRACASADA</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando la reforma <b>responde solo a la E fiscal</b> — absorbiendo el capital privado, cambiando las reglas de un día para otro —</p>
+        <p class="f-note"><b>S queda reprimida, T queda drenada</b>: la tesorería se fortalece a corto plazo, el todo colapsa a largo plazo.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De qué trata este libro</h2></div>
+    <div class="what-card">
+      <div class="quote">"Toda reforma económica de la historia china hace sus movimientos dentro de cuatro relaciones fundamentales: centro y local, gobierno y pueblo, gobierno y capital, China y el mundo."<br><span>— Wu Xiaobo · Ganancias y Pérdidas de las Reformas Económicas</span></div>
+      <p><b>Origen</b>: en 2013, el autor económico Wu Xiaobo trazó la reforma económica desde Guan Zhong hasta la Reforma y Apertura, usando las "cuatro relaciones fundamentales" y los dos hilos de "nacionalización/empresa privada" y "centralización/descentralización" para repasar 2.700 años de reforma. Su hallazgo central: <b>la reforma triunfa o fracasa no por la técnica, sino por el equilibrio entre la mano reguladora del Estado y la vitalidad del pueblo</b>.</p>
+      <p><b>Su pregunta</b>: ¿por qué las reformas bien intencionadas siempre terminan en "aflojar y viene el caos, apretar y muere"? Porque se lleva la contabilidad del Estado (E) pero no la del pueblo (S) ni la de largo plazo (T) — <b>y la forma de llevar esta contabilidad es exactamente la Ley de Conservación del Valor</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>Por qué las reformas triunfan o fracasan</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Sobre-extracción · El Estado avanza, el pueblo retrocede</h3><span class="p-tag">Origen de la división</span></div>
+        <p><b>Formación</b>: las reformas suelen empezar bajo la bandera de "enriquecer al Estado y fortalecer el ejército", intensificando la extracción fiscal — monopolios de la sal y el hierro, juntas estatales de venta. <b>La tesorería se llena a corto plazo, pero se arrebata el beneficio al pueblo</b>, expulsando del mercado a las mentes más creativas.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>El pueblo pierde vitalidad · La creación se seca</h3><span class="p-tag">El término sacrificado</span></div>
+        <p><b>Formación</b>: el comercio privado es absorbido y burocratizado; los mercaderes se aferran al poder o se retiran a la tierra — <b>la creatividad y la vitalidad del intercambio (S) se encogen sistemáticamente</b>, hasta que el mercado queda solo con "la prosperidad criada por la política".</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Instituciones inestables · Drenar la confianza</h3><span class="p-tag">El costo oculto</span></div>
+        <p><b>Formación</b>: el ciclo de reforma, reversa y reforma de nuevo vuelve la propiedad, el dinero y los impuestos <b>caprichosos (T se erosiona)</b> — el pueblo no se atreve a invertir a largo plazo, solo persigue lo corto; una vez gastada la credibilidad, ni las buenas políticas encuentran creyentes.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Tres actos de reforma repasados</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-qin">
+        <div class="head">
+          <div class="year"><div class="yy">SHANG YANG</div><div class="tag">356 a.C.</div></div>
+          <div class="title-box">
+            <h3>Un Estado de agricultura y guerra: la nación se fortaleció, el pueblo fue domado</h3>
+            <p class="lead">Las reformas hicieron de Qin una superpotencia de golpe (E se disparó), pero ataron a todo el pueblo a la máquina de guerra — la diversidad de S fue borrada.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>Shang Yang abolió el sistema de campos en pozo y premió el mérito militar; la movilización fiscal (E) llegó a la cima del mundo antiguo. Pero "premiar la agricultura, reprimir el comercio" y las leyes de delación mutua <b>desarraigaron por completo la vitalidad comercial e intelectual (S)</b>, y el gobierno por castigos duros dejó a la ideología sin amortiguador (T). Qin conquistó el reino con E, y pereció pronto porque S y T cayeron a cero — <b>llevó la contabilidad del Estado poderoso, no la del pueblo</b>.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Los Han heredaron el sistema de Qin pero cambiaron su rumbo: tributos ligeros que cedían beneficio al pueblo (reparar S), y leyes abreviadas que estabilizaban las instituciones (reparar T) — <b>el Estado fuerte sin monopolio, el pueblo vivo sin caos</b>.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-han">
+        <div class="head">
+          <div class="year"><div class="yy">WU DI → WANG ANSHI</div><div class="tag">119 a.C. / d.C. 1069</div></div>
+          <div class="title-box">
+            <h3>Dos rondas de "el Estado avanza, el pueblo retrocede"</h3>
+            <p class="lead">Los monopolios de la sal y el hierro y la Ley de Brotes Verdes, separados por mil años, son la misma división — el Estado pisa el campo y arrebata el beneficio al pueblo.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>Los monopolios de sal y hierro y los decretos de confiscación del emperador Wu dejaron <b>la tesorería (E) llena mientras los grandes mercaderes eran confiscados y el comercio privado (S) era herido de gravedad</b>; un milenio después, la Ley de Brotes Verdes de Wang Anshi pretendía ayudar a los campesinos, pero en la ejecución <b>el préstamo del magistrado se volvió una nueva exacción (S herida de nuevo)</b>, y las luchas faccionales hicieron oscilar las instituciones (T drenado) — dos veces se absorbió el capital del pueblo, dos veces se sembraron las semillas de la decadencia.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Que el Estado sea árbitro, no jugador: <b>fijar las reglas (reparar T), llenar los vacíos (reparar S), tributar con medida para sostener al Estado (E con límites)</b> — dejar la creación al pueblo y la equidad a las instituciones.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-yang">
+        <div class="head">
+          <div class="year"><div class="yy">AUTO-FORTALECIMIENTO → REFORMA</div><div class="tag">1861 / 1978</div></div>
+          <div class="title-box">
+            <h3>Supervisión oficial vs. empresa privada liberada: un fracaso, un éxito</h3>
+            <p class="lead">El Movimiento de Auto-Fortalecimiento absorbió el capital privado bajo gestión oficial; la Reforma y Apertura liberó la economía privada — un contraste que revela la bifurcación entre división y multiplicación.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">FORMACIÓN · DIVISIÓN</span><p>Bajo la "supervisión oficial y gestión mercantil", <b>la lógica burocrática dominó el negocio (S fue tomada como rehén)</b>, y las empresas se volvieron apéndices del funcionariado, sin madurar en un siglo. Después de 1978, por contraste, el sistema de responsabilidad familiar, las empresas de los pueblos y la economía privada fueron liberados — <b>el Estado retrocedió medio paso, el pueblo avanzó uno entero (S se disparó), y las instituciones se estabilizaron gradualmente (T sanó)</b>.</p></div>
+          <div class="fix"><span class="fix-label">SOLUCIÓN · MULTIPLICACIÓN</span><p>Liberar y regular en tándem: <b>propiedad protegida (S), reglas predecibles (T), impuestos tomados con medida (E)</b> — cuando el pueblo tiene propiedad duradera, tiene determinación duradera; cuando el Estado mantiene el orden, mantiene el futuro.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Espejos en el mundo actual</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Empresa</span><p>Perseguir los dividendos de la política (E) sin construir capacidad (S) ni posición de largo plazo (T) — cuando la política cambia, todo se acaba en un día.</p></div>
+      <div class="scene"><span class="s-tag">Individuo</span><p>Vivir para el ingreso de corto plazo f(m), sin construir habilidades ni relaciones f(h), ni invertir a largo plazo f(t) — cuando los tiempos cambian, no hay dónde retroceder.</p></div>
+      <div class="scene"><span class="s-tag">Localidad</span><p>Apuntalar las finanzas de corto plazo vendiendo tierra y pidiendo prestado, drenando el medio ambiente y las generaciones — el moderno "vaciar el estanque".</p></div>
+      <div class="scene"><span class="s-tag">Instituciones</span><p>Reglas cambiadas del amanecer al anochecer, y los mejores incentivos pierden su poder — <b>la estabilidad institucional (T) es el interés que se paga sobre la confianza del pueblo</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Ganancias y Pérdidas de las Reformas Económicas</div><div class="b-author">Wu Xiaobo · 2013</div><p>Cuatro relaciones fundamentales y dos hilos a lo largo de dos milenios: <b>la reforma triunfa o fracasa no por la técnica, sino por cómo se divide el valor entre Estado y pueblo</b> — arrebata el beneficio al pueblo y declina; cede el beneficio al pueblo y florece.</p></div>
+      <div class="book"><div class="b-name">Grandes Fracasos</div><div class="b-author">Wu Xiaobo · 2001</div><p>Empresas privadas que "surgen con un auge y caen con un desplome": <b>crecidas sobre conexiones y rentas (E hueca), delgadas en capacidad y gobernanza (S y T débiles)</b> — la versión corporativa del desequilibrio del valor.</p></div>
+      <div class="book"><div class="b-name">1587, un año sin importancia</div><div class="b-author">Ray Huang · 1982</div><p>Sobre el estancamiento de la dinastía por falta de "gestión por números": <b>cuando las instituciones no pueden cuantificar la contribución del pueblo (S y T sin medir)</b>, la prosperidad no puede acumularse en futuro en ninguna contabilidad.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solución: una nueva connotación de la moneda</h2></div>
+    <div class="what-card">
+      <div class="quote">"Las contabilidades de las reformas pasadas registraban solo el ingreso del gobierno; la contabilidad de un nuevo dinero debe registrar el auge y la caída de tres valores."<br><span>— La Ley de Conservación del Valor · El Camino</span></div>
+      <p><b>Escapar del bucle de dos mil años no es descartar al Estado, sino dejar que Estado y pueblo lleguen cada uno a lo suyo</b>: la finanza pasa de "arrebatar el beneficio al pueblo" a "tomar con medida, gastar con propósito" (multiplicación de E); el pueblo pasa de "ser absorbido" a "ser apreciado" — propiedad protegida, contratos honrados (multiplicación de S); las instituciones pasan de "caprichosas" a "predecibles" (multiplicación de T).</p>
+      <p><strong>La nueva connotación de la moneda</strong> — que el dinero cargue tres valores a la vez:</p>
+      <p>· <b>Valor económico E</b>: cada yuan corresponde a bienes y servicios reales creados, acabando con "imprimir sin producir";<br>
+         · <b>Valor social S</b>: la moneda circula sobre confianza — recompensar a quienes crean empleo, guardan la riqueza con el pueblo y obran de buena fe;<br>
+         · <b>Valor temporal T</b>: el dinero es una promesa entre generaciones — la educación, la innovación, el verde y la continuidad se miden, para no "comernos el arroz de nuestros hijos".</p>
+      <p><b>Cuando el dinero mide E, S y T a la vez</b>, la extracción del Estado encuentra su límite, la creación del pueblo encuentra su recompensa y la estabilidad institucional encuentra su medida — <b>la fórmula de división pierde su terreno, la fórmula de multiplicación se auto-regula y se dispara el ciclo virtuoso</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Ciclo virtuoso: triple ganancia</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Sujeto</th><th>El ciclo virtuoso bajo la nueva connotación de la moneda</th><th>Valores</th></tr>
+        <tr><td>Nación</td><td>Tomar con medida e invertir en la confianza del pueblo → finanzas sanas, riqueza con el pueblo → paz duradera</td><td>S + T</td></tr>
+        <tr><td>Empresa</td><td>Crear con honestidad y operar con tranquilidad → ganar confianza y retorno de largo plazo → negocio perdurable</td><td>E + S + T</td></tr>
+        <tr><td>Individuo</td><td>Trabajo con dignidad, ahorro con seguridad → crear con confianza, invertir a largo plazo → vida multiplicada</td><td>Las tres</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DE LA RIQUEZA</span><p>No pongas la contabilidad del Estado contra la del pueblo — <b>cuando el pueblo prospera, el Estado tiene su base tributaria; drena al pueblo, y la tesorería se vuelve un arroyo sin fuente</b>.</p></div>
+      <div class="role"><span class="r-tag">LA ENSEÑANZA DEL BIENESTAR</span><p>La reforma se apoya en la confianza. El pueblo no se atreve a invertir a largo plazo, no por falta de dinero, sino por miedo a que cambien las reglas — <b>la estabilidad es la declaración más tierna jamás hecha a los creadores</b>.</p></div>
+      <div class="role"><span class="r-tag">EL CAMINO DE LA DOBLE FLORECIMIENTO</span><p>El f(m)×f(h)×f(t) del individuo y el E×S×T de la nación son una misma cosa: <b>solo cuando las tres valores crecen juntas, el crecimiento es real</b> — entre aflojar y apretar, elige siempre el lado que multiplica el valor.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>La historia no se repite, pero la lección de "aflojar y viene el caos, apretar y muere" nunca expira.</b><br/>El Estado con límites, el pueblo vivo, las instituciones confiables — las tres por encima de 1 a la vez es la fórmula de la reforma exitosa;<br/><b>creación, confianza, continuidad — tres valores medidos juntos, es el código de fondo para escapar del bucle milenario y ganar para nación, empresa e individuo.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Cuál es el argumento central del libro de Wu Xiaobo?</p>
+        <p class="a">R: Toda reforma dinástica china se despliega dentro de cuatro relaciones fundamentales, y su éxito depende del equilibrio entre la regulación estatal y la vitalidad popular. Arrebatar el beneficio al pueblo lleva al declive; cederlo al pueblo lleva al florecimiento.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué las buenas reformas terminan tan a menudo en "aflojar y viene el caos, apretar y muere"?</p>
+        <p class="a">R: Porque solo se lleva la contabilidad fiscal (E), no la del pueblo (S) ni la de largo plazo (T). Aflojar sin reglas trae el caos; apretar mata la vitalidad. La salida es diseñar las tres a la vez, para que S, T y E superen 1 juntos.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significa la "nueva connotación de la moneda" para la gente común?</p>
+        <p class="a">R: Que el dinero mida a la vez las tres valores. En el plano personal es la fórmula micro — que el ingreso no agote salud, relaciones ni acumulación de largo plazo; guarda f(h) y f(t), y tu vida gana interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</footer>
+
+<button class="toTop" id="toTop">↑</button>
+</body>
+<script>
+  const bar = document.getElementById('progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+  }, { passive: true });
+  document.getElementById('toTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const tocLinks = document.querySelectorAll('.toc a');
+  const secs = [...tocLinks].map(a => document.querySelector(a.getAttribute('href')));
+  function updateToc() {
+    let cur = secs[0];
+    secs.forEach(s => { if (s && s.getBoundingClientRect().top <= 120) cur = s; });
+    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur.id));
+  }
+  window.addEventListener('scroll', updateToc, { passive: true });
+  updateToc();
+</script>
+</html>

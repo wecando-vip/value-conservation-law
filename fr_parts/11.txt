@@ -1,0 +1,193 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Double Floraison · Série d'application de la Loi de Conservation de la Valeur 11</div>
+  <h1>Grande Nation, Grande Ville, expliqué par une formule<br><span class="hl">Le prix de la mauvaise allocation des populations et des ressources</span></h1>
+  <div class="hl-sub">Lu Ming · Grande Nation, Grande Ville (2016)</div>
+  <p class="sub">Les gens vont vers les grandes villes : c'est une loi économique, pas une « maladie des grandes villes ». L'intuition de Lu Ming : la main administrative fausse la loi de l'agglomération — limiter les grandes villes, donner des terres aux petites et moyennes, crée la mauvaise allocation entre population et terre. La Loi de Conservation de la Valeur fournit le cadre : Y = E × S × T — l'efficacité (E), le bien-être des gens (S), la durabilité des ressources (T) : la mauvaise allocation les fait tous perdre en même temps.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">SOMMAIRE</div>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Un seule formule pour comprendre</a></li>
+        <li><a href="#sec-what">De quoi parle ce livre</a></li>
+        <li><a href="#sec-pillars">La formation de la mauvaise allocation</a></li>
+        <li><a href="#sec-crisis">Observation du réel : trois désalignements</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La mauvaise allocation des populations et des ressources est une histoire de division, « l'intervention administrative faussant les prix des facteurs »</strong> : limiter l'agglomération dans les grandes villes comprime les économies d'échelle (E) ; la mauvaise allocation du hukou et des quotas fonciers sacrifie le bien-être des gens et la réunion des familles (S) ; villes vides, bâtiments inachevés, dettes : la facture des ressources mal placées (T) — les trois valeurs perdent ensemble, la grande nation ne devient pas « grande ville ».</p>
+      <p><strong>La solution réside dans la nouvelle connotation de la monnaie</strong> : faire porter à la monnaie les trois valeurs économique, sociale et temporelle, transformer « les gens tournent autour des quotas » en « les quotas tournent autour des gens » — les trois valeurs mesurées ensemble, l'efficacité de l'agglomération, la réunion des familles et la durabilité des ressources se voient sur le même grand livre, le cycle vertueux se déclenche : l'État, l'entreprise, l'individu gagnent tous.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un seule formule pour comprendre</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LA LOGIQUE DE LA GRANDE VILLE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> efficacité de l'agglomération (échelle et division du travail) · <b>S</b> bien-être des gens (emploi · famille · services publics) · <b>T</b> durabilité des ressources (terre · dette · transmission)</p>
+        <p class="f-note">Les gens suivent l'emploi, les services suivent les gens : les trois se multiplient ; <b>la mauvaise allocation artificielle fait perdre les trois</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · LA FORMATION DE LA MAUVAISE ALLOCATION</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand <b>la main administrative ne voit que la commodité de gérer E</b> : limiter les grandes villes, quotas mal répartis, hommes et terre séparés —</p>
+        <p class="f-note"><b>S sacrifié, T gaspillé</b> : un équilibre de façade, en réalité une double perte.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De quoi parle ce livre</h2></div>
+    <div class="what-card">
+      <div class="quote">« La Chine est une grande nation, et elle doit aussi bâtir de "grandes villes". La taille des villes n'est pas une "maladie" ; ce sont les politiques qui violent les lois économiques qui sont la maladie. »<br><span>— Lu Ming · Grande Nation, Grande Ville</span></div>
+      <p><b>Origine</b> : en 2016, le professeur Lu Ming de l'université Jiao Tong de Shanghai publie <i>Grande Nation, Grande Ville</i>, disséquant à la lumière de l'économie les distorsions profondes du développement urbain-rural et régional chinois. Constat central : <b>l'agglomération de la population vers les grandes villes est une nécessité des économies d'échelle ; le vrai problème, ce sont les forces administratives — hukou, quotas fonciers — qui créent la mauvaise allocation entre population et ressources</b> : les gens vont à l'est, les quotas vont à l'ouest, les deux côtés y perdent.</p>
+      <p><b>La prescription de Lu Ming</b> : laisser le marché décider de l'agglomération de la population et de l'industrie, faire « suivre les gens » les services publics et les quotas fonciers — <b>reconnaître la loi coûte moins cher que la combattre, et c'est plus juste</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>La formation de la mauvaise allocation</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Grandes villes limitées · agglomération comprimée</h3><span class="p-tag">Source de la division</span></div>
+        <p><b>Formation</b> : du « contrôle strict de la taille des mégapoles » aux restrictions d'achat et de migration, <b>la main administrative freine l'agglomération vers les villes à haute productivité (l'efficacité de E dégradée)</b> — l'emploi est sur la côte, l'homme reste à la porte, les économies d'échelle ne se libèrent pas.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Hommes et terres désalignés · bien-être sacrifié</h3><span class="p-tag">Victime sacrifiée</span></div>
+        <p><b>Formation</b> : la population coule vers les grandes villes, mais les quotas de terres constructibles penchent vers les petites villes et les campagnes — <b>l'homme ne peut pas entrer en ville, les familles séparées, les enfants laissés au village (S atteint)</b> ; les services publics ne « suivent pas les gens », la réunion et la dignité sont converties en coûts.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Villes vides · ressources gaspillées</h3><span class="p-tag">Coût caché</span></div>
+        <p><b>Formation</b> : les petites villes et les zones nouvelles bâtissent à toute vitesse, <b>villes vides, villes fantômes, bâtiments inachevés (le gaspillage des ressources de T)</b> ; la dette locale et la dépendance au foncier s'accumulent — les ressources posées là où il n'y a personne, le temps paie pour l'erreur.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Observation du réel : trois désalignements</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-huji">
+        <div class="head">
+          <div class="year"><div class="yy">Hukou</div><div class="tag">Mobilité de la population</div></div>
+          <div class="title-box">
+            <h3>L'homme en ville, le cœur « hors du système »</h3>
+            <p class="lead">Quinze ans de travail en ville : l'école des enfants, le remboursement des soins restent des casse-tête — l'homme est entré en ville, son statut n'y est pas entré.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Le hukou est lié aux services publics : <b>le travailleur crée un E immense pour la ville, mais ne reçoit pas le S correspondant (éducation, santé, retraites)</b> ; plus de deux cents millions de travailleurs migrants « circulent sans migrer », les enfants et les parents laissés au village deviennent le prix à payer — hommes et terre séparés, deux variables de la multiplication blessées en même temps.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Les services publics « suivent les gens » : <b>le lieu de résidence fournit éducation, santé, retraites (le rendement de E se réalise en bien-être de S)</b> — où l'on crée, là on s'installe.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-tudi">
+        <div class="head">
+          <div class="year"><div class="yy">Quotas fonciers</div><div class="tag">Hommes et terres désalignés</div></div>
+          <div class="title-box">
+            <h3>Les gens vont à l'est, les quotas vont à l'ouest</h3>
+            <p class="lead">Les quotas de terres constructibles penchent vers le centre-ouest, les grandes villes de l'est « manquent de terre » — la terre suit le plan, pas les gens.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Les quotas fonciers sont attribués par l'administration, non par le marché : <b>les grandes villes de l'est manquent de terre → prix immobiliers élevés (le coût de E augmente)</b>, le centre-ouest a trop de terre → villes vides et fantômes (le gaspillage des ressources de T) ; population et terre séparées dans l'espace, <b>nulle part « l'homme et la terre ne se conviennent », le bien-être d'habitation de S perd des deux côtés</b>.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Les quotas fonciers « suivent les gens » : <b>les zones d'arrivée reçoivent plus de terre, les zones de départ protègent l'écologie (E et S gagnent)</b> — la terre suit le choix des gens, pas l'inverse.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-kongcheng">
+        <div class="head">
+          <div class="year"><div class="yy">Villes nouvelles</div><div class="tag">Villes vides et prix élevés</div></div>
+          <div class="title-box">
+            <h3>D'un côté les villes vides, de l'autre les prix inaccessibles</h3>
+            <p class="lead">Les zones nouvelles du centre-ouest restent vides, les prix des villes de première ligne inaccessibles — les deux extrémités de la mauvaise allocation.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Le « mouvement de construction de villes » poussé par l'administration a bâti massivement dans les zones de départ de population : <b>villes vides et inachevées (la sédimentation de T)</b> ; tandis que les grandes villes d'arrivée, terre rare, <b>chassent les jeunes par les prix (l'exclusion de S)</b> — d'un côté le gâchis silencieux des ressources, de l'autre le départ forcé des talents : la preuve du « décalage entre les quotas et les cœurs ».</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>Traiter la mobilité comme un « vote » : <b>où les gens créent, les ressources s'y allouent (l'efficacité de E) ; où les gens vivent, les services publics s'y construisent (la justice de S)</b> — la taille des villes décidée par les gens, non par l'imagination des plans.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Les miroirs dans le monde réel</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Individu</span><p>Des années de travail à Pékin ou Shanghai, le hukou et le logement restent un « plafond » — on a apporté E, on ne garde pas S.</p></div>
+      <div class="scene"><span class="s-tag">Famille</span><p>Les parents travaillent en ville, les enfants restent au village — f(m) monte, la réunion familiale f(h) est décotée.</p></div>
+      <div class="scene"><span class="s-tag">Entreprise</span><p>Recruter est impossible, garder est impossible — la mauvaise allocation des talents est la perte cachée de l'entreprise.</p></div>
+      <div class="scene"><span class="s-tag">Village natal</span><p>La zone nouvelle du chef-lieu devient « ville vide », la maison ancestrale se vide — les ressources investies là où personne ne va : le coût silencieux de T.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Grande Nation, Grande Ville</div><div class="b-author">Lu Ming · 2016</div><p>Une grande nation a besoin de grandes villes : <b>l'agglomération est une loi, la mauvaise allocation est une politique ; laisser le marché décider de l'agglomération, laisser l'État garantir le bien-être</b> — hommes et terres à leur place, les trois valeurs se multiplient.</p></div>
+      <div class="book"><div class="b-name">La Ville Centripète</div><div class="b-author">Lu Ming · 2022</div><p>L'essence de la ville est « centripète » — <b>l'agglomération n'est pas une maladie, c'est l'expression naturelle des économies d'échelle</b> ; gouverner la ville, c'est canaliser la force centripète, non la bloquer à contre-courant.</p></div>
+      <div class="book"><div class="b-name">La Chine urbaine et rurale</div><div class="b-author">Zhou Qiren · 2013</div><p>Les hommes et les terres entre ville et campagne sont le cœur de la seconde moitié de la réforme : <b>laisser les gens circuler librement, laisser la terre suivre les gens, c'est la même chose que libérer E, réparer S et ordonner T</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="what-card">
+      <div class="quote">« L'ancien grand livre ne notait que le coût de "contrôler les gens" ; le grand livre de la nouvelle monnaie doit noter la valeur de "ce que les gens créent" et le bien-être de "où les gens se posent". »<br><span>— Loi de Conservation de la Valeur · la voie de sortie</span></div>
+      <p><b>Briser la mauvaise allocation hommes-terres, ce n'est pas renoncer au plan, c'est soumettre le plan aux trois valeurs</b> : l'agglomération, de « limitée » à « reconnue » — laisser le marché décider de la répartition spatiale de la population et de l'industrie (multiplication de E) ; le bien-être des gens, de « converti en coût » à « garanti » — services publics qui suivent les gens (multiplication de S) ; les ressources, de « mal placées » à « remises à leur place » — terres, dettes et investissements suivent la population (multiplication de T).</p>
+      <p><strong>La nouvelle connotation de la monnaie</strong> — faire porter trois valeurs à la fois :</p>
+      <p>· <b>Valeur économique E</b> : chaque centime correspond à une création réelle de biens et de services, fini « imprimer sans produire » ;<br>
+         · <b>Valeur sociale S</b> : la circulation monétaire repose sur la confiance — création d'emplois, réunion des familles, vie paisible et heureuse récompensées par la monnaie ;<br>
+         · <b>Valeur temporelle T</b> : la monnaie est une promesse intertemporelle — l'éducation, l'innovation, l'écologie, la transmission entrent dans la mesure, fini de « manger le riz des enfants ».</p>
+      <p><b>Quand la monnaie mesure à la fois E, S, T</b>, l'efficacité de l'agglomération, la réunion des familles et la durabilité des ressources se voient sur le même grand livre — <b>la loi de division perd son terrain, la loi de multiplication s'auto-régule, le cycle vertueux se déclenche</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Cycle vertueux : triple gagnant</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>Hommes et terres à leur place, agglomération plus efficace → régions coordonnées, demande intérieure forte → grande nation, grande ville</td><td>E + T</td></tr>
+        <tr><td>Entreprise</td><td>Talents réunis, marché assez grand → échelle et innovation ensemble → prospérité durable</td><td>E + S + T</td></tr>
+        <tr><td>Individu</td><td>S'installer en ville possible, réunion garantie → oser bouger, oser fonder un foyer → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>La mobilité de la population est un « vote avec les pieds » — <b>là où les gens vont est le signal de la valeur ; allouer les ressources contre le signal, c'est une obstination coûteuse</b>.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>La ville n'est pas un récipient de PIB, c'est le lieu de la réunion de millions de familles — <b>que les parents ne laissent plus les enfants au village, que les travailleurs puissent fonder un foyer : c'est la chaleur la plus profonde du développement</b>.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b> — hommes et terres à leur place, la richesse et l'affect fleurissent ensemble.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>La chance de la grande nation est dans les grandes villes ; la réussite des grandes villes est dans l'homme à sa place.</b><br/>Agglomération rapide, réunion chaleureuse, ressources durables — les trois au-dessus de 1, la formule de la grande nation, grande ville ;<br/><b>création, confiance, transmission — trois valeurs mesurées ensemble, c'est le code fondamental du triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale de « Grande Nation, Grande Ville » de Lu Ming ?</p>
+        <p class="a">A : L'agglomération de la population vers les grandes villes est une nécessité des économies d'échelle, pas une « maladie des grandes villes ». Le vrai problème : les forces administratives — hukou, quotas fonciers — créent la mauvaise allocation entre population et ressources ; il faut laisser le marché décider de l'agglomération et faire suivre les gens aux services publics et à la terre.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi « d'un côté les villes vides, de l'autre les prix inaccessibles » ?</p>
+        <p class="a">A : Les quotas fonciers sont attribués par l'administration, non par le marché — les grandes villes d'arrivée de population manquent de terre (prix élevés), les zones de départ ont trop de terre (villes vides). Hommes et terres désalignés : E, S, T perdent tous.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Points de vue issus des ouvrages publics de Lu Ming · Contenu conforme à la réglementation publicitaire<br>
+  Idées de vulgarisation, ne constituent pas un conseil en investissement
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

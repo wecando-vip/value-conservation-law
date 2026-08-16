@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文库索引 · Library — 财情倍增的价值守恒定律 Y=E×S×T</title>
+<meta name="description" content="财情双生智库·价值守恒定律应用系列文库索引:15 个主题的中英文双语文档目录,支持中文/English,规划扩展 Español/العربية/Français。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 44px 24px 34px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: var(--gold); border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 16px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 10px; max-width: 860px; font-size: clamp(24px, 3.8vw, 34px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; }
+  .hero p.sub { max-width: 720px; margin: 12px auto 0; font-size: 15px; color: #cdd6e0; line-height: 1.9; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 28px 10px; }
+  .lang-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 30px; }
+  .lang { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); text-align: center; }
+  .lang .code { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: var(--navy); }
+  .lang .name { font-size: 13px; color: var(--ink-soft); margin-top: 2px; }
+  .lang .status { display: inline-block; font-size: 12px; margin-top: 6px; padding: 2px 10px; border-radius: 999px; }
+  .lang .ok { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
+  .lang .soon { color: var(--gold); background: var(--gold-soft); border: 1px dashed rgba(166,124,46,.4); }
+  .lang a { display: block; margin-top: 6px; font-size: 13px; font-weight: 700; color: var(--navy-2); }
+  .sec-title { display: flex; align-items: center; gap: 12px; margin: 26px 0 16px; }
+  .sec-title .sn { font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
+  .sec-title h2 { margin: 0; font-size: 21px; color: var(--navy); letter-spacing: 1px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 30px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+  .card .no { font-family: Georgia, serif; font-size: 15px; font-weight: 700; color: var(--gold); letter-spacing: 1px; }
+  .card h3 { margin: 6px 0 8px; font-size: 17px; color: var(--navy); }
+  .card .zh-link { font-size: 14px; font-weight: 700; }
+  .card .en-title { font-size: 13.5px; color: var(--ink-soft); margin: 4px 0 8px; font-style: italic; }
+  .card .links { display: flex; gap: 16px; font-size: 13.5px; }
+  .card .links a { font-weight: 700; }
+  .card .soon-link { font-size: 13px; color: var(--gold); border: 1px dashed rgba(166,124,46,.4); padding: 1px 10px; border-radius: 999px; margin-left: 6px; white-space: nowrap; }
+  .card .desc { margin: 10px 0 0; font-size: 13.5px; color: var(--ink-soft); }
+  .note { background: var(--blue-soft); border: 1px solid rgba(43,95,138,.2); border-radius: var(--radius); padding: 14px 20px; font-size: 14px; color: var(--ink-soft); margin-bottom: 26px; }
+  .note b { color: var(--navy); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 18px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  .back { display: inline-block; margin: 0 0 18px; font-size: 13.5px; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="kicker">财情双生智库 · 价值守恒定律应用系列</div>
+  <h1>价值守恒定律 <span class="hl">文库索引</span> · Library</h1>
+  <p class="sub">15 个主题 · 中英西法四语 · 纯 HTML 单文件 · 每篇含公式论证、书例、现实场景与 FAQ。语言目录按 <b>zh / en / es / fr</b>（已上线）<b>/ ar</b>（规划中）分文件夹存放,点击直达。</p>
+</header>
+
+<div class="wrap">
+  <p class="back"><a href="index.html">← 返回中文主页 (index.html)</a> ｜ <a href="index.en.html">English Homepage →</a></p>
+
+  <div class="sec-title"><span class="sn">L</span><h2>语言目录 Language</h2></div>
+  <div class="lang-bar">
+    <div class="lang"><div class="code">zh/</div><div class="name">中文 Chinese</div><span class="status ok">15 篇已发布</span><a href="zh/">浏览目录 →</a></div>
+    <div class="lang"><div class="code">en/</div><div class="name">English</div><span class="status ok">15 docs published</span><a href="en/">Browse →</a></div>
+    <div class="lang"><div class="code">es/</div><div class="name">Español</div><span class="status ok">15 docs publicados</span><a href="es/">Explorar →</a></div>
+    <div class="lang"><div class="code">ar/</div><div class="name">العربية</div><span class="status soon">即将上线</span></div>
+    <div class="lang"><div class="code">fr/</div><div class="name">Français</div><span class="status ok">15 docs publiés</span><a href="fr/">Explorer →</a></div>
+  </div>
+
+  <div class="sec-title"><span class="sn">A</span><h2>主题矩阵 Topics</h2></div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="no">NO. 01</div>
+      <h3>五大经济危机解码</h3>
+      <div class="en-title">The Five Economic Crises Decoded</div>
+      <div class="links"><a href="zh/01 经济危机解码-价值守恒定律.html">中文</a><a href="en/01 five-economic-crises-value-conservation.en.html">English</a></div><a href="fr/01 décrypter-crises-économiques.fr.html">Français</a><a href="es/01 descifrando-crisis-economicas.es.html">Español</a>
+      <p class="desc">危机本质 = 除法公式滥用(只对 E 负责,牺牲 S×T);解药 = 乘法公式。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 02</div>
+      <h3>突破墨菲定律对你的压制</h3>
+      <div class="en-title">Breaking Free of Murphy's Law</div>
+      <div class="links"><a href="zh/02 突破墨菲定律，对你的压制-价值守恒论证.html">中文</a><a href="en/02 break-free-murphys-law-value-conservation.en.html">English</a></div><a href="fr/02 briser-loi-murphy.fr.html">Français</a><a href="es/02 rompiendo-ley-murphy.es.html">Español</a>
+      <p class="desc">墨菲定律 = 除法自动运行(压缩 S 容错与 T 余量换 E);破解 = 清单/备份/余量。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 03</div>
+      <h3>帕金森定律</h3>
+      <div class="en-title">Parkinson's Law</div>
+      <div class="links"><a href="zh/03 帕金森定律-价值守恒论证.html">中文</a><a href="en/03 parkinsons-law-value-conservation.en.html">English</a></div><a href="fr/03 loi-parkinson.fr.html">Français</a><a href="es/03 ley-parkinson.es.html">Español</a>
+      <p class="desc">帕金森定律 = 时间价值 T 失效(无边界→分母放大→E 摊薄);破解 = 时间盒/交付标准。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 04</div>
+      <h3>彼得原理</h3>
+      <div class="en-title">The Peter Principle</div>
+      <div class="links"><a href="zh/04 彼得原理-价值守恒论证.html">中文</a><a href="en/04 peter-principle-value-conservation.en.html">English</a></div><a href="fr/04 principe-peter.fr.html">Français</a><a href="es/04 principio-peter.es.html">Español</a>
+      <p class="desc">彼得原理 = 晋升只看过去 E、不看未来 S/T;破解 = 胜任力晋升/双轨制/培养。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 05</div>
+      <h3>债务危机与新货币价值内涵</h3>
+      <div class="en-title">Debt Crises and the New Connotation of Money</div>
+      <div class="links"><a href="zh/05 债务危机-新货币价值内涵论证.html">中文</a><a href="en/05 debt-crises-new-currency-value.en.html">English</a></div><a href="fr/05 crise-dette-nouvelle-monnaie.fr.html">Français</a><a href="es/05 crisis-deuda-nueva-moneda.es.html">Español</a>
+      <p class="desc">债务危机 = E 的时差账(S、T 被透支);破解 = 新货币价值内涵(三种价值统一计量)。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 06</div>
+      <h3>中央帝国的财政密码</h3>
+      <div class="en-title">The Fiscal Code of Central Empires</div>
+      <div class="links"><a href="zh/06 中央帝国的财政密码-价值守恒论证.html">中文</a><a href="en/06 fiscal-code-central-empires-value-conservation.en.html">English</a></div><a href="fr/06 code-fiscal-empires-centraux.fr.html">Français</a><a href="es/06 codigo-fiscal-imperios-centrales.es.html">Español</a>
+      <p class="desc">王朝兴衰 = 经济汲取(E)的边界;破解 = 财政与民共生、三种价值入账。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 07</div>
+      <h3>中央帝国三部曲</h3>
+      <div class="en-title">The Central Empire Trilogy</div>
+      <div class="links"><a href="zh/07 中央帝国三部曲-价值守恒论证.html">中文</a><a href="en/07 central-empire-trilogy-value-conservation.en.html">English</a></div><a href="fr/07 trilogie-empire-central.fr.html">Français</a><a href="es/07 trilogia-imperio-central.es.html">Español</a>
+      <p class="desc">帝国三大支柱:财政(基础)/军事(骨架)/哲学(灵魂)= E、S、T 的乘法与除法。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 08</div>
+      <h3>历代经济变革得失</h3>
+      <div class="en-title">Economic Reforms Through the Dynasties</div>
+      <div class="links"><a href="zh/08 历代经济变革得失-价值守恒论证.html">中文</a><a href="en/08 economic-reforms-dynasties-value-conservation.en.html">English</a></div><a href="fr/08 réformes-économiques-dynasties.fr.html">Français</a><a href="es/08 reformas-economicas-dinastias.es.html">Español</a>
+      <p class="desc">变革成败 = 政府汲取(E)与民间活力(S)的平衡 + 制度稳定(T)。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 09</div>
+      <h3>中国历代政治得失</h3>
+      <div class="en-title">The Gains and Losses of Chinese Dynastic Politics</div>
+      <div class="links"><a href="zh/09 中国历代政治得失-价值守恒论证.html">中文</a><a href="en/09 political-gains-losses-dynasties-value-conservation.en.html">English</a></div><a href="fr/09 politique-dynasties-chinoises.fr.html">Français</a><a href="es/09 politica-dinastias-chinas.es.html">Español</a>
+      <p class="desc">制度兴衰 = 制度与人事配合、与时代配合;破解 = 制度常新(简易/变易/不易)。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 10</div>
+      <h3>置身事内:中国政府与经济发展</h3>
+      <div class="en-title">Inside the Game: Government and Economic Development</div>
+      <div class="links"><a href="zh/10 置身事内-价值守恒论证.html">中文</a><a href="en/10 inside-the-game-value-conservation.en.html">English</a></div><a href="fr/10 au-coeur-du-jeu.fr.html">Français</a><a href="es/10 dentro-del-juego.es.html">Español</a>
+      <p class="desc">发展型政府 = "E 单兵突进"的除法史;破解 = 生产型政府 → 服务型政府。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 11</div>
+      <h3>大国大城</h3>
+      <div class="en-title">Great Nation, Great City</div>
+      <div class="links"><a href="zh/11 大国大城-价值守恒论证.html">中文</a><a href="en/11 great-nation-great-city-value-conservation.en.html">English</a></div><a href="fr/11 grande-nation-grande-ville.fr.html">Français</a><a href="es/11 gran-nacion-gran-ciudad.es.html">Español</a>
+      <p class="desc">人地错配 = 行政干预扭曲要素配置;破解 = 市场决定集聚、公共服务随人走。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 12</div>
+      <h3>熵增定律</h3>
+      <div class="en-title">The Law of Entropy Increase</div>
+      <div class="links"><a href="zh/12 熵增定律-价值守恒论证.html">中文</a><a href="en/12 entropy-law-value-conservation.en.html">English</a></div><a href="fr/12 loi-entropie.fr.html">Français</a><a href="es/12 ley-entropia.es.html">Español</a>
+      <p class="desc">熵增 = 孤立系统必然失序;破解 = 负熵输入(开放系统+持续做功+建立秩序)。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 13</div>
+      <h3>易经三易</h3>
+      <div class="en-title">The Three Changes of the I Ching</div>
+      <div class="links"><a href="zh/13 易经三易-价值守恒论证.html">中文</a><a href="en/13 yi-jing-three-changes-value-conservation.en.html">English</a></div><a href="fr/13 trois-changements-iching.fr.html">Français</a><a href="es/13 tres-cambios-iching.es.html">Español</a>
+      <p class="desc">简易(一个公式)/变易(与时偕行)/不易(乘法定律);河图洛书 = 统一计量。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 14</div>
+      <h3>道德经:天道、人道</h3>
+      <div class="en-title">The Heavenly Way and the Human Way</div>
+      <div class="links"><a href="zh/14 道德经天道人道-价值守恒论证.html">中文</a><a href="en/14 tao-te-ching-heavenly-way-value-conservation.en.html">English</a></div><a href="fr/14 voie-céleste-voie-humaine.fr.html">Français</a><a href="es/14 camino-cielo-camino-humano.es.html">Español</a>
+      <p class="desc">天道损有余补不足(自我调节);人道损不足奉有余(马太效应);破解 = 以有余奉天下。</p>
+    </div>
+
+    <div class="card">
+      <div class="no">NO. 15</div>
+      <h3>人类简史</h3>
+      <div class="en-title">Sapiens: A Brief History of Humankind</div>
+      <div class="links"><a href="zh/15 人类简史-价值守恒论证.html">中文</a><a href="en/15 sapiens-value-conservation.en.html">English</a></div><a href="es/15 sapiens.es.html">Español</a><a href="fr/15 sapiens.fr.html">Français</a>
+      <p class="desc">认知革命虚构故事构建协作(S);金钱只计量经济价值(E);破解 = 新货币内涵,三价值统一计量。</p>
+    </div>
+
+  </div>
+
+  <div class="note">
+    <b>多语言扩展说明</b>:每个语言一个文件夹(<code>zh/ en/ es/ ar/ fr/</code>),文件名统一保留「编号 + 主题」规则。当前 <b>zh / en / es / fr</b> 各 15 篇已上线;<b>ar</b> 规划中,新语言上线时只需在本页语言栏与矩阵补充对应链接。<b>目录索引</b>:本页(library.html)为总入口,README.md 同步维护相同矩阵。
+  </div>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  价值守恒定律 Y = E × S × T · 内容符合广告法合规要求 · 观点为思想科普,不构成任何投资建议
+</footer>
+
+</body>
+</html>

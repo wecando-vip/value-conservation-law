@@ -1,0 +1,193 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Double Floraison · Série d'application de la Loi de Conservation de la Valeur 09</div>
+  <h1>Gains et Pertes de la Politique des Dynasties Chinoises, expliqués par une formule<br><span class="hl">Le code de la montée et de la chute entre institutions et hommes</span></h1>
+  <div class="hl-sub">Qian Mu · Gains et pertes de la politique des dynasties chinoises (1952)</div>
+  <p class="sub">Cinq dynasties, Han Tang Song Ming Qing, des institutions qui montent et descendent. L'intuition de Qian Mu : l'institution n'est pas une lettre morte, elle doit s'accorder aux hommes et à l'époque. La Loi de Conservation de la Valeur donne la réponse unifiée : Y = E × S × T — si l'institution ne sert que l'extraction (E), comprime le peuple (S) et refuse le changement (T), le plus raffiné des designs devient une camisole.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">SOMMAIRE</div>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Un seule formule pour comprendre</a></li>
+        <li><a href="#sec-what">De quoi parle ce livre</a></li>
+        <li><a href="#sec-pillars">La défaillance des institutions : comment elle se forme</a></li>
+        <li><a href="#sec-crisis">Relecture historique : trois actes institutionnels</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>Les gains et pertes de la politique dynastique sont la trajectoire de vie des institutions entre les trois valeurs E, S, T</strong> : une bonne institution fait l'extraction mesurée (E), le peuple actif (S), la mise à jour avec l'époque (T) — les trois multipliées, la dynastie est au sommet ; une mauvaise institution, elle, gonfle l'extraction centralisée (E enflé), comprime les provinces et le peuple (S atrophié), se fige et refuse le changement (T défaillant) — la multiplication devient division, la dynastie passe de l'apogée au déclin.</p>
+      <p><strong>La solution réside dans la nouvelle connotation de la monnaie</strong> : faire porter à la monnaie les valeurs économique, sociale et temporelle, transformer l'« outil de domination » des institutions en « plateforme de cogestion » — les trois valeurs mesurées ensemble, les institutions s'accordent aux hommes et suivent l'époque, le mécanisme d'auto-régulation du cycle vertueux se déclenche : l'État, l'entreprise, l'individu gagnent tous.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un seule formule pour comprendre</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LE VISAGE DE LA BONNE INSTITUTION</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> efficacité de gouvernance (fiscalité et administration) · <b>S</b> confiance sociale (vitalité des provinces et des cœurs) · <b>T</b> élasticité institutionnelle (changer avec l'époque)</p>
+        <p class="f-note">Les trois au-dessus de 1 : l'institution devient le moteur de la civilisation ; <b>le moindre zéro, l'institution devient camisole</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · LA VOIE DE LA RIGIDIFICATION</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand l'institution <b>ne répond que de l'efficacité E</b> : centraliser, museler la parole, refuser le changement —</p>
+        <p class="f-note"><b>S compressé, T gelé</b> : l'administration fluctue à court terme, la civilisation stagne à long terme.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>De quoi parle ce livre</h2></div>
+    <div class="what-card">
+      <div class="quote">« Les institutions sont mortes, les hommes qui les font vivre sont vivants ; l'institution doit s'accorder aux hommes. Aucune institution n'est sans défauts, aucune n'est sans mérites. »<br><span>— Qian Mu · Gains et pertes de la politique des dynasties chinoises</span></div>
+      <p><b>Origine</b> : en 1952, l'historien Qian Mu rassemble cinq conférences en un livre, analysant une à une <b>les dynasties Han, Tang, Song, Ming, Qing</b> — organisation du gouvernement, examens et élections, fiscalité, conscription. Il corrige un préjugé répandu : <b>la politique dynastique chinoise n'est pas un long « despotisme des ténèbres »</b>, elle a des institutions, de la raison, des réussites et des échecs à méditer.</p>
+      <p><b>La méthode de Qian Mu</b> : regarder l'institution — quel problème résolvait-elle à son époque, pourquoi a-t-elle ensuite cessé de fonctionner — <b>chaque institution a son cycle de fondation, d'apogée, de déclin ; la clé est de savoir s'ajuster de concert avec les hommes et l'époque</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>La défaillance des institutions : comment elle se forme</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Centralisation excessive · extraction incontrôlée</h3><span class="p-tag">Source de la division</span></div>
+        <p><b>Formation</b> : plus l'institution vieillit, plus elle se concentre vers le centre — abolir le chancelier, créer le Grand Conseil : l'efficacité administrative (E) paraît monter, <b>mais le pouvoir perd son équilibrage, l'extraction perd sa frontière</b> ; les meilleures intentions deviennent une pression écrasante sur le peuple.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Provinces atrophiées · peuple muet</h3><span class="p-tag">Victime sacrifiée</span></div>
+        <p><b>Formation</b> : sous les Han, les provinces ont encore une vitalité autonome ; plus on avance, plus le centre les absorbe — <b>les fonctionnaires locaux deviennent des porte-voix, la voix du peuple n'entre plus dans la décision (S atrophié)</b>, l'institution perd la correction et la sève venues de la base.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Rigidité du refus · institution périmée</h3><span class="p-tag">Coût caché</span></div>
+        <p><b>Formation</b> : les examens se figent en essais codifiés, les armées en formules vides — <b>l'institution perd l'élasticité du changement avec l'époque (T gelé)</b>. Qian Mu : l'institution ne peut compter sur des sages, elle doit se corriger par son mécanisme ; le jour du gel est le commencement du déclin.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Relecture historique : trois actes institutionnels</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-hantang">
+        <div class="head">
+          <div class="year"><div class="yy">Han→Tang</div><div class="tag">L'âge d'or des institutions</div></div>
+          <div class="title-box">
+            <h3>Recommandation et examens : la sélection ouvre la porte</h3>
+            <p class="lead">Recommandation des Han, trois départements et examens des Tang : circulation des talents, équilibrage du pouvoir — le modèle de la multiplication.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Multiplication</span><p>Sous les Han, la recommandation (chájǔ) fait monter les talents des provinces (l'apport de S), les trois ducs et neuf ministres s'équilibrent ; sous les Tang, les trois départements et six ministères — « le Secrétariat émet, la Chancellerie révise, le Département exécute » : <b>la décision équilibrée (E mesuré), les talents en circulation (S actif), l'institution structurée (T organisé)</b> — les trois valeurs se multiplient, l'ère prospère arrive.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Garder l'élasticité</span><p>L'institution réussit par l'ouverture et l'équilibre, échoue par la fermeture et l'arbitraire. <b>La sélection ouverte (S), le pouvoir équilibré (T), l'impôt mesuré (E)</b> — l'âge d'or n'est pas un point d'arrivée, mais un point de départ d'ajustement.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-songming">
+        <div class="head">
+          <div class="year"><div class="yy">Song→Ming</div><div class="tag">La glissade de la centralisation</div></div>
+          <div class="title-box">
+            <h3>Prendre le pouvoir, prendre les profits, prendre la parole : les trois prises</h3>
+            <p class="lead">Les Song renforcent le tronc et affaiblissent les branches, les Ming abolissent le chancelier — E règne seul, S et T rétrécissent.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Les Song « renforcent le tronc, affaiblissent les branches » : pouvoir militaire, finances, autonomie provinciale, tout remonte au centre — <b>l'administration monte (E), la vitalité des provinces et du peuple descend (S atrophié)</b> ; les Ming abolissent le chancelier, créent le Grand Secrétariat, les essais codifiés musèlent la pensée — <b>l'institution perd l'équilibrage et la mise à jour (T gelé)</b>. Qian Mu le dit sans détour : la chute des Ming est la chute de l'institution rigidifiée.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>La centralisation doit avoir une frontière : <b>le centre gère l'ensemble (E mesuré), les provinces gardent leur vitalité (S non atrophié), l'institution peut se corriger (T non gelé)</b> — prendre le pouvoir, les profits, la parole, c'est prendre l'avenir de la dynastie elle-même.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-qing">
+        <div class="head">
+          <div class="year"><div class="yy">Qing</div><div class="tag">L'extrême de l'institution</div></div>
+          <div class="title-box">
+            <h3>Le Grand Conseil et les persécutions littéraires : efficacité et asphyxie ensemble</h3>
+            <p class="lead">Le Grand Conseil hisse l'efficacité (E) au sommet, les persécutions littéraires gèlent les cœurs (S) — T totalement instrumentalisé.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Division</span><p>Les Qing créent le Grand Conseil : l'efficacité de décision de l'empereur (E) au sommet de l'empire ; mais <b>bastonnades, persécutions littéraires, fermeture du pays : la pensée (S) et l'ouverture (T) verrouillées</b> — l'institution devient totalement « outil de domination », elle ne répond plus à « comment rendre la société meilleure ». E au sommet, c'est précisément S, T à zéro : sous l'ère prospère, la défaite de deux siècles plus tard est déjà en germe.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Multiplication</span><p>L'efficacité ne peut se payer d'asphyxie : <b>décider vite (E) et surtout décider juste (S), faire une place à l'avenir (T)</b> — seule une institution qui admet le débat et l'expérimentation mérite le long terme.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Les miroirs dans le monde réel</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Entreprise</span><p>Des règles de plus en plus fines, des pouvoirs de plus en plus resserrés, des employés qui n'osent plus essayer — la version entreprise de E seul, S et T rétrécis.</p></div>
+      <div class="scene"><span class="s-tag">Organisation</span><p>Processus figés, refus du changement, « on a toujours fait comme ça » — une institution passée de péremption et qui tient encore.</p></div>
+      <div class="scene"><span class="s-tag">Individu</span><p>Faire des « vieilles méthodes » un talisman, sans apprendre de nouvelles compétences f(h), sans accumuler le long terme f(t) — la rigidification institutionnelle version personnelle.</p></div>
+      <div class="scene"><span class="s-tag">Famille</span><p>Des règles familiales qui n'écoutent que l'obéissance, l'affection (S) et la transmission (T) rétrécies — la « persécution littéraire » en miniature.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Gains et pertes de la politique des dynasties chinoises</div><div class="b-author">Qian Mu · 1952</div><p>Les institutions des cinq dynasties analysées une à une : <b>l'institution doit s'accorder aux hommes et à l'époque</b> — ouverture et équilibre dans l'âge d'or, centralisation et rigidité dans le déclin, un cycle de deux mille ans.</p></div>
+      <div class="book"><div class="b-name">Outlines of the National History</div><div class="b-author">Qian Mu · 1940</div><p>« Avoir pour sa propre histoire une chaleur et un respect » — <b>l'histoire est une longue fresque où institutions et hommes se corrigent mutuellement</b> ; comprendre le chemin parcouru pour savoir où aller.</p></div>
+      <div class="book"><div class="b-name">A Study of Chinese Bureaucratic Politics</div><div class="b-author">Wang Yanan · 1948</div><p>La bureaucratie, d'« outil administratif » à « corps d'intérêts acquis qui se reproduit seul » — <b>quand l'institution n'existe que pour se maintenir (E), S et T sont systématiquement sacrifiés</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="what-card">
+      <div class="quote">« Les institutions passées ne mesuraient que "l'efficacité du gouvernement" ; la mesure de la nouvelle monnaie doit voir en même temps "la vitalité du peuple" et "l'avenir de l'époque". »<br><span>— Loi de Conservation de la Valeur · la voie de sortie</span></div>
+      <p><b>Briser la rigidification, ce n'est pas abolir l'institution, c'est la ramener aux trois valeurs</b> : la gouvernance, de « centraliser et extraire » à « prendre avec mesure, dépenser avec méthode » (multiplication de E) ; les provinces et le peuple, de « compressés » à « activés » — participation, parole, création traitées avec soin (multiplication de S) ; l'institution, de « gelée » à « actualisable » — admettre l'essai, admettre la correction (multiplication de T).</p>
+      <p><strong>La nouvelle connotation de la monnaie</strong> — faire porter trois valeurs à la fois :</p>
+      <p>· <b>Valeur économique E</b> : chaque centime correspond à une création réelle de biens et de services, fini « imprimer sans produire » ;<br>
+         · <b>Valeur sociale S</b> : la circulation monétaire repose sur la confiance — création d'emplois, richesse au peuple, intégrité récompensées par la monnaie ;<br>
+         · <b>Valeur temporelle T</b> : la monnaie est une promesse intertemporelle — l'éducation, l'innovation, l'écologie, la transmission entrent dans la mesure.</p>
+      <p><b>Quand la monnaie mesure à la fois E, S, T</b>, la centralisation de l'institution a une frontière, la création du peuple a sa récompense, la mise à jour de l'époque a son incitation — <b>la loi de division perd son terrain, la loi de multiplication s'auto-régule, le cycle vertueux se déclenche</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Cycle vertueux : triple gagnant</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>Gouvernance mesurée, richesse au peuple → cœurs unis, institutions toujours neuves → paix durable</td><td>S + T</td></tr>
+        <tr><td>Entreprise</td><td>Créer avec intégrité, gérer en paix → gagner confiance et rendement → prospérité durable</td><td>E + S + T</td></tr>
+        <tr><td>Individu</td><td>Un travail digne, une voie de croissance → créer activement, apprendre toute la vie → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>La valeur d'une institution n'est pas « gouverner serré », mais « laisser vivre » — <b>l'efficacité (E) n'est que le dénominateur ; la confiance (S) et l'élasticité (T) sont le courage de la multiplication</b>.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>La « chaleur et le respect » de Qian Mu, c'est voir la personne derrière l'institution. Dès qu'une institution ne répond plus à « comment l'homme vit-il mieux », elle perd sa raison d'être — <b>l'institution sert l'homme, l'homme ne sert pas l'institution</b>.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b> — pour l'institution comme pour la vie.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>L'institution n'est jamais parfaite, mais elle a toujours besoin d'être corrigée.</b><br/>Extraction mesurée, peuple vivant, institution neuve — les trois au-dessus de 1, la formule de la longévité dynastique ;<br/><b>création, confiance, transmission — trois valeurs mesurées ensemble, c'est le code fondamental pour sortir du cycle de l'ascension et de la chute et réaliser le triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale de « Gains et pertes de la politique des dynasties chinoises » de Qian Mu ?</p>
+        <p class="a">A : La politique dynastique chinoise n'est pas un long « despotisme des ténèbres » ; elle a des institutions et de la raison. L'institution doit s'accorder aux hommes et à l'époque, et se corriger sans cesse.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi les bonnes institutions finissent-elles par se corrompre ?</p>
+        <p class="a">A : Parce qu'une fois qu'elle ne répond que de « l'efficacité de gouvernance (E) », l'institution centralise trop, comprime le peuple (S), refuse la mise à jour (T) — les trois valeurs se déséquilibrent, la multiplication devient division. La rigidification, c'est l'institution qui a cessé de dialoguer avec les hommes et l'époque.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Faits historiques issus des ouvrages publics de Qian Mu · Contenu conforme à la réglementation publicitaire<br>
+  Idées de vulgarisation, ne constituent pas un conseil en investissement
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

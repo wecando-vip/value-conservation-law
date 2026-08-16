@@ -1,0 +1,244 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Loi de Conservation de la Valeur · Décryptage de la dette</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Double Floraison</span>
+      <span class="pill">Crise de la dette × connotation de la monnaie</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">BIG DEBT CRISES × VALUE CONSERVATION</div>
+  <h1>La crise de la dette, <span class="hl">expliquée par une formule</span></h1>
+  <p class="hl-sub">Crise de la dette de Dalio × nouvelle connotation de la monnaie × Loi de Conservation de la Valeur</p>
+  <div class="divider"></div>
+  <p class="sub">La dette, c'est « la valeur de l'avenir » retirée par avance. Toutes les grandes crises sont la conséquence inévitable de ne répondre qu'à la valeur économique E en hypothéquant la valeur sociale S et la valeur temporelle T. Comprendre le macro Y = E × S × T et le micro y = f(m) × f(h) × f(t), c'est comprendre comment les crises se forment et comment la monnaie les résout.</p>
+  <div class="chips">
+    <span class="chip">Formule macro <b>Y=E×S×T</b></span>
+    <span class="chip">Formule micro <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">Nouvelle monnaie <b>trois-en-un</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">SOMMAIRE</p>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Les deux formules, macro + micro</a></li>
+        <li><a href="#sec-what">Crise de la dette de Dalio</a></li>
+        <li><a href="#sec-form">Comment les crises se forment</a></li>
+        <li><a href="#sec-scenes">La dette dans la vie réelle</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La crise de la dette est « emprunter le T de demain pour le dépenser aujourd'hui », la loi de division à l'œuvre</strong> : la dette gonfle le E comptable à court terme, mais si l'argent emprunté ne se transforme pas en confiance (S) et en durabilité (T), à l'échéance du remboursement la chaîne de multiplication se brise — 1929, 2008, la dette européenne, sans exception.</p>
+      <p><strong>La solution : redéfinir la connotation de la valeur de la monnaie</strong> — faire porter à la monnaie les trois valeurs économique, sociale et temporelle, et mesurer d'une seule mesure la création de valeur de l'État, des entreprises, des familles et des citoyens. Quand chaque centime est adossé à E, S, T, l'émission monétaire n'est plus un « jeu de chiffres », mais l'auto-régulation qui déclenche le cycle vertueux — pour un triple gagnant : l'État, l'entreprise, l'individu.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">FORMULE MACRO · LA GOUVERNANCE NATIONALE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> valeur totale · <b>E</b> valeur économique · <b>S</b> valeur sociale (confiance · équité) · <b>T</b> valeur temporelle (durabilité · transmission)</p>
+        <p class="f-note">Les trois au-dessus de 1 : entrée en phase de développement ; <b>si l'une tombe à zéro ou devient négative, le total s'effondre</b>.</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">FORMULE MICRO · L'INDIVIDU ET L'ENTREPRISE</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> valeur monétaire · <b>f(h)</b> expérience du bonheur · <b>f(t)</b> valeur temporelle</p>
+        <p class="f-note">Ne courir que le revenu (f(m)) en hypothéquant la santé et le long terme, <b>la vie connaît sa propre « crise de la dette »</b>.</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'ORIGINE DE LA CRISE DE LA DETTE</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand l'acteur <b>ne doit répondre que de E</b>, il gonfle le E comptable par la dette, hypothéquant la confiance et l'avenir.</p>
+        <p class="f-note"><b>Le dénominateur est hypothéqué, le numérateur est emprunté</b> — la prospérité est fausse, la dette se rembourse.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE MULTIPLICATION · LA CLÉ DU CYCLE VERTUEUX</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">Quand la monnaie mesure les trois valeurs à la fois, <b>gagner = bonheur + durabilité</b>, l'auto-régulation se déclenche.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Ce que dit la « crise de la dette » de Dalio</h2></div>
+    <div class="what-card">
+      <div class="quote">« A debt crisis is a time when debts can no longer be serviced. »<br/><span>La crise de la dette est le moment où les dettes ne peuvent plus être servies</span></div>
+      <p><b>Origine</b> : en 2018, le fondateur de Bridgewater, Ray Dalio, passe en revue 48 cas pour dégager les lois du cycle de la dette. Insight central : <b>la dette est « consommer l'avenir par avance »</b> — quand la chaîne du remboursement par nouvel emprunt ne tourne plus, la crise arrive.</p>
+      <p><b>La prescription de Dalio</b> : le « beau désendettement » — digérer la dette en douceur par un dosage d'impression monétaire et de restructuration. Mais demandons-nous : <b>pourquoi, avec le même remède, certains pays se redressent en dix ans et d'autres perdent trente ans ?</b> La réponse se cache dans la connotation de la valeur de la monnaie.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Comment se forment les grandes crises</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">Grande Dépression</div></div>
+        <div class="title-box">
+          <h3>La fête du crédit hypothèque le pouvoir d'achat, l'éclatement liquide tout</h3>
+          <p class="lead">Le levier boursier gonfle E, le pouvoir d'achat (S) est vidé, les institutions financières (T) hypothéquées.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Dans les années 1920, crédit facile et achat d'actions à marge généralisé : le E comptable s'emballe. Mais le top 1 % détient plus de 40 % de la richesse, <b>le pouvoir d'achat (S) passe sous 1</b>, l'étalon-or et le système de levier (T) sont insoutenables. En 1929, la Bourse s'effondre, E s'écroule, Y s'annule en chaîne — le modèle de la « crise de la dette déflationniste ».</p></div>
+        <div class="fix"><span class="fix-label">Solution · Le New Deal</span><ul>
+          <li><b>Réparer S</b> : sécurité sociale, secours aux chômeurs — rendre le pouvoir d'achat au peuple</li>
+          <li><b>Réparer T</b> : régulation bancaire, sortie de l'étalon-or — reconstruire le crédit long terme</li>
+          <li><b>Réparer E</b> : travaux publics, « travail contre secours » — E revient à la création réelle</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">Crise des subprimes</div></div>
+        <div class="title-box">
+          <h3>La confiance découpée et titrisée, le système de confiance s'effondre</h3>
+          <p class="lead">L'innovation financière gonfle E jusqu'au chaos, la confiance (S) est transférée, le risque (T) reporté sans fin.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Les crédits subprimes emballés en AAA (falsification de S), la chaîne de dérivés reportant le risque à l'avenir (T hypothéqué), le levier de Lehman au-delà de 30× (E gonflé). <b>Ce n'est pas l'immobilier qui s'est effondré, c'est la confiance.</b></p></div>
+        <div class="fix"><span class="fix-label">Solution · Reconstruction institutionnelle</span><ul>
+          <li><b>Secourir E</b> : QE — éviter une nouvelle Grande Dépression</li>
+          <li><b>Réparer S</b> : loi Dodd-Frank — refonder l'éthique financière</li>
+          <li><b>Réparer T</b> : supervision macroprudentielle, stress tests — « verrouiller » le levier</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-japan">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">Bulle japonaise</div></div>
+        <div class="title-box">
+          <h3>L'exemple d'échec qui n'a réparé que E : les trente années perdues</h3>
+          <p class="lead">Actifs surévalués (E), sentiment d'équité perdu (S), durabilité intergénérationnelle à zéro (T).</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>Après les accords du Plaza, le yen s'apprécie, la banque centrale baisse ses taux : des capitaux massifs se ruent en Bourse et dans l'immobilier, E semble bouillir ; mais l'industrie réelle (le support de l'emploi, S) se vide et la démographie (T) est hypothéquée. En 1990, la bulle éclate, <b>E s'effondre → S, T saignent</b>, c'est la récession de bilan.</p></div>
+        <div class="fix"><span class="fix-label">Solution · La multiplication arrivée vingt ans trop tard</span><ul>
+          <li><b>La voie de l'échec</b> : taux zéro, QQE — ne réparer que E</li>
+          <li><b>Ce qu'il fallait</b> : réparer en même temps S (restructuration de la dette) et T (industries d'innovation)</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-euro">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">Crise de la dette européenne</div></div>
+        <div class="title-box">
+          <h3>La monnaie est unifiée, la responsabilité budgétaire et la confiance sociale ne le sont pas</h3>
+          <p class="lead">La dette souveraine soutient E à bout de bras, la discipline budgétaire (S) n'est appliquée par personne, la durabilité (T) se dégrade.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Formation · Division</span><p>La Grèce et d'autres pays du Sud surfent sur les taux bas de l'euro pour financer un État-providence élevé par l'emprunt : E prospère en apparence. Mais la discipline budgétaire (S) n'est appliquée par personne, les charges de retraite (T) se dégradent. La crise de 2008 révèle la vérité : dégradation de la note → envolée du coût de financement → rupture du remboursement. <b>La monnaie est unifiée, mais les valeurs ne sont pas mesurées d'une seule mesure.</b></p></div>
+        <div class="fix"><span class="fix-label">Solution · Contraintes institutionnelles + réformes structurelles</span><ul>
+          <li><b>Secourir E</b> : OMT, LTRO de la BCE</li>
+          <li><b>Réparer S</b> : pacte budgétaire, MES — contraindre les déficits</li>
+          <li><b>Réparer T</b> : marché du travail, transformation industrielle — refonder l'élan de croissance</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>La dette dans la vie réelle : nul n'y échappe</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Crédit immobilier</span><p>30 ans de crédit sur le dos, le salaire court moins vite que les intérêts — f(m) verrouillé, f(h) et f(t) écrasés.</p></div>
+      <div class="scene"><span class="s-tag">Dette d'entreprise</span><p>Rembourser par nouvel emprunt pour survivre ; si le financement casse, la valeur s'évapore en une nuit — E est emprunté.</p></div>
+      <div class="scene"><span class="s-tag">Décrochage</span><p>L'argent gagné à 996 ne rachète pas le temps du bonheur — f(m)↑ mais f(h)×f(t)↓, le total rétrécit.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Crise de la dette</div><div class="b-author">Ray Dalio</div><p>Le cycle de la dette pilote le cycle économique. 48 cas le prouvent : <b>la crise n'est pas un accident, c'est l'inévitable de l'accumulation du levier</b> ; le « beau désendettement » ne répare que E, jamais S ni T.</p></div>
+      <div class="book"><div class="b-name">Étude comparative des deux grandes crises mondiales</div><div class="b-author">Liu He, éditeur</div><p>1929 et 2008, une ressemblance frappante : <b>la crise couve toujours dans « innovation financière + expansion du crédit + régulation en retard »</b> — l'amplification de la loi de division.</p></div>
+      <div class="book"><div class="b-name">The Little Book of Common Sense Investing</div><div class="b-author">John C. Bogle</div><p>Revenir à la valeur long terme (T) et au rendement réel (E) — <b>ne laissez pas « l'illusion de rendement » kidnapper votre vie</b> ; l'intérêt composé robuste est le don du temps.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Nouvelle monnaie</div><div class="tag">La voie de sortie</div></div>
+        <div class="title-box">
+          <h3>Faire mesurer à la monnaie les trois valeurs à la fois, la division devient multiplication</h3>
+          <p class="lead">La monnaie ne devrait pas être « un chiffre d'argent », mais la mesure unifiée des trois valeurs E, S, T.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Connotation 1 · Valeur économique E (pouvoir d'achat)</span><ul>
+          <li>La monnaie correspond à une création réelle de biens et de services — <b>chaque centime a une production derrière lui</b></li>
+          <li>Fini « imprimer sans produire » — l'émission doit avoir un support réel</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotation 2 · Valeur sociale S (degré de confiance)</span><ul>
+          <li>La circulation monétaire repose sur la confiance sociale — <b>stabilité de la monnaie = crédit institutionnel</b></li>
+          <li>Faire récompenser par la monnaie les comportements qui créent l'emploi et améliorent la répartition</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotation 3 · Valeur temporelle T (durabilité)</span><ul>
+          <li>La monnaie est une promesse intertemporelle — <b>l'argent d'aujourd'hui doit répondre de demain</b></li>
+          <li>L'innovation, l'éducation, l'écologie, la transmission entre générations entrent dans la mesure</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Mesure unifiée · la clé du cycle vertueux</span><p><b>Quand la monnaie contient à la fois les connotations E, S, T</b>, l'État émet pour investir dans la confiance et l'avenir, l'entreprise gagne en créant emplois et transmission, l'individu achète avec son revenu du bonheur et une accumulation long terme — <b>la loi de division perd son terrain, la loi de multiplication tourne toute seule</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>Cycle vertueux : le triple gagnant, État, entreprise, individu</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>Investir la confiance et l'avenir → monnaie stable, société équitable → paix durable</td><td>S+T</td></tr>
+        <tr><td>Entreprise</td><td>Créer une production et un emploi réels → gagner confiance et rendement long terme → prospérité durable</td><td>E+S+T</td></tr>
+        <tr><td>Individu</td><td>Le revenu achète le bonheur et la croissance → créer et consommer activement → vie multipliée</td><td>Trois-en-un</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>La dette est une prospérité empruntée, la conservation de la valeur est la prospérité durable.</b><br/>Quand la monnaie devient la mesure unifiée des valeurs économique, sociale et temporelle,<br/>chaque création renforce la formule de multiplication, chaque confiance alimente le cycle vertueux.<br/><b>E, S, T au-dessus de 1 ensemble — c'est le code fondamental du triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>Ne prenez pas « la richesse comptable » pour « la valeur réelle ». Une dette est justifiée si elle crée en même temps E, S, T — sinon la prospérité empruntée se rendra avec intérêts.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>Le socle de la monnaie est la confiance. La blessure profonde de chaque crise de la dette est une confiance hypothéquée — pour réparer l'économie, réparer d'abord la confiance entre les gens et les institutions.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Faire acheter à l'argent à la fois le matériel, le bonheur et l'avenir — le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs qui croissent ensemble, voilà la vraie croissance</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Quelle est l'idée centrale de « Crise de la dette » de Dalio ?</p>
+        <p class="a">A : Le cycle de la dette pilote le cycle économique — l'expansion du crédit apporte la prospérité, la crise arrive quand la dette ne peut plus être servie. Il prône le « beau désendettement » : digérer la dette en douceur par un dosage d'outils.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Pourquoi, avec le même sauvetage, certains pays se redressent vite et d'autres perdent trente ans ?</p>
+        <p class="a">A : Ne réparer que E (liquidités) sans réparer S (confiance, répartition) ni T (innovation, démographie) soigne le symptôme, pas la racine. La formule de multiplication exige de réparer les trois en même temps.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que signifie la « nouvelle connotation de la monnaie » ? Comment l'utiliser ?</p>
+        <p class="a">A : Faire mesurer par la monnaie les trois valeurs économique, sociale et temporelle — chaque centime tire la confiance et l'avenir. Au niveau individuel, c'est la formule micro : ne laissez pas la dette dévorer la santé, les relations et l'accumulation long terme.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Contenu conforme à la réglementation publicitaire · Réflexion intellectuelle, ne constitue pas un conseil en investissement
+</div>
+
+<button id="toTop" title="Retour en haut">↑</button>

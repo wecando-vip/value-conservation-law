@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Debt Crises, Explained by One Formula - Dalio's Big Debt Crises & the New Connotation of Money</title>
+<meta name="description" content="How do major debt crises form and how are they resolved? Decoded through the macro formula Y = E × S × T and the micro formula y = f(m) × f(h) × f(t) of the Law of Value Conservation — with cases from Ray Dalio's Big Debt Crises. Why the new connotation of money must embrace all three values to trigger a self-regulating virtuous cycle for the win-win of nation, enterprises, and individuals. By the Econ-Sentiment Twin Think Tank."/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 900px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero h1 .hl {
+    position: relative; color: var(--gold);
+    background: linear-gradient(transparent 62%, rgba(166,124,46,.22) 62%);
+    padding: 0 4px; border-radius: 4px;
+  }
+  .hero .hl-sub {
+    display: inline-block; margin: 0 0 14px; font-size: 14px;
+    color: var(--ink-soft); letter-spacing: 2px;
+    font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+    border: 1px solid #e2cfa3; background: var(--gold-soft);
+    padding: 3px 14px; border-radius: 999px;
+  }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 760px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 248px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+  .formula-box + .formula-box { margin-top: 0; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow); }
+  .what-card .quote { font-size: 18px; color: var(--navy); font-weight: 700; text-align: center; margin: 6px 0 16px; font-family: Georgia, "Times New Roman", serif; }
+  .what-card .quote span { color: var(--gold); }
+  .what-card p { margin: 0 0 10px; font-size: 14.5px; }
+  .what-card p:last-child { margin-bottom: 0; }
+  .what-card b { color: var(--navy); }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 16px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .dim-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 13.5px; }
+  .dim-table th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 12px; font-size: 13px; }
+  .dim-table th:first-child { border-radius: 8px 0 0 0; }
+  .dim-table th:last-child { border-radius: 0 8px 0 0; }
+  .dim-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.7; }
+  .dim-table tr:last-child td { border-bottom: none; }
+  .dim-table td.dim { font-weight: 700; color: var(--navy); width: 74px; white-space: nowrap; }
+  .dim-table td.fake { color: var(--ink-soft); width: 38%; }
+  .dim-table td.truth { color: var(--ink); }
+  .dim-table td.truth b { color: #a32d2d; }
+  .dim-table .fake-tag, .dim-table .truth-tag { font-size: 11px; font-weight: 700; margin-right: 6px; }
+  .dim-table .fake-tag { color: #a32d2d; }
+  .dim-table .truth-tag { color: var(--green); }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+  .arg p + p { margin-top: 8px; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .scenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 5px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .scene p { margin: 0; font-size: 14px; }
+
+  .books { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+  .book .b-name { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .book .b-author { font-size: 12px; color: var(--gold); margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .book p { margin: 0; font-size: 13.5px; line-height: 1.75; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .roles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .role p { margin: 0; font-size: 14px; line-height: 1.75; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .books, .scenes, .roles { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>The Law of Value Conservation · Debt Decoded</div>
+    <div class="meta">
+      <span class="pill gold">Econ-Sentiment Twin Think Tank</span>
+      <span class="pill">Debt Crises × Money's Connotation</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">BIG DEBT CRISES × VALUE CONSERVATION</div>
+  <h1>Debt Crises, <span class="hl">Explained by One Formula</span></h1>
+  <p class="hl-sub">Dalio's Big Debt Crises × The New Connotation of Money × The Law of Value Conservation</p>
+  <div class="divider"></div>
+  <p class="sub">Debt is the value of the future spent in advance. Every major crisis is the inevitable outcome of answering only to economic value E while overdrawing social value S and time value T. Understand the macro formula Y = E × S × T and the micro formula y = f(m) × f(h) × f(t), and you see how crises form — and how money must change to break them.</p>
+  <div class="chips">
+    <span class="chip">Macro <b>Y=E×S×T</b></span>
+    <span class="chip">Micro <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">New Money <b>Three-in-One</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">CONTENTS</p>
+      <ul>
+        <li><a href="#sec-answer">The Answer in One Sentence</a></li>
+        <li><a href="#sec-formula">Macro + Micro, Two Formulas</a></li>
+        <li><a href="#sec-what">Dalio's Big Debt Crises</a></li>
+        <li><a href="#sec-form">How Crises Form</a></li>
+        <li><a href="#sec-scenes">Debt in Daily Life</a></li>
+        <li><a href="#sec-books">What the Books Say</a></li>
+        <li><a href="#sec-fix">The Cure: The New Connotation of Money</a></li>
+        <li><a href="#sec-cycle">The Virtuous Cycle: Three-Way Win</a></li>
+        <li><a href="#sec-insight">The Twin-Blossom Lessons</a></li>
+        <li><a href="#sec-faq">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">THE ANSWER FIRST · IN ONE SENTENCE</span>
+      <p><strong>A debt crisis is, at its core, the division formula of "borrowing tomorrow's T to spend today"</strong>: debt inflates the book value E in the short run, but if the borrowed money is not converted into trust (S) and sustainability (T), the multiplicative chain snaps when repayment arrives — 1929, 2008, the euro crisis: none is an exception.</p>
+      <p><strong>The cure lies in redefining the connotation of money</strong>: let money carry economic, social, and time value at once, and measure the value created by nation, family, people, and enterprises with one unified yardstick. When every cent is backed by E, S, and T alike, money expansion is no longer a "numbers game" but a trigger for the self-regulating virtuous cycle — the win-win of nation, enterprises, and individuals.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">THE MACRO FORMULA · GOVERNANCE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> Total value · <b>E</b> Economic value · <b>S</b> Social value (trust · fairness) · <b>T</b> Time value (sustainability · generations)</p>
+        <p class="f-note">Only when all three exceed 1 does an economy enter its growth phase; <b>if any one falls to zero or below, the total collapses</b>.</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">THE MICRO FORMULA · INDIVIDUALS & FIRMS</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> Monetary value · <b>f(h)</b> Joyful experience · <b>f(t)</b> Time value</p>
+        <p class="f-note">Chase income (f(m)) alone while draining health and the long term, and <b>a life can suffer its own "debt crisis"</b>.</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">THE DIVISION LAW · WHERE DEBT CRISES COME FROM</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">When a person <b>answers only to E</b>, debt is used to inflate book E while overdrawing trust and the future.</p>
+        <p class="f-note"><b>The denominator is overdrawn, the numerator is borrowed</b> — the boom is fake, and the debt must be repaid.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">THE MULTIPLICATION LAW · KEY TO THE VIRTUOUS CYCLE</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">When money measures all three values at once, <b>earning = happiness + sustainability</b>, and self-regulation begins.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>What Dalio's Big Debt Crises Says</h2></div>
+    <div class="what-card">
+      <div class="quote">"A debt crisis is a time when debts can no longer be serviced."<br/><span>债务危机，就是债务无法再被偿还的时刻</span></div>
+      <p><b>Origin</b>: In 2018, Ray Dalio, founder of Bridgewater Associates, reviewed the laws of the debt cycle through 48 case studies in Big Debt Crises. The core insight: <b>debt is "consuming the future in advance"</b> — when the chain of borrowing-new-to-repay-old stops turning, crisis arrives.</p>
+      <p><b>Dalio's prescription</b>: the "beautiful deleveraging" — using a combination of money printing, debt restructuring, and other tools to digest debt gently. But we must ask: <b>why, with the same medicine, do some nations recover in a decade while others lose thirty years?</b> The answer lies in the connotation of money.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>How the Major Crises Formed</h2></div>
+
+    <div class="crisis" id="crisis-1929">
+      <div class="head">
+        <div class="year"><div class="yy">1929</div><div class="tag">DEPRESSION</div></div>
+        <div class="title-box">
+          <h3>A Credit Binge Overdraws Purchasing Power, Then the Bubble's Total Reckoning</h3>
+          <p class="lead">Stock-market leverage inflated E; purchasing power (S) was hollowed out; financial institutions (T) were overextended.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>In the 1920s, easy credit and nationwide margin speculation sent book E soaring; yet the top 1% held over 40% of wealth, <b>purchasing power (S) fell below 1</b>, and the gold standard with its leverage system (T) proved unsustainable. When the market crashed in 1929, E collapsed and Y spiraled to zero — the template of a "deflationary debt crisis."</p></div>
+        <div class="fix"><span class="fix-label">THE CURE · THE NEW DEAL</span><ul>
+          <li><b>Repair S</b>: Social Security, unemployment relief — purchasing power back to the people</li>
+          <li><b>Repair T</b>: banking regulation, leaving the gold standard — rebuild long-run credit</li>
+          <li><b>Repair E</b>: public works and work relief — E returns to real production</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-2008">
+      <div class="head">
+        <div class="year"><div class="yy">2008</div><div class="tag">SUBPRIME</div></div>
+        <div class="title-box">
+          <h3>Credit Sliced and Securitized, the System of Trust Collapses</h3>
+          <p class="lead">Financial innovation inflated E beyond control; credit (S) was passed down the line; risk (T) was deferred indefinitely.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Subprime loans were packaged as AAA (the forgery of S), derivative chains pushed risk onto the future (the overdraw of T), and Lehman's leverage exceeded 30× (the inflation of E). <b>It was not housing that collapsed — it was trust.</b></p></div>
+        <div class="fix"><span class="fix-label">THE CURE · INSTITUTIONAL REBUILDING</span><ul>
+          <li><b>Rescue E</b>: QE liquidity — to avert a second Great Depression</li>
+          <li><b>Repair S</b>: the Dodd–Frank Act — rebuild financial ethics</li>
+          <li><b>Repair T</b>: macroprudential oversight, stress tests — a lock on leverage</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-japan">
+      <div class="head">
+        <div class="year"><div class="yy">1990</div><div class="tag">JAPAN'S BUBBLE</div></div>
+        <div class="title-box">
+          <h3>The Cautionary Case of Treating E Alone: Three Lost Decades</h3>
+          <p class="lead">Assets inflated (E), fairness eroded (S), generational sustainability at zero (T).</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>After the Plaza Accord, the yen appreciated and the central bank cut rates; torrents of capital flooded stocks and real estate, and E seemed to boil; but the real economy (S's job-bearing base) hollowed out and an aging population (T) was overextended. When the bubble burst in 1990, <b>E broke, and S and T bled together</b> into a balance-sheet recession.</p></div>
+        <div class="fix"><span class="fix-label">THE CURE · A MULTIPLICATION, TWENTY YEARS LATE</span><ul>
+          <li><b>The failed path</b>: zero rates and QQE — treating E alone</li>
+          <li><b>The right path</b>: repairing S (debt restructuring) and T (innovative industries) in tandem</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-euro">
+      <div class="head">
+        <div class="year"><div class="yy">2010</div><div class="tag">EURO DEBT</div></div>
+        <div class="title-box">
+          <h3>The Currency United, but Fiscal Responsibility and Social Trust Did Not</h3>
+          <p class="lead">Sovereign debt propped up E; fiscal discipline (S) went unenforced; sustainability (T) deteriorated.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">FORMATION · THE DIVISION LAW</span><p>Southern members like Greece hitched a ride on the euro's low rates, borrowing to sustain high welfare, and E looked prosperous on the surface; but fiscal discipline (S) was enforced by no one, and pension burdens (T) worsened. When the 2008 crisis exposed the truth: downgrades → surging financing costs → the rollover chain breaking. <b>The currency was unified, yet value was not uniformly measured.</b></p></div>
+        <div class="fix"><span class="fix-label">THE CURE · INSTITUTIONAL CONSTRAINT + STRUCTURAL REFORM</span><ul>
+          <li><b>Rescue E</b>: the ECB's OMT and LTRO as the floor</li>
+          <li><b>Repair S</b>: the Fiscal Compact, the European Stability Mechanism — constraining deficits</li>
+          <li><b>Repair T</b>: labor markets, industrial transformation — rebuilding growth momentum</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Debt in Daily Life: We Can't Escape It</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">MORTGAGE</span><p>A 30-year mortgage weighs heavy; wages can't outrun interest — f(m) is locked in, f(h) and f(t) squeezed.</p></div>
+      <div class="scene"><span class="s-tag">CORPORATE DEBT</span><p>Rolling over new debt to repay old keeps a firm alive; the day financing breaks, market value evaporates overnight — E was borrowed.</p></div>
+      <div class="scene"><span class="s-tag">LYING FLAT</span><p>996 wages can't buy back hours of happiness — f(m) rises but f(h)×f(t) falls, and the total shrinks.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>What the Books Say</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Big Debt Crises</div><div class="b-author">Ray Dalio</div><p>The debt cycle drives the economic cycle. 48 cases prove: <b>crises are not accidents, they are the inevitable accumulation of leverage</b>; the "beautiful deleveraging" can repair E, but not S and T.</p></div>
+      <div class="book"><div class="b-name">A Comparative Study of Two Global Crises</div><div class="b-author">Edited by Liu He</div><p>1929 and 2008 are strikingly alike: <b>crises brew in "financial innovation + credit expansion + lagging regulation"</b> — at bottom, the amplification of the division formula.</p></div>
+      <div class="book"><div class="b-name">Common Sense on Mutual Funds</div><div class="b-author">John C. Bogle</div><p>Return to long-term value (T) and real returns (E) — <b>don't let the "illusion of returns" hijack a life</b>; steady compounding is time's gift.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>The Cure: The New Connotation of Money</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">NEW MONEY</div><div class="tag">THE CURE</div></div>
+        <div class="title-box">
+          <h3>Let Money Measure Three Values at Once, and Division Turns Back into Multiplication</h3>
+          <p class="lead">Money should not be a mere "number"; it should be the unified yardstick of the three values E, S, and T.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">CONNOTATION 1 · ECONOMIC VALUE E (PURCHASING POWER)</span><ul>
+          <li>Money corresponds to real goods and services created — <b>every cent stands behind an output</b></li>
+          <li>Reject "printing without producing" — expansion must rest on real substance</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">CONNOTATION 2 · SOCIAL VALUE S (TRUSTWORTHINESS)</span><ul>
+          <li>Money circulates on social trust — <b>a stable currency equals institutional credit</b></li>
+          <li>Give monetary incentives to acts that create jobs and improve distribution</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">CONNOTATION 3 · TIME VALUE T (SUSTAINABILITY)</span><ul>
+          <li>Money is a promise across time — <b>today's money must answer for tomorrow</b></li>
+          <li>Bring long-run values — innovation, education, green, inheritance across generations — into measurement</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">UNIFIED MEASUREMENT · KEY TO THE VIRTUOUS CYCLE</span><p><b>When money carries the three connotations E, S, and T at once</b>, the nation's debt invests in trust and the future, enterprises earn while creating jobs and legacy, and individuals buy both happiness and long-term accumulation with their income — <b>the division formula loses its ground, and the multiplication formula runs on its own</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>The Virtuous Cycle: A Three-Way Win for Nation, Enterprise, and Individual</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Player</th><th>The Virtuous Cycle Under the New Connotation of Money</th><th>Values</th></tr>
+        <tr><td>Nation</td><td>Invests in trust and the future → stable currency, social fairness → lasting stability</td><td>S+T</td></tr>
+        <tr><td>Enterprise</td><td>Creates real output and jobs → earns trust and long-term returns → enduring legacy</td><td>E+S+T</td></tr>
+        <tr><td>Individual</td><td>Income buys happiness and growth → creates and consumes actively → a multiplied life</td><td>Three-in-one</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>Debt is borrowed prosperity; value conservation is lasting prosperity.</b><br/>When money becomes the unified yardstick of economic, social, and time value,<br/>every act of creation adds to the multiplication formula, and every act of trust fuels the virtuous cycle.<br/><b>E, S, and T all above 1 — that is the underlying code of the win-win among nation, enterprise, and individual.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>The Twin-Blossom Lessons</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">THE LESSON OF WEALTH</span><p>Don't mistake "book wealth" for "real value." The legitimate reason to invest with debt is that it creates E, S, and T together — otherwise, borrowed prosperity must be repaid with interest in the end.</p></div>
+      <div class="role"><span class="r-tag">THE LESSON OF WELLBEING</span><p>Trust is the bedrock of money. The deepest wound of every debt crisis is overdrawn trust — to repair the economy, first repair the trust between people and institutions.</p></div>
+      <div class="role"><span class="r-tag">THE TWIN-BLOSSOM ANSWER</span><p>Let money buy substance, happiness, and the future at once — the individual's f(m)×f(h)×f(t) and the nation's E×S×T are the same thing at bottom: <b>only when three values grow together is growth real</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>Frequently Asked Questions</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q: What is the core argument of Dalio's Big Debt Crises?</p>
+        <p class="a">A: The debt cycle drives the economic cycle — credit expansion brings boom, and when debt can no longer be serviced, crisis arrives. He advocates "beautiful deleveraging," a combination of tools to digest debt gently.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: Why do some nations recover quickly while others lose thirty years?</p>
+        <p class="a">A: Because a cure that repairs only E (liquidity cushions) while ignoring S (trust and distribution) and T (innovation and demographics) treats symptoms, not causes. The multiplication formula demands all three be repaired together.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q: What does the "new connotation of money" mean, and how can ordinary people use it?</p>
+        <p class="a">A: Let money measure economic, social, and time value at once, so that every cent pulls trust and the future along with it. At the personal level it is the micro formula — don't let debt devour health, relationships, or long-term accumulation.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ Econ-Sentiment Twin Think Tank · 财情双生智库</div>
+  Adapted from "The Law of Value Conservation for Wealth–Wellbeing Multiplication" · Content complies with applicable advertising-law requirements · This article is a discussion of ideas, not investment advice
+</div>
+
+<button id="toTop" title="Back to top">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>

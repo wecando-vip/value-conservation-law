@@ -1,0 +1,162 @@
+<header class="hero">
+  <div class="kicker">LOI DE CONSERVATION DE LA VALEUR</div>
+  <h1>Le Principe de Peter par la formule de conservation de la valeur</h1>
+  <div class="divider"></div>
+  <p class="sub">Utiliser la Loi de Conservation de la Valeur Y = E × S × T pour comprendre comment le Principe de Peter se forme et comment le briser. Changer la promotion de « récompenser le passé » en « investir l'avenir » : l'homme bien placé, la valeur se multiplie.</p>
+  <div class="chips">
+    <span class="chip">Valeur économique <b>E</b></span>
+    <span class="chip">Valeur sociale <b>S</b></span>
+    <span class="chip">Valeur temporelle <b>T</b></span>
+    <span class="chip">Loi de multiplication <b>×</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">SOMMAIRE</p>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">D'abord l'étalon : le diagnostic de la loi</a></li>
+        <li><a href="#sec-what">Qu'est-ce que le Principe de Peter</a></li>
+        <li><a href="#sec-form">Comment il se forme : la promotion inadaptée</a></li>
+        <li><a href="#sec-scenes">Peter dans la vie réelle</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">Comment briser : trois voies de multiplication</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>Le Principe de Peter est « une promotion qui ne regarde que le E du passé, jamais le S et le T de l'avenir »</strong> : on promeut quelqu'un parce qu'il est compétent, jusqu'à le porter à un poste où il ne l'est plus — l'organisation se remplit alors de gens « bloqués à contre-emploi ».</p>
+      <p><strong>Une seule voie — changer la promotion de « récompense du passé » en « investissement dans l'avenir »</strong> : calibrer E par la compétence, protéger S par la double filière, allonger T par la formation. L'homme bien placé, la valeur se multiplie.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · L'ADÉQUATION HOMME-POSTE</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> production du poste · <b>S</b> adéquation au poste (compétence · expertise) · <b>T</b> temps de croissance (formation · expérience)</p>
+        <p class="f-note">Adéquation, montée en compétence et hausse de production avancent de concert : la valeur se multiplie ; <b>la compétence est multiplication, l'incompétence est mise à zéro</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · L'ORIGINE DE PETER</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Une promotion qui ne regarde que <b>les résultats passés (E)</b>, ignorant l'adéquation au nouveau poste (S) et la croissance (T) — <b>on envoie un excellent exécutant dans un poste de management qu'il ne sait pas tenir</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qu'est-ce que le Principe de Peter</h2></div>
+    <div class="what-card">
+      <div class="quote">« In a hierarchy, every employee tends to rise to his level of incompetence. »<br/><span>Dans une hiérarchie, chaque employé s'élève jusqu'à son niveau d'incompétence</span></div>
+      <p><b>Origine</b> : en 1969, le pédagogue canadien Laurence Peter le formule dans son livre éponyme. La logique est simple : <b>bien faire → promotion → bien faire → promotion → jusqu'à ne plus bien faire</b>.</p>
+      <p><b>Ce n'est pas « tout le monde est médiocre »</b>, c'est un défaut de système de la promotion : <b>récompenser les résultats passés sans vérifier la compétence future</b>. L'expert technique promu mauvais manager, la vendeuse d'or promue directrice inefficace — plus le E de l'ancien poste est grand, plus la chute dans le nouveau est rude.</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Comment il se forme : la promotion inadaptée</h2></div>
+    <div class="crisis" id="crisis-form">
+      <div class="head">
+        <div class="year"><div class="yy">Inadéquation</div><div class="tag">Mécanisme de formation</div></div>
+        <div class="title-box">
+          <h3>Trois « ne regarder que », des gens capables envoyés dans des postes qu'ils ne savent pas tenir</h3>
+          <p class="lead">Ne regarder que E (résultats) → ignorer S (adéquation) → ne pas attendre T (croissance) : le Principe de Peter se met en marche.</p>
+        </div>
+      </div>
+      <div class="body">
+        <table class="dim-table">
+          <tr><th>Dimension</th><th>Avant la promotion</th><th>Après la promotion</th></tr>
+          <tr><td class="dim">E</td><td class="fake"><span class="fake-tag">Avant</span>Résultats éclatants à l'ancien poste, production élevée</td><td class="truth"><span class="truth-tag">Après</span>Compétences décalées au nouveau poste — <b>production en chute</b></td></tr>
+          <tr><td class="dim">S</td><td class="fake"><span class="fake-tag">Avant</span>Homme et poste très adaptés</td><td class="truth"><span class="truth-tag">Après</span>Le talent n'est plus requis, le requis n'est pas maîtrisé — <b>adéquation à zéro</b></td></tr>
+          <tr><td class="dim">T</td><td class="fake"><span class="fake-tag">Avant</span>Accumulation et croissance</td><td class="truth"><span class="truth-tag">Après</span>Ni formation, ni tampon, prise de poste directe — <b>croissance interrompue</b></td></tr>
+        </table>
+        <div class="arg"><span class="arg-label">Formation · Promotion inadaptée</span><p>Le Principe de Peter n'est pas « la personne ne vaut rien », c'est <b>un signal de promotion erroné</b>. Faire des résultats à l'ancien poste (E) le critère principal, c'est ignorer l'adéquation au nouveau poste (S) et le cycle de croissance (T) — on transforme la multiplication en division : la personne est la même, mais la valeur est « divisée » par le nouveau poste. Chaque poste incompétent est le vestige d'une promotion qui n'a regardé que E.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Peter dans la vie réelle</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Développeur</span><p>L'ingénieur au code magnifique promu chef technique — il ne code plus, et ne mène pas l'équipe.</p></div>
+      <div class="scene"><span class="s-tag">Meilleure vendeuse</span><p>La vendeuse aux meilleurs résultats promue directrice commerciale — elle ne peut plus foncer, et n'a pas fait l'équipe.</p></div>
+      <div class="scene"><span class="s-tag">Prof d'exception</span><p>Le professeur qui enseigne merveilleusement promu à l'administration — la chaire se vide, une salle de réunion de plus avec quelqu'un qui souffre.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Le Principe de Peter</div><div class="b-author">Laurence J. Peter</div><p>Dans la hiérarchie, l'employé s'élève jusqu'à son niveau d'incompétence. La prescription de Peter : <b>ne pas récompenser les talents par une promotion</b> — laissez-les briller au poste qu'ils maîtrisent.</p></div>
+      <div class="book"><div class="b-name">Good to Great</div><div class="b-author">Jim Collins</div><p>« First who, then what » : faire monter les bonnes personnes, les asseoir au bon poste, ensuite parler de direction. <b>L'adéquation homme-poste est le socle de l'excellence</b> — la pensée multiplicative qui refuse Peter.</p></div>
+      <div class="book"><div class="b-name">Principles</div><div class="b-author">Ray Dalio</div><p>Affronter honnêtement « qui est fait pour quoi » : <b>mettre la bonne personne au bon poste</b> est plus responsable que promouvoir la mauvaise. La compétence est un respect plus profond de la personne.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Comment briser : trois voies de multiplication</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Multiplication</div><div class="tag">La voie de sortie</div></div>
+        <div class="title-box">
+          <h3>Peser la compétence, garder les talents, cultiver la croissance — ramener la promotion à la valeur</h3>
+          <p class="lead">Le Principe de Peter ne change pas la nature humaine, mais il change le mécanisme : E selon la compétence, S par la double filière, T par la formation.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Réparer E · promouvoir selon la compétence</span><ul>
+          <li><b>Regarder l'avenir</b> : évaluer la compétence pour le nouveau poste, non les résultats de l'ancien</li>
+          <li><b>Période d'essai en poste</b> : d'abord 3 à 6 mois en intérim, la performance réelle décide de la titularisation</li>
+          <li><b>Pouvoir descendre</b> : en cas d'incompétence, retour possible au poste d'expert — « descendre » n'est pas une humiliation</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Réparer S · la double filière garde les talents</span><ul>
+          <li><b>Voie d'expert</b> : grades d'expert senior / expert en chef — sans « faire le chef », on peut progresser et gagner plus</li>
+          <li><b>Double échelle management / expertise</b> : qui aime gérer gère, qui aime faire fait</li>
+          <li><b>Chacun à sa place</b> : garder les talents vedettes aux postes à haute valeur, les récompenser par projets et primes</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Réparer T · faire suivre la croissance au nouveau poste</span><ul>
+          <li><b>Promouvoir, c'est former</b> : la promotion s'accompagne d'une formation au management — T rattrape les exigences du poste</li>
+          <li><b>Coach et mentor</b> : donner au nouveau manager un mentor expérimenté pour raccourcir la courbe de compétence</li>
+          <li><b>Regard long</b> : traiter la promotion comme un investissement, non une récompense — d'abord « sera-t-il compétent dans deux ans ? »</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Une phrase pour conclure</span><p><b>Le Principe de Peter n'est pas une malédiction de la capacité, c'est le miroir du mécanisme</b> — il révèle si nous promouvons sur « les résultats passés » ou sur « la compétence future ». L'homme bien placé, chacun est un multiplicateur.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">06</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Perspective</th><th>Enseignement</th></tr>
+        <tr><td>Richesse</td><td>Le contre-emploi est la perte cachée de l'organisation — un manager incompétent coûte plus qu'un expert qui s'en va.</td></tr>
+        <tr><td>Affect</td><td>Pousser au sommet quelqu'un qui n'est pas fait pour gérer, c'est une double blessure : il souffre, l'équipe souffre. Laisser chacun faire ce qu'il sait faire est un design bienveillant.</td></tr>
+        <tr><td>Double floraison</td><td>Si la promotion regarde en même temps E (compétence), S (adéquation), T (croissance), la personne s'apprécie au bon poste — la richesse et l'affect de l'individu, l'efficacité et la confiance de l'organisation croissent ensemble.</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>Chacun s'élève jusqu'à son niveau d'incompétence — sauf si le mécanisme laisse la compétence décider du poste.</b><br/>Plutôt que transformer une vedette en manager médiocre, laissez l'expert briller dans son domaine.<br/><b>Quand E regarde la compétence, S protège l'adéquation, T cultive la croissance, le Principe de Peter n'est plus qu'une fable dépassée.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">07</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Le Principe de Peter dit-il que les excellents ne doivent pas être promus ?</p>
+        <p class="a">A : Non. Il dit que la promotion doit regarder la compétence, non le simple résultat. Les excellents doivent monter — mais vers un poste où ils seront compétents, pas en échangeant l'ancien résultat contre un nouveau poste.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Ne pas promouvoir les excellents, ne va-t-on pas les perdre ?</p>
+        <p class="a">A : Oui — sauf si une autre incitation existe. C'est tout le sens de la double filière : la voie d'expert donne statut et récompense, « ne pas faire le chef » a aussi de la valeur.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Comment une personne ordinaire utilise-t-elle cette formule ?</p>
+        <p class="a">A : Le choix de carrière aussi : avant d'accepter une promotion, trois questions — suis-je compétent au nouveau poste (E) ? Est-il adapté à mon expertise (S) ? Aurai-je le temps de grandir (T) ? Les trois en place, alors montez.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Contenu conforme à la réglementation publicitaire
+</div>
+
+<button id="toTop" title="Retour en haut">↑</button>

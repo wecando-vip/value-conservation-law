@@ -1,0 +1,207 @@
+<header class="hero">
+  <div class="kicker">Think Tank de Double Floraison · Série d'application de la Loi de Conservation de la Valeur 12</div>
+  <h1>La Loi de l'Augmentation de l'Entropie, expliquée par une formule<br><span class="hl">Résister au désordre est la leçon de survie de toute chose</span></h1>
+  <div class="hl-sub">Schrödinger · Qu'est-ce que la vie ? · Prigogine et les structures dissipatives · appliqués à quatre niveaux</div>
+  <p class="sub">La pièce non rangée se dérange, le corps non exercé décline, la relation non entretenue se refroidit, l'institution non réformée se corrompt — c'est l'entropie : le système isolé va toujours vers le désordre. La Loi de Conservation de la Valeur donne la parade : Y = E × S × T — seule une entrée continue de « négentropie » (apprendre, entretenir, réformer, ordonner) maintient l'ordre du système et multiplie sa valeur.</p>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">SOMMAIRE</div>
+      <ul>
+        <li><a href="#sec-answer">La réponse en une phrase</a></li>
+        <li><a href="#sec-formula">Un seule formule pour comprendre</a></li>
+        <li><a href="#sec-what">Qu'est-ce que la loi de l'augmentation de l'entropie</a></li>
+        <li><a href="#sec-pillars">La formation du désordre</a></li>
+        <li><a href="#sec-crisis">Quatre niveaux en relecture</a></li>
+        <li><a href="#sec-scenes">Les miroirs dans le monde réel</a></li>
+        <li><a href="#sec-books">Ce que confirment les livres</a></li>
+        <li><a href="#sec-fix">La solution : la nouvelle connotation de la monnaie</a></li>
+        <li><a href="#sec-cycle">Cycle vertueux : triple gagnant</a></li>
+        <li><a href="#sec-insight">Enseignements de la double floraison</a></li>
+        <li><a href="#sec-faq">Questions fréquentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RÉPONSE D'ABORD · UNE PHRASE</span>
+      <p><strong>La loi de l'augmentation de l'entropie est la formule de division « le système isolé perd nécessairement son ordre »</strong> : un individu, une famille, une entreprise, une nation — dès qu'ils cessent d'absorber l'énergie extérieure (apprendre, entretenir, réformer, institutionnaliser), le désordre monte nécessairement : ne consommer qu'en tirer sans réparer (E qui extrait), ne prendre qu'en exiger sans entretenir (S qui se refroidit), ne reprendre qu'en suivre sans renouveler (T qui se fige) — Y décline.</p>
+      <p><strong>La solution : devenir « celui qui injecte la négentropie »</strong> — ouvrir le système, faire un travail continu, établir l'ordre — et la nouvelle connotation de la monnaie, c'est mettre E, S, T dans le même grand livre pour que chaque « injection de négentropie » soit mesurée et récompensée : le mécanisme d'auto-régulation du cycle vertueux se déclenche, et l'individu, la famille, l'entreprise, la nation progressent tous ensemble.</p>
+    </div>
+
+    <div class="section-title" id="sec-formula"><span class="sn">00</span><h2>Un seule formule pour comprendre</h2></div>
+    <div class="formula-box">
+      <div class="formula-card mul">
+        <div class="f-label">LOI DE MULTIPLICATION · LA NÉGENTROPIE EST MULTIPLICATION</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>E</b> entrée d'énergie (apprendre · s'entraîner · produire) · <b>S</b> ordre des relations (confiance · communication · culture) · <b>T</b> renouvellement des institutions (habitudes · processus · réformes)</p>
+        <p class="f-note">Le système ouvert injecte la négentropie en continu, les trois se multiplient ; <b>le système clos ne fait qu'augmenter l'entropie, le total décline</b>.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">LOI DE DIVISION · LA VOIE DE L'ENTROPIE</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Quand le système <b>ne fait que prendre sans compenser, ne fait que vieillir sans se renouveler</b> : ne pas apprendre, ne pas entretenir, ne pas réformer —</p>
+        <p class="f-note"><b>le désordre ne fait que croître</b> : l'apparence se maintient, l'ordre réel se perd.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qu'est-ce que la loi de l'augmentation de l'entropie</h2></div>
+    <div class="what-card">
+      <div class="quote">« La matière vivante se nourrit de négentropie. L'organisme évite le déclin parce qu'il puise sans cesse "l'ordre" dans son environnement. »<br><span>— Schrödinger · Qu'est-ce que la vie ? (1944)</span></div>
+      <p><b>Origine</b> : la seconde loi de la thermodynamique : <b>le désordre (l'entropie) d'un système isolé ne fait qu'augmenter</b> — l'eau chaude se refroidit toujours, la pièce se dérange toujours. Schrödinger l'amène au vivant : <b>la vie est une « entropie localement inversée », elle résiste au déclin en injectant sans cesse de la négentropie</b>.</p>
+      <p><b>Le complément de Prigogine</b> : un système ouvert, loin de l'équilibre, peut s'auto-organiser en un ordre nouveau par les « structures dissipatives » — <b>l'entropie n'est pas un destin : si le système reste ouvert et injecte en continu, le chaos peut se convertir en un ordre supérieur</b>. Individu, famille, entreprise, nation : même logique.</p>
+    </div>
+
+    <div class="section-title" id="sec-pillars"><span class="sn">02</span><h2>La formation du désordre</h2></div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">E</span><h3>Ne faire que consommer · jamais recharger</h3><span class="p-tag">Source de la division</span></div>
+        <p><b>Formation</b> : ne dépenser que de l'énergie sans la recharger — nuits blanches qui épuisent la santé, gagner de l'argent sans apprendre, exploiter sans cultiver : <b>le système vit au-dessus de ses moyens, le déficit d'énergie est le carburant de l'entropie</b>.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">S</span><h3>Ne faire qu'exiger · jamais entretenir</h3><span class="p-tag">Victime sacrifiée</span></div>
+        <p><b>Formation</b> : la relation est une « structure dissipative » — sans communication ni don en entrée, elle se refroidit : famille silencieuse, équipe divisée, confiance hypothéquée, <b>le désordre de S fait monter le coût de toute coopération</b>, le chaos s'étend dans le silence.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-head"><span class="p-num">T</span><h3>Ne faire que reprendre · jamais renouveler</h3><span class="p-tag">Coût caché</span></div>
+        <p><b>Formation</b> : une fois les habitudes, les processus, les institutions arrêtés de se renouveler, ils régressent de « l'ordre » à « la camisole » — procrastination installée, processus figés, institutions corrompues, <b>T défaillant prive le système d'auto-correction, l'entropie s'accélère</b>.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-crisis"><span class="sn">03</span><h2>Quatre niveaux en relecture</h2></div>
+    <div class="crisis-grid">
+
+      <div class="crisis" id="crisis-person">
+        <div class="head">
+          <div class="year"><div class="yy">Individu</div><div class="tag">L'entropie du corps et de l'esprit</div></div>
+          <div class="title-box">
+            <h3>Sans apprendre, sans s'entraîner, l'être « se dépérit doucement »</h3>
+            <p class="lead">Procrastiner, veiller, défiler — la zone de confort est le terreau de l'entropie ; sans entrée, on glisse.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Entropie</span><p>La pièce se dérange, le corps s'affaiblit, les compétences s'émoussent — <b>dès que l'être cesse d'injecter la négentropie (apprendre, s'entraîner, se discipliner), la capacité et la santé déclinent d'elles-mêmes</b> ; la procrastination n'est pas un trait de caractère, c'est le système qui glisse vers le chaos.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Négentropie</span><p>Installer un micro-ordre « du travail quotidien » : <b>lire, s'entraîner, faire le bilan — trois petites choses (l'entrée d'ordre de S)</b> pour tenir le corps et l'esprit loin de l'équilibre — <b>la discipline n'est pas une ascèse, c'est le tuyau qui rebranche la négentropie à la vie</b>.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-family">
+        <div class="head">
+          <div class="year"><div class="yy">Famille</div><div class="tag">L'entropie des relations</div></div>
+          <div class="title-box">
+            <h3>Sans communication, sans présence, le foyer « se refroidit »</h3>
+            <p class="lead">Chacun sur son téléphone, la table sans parole — la relation intime non alimentée s'éloigne.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Entropie</span><p>La famille est une « structure dissipative » typique : <b>seuls les dons et la communication en entrée continue maintiennent la chaleur</b> ; dès que chacun vaque à ses affaires, que les mots manquent, les malentendus et l'indifférence s'empilent d'eux-mêmes — beaucoup de familles ne « se brisent pas soudain » : l'entropie a travaillé dix ans avant de se montrer.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Négentropie</span><p>Donner aux relations un « travail » périodique : <b>un temps de famille fixe, des confidences avant de dormir, cuisiner ensemble (l'entrée continue de S)</b> — la chaleur n'est pas un stock, c'est une eau vive qui coule chaque jour.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-company">
+        <div class="head">
+          <div class="year"><div class="yy">Entreprise</div><div class="tag">L'entropie de l'organisation</div></div>
+          <div class="title-box">
+            <h3>Sans innovation, sans réforme, la maladie des grandes entreprises naît d'elle-même</h3>
+            <p class="lead">Processus boursouflés, murs entre services, féodalités internes — l'organisation qui cesse de se renouveler se fige.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Entropie</span><p>Dès que l'entreprise perd la concurrence extérieure et le renouvellement interne, <b>les strates hiérarchiques gonflent, la bureaucratie pousse toute seule (T défaillant)</b> ; l'évaluation ne reconnaît que les chiffres courts (E qui extrait), la culture et la confiance sont rangées (S qui se refroidit) — plus l'échelle est grande, plus l'entropie va vite : la racine de la « maladie des grandes entreprises ».</p></div>
+          <div class="fix"><span class="fix-label">Solution · Négentropie</span><p>Injecter en continu de la « négentropie » dans l'organisation : <b>concurrence ouverte (la pression de E), première ligne activée (la confiance de S), organisation amaigrie (le renouvellement de T)</b> — la bonne entreprise n'est pas sans entropie, c'est celle qui transforme l'entropie en carburant d'évolution.</p></div>
+        </div>
+      </div>
+
+      <div class="crisis" id="crisis-nation">
+        <div class="head">
+          <div class="year"><div class="yy">Nation</div><div class="tag">L'entropie des institutions</div></div>
+          <div class="title-box">
+            <h3>Sans réforme, sans ouverture, les dynasties tournent en cycle</h3>
+            <p class="lead">Institutions corrompues, vitalité tarie — la loi du cycle historique est, à l'essence, la loi de l'entropie des institutions.</p>
+          </div>
+        </div>
+        <div class="body">
+          <div class="arg"><span class="arg-label">Formation · Entropie</span><p>Le cycle de l'ascension et de la chute des dynasties est, à l'essence, <b>l'entropie institutionnelle</b> : à la fondation, ouverture et élan (négentropie abondante) ; en milieu et fin de règne, fermeture et rigidité (négentropie coupée), <b>l'extraction (E) continue, mais le cœur du peuple (S) et l'innovation (T) s'en vont</b> — dès que l'institution se referme, le chaos pousse de l'intérieur et la dynastie passe la main.</p></div>
+          <div class="fix"><span class="fix-label">Solution · Négentropie</span><p>Garder le système ouvert : <b>réforme et ouverture, innovation institutionnelle, révolution sur soi-même (le renouvellement continu de T)</b> — seul un système qui ose se corriger convertit l'entropie en force d'évolution.</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">04</span><h2>Les miroirs dans le monde réel</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Chambre</span><p>Le bureau non rangé se dérange en trois jours — ce n'est pas de la paresse, c'est l'entropie ; un coup de rangement, l'ordre revient.</p></div>
+      <div class="scene"><span class="s-tag">Corps</span><p>Une semaine sans bouger, la forme décline ; trois jours de sport, la vitalité revient — l'injection de négentropie agit sur-le-champ.</p></div>
+      <div class="scene"><span class="s-tag">Relations</span><p>Les amis qu'on ne contacte plus s'éloignent peu à peu — la relation non alimentée se perd d'elle-même.</p></div>
+      <div class="scene"><span class="s-tag">Connaissances</span><p>Le savoir non actualisé se déprécie — si la cognition ne suit pas, on reste derrière.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">05</span><h2>Ce que confirment les livres</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">Qu'est-ce que la vie ?</div><div class="b-author">Erwin Schrödinger · 1944</div><p>« La matière vivante se nourrit de négentropie » — <b>exister, c'est inverser l'entropie ; vivre, c'est faire un travail continu</b> ; injecter l'ordre, c'est prolonger la vie ; cesser d'injecter, c'est se flétrir.</p></div>
+      <div class="book"><div class="b-name">Order out of Chaos</div><div class="b-author">Ilya Prigogine · 1979</div><p>La théorie des structures dissipatives : <b>un système ouvert, loin de l'équilibre, s'auto-organise en un ordre nouveau à partir du chaos</b> — l'entropie n'est pas un point final, l'évolution peut naître du désordre.</p></div>
+      <div class="book"><div class="b-name">Atomic Habits</div><div class="b-author">James Clear · 2018</div><p>L'habitude est la « micro-institution contre l'entropie » : <b>1 % d'ordre injecté chaque jour s'accumule en une immense négentropie</b> — la bonne habitude fait de l'être un système qui travaille en continu.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">06</span><h2>La solution : la nouvelle connotation de la monnaie</h2></div>
+    <div class="what-card">
+      <div class="quote">« L'ancien grand livre ne notait que "ce qui a été retiré" ; le grand livre de la nouvelle monnaie doit noter "combien de négentropie a été injectée". »<br><span>— Loi de Conservation de la Valeur · la voie de sortie</span></div>
+      <p><b>Briser l'entropie, ce n'est pas éliminer le chaos, c'est garder le système ouvert et injectant en continu</b> : l'énergie, de « ne faire que consommer » à « compenser et consommer » (E) ; les relations, de « ne faire qu'exiger » à « entretenir avec soin » (S) ; l'ordre, de « ne faire que reprendre » à « renouveler souvent » (T).</p>
+      <p><strong>La nouvelle connotation de la monnaie</strong> — faire porter trois valeurs à la fois :</p>
+      <p>· <b>Valeur économique E</b> : chaque centime correspond à une création réelle de biens et de services, fini « imprimer sans produire » ;<br>
+         · <b>Valeur sociale S</b> : la circulation monétaire repose sur la confiance — entretenir les relations, coopérer avec intégrité, s'entraider récompensés par la monnaie ;<br>
+         · <b>Valeur temporelle T</b> : la monnaie est une promesse intertemporelle — l'apprentissage, l'innovation, l'écologie, la transmission entrent dans la mesure, pour encourager « le travail pour l'avenir ».</p>
+      <p><b>Quand la monnaie mesure à la fois E, S, T</b>, chaque apprentissage, chaque don, chaque réforme est vu, mesuré, récompensé — <b>la loi de division perd son terrain, la négentropie devient la nouvelle monnaie, le cycle vertueux se déclenche</b>.</p>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">07</span><h2>Cycle vertueux : triple gagnant</h2></div>
+    <div class="overview-wrap">
+      <table>
+        <tr><th>Acteur</th><th>Cycle vertueux sous la nouvelle monnaie</th><th>Valeurs</th></tr>
+        <tr><td>État</td><td>Ouverture et réforme, institutions toujours neuves → vitalité pleine, entropie décroissante → paix durable</td><td>T + S</td></tr>
+        <tr><td>Entreprise</td><td>Innover en continu, gérer la confiance → organisation ordonnée, prospérité durable → croître contre l'entropie</td><td>E + S + T</td></tr>
+        <tr><td>Individu</td><td>Apprendre, s'entraîner, entretenir → corps et esprit ordonnés, vie à intérêts composés → travail continu</td><td>Trois-en-un</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title" id="sec-insight"><span class="sn">08</span><h2>Enseignements de la double floraison</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Leçon de la richesse</span><p>La richesse est une « énergie ordonnée ». <b>Accumuler sans gérer, la richesse aussi s'entropise et se déprécie ; apprendre et répartir en continu, c'est garder l'argent dans l'ordre et produire des intérêts</b>.</p></div>
+      <div class="role"><span class="r-tag">Leçon de l'affect</span><p>Le sentiment est une « eau vive », pas un « stock ». <b>La relation non alimentée finit par se refroidir ; un bonjour chaque jour, une écoute, c'est injecter la négentropie à ceux qu'on aime</b>.</p></div>
+      <div class="role"><span class="r-tag">La double floraison</span><p>Le f(m)×f(h)×f(t) de l'individu et le E×S×T de l'État sont une seule et même chose : <b>les trois valeurs injectées en continu, voilà la multiplication contre l'entropie</b> — s'ouvrir, travailler, renouveler : la leçon commune.</p></div>
+    </div>
+    <div class="closing">
+      <p><b>Toute chose s'entropise ; seul le travail continu remonte le courant.</b><br/>L'énergie compensée, les relations chaleureuses, les institutions neuves — les trois injectées en continu, la formule contre l'entropie ;<br/><b>création, confiance, transmission — trois valeurs mesurées ensemble, c'est le code fondamental du triple gagnant.</b></p>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">09</span><h2>Questions fréquentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q : Que signifie la loi de l'entropie dans la vie ?</p>
+        <p class="a">A : Le système isolé va nécessairement vers le désordre — la pièce se dérange, le corps décline, les relations se refroidissent, les institutions se corrompent ; mais en injectant en continu la « négentropie » (apprendre, s'entraîner, communiquer, réformer), on maintient l'ordre.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : « Plus je m'efforce, plus je suis fatigué » — est-ce de l'entropie ?</p>
+        <p class="a">A : Ne faire que dépenser sans recharger, c'est l'entropie d'un déficit. La solution n'est pas « s'efforcer davantage », mais « compenser en même temps qu'on dépense » — l'apprentissage comble la cognition, le repos comble le corps, l'entretien comble les relations.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q : Que change la « nouvelle connotation de la monnaie » pour une personne ordinaire ?</p>
+        <p class="a">A : Elle fait mesurer par la monnaie les trois valeurs économique, sociale et temporelle. Au niveau individuel, c'est la formule micro — ne laissez pas la course au revenu hypothéquer la santé, les relations et l'accumulation long terme ; gardez f(h) et f(t), la vie aura ses intérêts composés.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Rédigé selon <i>La Loi de Conservation de la Valeur pour la Multiplication de Richesse et de Bien-être</i> · Références tirées des ouvrages publics de Schrödinger, Prigogine et Clear · Contenu conforme à la réglementation publicitaire<br>
+  Idées de vulgarisation, ne constituent pas un conseil en investissement
+</footer>
+
+<button class="toTop" id="toTop">↑</button>

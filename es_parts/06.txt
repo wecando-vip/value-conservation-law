@@ -1,0 +1,238 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>Ley de Conservación del Valor · Descifrando la fiscalidad imperial</div>
+    <div class="meta">
+      <span class="pill gold">Think Tank de Doble Florecimiento</span>
+      <span class="pill">Código fiscal × Nueva moneda</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">EL CÓDIGO FISCAL × CONSERVACIÓN DEL VALOR</div>
+  <h1>El Código Fiscal de los Imperios Centrales, <span class="hl">explicado por una fórmula</span></h1>
+  <p class="hl-sub">Guo Jianlong "El Código Fiscal de los Imperios Centrales" × La nueva connotación de la moneda</p>
+  <div class="divider"></div>
+  <p class="sub">De Qin al final de los Qing, dos mil años de dinastías: la clave del auge y la caída no está solo en la política, sino en cómo la fiscalidad trata tres valores — ceder el beneficio para generar más beneficio (multiplicación), o arrebatar el beneficio al pueblo (división).</p>
+  <div class="chips">
+    <span class="chip">Fórmula macro <b>Y=E×S×T</b></span>
+    <span class="chip">Fórmula micro <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">Nueva moneda <b>triple</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">ÍNDICE</p>
+      <ul>
+        <li><a href="#sec-answer">La respuesta en una frase</a></li>
+        <li><a href="#sec-formula">Doble fórmula macro + micro</a></li>
+        <li><a href="#sec-what">Qué dice "El Código Fiscal"</a></li>
+        <li><a href="#sec-form">Cómo se forma el auge y la caída</a></li>
+        <li><a href="#sec-scenes">Reflejos en la vida real</a></li>
+        <li><a href="#sec-books">Lo que confirman los libros</a></li>
+        <li><a href="#sec-fix">La solución: la nueva connotación de la moneda</a></li>
+        <li><a href="#sec-cycle">Ciclo virtuoso: triple ganancia</a></li>
+        <li><a href="#sec-insight">Enseñanzas de la doble florecimiento</a></li>
+        <li><a href="#sec-faq">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">RESPUESTA PRIMERO · UNA FRASE</span>
+      <p><strong>La esencia del auge y la caída imperial es la "fórmula de división de la fiscalidad"</strong>: cuando el gobernante solo debe responder por el ingreso fiscal (E), instintivamente sube impuestos, imprime dinero y vende cargos — agotando el corazón del pueblo (S) y el futuro (T). Cuando el denominador se agota, el imperio colapsa.</p>
+      <p><strong>El camino de salida está en la nueva connotación de la moneda</strong>: que el dinero cargue a la vez las tres valores — económica, social y temporal — para que la fiscalidad deje de "arrebatar beneficio al pueblo" y pase a "ceder el beneficio para generar más beneficio". Cuando la división pierde espacio, la multiplicación opera sola, y nación, empresa e individuo ganan todos.</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">Fórmula macro · gobernanza nacional</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> valor total · <b>E</b> valor económico · <b>S</b> valor social (confianza·equidad) · <b>T</b> valor temporal (sostenibilidad·intergeneracional)</p>
+        <p class="f-note">Solo con los tres mayores que 1 se entra en fase de desarrollo; <b>si cualquiera llega a cero o negativo, el total colapsa</b>.</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">Fórmula micro · la persona y la familia</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> valor monetario · <b>f(h)</b> experiencia de felicidad · <b>f(t)</b> valor temporal</p>
+        <p class="f-note">Perseguir solo el ingreso y agotar salud y largo plazo: <b>la familia también tiene su "colapso dinástico"</b>.</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">Ley de división · el origen de la decadencia dinástica</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">Cuando el gobernante <b>solo debe responder por el ingreso fiscal E</b>, instintivamente sube impuestos, imprime dinero y vende cargos — agotando corazón del pueblo y futuro.</p>
+        <p class="f-note"><b>El denominador se agota y el numerador es robado</b> — el día en que la tesorería se llena, es el día en que el corazón del pueblo se dispersa.</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">Ley de multiplicación · la llave del ciclo virtuoso</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">Cuando la moneda mide las tres valores a la vez, <b>ganar dinero = felicidad + sostenibilidad</b>, y la auto-regulación se pone en marcha.</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>Qué dice "El Código Fiscal de los Imperios Centrales"</h2></div>
+    <div class="what-card">
+      <div class="quote">"La fiscalidad es el esqueleto del imperio; la moneda, la sangre de ese esqueleto."<br/><span>Una historia fiscal es una historia del auge y la caída dinástica</span></div>
+      <p><b>Origen</b>: en 2017, el autor económico Guo Jianlong, en <i>El Código Fiscal de los Imperios Centrales</i>, relee la historia china desde Qin hasta el final de los Qing con la mirada de la fiscalidad. La idea central: <b>el auge y la caída del imperio centralizado lo decide la lógica fiscal</b> — los tres pilares de la tierra, la moneda y la economía estatal sostienen al imperio y también lo aplastan.</p>
+      <p><b>La pregunta de Guo</b>: ¿por qué ninguna dinastía escapa al ciclo de "fundación → prosperidad → corrupción → colapso"? La respuesta no está solo en la política, sino en <b>cómo trata la fiscalidad a las tres valores</b> — ceder el beneficio para generar beneficio (multiplicación), o arrebatar el beneficio al pueblo (división).</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>Cómo se forma el auge y la caída</h2></div>
+
+    <div class="crisis" id="crisis-qin">
+      <div class="head">
+        <div class="year"><div class="yy">QIN</div><div class="tag">Muere en la segunda generación</div></div>
+        <div class="title-box">
+          <h3>Unificó moneda y medidas, pero los impuestos crueles agotaron el corazón del pueblo</h3>
+          <p class="lead">La innovación institucional de E fue multiplicación; la exacción desmedida fue división — S a cero, T colapsado.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Qin unificó la moneda y las medidas, pudiendo agrandar E; pero con "la mitad de la cosecha en tributo" y las grandes obras, <b>la fuerza del pueblo (S) fue agotada al límite</b> y el sistema (T) sin elasticidad. El alzamiento de Chen Sheng y Wu Guang no fue casual — cuando el corazón del pueblo S cae por debajo de 1, ni la fuerza militar más grande (E) sostiene la cadena de la multiplicación.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-han">
+      <div class="head">
+        <div class="year"><div class="yy">HAN</div><div class="tag">Gobiernos Wen-Jing → reforma de Wang Mang</div></div>
+        <div class="title-box">
+          <h3>Impuestos ligeros, edad de oro; arrebatar el beneficio al pueblo, edad de caos</h3>
+          <p class="lead">Los gobiernos Wen-Jing cedieron el beneficio para generar beneficio (multiplicación); el emperador Wu y Wang Mang arrebataron el beneficio (división).</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>Dos generaciones Wen-Jing con "treinta y uno de tributo" guardaron la riqueza en el pueblo: E, S y T crecieron juntos. Luego, con el emperador Wu, los monopolios de la sal y el hierro y el sistema de nivelación: <b>la fiscalidad (E) parecía abundante, pero el comercio popular (la vitalidad de S) fue drenado</b>. Wang Mang fue más lejos: acuñó monedas enormes y decretó controles, la moneda se emitió sin freno (T agotado) y el mundo cayó en el caos. <b>La economía estatal es el "opio" de la fiscalidad imperial: cuanto más se aspira, más se debilita</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-tang">
+      <div class="head">
+        <div class="year"><div class="yy">TANG</div><div class="tag">Campos igualitarios → doble impuesto → señores de la guerra</div></div>
+        <div class="title-box">
+          <h3>Colapsó el sistema de tierras, se desarmó el esqueleto del imperio</h3>
+          <p class="lead">El sistema de campos igualitarios (la equidad distributiva de S) se disolvió; el sistema tributario (T) falló; la fiscalidad viró al doble impuesto.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>El sistema de campos igualitarios repartía tierras por cabeza: era la distribución justa de la tierra (S); pero con el crecimiento demográfico y la concentración de tierras, <b>coexistían campesinos sin tierra y grandes evasores</b>, y el sistema tributario (T) se atascó. Tras la rebelión de An Lushan se impuso el doble impuesto "medir el gasto para fijar el ingreso", reconociendo la concentración — <b>la fiscalidad cedió ante la realidad, y el imperio resbaló hacia el colapso</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-song">
+      <div class="head">
+        <div class="year"><div class="yy">SONG</div><div class="tag">Jiaozi → emisión excesiva → inflación</div></div>
+        <div class="title-box">
+          <h3>Inventar el papel moneda fue un hito; emitirlo sin freno, un veneno</h3>
+          <p class="lead">El jiaozi fue una innovación monetaria (multiplicación de E); la emisión excesiva agotó T hasta lo absurdo.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>El jiaozi de los Song del Norte, anclado en la moneda de hierro, fue una innovación monetaria que marcó época; en los Song del Sur, para financiar la guerra, <b>el huizi se emitió hasta "valer la mitad de su nominal"</b>: la confianza monetaria (T) colapsó, los precios volaron y la riqueza del pueblo fue saqueada en silencio — <b>no es un problema de dinero, es un problema de fiscalidad que agota la confianza</b>.</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-ming">
+      <div class="head">
+        <div class="year"><div class="yy">MING</div><div class="tag">Depreciación del baochao → crisis de la plata</div></div>
+        <div class="title-box">
+          <h3>Imprimir dinero para pagar impuestos terminó en papel sin valor; la fiscalidad perdió su ancla</h3>
+          <p class="lead">El baochao se emitió y depreció (T a cero); la plata trajo la crisis de "no hay plata que usar".</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">Argumento de formación · división</span><p>A comienzos de los Ming se emitió el baochao; pronto la emisión excesiva lo depreció, <b>la confianza (T) cayó a cero y el pueblo se negó a usarlo</b>, y la fiscalidad viró forzosamente a la plata. Pero la plata dependía de la llegada del exterior: en los años de Chongzhen <b>la plata escaseó y la fiscalidad se agotó</b>; se impusieron los "tres tributos" (S exprimido) — estalló la rebelión popular y el imperio colapsó. El ancla de la moneda se había perdido.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>Reflejos en la vida real: la historia nunca se fue</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">Emisión monetaria</span><p>El huizi de los Song del Sur, el baochao papel de los Ming — emitir hoy moneda sin respaldo real, y la historia se repetirá.</p></div>
+      <div class="scene"><span class="s-tag">Concentración de tierras</span><p>"El rico tiene campos que se cruzan de horizonte a horizonte; el pobre no tiene ni un palmo" — los altos precios de la vivienda y la concentración de activos de hoy son una crisis de S de la misma estructura.</p></div>
+      <div class="scene"><span class="s-tag">Arrebatar el beneficio al pueblo</span><p>Monopolios de la sal y el hierro, venta de cargos — hoy, cualquier monopolio que "arrebata el beneficio al pueblo" agota la confianza.</p></div>
+      <div class="scene"><span class="s-tag">Desequilibrio tributario</span><p>El doble impuesto "medir el gasto", los tres tributos de Chongzhen — cuando la carga se desequilibra, las personas y las empresas son las primeras en sufrir.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>Lo que confirman los libros</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">El Código Fiscal de los Imperios Centrales</div><div class="b-author">Guo Jianlong</div><p>Los tres pilares — tierra, moneda y economía estatal — sostienen el imperio. Cuando la fiscalidad arrebata el beneficio al pueblo, <b>el imperio prospera en la suma y colapsa en la división</b>.</p></div>
+      <div class="book"><div class="b-name">Disputas sobre la sal y el hierro</div><div class="b-author">Huan Kuan, comp.</div><p>El debate de hace dos mil años ya lo dijo: <b>la disputa entre el Estado y el beneficio popular es, en esencia, la disputa entre E y S</b>. Sang Hongyang ponderaba E; los sabios letrados ponderaban S — la elección de la dinastía decide su destino.</p></div>
+      <div class="book"><div class="b-name">Espejo integral para ayudar al gobierno</div><div class="b-author">Sima Guang, ed.</div><p>"El Estado no toma la ganancia como ganancia, sino la justicia" — <b>donde la justicia (S) y la ganancia (E) se desequilibran, ahí está el punto de inflexión del auge y la caída</b>. Mil tomos del Espejo hablan de esta cuenta del valor.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>Cómo resolverla: la nueva connotación de valor de la moneda</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">Nueva moneda</div><div class="tag">Camino de salida</div></div>
+        <div class="title-box">
+          <h3>Que la moneda mida las tres valores a la vez, y la división se vuelva multiplicación</h3>
+          <p class="lead">La moneda no debería ser solo "el número del dinero", sino la vara de medir unificada de las tres valores E, S y T.</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">Connotación uno · valor económico E (poder de compra)</span><ul>
+          <li>La moneda corresponde a la creación real de bienes y servicios — <b>detrás de cada centavo hay producción</b></li>
+          <li>Acabar con "imprimir sin producir" — la emisión debe tener respaldo real (la lección de los Song del Sur y los Ming tardíos)</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotación dos · valor social S (confianza)</span><ul>
+          <li>La circulación de la moneda depende de la confianza social — <b>moneda estable = el corazón del pueblo</b></li>
+          <li>Incentivos monetizados para quienes crean empleo, mejoran la distribución y guardan la riqueza en el pueblo (el espejo de los gobiernos Wen-Jing)</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">Connotación tres · valor temporal T (sostenibilidad)</span><ul>
+          <li>La moneda es una promesa intertemporal — <b>el dinero de hoy debe responder por el mañana</b></li>
+          <li>La tierra, la educación, la innovación y la herencia entran en la medición, evitando "comerse el arroz de los hijos"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">Medición unificada · la llave del ciclo virtuoso</span><p><b>Cuando la moneda contiene a la vez las connotaciones de E, S y T</b>, la fiscalidad nacional invierte en el corazón del pueblo y el futuro, la empresa gana dinero creando a la vez empleo y herencia, y el individuo compra con su ingreso felicidad y acumulación de largo plazo — <b>la división de arrebatar el beneficio al pueblo pierde espacio y la multiplicación de guardar la riqueza en el pueblo opera sola</b>. Esta es la llave para romper el ciclo de auge y caída de dos mil años.</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>Ciclo virtuoso: la triple ganancia de nación, empresa e individuo</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>Sujeto</th><th>Ciclo virtuoso bajo la nueva connotación de la moneda</th><th>Valores</th></tr>
+        <tr><td>Nación</td><td>Fiscalidad que invierte en el corazón del pueblo y el futuro → moneda estable, riqueza con el pueblo → paz duradera</td><td>S+T</td></tr>
+        <tr><td>Empresa</td><td>Creación real y empleo → confianza y retorno de largo plazo → negocio perdurable</td><td>E+S+T</td></tr>
+        <tr><td>Individuo</td><td>Ingreso que compra felicidad y crecimiento → crear y consumir con confianza → vida multiplicada</td><td>Triple</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>La historia no se repite, pero la ley de la fiscalidad nunca falta.</b><br/>Cuando la moneda se vuelve la vara de medir unificada de las tres valores —económica, social y temporal—,<br/>cada creación suma a la fórmula de multiplicación y cada gramo de confianza alimenta el ciclo virtuoso.<br/><b>E, S y T mayores que 1 a la vez: esa es la clave de fondo para saltar el ciclo de auge y caída y lograr la triple ganancia.</b></p>
+    </div>
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>Enseñanzas de la doble florecimiento</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">Enseñanza de la riqueza</span><p>No confundas "riqueza contable" con "valor real". El día en que las tesorerías de las dinastías se llenaban, solía ser el día en que el corazón del pueblo se dispersaba — la salud fiscal está en crear a la vez E, S y T.</p></div>
+      <div class="role"><span class="r-tag">Enseñanza del bienestar</span><p>El cimiento de la moneda es el corazón del pueblo. Cada emisión excesiva y cada arrebato de beneficio agotan la confianza — y la confianza tarda una generación en repararse.</p></div>
+      <div class="role"><span class="r-tag">La solución doble</span><p>Que el dinero compre a la vez lo material, la felicidad y el futuro — el f(m)×f(h)×f(t) de la persona y el E×S×T de la nación son, en esencia, lo mismo: <b>solo cuando las tres valores crecen juntas, el crecimiento es real</b>.</p></div>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">P: ¿Cuál es la idea central de "El Código Fiscal de los Imperios Centrales"?</p>
+        <p class="a">R: El auge y la caída del imperio centralizado lo decide la lógica fiscal — los tres pilares de la tierra, la moneda y la economía estatal sostienen al imperio y también lo aplastan. Cuando la fiscalidad arrebata el beneficio al pueblo, la dinastía camina hacia el colapso.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Por qué la impresión excesiva de dinero siempre arruina la economía real?</p>
+        <p class="a">R: Porque la moneda sin respaldo real agota la confianza (S) y la sostenibilidad (T). La lección de los huizi de los Song del Sur y el baochao de los Ming: el dinero impreso sin producción detrás termina en papel sin valor.</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">P: ¿Qué significa la "nueva connotación de la moneda" para la gente común?</p>
+        <p class="a">R: Que el dinero mida a la vez las tres valores. En el plano personal es la fórmula micro — que el ingreso no agote salud, relaciones ni acumulación de largo plazo; guarda f(h) y f(t), y tu vida gana interés compuesto.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  Redactado según <i>La Ley de Conservación del Valor para la Multiplicación de Riqueza y Bienestar</i> · Contenido conforme a la normativa publicitaria · Ideas de divulgación, no constituyen asesoramiento de inversión
+</div>
+
+<button id="toTop" title="Volver arriba">↑</button>

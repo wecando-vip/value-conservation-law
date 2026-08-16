@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>中央帝国的财政密码，一个公式看懂 - 价值守恒定律 Y=E×S×T</title>
+<meta name="description" content="用价值守恒定律宏观公式 Y=E×S×T 与微观公式 y=f(m)×f(h)×f(t) 论证郭建龙《中央帝国的财政密码》:历朝王朝兴衰如何形成、如何破解;论证新货币价值内涵需包含经济、社会、时间三种价值,才能触发良性循环的自我调节机制,实现国家、企业、个人共赢。财情双生智库出品。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red-soft: #f9ecec;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0","Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height: 1.9; font-size: 16.5px;
+  }
+  ::selection { background: rgba(166,124,46,.22); }
+  #progress { position: fixed; top: 0; left: 0; height: 2.5px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--gold), var(--navy-2)); }
+
+  .topbar { position: sticky; top: 0; z-index: 1000; background: rgba(250,249,246,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--navy); font-size: 15px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .brand .dot { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); display: grid; place-items: center; color: #fff; font-size: 13px; }
+  .topbar .meta { margin-left: auto; display: flex; gap: 8px; }
+  .pill { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); background: #fff; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .pill.gold { color: var(--gold); border-color: #e2cfa3; background: var(--gold-soft); }
+
+  .hero { text-align: center; padding: 56px 24px 48px;
+    background: radial-gradient(900px 420px at 15% -20%, rgba(43,95,138,.08), transparent 65%),
+                radial-gradient(700px 380px at 88% 0%, rgba(166,124,46,.10), transparent 60%),
+                linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    border-bottom: 1px solid var(--line); }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 4px; color: var(--gold); margin-bottom: 16px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .hero h1 { margin: 0 auto 14px; max-width: 900px; font-size: clamp(26px, 4.2vw, 40px); line-height: 1.4; font-weight: 800; color: var(--navy); letter-spacing: 1px; }
+  .hero h1 .hl {
+    position: relative; color: var(--gold);
+    background: linear-gradient(transparent 62%, rgba(166,124,46,.22) 62%);
+    padding: 0 4px; border-radius: 4px;
+  }
+  .hero .hl-sub {
+    display: inline-block; margin: 0 0 14px; font-size: 14px;
+    color: var(--ink-soft); letter-spacing: 2px;
+    font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+    border: 1px solid #e2cfa3; background: var(--gold-soft);
+    padding: 3px 14px; border-radius: 999px;
+  }
+  .hero .divider { width: 64px; height: 3px; margin: 0 auto 16px; background: linear-gradient(90deg, var(--gold), transparent); }
+  .hero .sub { color: var(--ink-soft); font-size: 16.5px; margin: 0 auto 24px; max-width: 760px; }
+  .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .hero .chip { font-size: 13.5px; color: var(--navy); background: #fff; border: 1px solid #d8d4c8; padding: 6px 18px; border-radius: 999px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; box-shadow: 0 1px 3px rgba(20,30,40,.06); }
+  .hero .chip b { color: var(--gold); font-weight: 700; }
+
+  .layout { max-width: 1080px; margin: 0 auto; padding: 36px 28px 20px; display: grid; grid-template-columns: 228px minmax(0,1fr); gap: 34px; align-items: start; }
+  .content { min-width: 0; }
+  .content [id] { scroll-margin-top: 84px; }
+
+  .toc-wrap { position: sticky; top: 74px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 14px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .toc .toc-title { font-size: 12.5px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; font-weight: 700; }
+  .toc ul { list-style: none; margin: 0; padding: 0; }
+  .toc li { margin: 1px 0; }
+  .toc a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 13.5px; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+  .toc a:hover { background: var(--blue-soft); color: var(--navy); }
+  .toc a.active { background: var(--blue-soft); color: var(--navy); border-left-color: var(--navy); font-weight: 700; }
+  .toc ul ul { margin: 2px 0 4px 12px; }
+  .toc ul ul a { font-size: 12.5px; color: var(--ink-soft); padding: 4px 10px; }
+
+  .answer-card { background: linear-gradient(180deg, #fffdf7, #fbf7ee); border: 1px solid #ece2c8; border-radius: var(--radius); padding: 26px 30px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .answer-card .label { display: inline-block; font-size: 12px; letter-spacing: 2px; color: var(--gold); font-weight: 700; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .answer-card p { margin: 0 0 10px; }
+  .answer-card p:last-child { margin-bottom: 0; }
+  .answer-card strong { color: var(--navy); }
+
+  .formula-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  .formula-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .formula-card .f-label { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .formula-card.mul .f-label { color: var(--green); }
+  .formula-card.div .f-label { color: #a32d2d; }
+  .formula { font-size: 19px; text-align: center; color: var(--navy); font-weight: 700; letter-spacing: 1px; margin: 6px 0 10px; font-family: "Alibaba PuHuiTi 2.0", Georgia, "Times New Roman", serif; }
+  .formula .var { color: var(--gold); }
+  .formula-card .f-note { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .formula-card .f-note b { color: var(--ink); }
+  .formula-card .f-note + .f-note { margin-top: 8px; }
+  .formula-box + .formula-box { margin-top: 0; }
+
+  .section-title { display: flex; align-items: center; gap: 14px; margin: 44px 0 22px; }
+  .section-title .sn { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 700; font-family: Georgia, serif; flex: none; }
+  .section-title h2 { margin: 0; font-size: 23px; color: var(--navy); font-weight: 800; letter-spacing: 1px; }
+
+  .what-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow); }
+  .what-card .quote { font-size: 18px; color: var(--navy); font-weight: 700; text-align: center; margin: 6px 0 16px; font-family: Georgia, "Times New Roman", serif; }
+  .what-card .quote span { color: var(--gold); }
+  .what-card p { margin: 0 0 10px; font-size: 14.5px; }
+  .what-card p:last-child { margin-bottom: 0; }
+  .what-card b { color: var(--navy); }
+
+  .crisis { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .crisis .head { display: grid; grid-template-columns: 108px 1fr; gap: 0; background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
+  .crisis .year { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,.14); }
+  .crisis .year .yy { font-size: 16px; font-weight: 800; font-family: Georgia, serif; letter-spacing: 1px; }
+  .crisis .year .tag { font-size: 11px; margin-top: 5px; opacity: .85; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; letter-spacing: 2px; }
+  .crisis .title-box { display: flex; flex-direction: column; justify-content: center; padding: 14px 22px; }
+  .crisis .title-box h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; color: #fff; }
+  .crisis .title-box .lead { font-size: 13.5px; margin: 0; color: rgba(255,255,255,.82); line-height: 1.6; }
+  .crisis .body { padding: 20px 26px; }
+
+  .arg { background: var(--gold-soft); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .arg .arg-label { display: block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .arg p { margin: 0; }
+
+  .fix { background: var(--green-soft); border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 14px 18px; margin-bottom: 14px; font-size: 14.5px; }
+  .fix .fix-label { display: block; font-size: 12px; font-weight: 700; color: var(--green); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .fix ul { margin: 0; padding-left: 20px; }
+  .fix li { margin: 4px 0; }
+
+  .twin { background: linear-gradient(180deg, #f4f8f6, #eef3f0); border: 1px solid #d3e3d6; border-radius: var(--radius); padding: 14px 18px; font-size: 14.5px; }
+  .twin .twin-label { display: block; font-size: 12px; font-weight: 700; color: var(--navy); letter-spacing: 1.5px; margin-bottom: 6px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .twin p { margin: 0; }
+
+  .scenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .scene { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; box-shadow: var(--shadow); }
+  .scene .s-tag { display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--gold); letter-spacing: 1px; margin-bottom: 5px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .scene p { margin: 0; font-size: 14px; }
+
+  .books { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .book { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+  .book .b-name { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .book .b-author { font-size: 12px; color: var(--gold); margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .book p { margin: 0; font-size: 13.5px; line-height: 1.75; }
+
+  .overview { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .overview table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .overview th { background: var(--blue-soft); color: var(--navy); font-weight: 700; text-align: left; padding: 8px 10px; }
+  .overview td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.65; }
+  .overview tr:last-child td { border-bottom: none; }
+  .overview th:first-child, .overview td:first-child { white-space: nowrap; font-weight: 700; color: var(--navy); }
+  .overview-wrap { overflow-x: auto; }
+
+  .roles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .role { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+  .role .r-tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; font-family: "Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif; }
+  .role p { margin: 0; font-size: 14px; line-height: 1.75; }
+
+  .closing { background: linear-gradient(160deg, var(--navy), var(--navy-2)); border-radius: var(--radius); padding: 28px 32px; color: #fff; margin: 20px 0 0; text-align: center; }
+  .closing p { margin: 0; font-size: 16.5px; line-height: 1.9; }
+  .closing b { color: #e8d5a8; }
+
+  .faq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow); }
+  .faq h3 { margin: 0 0 14px; font-size: 17px; color: var(--navy); }
+  .faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item .q { font-weight: 700; color: var(--navy); margin: 0 0 6px; font-size: 15px; }
+  .faq-item .a { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+  .foot { border-top: 1px solid var(--line); text-align: center; padding: 26px 20px 40px; color: var(--ink-soft); font-size: 13.5px; background: #fff; }
+  .foot .brand-line { color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+  #toTop { position: fixed; right: 24px; bottom: 24px; width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 17px; cursor: pointer; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: opacity .25s; }
+  #toTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .toc-wrap { display: none; }
+    .books, .scenes, .roles { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .formula-box { grid-template-columns: 1fr; }
+    .crisis .head { grid-template-columns: 1fr; }
+    .crisis .year { flex-direction: row; gap: 12px; padding: 10px; border-right: none; border-bottom: 1px solid rgba(255,255,255,.14); }
+    .layout { padding: 24px 16px 10px; }
+    .answer-card, .faq, .overview { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot">∞</span>价值守恒定律 · 兴衰解码</div>
+    <div class="meta">
+      <span class="pill gold">财情双生智库</span>
+      <span class="pill">财政密码 × 货币内涵</span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="kicker">THE FISCAL CODE OF CENTRAL EMPIRES × VALUE CONSERVATION</div>
+  <h1>中央帝国的财政密码，<span class="hl">一个公式看懂</span></h1>
+  <p class="hl-sub">郭建龙《中央帝国的财政密码》× 新货币价值内涵 × 价值守恒定律</p>
+  <div class="divider"></div>
+  <p class="sub">两千年的王朝兴衰，隐藏着同一套财政密码：盛世靠 E、S、T 三种价值同步增长，末世则是只认财政收入 E、透支民心（S）与制度（T）的必然结局。看懂宏观 Y = E × S × T 与微观 y = f(m) × f(h) × f(t)，就看懂了历史，也看懂了今天。</p>
+  <div class="chips">
+    <span class="chip">宏观公式 <b>Y=E×S×T</b></span>
+    <span class="chip">微观公式 <b>y=f(m)×f(h)×f(t)</b></span>
+    <span class="chip">新货币内涵 <b>三合一</b></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <p class="toc-title">目 录</p>
+      <ul>
+        <li><a href="#sec-answer">一句话结论</a></li>
+        <li><a href="#sec-formula">宏观+微观双公式</a></li>
+        <li><a href="#sec-what">财政密码是什么</a></li>
+        <li><a href="#sec-form">王朝兴衰：如何形成</a></li>
+        <li><a href="#sec-scenes">现实中的映射</a></li>
+        <li><a href="#sec-books">书里的印证</a></li>
+        <li><a href="#sec-fix">破解：新货币内涵</a></li>
+        <li><a href="#sec-cycle">良性循环：三赢</a></li>
+        <li><a href="#sec-insight">财情双生启示</a></li>
+        <li><a href="#sec-faq">常见问题 FAQ</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+
+    <div class="answer-card" id="sec-answer">
+      <span class="label">答案优先 · 一句话结论</span>
+      <p><strong>王朝兴衰的本质，是财政在 E、S、T 三种价值间的此消彼长</strong>：开国时轻徭薄赋、休养生息，三种价值同步增长；到中后期，财政只盯着收入 E，横征暴敛、滥发货币、土地兼并——民心（S）与制度信用（T）被持续透支，乘法变成除法，王朝随之崩塌。</p>
+      <p><strong>破解之道，在于重新定义货币的价值内涵</strong>：让货币同时承载经济、社会、时间三种价值，用统一度量衡计量国、家、民、企的价值创造。当每分钱背后都有 E、S、T 三重背书，财政就不再是"与民争利"的除法，而是触发良性循环的乘法——实现国家、企业、个人的共赢。</p>
+    </div>
+
+    <div class="formula-box" id="sec-formula">
+      <div class="formula-card mul">
+        <div class="f-label">宏观公式 · 国家治理</div>
+        <div class="formula">Y = E <span class="var">×</span> S <span class="var">×</span> T</div>
+        <p class="f-note"><b>Y</b> 价值总量 · <b>E</b> 经济价值 · <b>S</b> 社会价值（民心·公平）· <b>T</b> 时间价值（可持续·传承）</p>
+        <p class="f-note">三者同步大于 1，王朝进入盛世；<b>任一归零或为负，总量崩塌</b>。</p>
+      </div>
+      <div class="formula-card mul">
+        <div class="f-label">微观公式 · 个人与企业</div>
+        <div class="formula">y = f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t)</div>
+        <p class="f-note"><b>f(m)</b> 货币价值 · <b>f(h)</b> 幸福体验 · <b>f(t)</b> 时间价值</p>
+        <p class="f-note">只追收入而透支健康与长期，<b>家庭也会"王朝式崩塌"</b>。</p>
+      </div>
+    </div>
+    <div class="formula-box" id="sec-formula2">
+      <div class="formula-card div">
+        <div class="f-label">除法定律 · 王朝衰落的由来</div>
+        <div class="formula">E = Y / (S <span class="var">×</span> T)</div>
+        <p class="f-note">当统治者<b>只需对财政收入 E 负责</b>时，会本能地加税、印钞、卖官——透支民心与未来。</p>
+        <p class="f-note"><b>分母被透支，分子是抢来的</b>——库府充盈之日，恰是民心离散之时。</p>
+      </div>
+      <div class="formula-card div">
+        <div class="f-label">乘法定律 · 良性循环的钥匙</div>
+        <div class="formula">f(m) <span class="var">×</span> f(h) <span class="var">×</span> f(t) <span class="var">&gt;</span> 1</div>
+        <p class="f-note">当货币同时计量三种价值，<b>赚钱=幸福+可持续</b>，自我调节启动。</p>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-what"><span class="sn">01</span><h2>《中央帝国的财政密码》讲了什么</h2></div>
+    <div class="what-card">
+      <div class="quote">"财政，是帝国的骨架；货币，是骨架里的血液。"<br/><span>一部财政史，就是一部王朝兴衰史</span></div>
+      <p><b>出处</b>：2017 年，财经作家郭建龙在《中央帝国的财政密码》中，从秦朝讲到清末，用财政制度视角重读中国历史。核心洞察：<b>中央集权帝国的兴衰，由财政逻辑决定</b>——土地、货币、官营经济三大支柱，撑起帝国也压垮帝国。</p>
+      <p><b>郭建龙的追问</b>：为什么历代王朝都逃不过"建国→繁荣→腐败→崩溃"的周期？答案不止在政治，更在<b>财政如何对待三种价值</b>——是让利生利（乘法），还是与民争利（除法）。</p>
+    </div>
+
+    <div class="section-title" id="sec-form"><span class="sn">02</span><h2>王朝兴衰，如何形成</h2></div>
+
+    <div class="crisis" id="crisis-qin">
+      <div class="head">
+        <div class="year"><div class="yy">秦</div><div class="tag">二世而亡</div></div>
+        <div class="title-box">
+          <h3>统一货币度量衡，却苛政重税透支民心</h3>
+          <p class="lead">E 的制度创新是乘法，横征暴敛是除法——S 归零，T 崩塌。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">形成论证 · 除法</span><p>秦统一货币、度量衡，本可做大 E；但"收泰半之赋"、大兴土木，<b>民力（S）被透支到极限</b>，制度（T）缺乏弹性。陈胜吴广"揭竿而起"并非偶然——民心 S 跌破 1 时，再强的军力（E）也守不住乘法链条。</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-han">
+      <div class="head">
+        <div class="year"><div class="yy">汉</div><div class="tag">文景之治→王莽改制</div></div>
+        <div class="title-box">
+          <h3>轻徭薄赋则盛世，与民争利则乱世</h3>
+          <p class="lead">文景之治让利生利（乘法）;武帝官营与王莽改制是财政抢利（除法）。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">形成论证 · 除法</span><p>文景两代"三十税一"，藏富于民，E、S、T 同步增长；到汉武帝，盐铁官营、均输平准，<b>财政（E）看似充裕，民间商业（S 的活力）却被抽干</b>。王莽更造大钱、五均六筦，货币滥发（T 透支），天下大乱。<b>官营经济是帝国财政的"鸦片"，越吸越弱</b>。</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-tang">
+      <div class="head">
+        <div class="year"><div class="yy">唐</div><div class="tag">均田→两税→藩镇</div></div>
+        <div class="title-box">
+          <h3>土地制度崩塌，帝国骨架散架</h3>
+          <p class="lead">均田制（S 的分配公平）瓦解，租庸调（T）失效，财政转向两税法。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">形成论证 · 除法</span><p>均田制按丁授田，本是土地（S）的公平分配；但人口增长、土地兼并，<b>无地流民与逃税大户并存</b>，租庸调（T）运转失灵。安史之乱后改行两税法"量出为入"，承认兼并——<b>财政向现实妥协，帝国向崩溃滑落</b>。</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-song">
+      <div class="head">
+        <div class="year"><div class="yy">宋</div><div class="tag">交子→滥发→通胀</div></div>
+        <div class="title-box">
+          <h3>发明纸币是创举，滥发纸币是毒药</h3>
+          <p class="lead">交子本是货币创新（E 的乘法），滥发则把 T 透支到荒谬。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">形成论证 · 除法</span><p>北宋交子以铁钱为锚，是划时代的货币创新；南宋为应付战争财政，<b>滥发会子到"作价折半"</b>，货币信用（T）崩塌，物价飞涨，百姓财富被无声洗劫——<b>这不是钱的问题，是财政透支信任的问题</b>。</p></div>
+      </div>
+    </div>
+
+    <div class="crisis" id="crisis-ming">
+      <div class="head">
+        <div class="year"><div class="yy">明</div><div class="tag">宝钞贬值→白银危机</div></div>
+        <div class="title-box">
+          <h3>印钞抵税终成废纸，财政失去货币锚</h3>
+          <p class="lead">宝钞滥发贬值（T 归零），白银化又埋下"无银可用"的危机。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="arg"><span class="arg-label">形成论证 · 除法</span><p>明初发行宝钞，很快滥发贬值，<b>信用（T）归零，民间拒用</b>，财政被迫转向白银。但白银依赖海外流入，崇祯年间<b>白银短缺，财政枯竭</b>，加征"三饷"（S 被榨干）——民变爆发，帝国崩塌。货币的锚，丢了。</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-scenes"><span class="sn">03</span><h2>现实中的映射：历史从未远去</h2></div>
+    <div class="scenes">
+      <div class="scene"><span class="s-tag">货币超发</span><p>南宋滥发会子、明代宝钞成废纸——今天超发无实体支撑的货币，历史会重演。</p></div>
+      <div class="scene"><span class="s-tag">土地兼并</span><p>"富者田连阡陌、贫者无立锥之地"——今天的高房价与资产集中，是同构的 S 危机。</p></div>
+      <div class="scene"><span class="s-tag">与民争利</span><p>盐铁官营、卖官鬻爵——今天任何"与民争利"的垄断，都在透支信任。</p></div>
+      <div class="scene"><span class="s-tag">税负失衡</span><p>两税法"量出为入"、崇祯三饷——税负失衡时，个人与企业首当其冲。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-books"><span class="sn">04</span><h2>书里的印证</h2></div>
+    <div class="books">
+      <div class="book"><div class="b-name">《中央帝国的财政密码》</div><div class="b-author">郭建龙</div><p>土地、货币、官营三大支柱撑起帝国。财政一旦与民争利，<b>帝国就在加法中繁荣、在除法中崩溃</b>。</p></div>
+      <div class="book"><div class="b-name">《盐铁论》</div><div class="b-author">桓宽 编</div><p>两千年前的辩论早已点破：<b>官营与民利之争，本质是 E 与 S 之争</b>。桑弘羊重 E，贤良文学重 S——王朝的选择，决定王朝的命运。</p></div>
+      <div class="book"><div class="b-name">《资治通鉴》</div><div class="b-author">司马光 主编</div><p>"国不以利为利，以义为利"——<b>义（S）与利（E）失衡处，就是兴衰转折地</b>。通鉴千卷，讲的都是这笔价值账。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-fix"><span class="sn">05</span><h2>如何破解：新货币的价值内涵</h2></div>
+    <div class="crisis" id="crisis-fix">
+      <div class="head">
+        <div class="year"><div class="yy">新货币</div><div class="tag">破解之道</div></div>
+        <div class="title-box">
+          <h3>让货币同时计量三种价值，除法才能变乘法</h3>
+          <p class="lead">货币不应只是"钱的数字"，而应成为 E、S、T 三重价值的统一度量衡。</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="fix"><span class="fix-label">内涵一 · 经济价值 E（购买力）</span><ul>
+          <li>货币对应真实的商品与服务创造——<b>每分钱背后都有产出</b></li>
+          <li>杜绝"只印钞不生产"——超发必须有实体支撑（南宋、明末的教训）</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">内涵二 · 社会价值 S（信任度）</span><ul>
+          <li>货币流通依赖社会信任——<b>币值稳定 = 民心所向</b></li>
+          <li>让创造就业、改善分配、藏富于民的行为获得货币化激励（对照文景之治）</li>
+        </ul></div>
+        <div class="fix"><span class="fix-label">内涵三 · 时间价值 T（可持续性）</span><ul>
+          <li>货币是跨期的承诺——<b>今天的钱要对明天负责</b></li>
+          <li>土地、教育、创新、传承等长期价值纳入计量，避免"吃子孙饭"</li>
+        </ul></div>
+        <div class="twin"><span class="twin-label">统一计量 · 良性循环的钥匙</span><p><b>当货币同时包含 E、S、T 三种内涵</b>，国家财政投资于民心与未来，企业赚钱同时创造就业与传承，个人收入既买得到幸福又积累得到长期——<b>与民争利的除法失去空间，藏富于民的乘法自动运转</b>。这是破解两千年兴衰周期的钥匙。</p></div>
+      </div>
+    </div>
+
+    <div class="section-title" id="sec-cycle"><span class="sn">06</span><h2>良性循环：国家、企业、个人的三赢</h2></div>
+    <div class="overview">
+      <div class="overview-wrap">
+      <table>
+        <tr><th>主体</th><th>新货币内涵下的良性循环</th><th>价值</th></tr>
+        <tr><td>国家</td><td>财政投资民心与未来 → 币值稳定、藏富于民 → 长治久安</td><td>S+T</td></tr>
+        <tr><td>企业</td><td>创造真实产出与就业 → 赢得信任与长期回报 → 基业长青</td><td>E+S+T</td></tr>
+        <tr><td>个人</td><td>收入买得到幸福与成长 → 积极创造消费 → 人生倍增</td><td>三合一</td></tr>
+      </table>
+      </div>
+    </div>
+    <div class="closing">
+      <p><b>历史不会重复，但财政的规律从不缺席。</b><br/>当货币成为经济、社会、时间三种价值的统一度量衡，<br/>每一次创造都在为乘法公式加码，每一分信任都在为良性循环续航。<br/><b>E、S、T 同步大于 1——这就是跳出兴衰周期、实现三赢的底层密码。</b></p>
+    </div>
+    <div class="section-title" id="sec-insight"><span class="sn">07</span><h2>财情双生启示</h2></div>
+    <div class="roles">
+      <div class="role"><span class="r-tag">财的启示</span><p>别把"账面财富"当"真实价值"。历朝库府充盈之日，常是民心离散之时——财政的健康，在于是否同时创造 E、S、T。</p></div>
+      <div class="role"><span class="r-tag">情的启示</span><p>货币的根基是民心。每一次滥发与争利，透支的都是信任——而信任的修复，需要一代人的时间。</p></div>
+      <div class="role"><span class="r-tag">双生的解</span><p>让钱同时买到物质、幸福与未来——个人的 f(m)×f(h)×f(t) 与国家的 E×S×T 本质是同一件事：<b>三种价值同步增长，才是真的增长</b>。</p></div>
+    </div>
+
+    <div class="section-title" id="sec-faq"><span class="sn">08</span><h2>常见问题 FAQ</h2></div>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="q">Q：郭建龙《中央帝国的财政密码》核心观点是什么？</p>
+        <p class="a">A：中央集权帝国的兴衰由财政逻辑决定——土地、货币、官营经济三大支柱，撑起帝国也压垮帝国。财政与民争利时，王朝走向崩溃。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q：为什么历朝都逃不过"建国→繁荣→腐败→崩溃"的周期？</p>
+        <p class="a">A：盛世靠三种价值同步增长（乘法），末世则是只认财政 E、透支民心 S 与制度 T 的除法。只要财政逻辑不变，周期就重演。</p>
+      </div>
+      <div class="faq-item">
+        <p class="q">Q："新货币价值内涵"和普通人有什么关系？</p>
+        <p class="a">A：它让货币同时计量经济、社会、时间三种价值。个人层面即微观公式——别让收入追逐透支健康、关系与长期积累，守住 f(h) 与 f(t)，人生才有复利。</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  依据《财情倍增的价值守恒定律》撰写 · 内容符合广告法合规要求 · 本文为思想探讨，不构成投资建议
+</div>
+
+<button id="toTop" title="返回顶部">↑</button>
+
+<script>
+  const bar = document.getElementById('progress');
+  const tocLinks = [...document.querySelectorAll('.toc a')];
+  const targets = tocLinks
+    .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  function updateToc() {
+    let cur = targets[0];
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= 120) cur = el;
+    }
+    tocLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur.id);
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = p + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 400);
+    updateToc();
+  }, { passive: true });
+  updateToc();
+
+  document.getElementById('toTop').addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>
