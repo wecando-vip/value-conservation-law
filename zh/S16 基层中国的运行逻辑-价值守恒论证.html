@@ -125,6 +125,22 @@
     .crisis .head { flex-direction: column; gap: 6px; }
     .crisis .year { text-align: left; }
   }
+
+  /* 返回文库导航 */
+  .doc-nav {
+    max-width: 960px; margin: 24px auto 0; padding: 14px 20px;
+    display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    background: var(--blue-soft, #eef3f8); border: 1px solid var(--line, #e6e4dd);
+    border-radius: 10px;
+  }
+  .doc-nav-link {
+    display: inline-block; padding: 6px 18px; border-radius: 999px;
+    font-size: 14px; font-weight: 700; text-decoration: none;
+    color: var(--navy, #16324f); background: #fff;
+    border: 1px solid var(--line, #e6e4dd);
+    transition: all .2s ease;
+  }
+  .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -316,6 +332,11 @@
 </footer>
 
 <button class="toTop" id="toTop">↑</button>
+<div class="doc-nav">
+  <a class="doc-nav-link" href="../library.html">← 返回文库索引</a>
+  <a class="doc-nav-link" href="../index.html">中文主页</a>
+</div>
+
 
 <script>
   const bar = document.getElementById('progress');

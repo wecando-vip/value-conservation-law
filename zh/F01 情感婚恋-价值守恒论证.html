@@ -444,6 +444,22 @@
 
 /* 自适应修复：三列卡片末排 2 张时，最后一张横跨补位，右侧不留白 */
 .card-grid.three-col > .card:last-child:nth-child(3n+2) { grid-column: span 2; }
+
+  /* 返回文库导航 */
+  .doc-nav {
+    max-width: 960px; margin: 24px auto 0; padding: 14px 20px;
+    display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    background: var(--blue-soft, #eef3f8); border: 1px solid var(--line, #e6e4dd);
+    border-radius: 10px;
+  }
+  .doc-nav-link {
+    display: inline-block; padding: 6px 18px; border-radius: 999px;
+    font-size: 14px; font-weight: 700; text-decoration: none;
+    color: var(--navy, #16324f); background: #fff;
+    border: 1px solid var(--line, #e6e4dd);
+    transition: all .2s ease;
+  }
+  .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -964,6 +980,11 @@
   </nav>
 </aside>
 <button id="toTop" aria-label="回到顶部">↑</button>
+<div class="doc-nav">
+  <a class="doc-nav-link" href="../library.html">← 返回文库索引</a>
+  <a class="doc-nav-link" href="../index.html">中文主页</a>
+</div>
+
 <script>
 /*!
  * Chart.js v4.4.1
