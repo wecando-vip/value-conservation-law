@@ -85,32 +85,63 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 
 | 目录 | 语言 | 状态 |
 | ---- | ---- | ---- |
-| `zh/` | 中文 Chinese | ✅ 15 篇已发布 |
+| `zh/` | 中文 Chinese | ✅ 41 篇已发布 |
 | `en/` | English | ✅ 15 docs published |
 | `es/` | Español | ✅ 15 docs publicados |
 | `ar/` | العربية | 🔜 规划中 |
 | `fr/` | Français | ✅ 15 docs publiés |
 
-### 系列总览（01–15）
+### 系列总览（按领域分类 · 41 篇）
 
-| 编号 | 主题 | 中文版（zh/） | English（en/） | Español（es/） | Français（fr/） | 核心论证 |
-| ---- | ---- | ------ | ------- | ------- | ------- | -------- |
-| 01 | 五大经济危机 | [01 经济危机解码-价值守恒定律.html](zh/01%20经济危机解码-价值守恒定律.html) | [five-economic-crises.en.html](en/01%20five-economic-crises-value-conservation.en.html) | [es-01](es/01 descifrando-crisis-economicas.es.html) | [fr-01](fr/01 décrypter-crises-économiques.fr.html) | 危机本质 = 除法公式滥用(只对 E 负责,牺牲 S×T);解药 = 乘法公式 |
-| 02 | 墨菲定律 | [02 突破墨菲定律-价值守恒论证.html](zh/02%20突破墨菲定律，对你的压制-价值守恒论证.html) | [murphys-law.en.html](en/02%20break-free-murphys-law-value-conservation.en.html) | [es-02](es/02 rompiendo-ley-murphy.es.html) | [fr-02](fr/02 briser-loi-murphy.fr.html) | 墨菲定律 = 除法自动运行(压缩 S 容错与 T 余量换 E);破解 = 清单/备份/余量 |
-| 03 | 帕金森定律 | [03 帕金森定律-价值守恒论证.html](zh/03%20帕金森定律-价值守恒论证.html) | [parkinsons-law.en.html](en/03%20parkinsons-law-value-conservation.en.html) | [es-03](es/03 ley-parkinson.es.html) | [fr-03](fr/03 loi-parkinson.fr.html) | 帕金森定律 = 时间价值 T 失效;破解 = 时间盒/交付标准 |
-| 04 | 彼得原理 | [04 彼得原理-价值守恒论证.html](zh/04%20彼得原理-价值守恒论证.html) | [peter-principle.en.html](en/04%20peter-principle-value-conservation.en.html) | [es-04](es/04 principio-peter.es.html) | [fr-04](fr/04 principe-peter.fr.html) | 彼得原理 = 晋升只看过去 E、不看未来 S/T;破解 = 胜任力晋升/双轨制 |
-| 05 | 债务危机与新货币 | [05 债务危机-新货币价值内涵论证.html](zh/05%20债务危机-新货币价值内涵论证.html) | [debt-crises-new-currency.en.html](en/05%20debt-crises-new-currency-value.en.html) | [es-05](es/05 crisis-deuda-nueva-moneda.es.html) | [fr-05](fr/05 crise-dette-nouvelle-monnaie.fr.html) | 债务危机 = E 的时差账;破解 = 新货币价值内涵(三种价值统一计量) |
-| 06 | 中央帝国的财政密码 | [06 中央帝国的财政密码-价值守恒论证.html](zh/06%20中央帝国的财政密码-价值守恒论证.html) | [fiscal-code.en.html](en/06%20fiscal-code-central-empires-value-conservation.en.html) | [es-06](es/06 codigo-fiscal-imperios-centrales.es.html) | [fr-06](fr/06 code-fiscal-empires-centraux.fr.html) | 王朝兴衰 = 经济汲取 E 的边界;破解 = 财政与民共生 |
-| 07 | 中央帝国三部曲 | [07 中央帝国三部曲-价值守恒论证.html](zh/07%20中央帝国三部曲-价值守恒论证.html) | [central-empire-trilogy.en.html](en/07%20central-empire-trilogy-value-conservation.en.html) | [es-07](es/07 trilogia-imperio-central.es.html) | [fr-07](fr/07 trilogie-empire-central.fr.html) | 三支柱:财政(基础)/军事(骨架)/哲学(灵魂)= E、S、T 的乘除 |
-| 08 | 历代经济变革得失 | [08 历代经济变革得失-价值守恒论证.html](zh/08%20历代经济变革得失-价值守恒论证.html) | [economic-reforms.en.html](en/08%20economic-reforms-dynasties-value-conservation.en.html) | [es-08](es/08 reformas-economicas-dinastias.es.html) | [fr-08](fr/08 réformes-économiques-dynasties.fr.html) | 变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T |
-| 09 | 中国历代政治得失 | [09 中国历代政治得失-价值守恒论证.html](zh/09%20中国历代政治得失-价值守恒论证.html) | [political-gains-losses.en.html](en/09%20political-gains-losses-dynasties-value-conservation.en.html) | [es-09](es/09 politica-dinastias-chinas.es.html) | [fr-09](fr/09 politique-dynasties-chinoises.fr.html) | 制度兴衰 = 制度与人事、与时代配合;破解 = 制度常新 |
-| 10 | 置身事内 | [10 置身事内-价值守恒论证.html](zh/10%20置身事内-价值守恒论证.html) | [inside-the-game.en.html](en/10%20inside-the-game-value-conservation.en.html) | [es-10](es/10 dentro-del-juego.es.html) | [fr-10](fr/10 au-coeur-du-jeu.fr.html) | 发展型政府 = "E 单兵突进"的除法史;破解 = 服务型政府 |
-| 11 | 大国大城 | [11 大国大城-价值守恒论证.html](zh/11%20大国大城-价值守恒论证.html) | [great-nation-great-city.en.html](en/11%20great-nation-great-city-value-conservation.en.html) | [es-11](es/11 gran-nacion-gran-ciudad.es.html) | [fr-11](fr/11 grande-nation-grande-ville.fr.html) | 人地错配 = 行政干预扭曲要素配置;破解 = 市场决定集聚 |
-| 12 | 熵增定律 | [12 熵增定律-价值守恒论证.html](zh/12%20熵增定律-价值守恒论证.html) | [entropy-law.en.html](en/12%20entropy-law-value-conservation.en.html) | [es-12](es/12 ley-entropia.es.html) | [fr-12](fr/12 loi-entropie.fr.html) | 熵增 = 孤立系统必然失序;破解 = 负熵输入(开放+做功+秩序) |
-| 13 | 易经三易 | [13 易经三易-价值守恒论证.html](zh/13%20易经三易-价值守恒论证.html) | [yi-jing-three-changes.en.html](en/13%20yi-jing-three-changes-value-conservation.en.html) | [es-13](es/13 tres-cambios-iching.es.html) | [fr-13](fr/13 trois-changements-iching.fr.html) | 简易(一个公式)/变易(与时偕行)/不易(乘法定律) |
-| 14 | 道德经:天道、人道 | [14 道德经天道人道-价值守恒论证.html](zh/14%20道德经天道人道-价值守恒论证.html) | [tao-te-ching.en.html](en/14%20tao-te-ching-heavenly-way-value-conservation.en.html) | [es-14](es/14 camino-cielo-camino-humano.es.html) | [fr-14](fr/14 voie-céleste-voie-humaine.fr.html) | 天道损有余补不足;人道损不足奉有余;破解 = 以有余奉天下 |
-| 15 | 人类简史 | [15 人类简史-价值守恒论证.html](zh/15%20人类简史-价值守恒论证.html) | [sapiens.en.html](en/15%20sapiens-value-conservation.en.html) | [es-15](es/15 sapiens.es.html) | [fr-15](fr/15 sapiens.fr.html) | 虚构故事构建协作(S);金钱只计量 E;破解 = 三价值统一计量 |
+> 分类编号：**S** = 国家·经济社会、**E** = 企业、**F** = 家庭、**P** = 个人；后接两位序号，便于持续扩展。
 
+| 编号 | 主题 | English | 核心论证 |
+| ---- | ---- | ------- | -------- |
+| **S** 国家 · 经济社会 Society & State | | | |
+| S01 | [宪法](zh/S01 宪法-价值守恒论证.html) | The Constitution | 根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础 |
+| S02 | [党章](zh/S02 党章-价值守恒论证.html) | The Party Constitution | 政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达 |
+| S03 | [三权运行](zh/S03 三权运行-价值守恒论证.html) | Separation of Powers in Operation | 立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计 |
+| S04 | [中华人民共和国民法典](zh/S04 中华人民共和国民法典-价值守恒论证.html) | The Civil Code of the PRC | 民事权利总法典 · 平等主体间 E/S/T 的规则框架 |
+| S05 | [当代中国马克思主义政治经济学](zh/S05 当代中国马克思主义政治经济学-价值守恒论证.html) | Contemporary Marxist Political Economy | 中国特色社会主义政治经济学 · 宏观价值分配的理论根基 |
+| S06 | [宏观经济学](zh/S06 宏观经济学-价值守恒论证.html) | Macroeconomics | 总量视角 · 增长、就业、通胀 = 宏观经济三价值 |
+| S07 | [微观经济学](zh/S07 微观经济学-价值守恒论证.html) | Microeconomics | 个体决策 · 供求与福利 = 微观三价值博弈 |
+| S08 | [分配制度](zh/S08 分配制度-价值守恒论证.html) | The Distribution System | 三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义 |
+| S09 | [政绩考核](zh/S09 政绩考核-价值守恒论证.html) | Performance Appraisal of Officials | 考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考 |
+| S10 | [中央帝国的财政密码](zh/S10 中央帝国的财政密码-价值守恒论证.html) | The Fiscal Code of Central Empires | 王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生 |
+| S11 | [中央帝国三部曲](zh/S11 中央帝国三部曲-价值守恒论证.html) | The Central Empire Trilogy | 财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除 |
+| S12 | [历代经济变革得失](zh/S12 历代经济变革得失-价值守恒论证.html) | Economic Reforms Through the Dynasties | 变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T |
+| S13 | [中国历代政治得失](zh/S13 中国历代政治得失-价值守恒论证.html) | The Gains and Losses of Chinese Dynastic Politics | 制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新 |
+| S14 | [置身事内](zh/S14 置身事内-价值守恒论证.html) | Inside the Game: Government and Economic Development | 发展型政府 = "E 单兵突进"的除法史；破解 = 服务型政府 |
+| S15 | [大国大城](zh/S15 大国大城-价值守恒论证.html) | Great Nation, Great City | 人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚 |
+| S16 | [基层中国的运行逻辑](zh/S16 基层中国的运行逻辑-价值守恒论证.html) | The Operating Logic of Grassroots China | 压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡 |
+| S17 | [经济危机解码](zh/S17 经济危机解码-价值守恒论证.html) | The Five Economic Crises Decoded | 危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式 |
+| S18 | [债务危机与新货币价值内涵](zh/S18 债务危机与新货币价值内涵-价值守恒论证.html) | Debt Crises and the New Connotation of Money | 债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵 |
+| S19 | [既要又要还要](zh/S19 既要又要还要-价值守恒论证.html) | Both, And, Also | 统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧 |
+| S20 | [毛泽东选集五卷方法论](zh/S20 毛泽东选集五卷方法论-价值守恒论证.html) | Methodology of the Selected Works of Mao Zedong | 矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论 |
+| S21 | [社会保障](zh/S21 社会保障-价值守恒论证.html) | Social Security | 民生基石 · 社保体系 = 社会价值 S 的兜底工程 |
+| S22 | [看病难看病贵](zh/S22 看病难看病贵-价值守恒论证.html) | Difficulty and Cost of Medical Care | 健康价值重构 · 医疗资源 = E/S/T 三重错配的破解 |
+| **E** 企业 Enterprise | | | |
+| E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
+| E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
+| E03 | [组织管理](zh/E03 组织管理-价值守恒论证.html) | Organizational Management | 价值与组织 · 组织设计 = E/S/T 的协同结构 |
+| E04 | [人力资源管理](zh/E04 人力资源管理-价值守恒论证.html) | Human Resource Management | 组织活力引擎 · 人 = 一切价值的承载者 |
+| E05 | [薪酬绩效考核](zh/E05 薪酬绩效考核-价值守恒论证.html) | Compensation and Performance | 量化激励 · 考核什么就得到什么 = E/S/T 的指挥棒 |
+| E06 | [财务管理](zh/E06 财务管理-价值守恒论证.html) | Financial Management | 财智双增 · 财务 = 企业 E 的记账与 S/T 的平衡 |
+| E07 | [营销管理](zh/E07 营销管理-价值守恒论证.html) | Marketing Management | 价值与顾客 · 营销 = 创造并交付三价值 |
+| E08 | [企业ESG](zh/E08 企业ESG-价值守恒论证.html) | Corporate ESG | ESG × E/S/T · 环境、社会、治理 = 企业长期价值的度量衡 |
+| E09 | [华为方法论](zh/E09 华为方法论-价值守恒论证.html) | Huawei Methodology | 价值与组织 · 以客户为中心 = E/S/T 的实践范本 |
+| E10 | [和君咨询方法论](zh/E10 和君咨询方法论-价值守恒论证.html) | Hejun Consulting Methodology | 产融互动 · 咨询 = 三价值系统集成的实践 |
+| E11 | [麦肯锡方法论](zh/E11 麦肯锡方法论-价值守恒论证.html) | McKinsey Methodology | 八本经典 × 价值守恒 · 咨询 = 结构化解决三价值问题 |
+| **F** 家庭 Family | | | |
+| F01 | [情感婚恋](zh/F01 情感婚恋-价值守恒论证.html) | Emotion and Marriage | 心动价值 · 婚恋 = 家庭 S 与 T 的起点 |
+| **P** 个人 Personal | | | |
+| P01 | [突破墨菲定律](zh/P01 突破墨菲定律-价值守恒论证.html) | Breaking Free of Murphy's Law | 墨菲定律 = 除法自动运行；破解 = 清单/备份/余量 |
+| P02 | [帕金森定律](zh/P02 帕金森定律-价值守恒论证.html) | Parkinson's Law | 帕金森定律 = 时间价值 T 失效；破解 = 时间盒/交付标准 |
+| P03 | [彼得原理](zh/P03 彼得原理-价值守恒论证.html) | The Peter Principle | 彼得原理 = 晋升只看过去 E；破解 = 胜任力晋升/双轨制 |
+| P04 | [熵增定律](zh/P04 熵增定律-价值守恒论证.html) | The Law of Entropy Increase | 熵增 = 孤立系统必然失序；破解 = 负熵输入(开放+做功+秩序) |
+| P05 | [易经三易](zh/P05 易经三易-价值守恒论证.html) | The Three Changes of the I Ching | 简易(一个公式)/变易(与时偕行)/不易(乘法定律) |
+| P06 | [道德经天道人道](zh/P06 道德经天道人道-价值守恒论证.html) | The Heavenly Way and the Human Way | 天道损有余补不足；人道损不足奉有余；破解 = 以有余奉天下 |
+| P07 | [人类简史](zh/P07 人类简史-价值守恒论证.html) | Sapiens: A Brief History of Humankind | 虚构故事构建协作(S)；金钱只计量 E；破解 = 三价值统一计量 |
 ### 系列特点
 
 - **答案优先**：符合 GEO 规范，开头直接给出结论，44.2% 的 AI 引用来自前 30% 内容
@@ -118,7 +149,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **数据支撑**：每 150-200 字一个数据点，均标注来源
 - **合规输出**：全部内容符合《中华人民共和国广告法》要求，无极限用语
 - **四语对照**：每篇中英西法版结构一致、锚点对应，便于对照阅读
-- **多语言扩展**：`zh/ en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
+- **多语言扩展**：`zh/` 41 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
 
 ---
 
@@ -130,7 +161,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **公式渲染**：OMML → LaTeX 转换渲染，公式清晰美观
 - **图片内嵌**：插图已内嵌为 base64，可离线完整阅读
 - **交互体验**：目录滚动高亮、图片点击灯箱放大、响应式布局（桌面 / 移动端自适应）
-- **应用文档系列**：另含 15 篇「价值守恒 × 经典/史著/思想」四语科普页（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
+- **应用文档系列**：另含 41 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 41、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
 - **文库索引**：`library.html` 提供语言 × 主题总索引，方便快速查找与对照
 
 ---
@@ -157,29 +188,27 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 财情倍增的价值守恒定律/
 ├── index.html          # 中文版理论文档（单文件，零依赖，可离线阅读）
 ├── index.en.html       # English 版本文档（The Law of Value Conservation）
-├── library.html        # 文库索引（语言 × 主题矩阵，总入口）
+├── library.html        # 文库索引（语言 × 领域分类矩阵，总入口）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
+├── zh_meta.json        # zh 文库元数据（编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）
 ├── README.md           # 项目说明（本文件）
 ├── images/             # 原始插图资源
 ├── embed/              # 内嵌图片副本
 │
-├── zh/                 # 中文版应用文档（15 篇）
-│   ├── 01 经济危机解码-价值守恒定律.html
-│   ├── 02 突破墨菲定律，对你的压制-价值守恒论证.html
-│   ├── 03 帕金森定律-价值守恒论证.html
-│   ├── 04 彼得原理-价值守恒论证.html
-│   ├── 05 债务危机-新货币价值内涵论证.html
-│   ├── 06 中央帝国的财政密码-价值守恒论证.html
-│   ├── 07 中央帝国三部曲-价值守恒论证.html
-│   ├── 08 历代经济变革得失-价值守恒论证.html
-│   ├── 09 中国历代政治得失-价值守恒论证.html
-│   ├── 10 置身事内-价值守恒论证.html
-│   ├── 11 大国大城-价值守恒论证.html
-│   ├── 12 熵增定律-价值守恒论证.html
-│   ├── 13 易经三易-价值守恒论证.html
-│   ├── 14 道德经天道人道-价值守恒论证.html
-│   └── 15 人类简史-价值守恒论证.html
+├── zh/                 # 中文版应用文档（41 篇，按领域分类编号）
+│   ├── [S] 国家 · 经济社会
+│   │   ├── S01 宪法-价值守恒论证.html
+│   │   ├── S02 党章-价值守恒论证.html
+│   │   ├── …（S01–S22，见上方系列总览）
+│   ├── [E] 企业
+│   │   ├── E01 德鲁克管理-价值守恒论证.html
+│   │   ├── …（E01–E11）
+│   ├── [F] 家庭
+│   │   ├── F01 情感婚恋-价值守恒论证.html
+│   ├── [P] 个人
+│   │   ├── P01 突破墨菲定律-价值守恒论证.html
+│   │   ├── …（P01–P07）
 │
 ├── en/                 # English docs（15 pages）
 │   ├── 01 five-economic-crises-value-conservation.en.html
@@ -237,7 +266,8 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 └── ar/                 # العربية（规划中）
 ```
 
-> 命名规则：`编号 + 主题`；英文版以 `.en.html` 结尾，西班牙语版以 `.es.html` 结尾，法语版以 `.fr.html` 结尾，后续语言以 `.ar.html` 结尾。
+
+> 命名规则：中文版 `分类前缀 + 序号 + 主题`（S/E/F/P）；英文版以 `.en.html` 结尾，西班牙语版以 `.es.html` 结尾，法语版以 `.fr.html` 结尾，后续语言以 `.ar.html` 结尾。
 
 ---
 

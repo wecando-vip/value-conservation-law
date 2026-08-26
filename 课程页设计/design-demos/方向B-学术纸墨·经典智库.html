@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>《价值守恒定律》课程 · 章回本 | Y=E×S×T</title>
+<meta name="description" content="一门可带回家的智慧：价值守恒定律 Y=E×S×T。乘则兴，除则衰。国·家·企·人四层应用，17部经典交叉验证。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+:root{
+  --paper:#faf9f6; --card:#ffffff; --card2:#fdfbf6;
+  --ink:#22272e; --ink-soft:#5b6472; --line:#e6e4dd;
+  --navy:#16324f; --navy-2:#2b5f8a;
+  --gold:#a67c2e; --gold-soft:#f3ead6; --blue-soft:#eef3f8;
+  --red:#a63a2b; --red-soft:#f9ecec; --green:#2d6a4f; --green-soft:#eaf3e6;
+  --radius:12px;
+  --shadow:0 1px 2px rgba(20,30,40,.05),0 6px 20px rgba(20,30,40,.05);
+  --font:"Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei",sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--font);line-height:2;font-size:16px}
+::selection{background:rgba(166,124,46,.22)}
+a{color:var(--navy-2);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* 进度条 */
+#progress{position:fixed;top:0;left:0;height:2.5px;width:0;z-index:1200;background:linear-gradient(90deg,var(--gold),var(--navy-2))}
+
+/* 顶栏 */
+.topbar{position:sticky;top:0;z-index:1000;background:rgba(250,249,246,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:1120px;margin:0 auto;padding:10px 28px;display:flex;align-items:center;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy);font-size:15px;letter-spacing:.5px}
+.brand .seal{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;display:grid;place-items:center;font-size:12px;font-family:var(--serif);font-weight:700;box-shadow:0 2px 6px rgba(22,50,79,.3)}
+.topbar .meta{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.pill{font-size:12px;padding:3px 13px;border-radius:999px;border:1px solid var(--line);color:var(--ink-soft);background:#fff;white-space:nowrap}
+.pill.gold{color:var(--gold);border-color:#e2cfa3;background:var(--gold-soft)}
+.pill.green{color:var(--green);border-color:#c9e0cf;background:var(--green-soft)}
+
+/* 扉页 Hero */
+.hero{
+  position:relative;text-align:center;padding:76px 24px 66px;overflow:hidden;border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(900px 420px at 15% -20%,rgba(43,95,138,.08),transparent 65%),
+    radial-gradient(700px 380px at 88% 0%,rgba(166,124,46,.12),transparent 60%),
+    linear-gradient(180deg,#ffffff 0%,var(--paper) 100%);
+}
+.hero::after{content:"Y = E × S × T";position:absolute;font-family:var(--serif);font-size:clamp(80px,16vw,200px);color:rgba(166,124,46,.045);top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;pointer-events:none;font-weight:700}
+.hero .kicker{display:inline-block;font-size:13px;letter-spacing:4px;color:var(--gold);margin-bottom:18px;font-weight:700;text-transform:uppercase}
+.hero h1{position:relative;margin:0 auto 14px;max-width:820px;font-size:clamp(28px,4.6vw,46px);line-height:1.4;font-weight:800;color:var(--navy);letter-spacing:1px}
+.hero h1 .hl{color:var(--gold)}
+.hero .divider{width:64px;height:3px;margin:0 auto 18px;background:linear-gradient(90deg,var(--gold),transparent)}
+.hero .sub{position:relative;color:var(--ink-soft);font-size:17px;margin:0 0 28px}
+.hero .formula{position:relative;font-family:var(--serif);font-size:clamp(22px,3.6vw,34px);font-weight:700;color:var(--navy);letter-spacing:3px;margin-bottom:30px}
+.hero .formula .op{color:var(--gold);margin:0 8px}
+.hero .formula .sub{font-family:var(--font);font-size:.42em;color:var(--ink-soft);font-weight:400;letter-spacing:1px;margin-left:6px}
+.hero .chips{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.chip{font-size:13.5px;color:var(--navy);background:#fff;border:1px solid #d8d4c8;padding:6px 18px;border-radius:999px;box-shadow:var(--shadow)}
+.chip b{color:var(--gold);font-weight:700}
+
+/* 布局：侧边目录 + 正文 */
+.layout{max-width:1120px;margin:0 auto;padding:38px 28px 20px;display:grid;grid-template-columns:224px minmax(0,1fr);gap:38px;align-items:start}
+.toc-wrap{position:sticky;top:72px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 18px;font-size:14px}
+.toc .toc-title{font-size:12.5px;letter-spacing:3px;color:var(--gold);margin:0 0 14px;font-weight:700}
+.toc ul{list-style:none;margin:0;padding:0}
+.toc li{margin:1px 0}
+.toc a{display:block;padding:6px 10px;border-radius:6px;color:var(--ink-soft);border-left:2px solid transparent;transition:.2s}
+.toc a:hover{background:var(--blue-soft);color:var(--navy);text-decoration:none}
+.toc a.on{background:var(--blue-soft);color:var(--navy);border-left-color:var(--navy);font-weight:600}
+.toc .soon{font-size:11px;color:#b9b2a4}
+
+/* 正文章节 */
+.content{min-width:0}
+section{scroll-margin-top:76px;margin-bottom:46px}
+.chapter-head{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--navy);padding-bottom:10px;margin-bottom:22px}
+.chapter-head .no{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--gold);letter-spacing:1px}
+.chapter-head .zh{font-size:15px;font-weight:700;color:var(--navy-2);letter-spacing:1px}
+.chapter-head h2{font-size:clamp(21px,3vw,27px);color:var(--navy);font-weight:800}
+.lead{font-size:16px;color:var(--ink-soft);margin-bottom:24px}
+.lead b{color:var(--navy)}
+
+/* 卡片 */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:8px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow);border-top:3px solid var(--gold);transition:.25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(20,30,40,.09)}
+.card.green{border-top-color:var(--green)}
+.card.red{border-top-color:var(--red)}
+.card.blue{border-top-color:var(--navy-2)}
+.card .v{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--gold);line-height:1.2}
+.card.green .v{color:var(--green)} .card.red .v{color:var(--red)} .card.blue .v{color:var(--navy-2)}
+.card h3{font-size:17px;margin:8px 0 6px;color:var(--navy)}
+.card p{font-size:13.8px;color:var(--ink-soft);line-height:1.9}
+.card .q{font-size:13px;color:var(--gold);font-style:italic;border-left:2px solid #e2cfa3;padding-left:10px;margin-top:10px}
+
+/* 乘法 vs 除法 */
+.duel{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:8px}
+.duel-card{border-radius:var(--radius);padding:26px 26px;border:1px solid;box-shadow:var(--shadow)}
+.duel-card .t{font-size:12px;letter-spacing:3px;font-weight:700;margin-bottom:12px}
+.duel-card h3{font-size:22px;margin-bottom:12px;font-family:var(--serif);letter-spacing:1px}
+.duel-card ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.duel-card li{font-size:14px;color:var(--ink-soft);padding-left:24px;position:relative}
+.duel-card li b{color:var(--navy)}
+.duel-card li::before{position:absolute;left:0;font-weight:700}
+.duel-mul{background:linear-gradient(180deg,var(--green-soft),#fff);border-color:#c9e0cf}
+.duel-mul .t{color:var(--green)} .duel-mul h3{color:var(--green)}
+.duel-mul li::before{content:"×";color:var(--green)}
+.duel-div{background:linear-gradient(180deg,var(--red-soft),#fff);border-color:#eccdcd}
+.duel-div .t{color:var(--red)} .duel-div h3{color:var(--red)}
+.duel-div li::before{content:"÷";color:var(--red)}
+
+/* 章回目次 · 十二讲 */
+.toc-list{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card)}
+.toc-row{display:grid;grid-template-columns:74px 1fr 92px;gap:14px;align-items:center;padding:15px 22px;border-bottom:1px solid var(--line)}
+.toc-row:last-child{border-bottom:none}
+.toc-row:nth-child(odd){background:var(--card2)}
+.toc-row .no{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--gold)}
+.toc-row h4{font-size:15.5px;color:var(--navy);margin-bottom:2px}
+.toc-row p{font-size:12.8px;color:var(--ink-soft);line-height:1.7}
+.toc-row .act-tag{font-size:11.5px;text-align:center;padding:3px 0;border-radius:999px;font-weight:700}
+.toc-row .act-tag.a1{background:var(--gold-soft);color:var(--gold)}
+.toc-row .act-tag.a2{background:var(--blue-soft);color:var(--navy-2)}
+.toc-row .act-tag.a3{background:var(--green-soft);color:var(--green)}
+.toc-row .act-tag.a4{background:var(--red-soft);color:var(--red)}
+
+/* 17 部经典 */
+.classics{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.citem{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 12px;text-align:center;box-shadow:var(--shadow);transition:.2s}
+.citem:hover{border-color:var(--gold);transform:translateY(-3px)}
+.citem .nm{display:block;font-weight:700;font-size:13.5px;color:var(--navy);margin-bottom:3px}
+.citem .rs{font-size:11px;letter-spacing:1px;color:var(--gold)}
+.citem .rs.div{color:var(--red)}
+
+/* 工具 */
+.tools{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tool{border:1px dashed #d8d0be;border-radius:var(--radius);padding:24px;background:var(--card2);text-align:center}
+.tool .days{font-family:var(--serif);font-size:38px;font-weight:700;color:var(--navy);line-height:1}
+.tool .days small{font-size:14px;color:var(--ink-soft)}
+.tool h3{font-size:16.5px;color:var(--navy);margin:8px 0 6px}
+.tool p{font-size:13px;color:var(--ink-soft)}
+.tool .dot-line{width:34px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);margin:10px auto}
+
+/* 注释框 */
+.note{background:var(--blue-soft);border:1px solid rgba(43,95,138,.2);border-radius:var(--radius);padding:16px 20px;font-size:14px;color:var(--ink-soft);margin:20px 0}
+.note b{color:var(--navy)}
+
+/* FAQ */
+details{border:1px solid var(--line);border-radius:10px;background:var(--card);margin-bottom:10px;overflow:hidden}
+summary{padding:15px 22px;cursor:pointer;font-weight:700;font-size:15px;color:var(--navy);display:flex;justify-content:space-between;align-items:center}
+summary::after{content:"＋";color:var(--gold);font-size:18px}
+details[open] summary::after{content:"－"}
+details .body{padding:0 22px 18px;color:var(--ink-soft);font-size:14.2px}
+
+/* 尾页 */
+.colophon{text-align:center;padding:56px 24px 44px;border-top:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper))}
+.colophon .motto{font-family:var(--serif);font-size:clamp(22px,3.4vw,32px);font-weight:700;color:var(--navy);letter-spacing:4px;margin-bottom:14px}
+.colophon .motto .g{color:var(--gold)}
+.colophon p{color:var(--ink-soft);font-size:14.5px;margin-bottom:24px}
+.btn{display:inline-block;padding:12px 30px;border-radius:10px;background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;font-weight:700;font-size:15px;box-shadow:var(--shadow);transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(43,95,138,.35);text-decoration:none}
+.foot{text-align:center;color:var(--ink-soft);font-size:13px;padding:10px 10px 34px;line-height:2;border-top:1px solid var(--line)}
+.brand-line{color:var(--gold);font-weight:700;letter-spacing:2px;margin-bottom:4px}
+
+@media (max-width:960px){.layout{grid-template-columns:1fr}.toc-wrap{position:static}.toc{display:none}.grid2,.duel{grid-template-columns:1fr}.tools{grid-template-columns:1fr}}
+@media (max-width:620px){.toc-row{grid-template-columns:1fr;gap:4px}.toc-row .act-tag{text-align:left;width:fit-content;padding:2px 12px}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="seal">恒</span>价值守恒定律 · 章回本</div>
+    <div class="meta">
+      <span class="pill gold">乘则兴 · 除则衰</span>
+      <span class="pill">12 讲</span>
+      <span class="pill green">333 落地</span>
+    </div>
+  </div>
+</header>
+
+<!-- 扉页 -->
+<header class="hero">
+  <div class="kicker">财情双生智库 · 一门可带回家的智慧</div>
+  <h1>《价值守恒定律》<span class="hl">课程章回本</span></h1>
+  <div class="divider"></div>
+  <p class="sub">一个公式，读懂繁荣与危机的全部剧本 —— 国 · 家 · 企 · 人，四层通用</p>
+  <div class="formula">
+    <span>Y <span class="sub">经济社会价值总量</span></span><span class="op">=</span>
+    <span>E <span class="sub">经济价值</span></span><span class="op">×</span>
+    <span>S <span class="sub">社会价值</span></span><span class="op">×</span>
+    <span>T <span class="sub">时间价值</span></span>
+  </div>
+  <div class="chips">
+    <span class="chip">1 个公式</span><span class="chip">2 种算法</span><span class="chip">3 个变量</span>
+    <span class="chip">4 层应用</span><span class="chip">17 部经典验证</span>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- 侧边目录 -->
+  <aside class="toc-wrap">
+    <nav class="toc">
+      <div class="toc-title">章 回 目 录</div>
+      <ul>
+        <li><a href="#ch0" class="on">卷首 · 钉子</a></li>
+        <li><a href="#ch1">第一回 · 核心公式</a></li>
+        <li><a href="#ch2">第二回 · 两种算法</a></li>
+        <li><a href="#ch3">第三回 · 十二讲目次</a></li>
+        <li><a href="#ch4">第四回 · 十七部经典</a></li>
+        <li><a href="#ch5">第五回 · 落地工具</a></li>
+        <li><a href="#ch6">第六回 · 答疑</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 正文 -->
+  <main class="content">
+
+    <section id="ch0">
+      <div class="chapter-head"><span class="no">卷首</span><span class="zh">序</span><h2>一句话，扎进心里</h2></div>
+      <p class="lead">这门课的钉子只有一句话：<b>「一个公式，读懂繁荣与危机的全部剧本」</b>。<br/>它不教你如何一夜暴富，它教你——<b>为什么你越努力越无力，以及如何换一种活法。</b></p>
+      <div class="note"><b>课程承诺：</b>学完你能用 Y=E×S×T 一眼看穿任何新闻、任何困境、任何组织的底层逻辑，并给家庭、企业、人生做一次「三价值体检」。</div>
+    </section>
+
+    <section id="ch1">
+      <div class="chapter-head"><span class="no">第一回</span><span class="zh">立论</span><h2>核心公式：一个公式，三个变量</h2></div>
+      <p class="lead">宏观公式 <b>Y = E × S × T</b>；微观公式 <b>y = f(m) × f(h) × f(t)</b>。乘法结构中，任何一项归零，乘积即归零——这是木桶原理的数学表达。</p>
+      <div class="grid3">
+        <div class="card"><div class="v">E</div><h3>经济价值</h3><p>钱、利润、GDP、考核指标——看得见的产出。</p><p class="q">「钱的尽头是什么？」</p></div>
+        <div class="card green"><div class="v">S</div><h3>社会价值</h3><p>人、信任、关系、组织活力——看不见但决定生死。</p><p class="q">「为什么人，才是最大的资产？」</p></div>
+        <div class="card blue"><div class="v">T</div><h3>时间价值</h3><p>长期、复利、制度、可持续——时间才是终极货币。</p><p class="q">「为什么熬得住的人，笑到最后？」</p></div>
+      </div>
+    </section>
+
+    <section id="ch2">
+      <div class="chapter-head"><span class="no">第二回</span><span class="zh">辨法</span><h2>两种算法：乘法与除法</h2></div>
+      <p class="lead">繁荣与危机，不是运气，是<b>算法</b>。所有危机，本质都是除法公式被反复执行。</p>
+      <div class="duel">
+        <div class="duel-card duel-mul">
+          <div class="t">乘法公式 · 繁荣</div>
+          <h3>Y = E × S × T</h3>
+          <ul>
+            <li><b>对 E 负责</b>：创造真实经济价值</li>
+            <li><b>对 S 负责</b>：赢回信任、激活组织与人</li>
+            <li><b>对 T 负责</b>：留下可持续的制度与复利</li>
+            <li><b>结果</b>：乘积放大，繁荣自至</li>
+          </ul>
+        </div>
+        <div class="duel-card duel-div">
+          <div class="t">除法公式 · 危机</div>
+          <h3>Y = E ÷ (S × T)</h3>
+          <ul>
+            <li><b>E 单兵突进</b>：利润/增长当唯一 KPI</li>
+            <li><b>透支 S</b>：裁员、压榨、失信于人</li>
+            <li><b>透支 T</b>：短期化、债务化、寅吃卯粮</li>
+            <li><b>结果</b>：乘积归零，危机轮回</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="ch3">
+      <div class="chapter-head"><span class="no">第三回</span><span class="zh">目次</span><h2>十二讲 · 一部四幕正片</h2></div>
+      <p class="lead">口诀：<b>乘则兴，除则衰；E、S、T，一眼裁。</b>每 3 分钟一个小高潮，每 7 分钟一个大干货。</p>
+      <div class="toc-list">
+        <div class="toc-row"><div class="no">01</div><div><h4>一个公式，读懂繁荣与危机的全部剧本</h4><p>为什么这门课值得听完：定位、承诺与全课地图。</p></div><span class="act-tag a1">第一幕</span></div>
+        <div class="toc-row"><div class="no">02</div><div><h4>乘法与除法：繁荣与危机的两种算法</h4><p>公式完整推导与六种变形场景。</p></div><span class="act-tag a1">第一幕</span></div>
+        <div class="toc-row"><div class="no">03</div><div><h4>E 的真相：钱的尽头是什么</h4><p>为什么「赚钱」可能正是「亏钱」的开始。</p></div><span class="act-tag a1">第一幕</span></div>
+        <div class="toc-row"><div class="no">04</div><div><h4>S 的真相：人，才是最大的资产</h4><p>信任、关系与组织活力的数学表达。</p></div><span class="act-tag a1">第一幕</span></div>
+        <div class="toc-row"><div class="no">05</div><div><h4>T 的真相：时间，是终极货币</h4><p>复利、长期主义与制度弹性的底层逻辑。</p></div><span class="act-tag a1">第一幕</span></div>
+        <div class="toc-row"><div class="no">06</div><div><h4>五大经济危机的同一个密码</h4><p>1929→1997→2008，用乘法公式重看金融史。</p></div><span class="act-tag a2">第二幕</span></div>
+        <div class="toc-row"><div class="no">07</div><div><h4>墨菲·帕金森·彼得：三大定律的除法本质</h4><p>把「命不好」翻译成公式，然后拆掉它。</p></div><span class="act-tag a2">第二幕</span></div>
+        <div class="toc-row"><div class="no">08</div><div><h4>中央帝国财政密码：王朝兴衰的账本</h4><p>三千年财政史，一部 E/S/T 乘除法账本。</p></div><span class="act-tag a2">第二幕</span></div>
+        <div class="toc-row"><div class="no">09</div><div><h4>熵增·易经·道德经：古老智慧里的守恒</h4><p>负熵输入、三易、天道人道——先贤早就写好答案。</p></div><span class="act-tag a2">第二幕</span></div>
+        <div class="toc-row"><div class="no">10</div><div><h4>个人与家庭的三价值体检</h4><p>30 分钟给家庭做一次 E/S/T 体检，当场出诊断。</p></div><span class="act-tag a3">第三幕</span></div>
+        <div class="toc-row"><div class="no">11</div><div><h4>企业转型：从「E 单兵突进」到「三价值相乘」</h4><p>组织诊断与转型路线图，学完即用。</p></div><span class="act-tag a3">第三幕</span></div>
+        <div class="toc-row"><div class="no">12</div><div><h4>给人生换脑：乘法人生行动宣言</h4><p>333 落地计划：3 天转训、30 天转化、3 个月出结果。</p></div><span class="act-tag a4">第四幕</span></div>
+      </div>
+    </section>
+
+    <section id="ch4">
+      <div class="chapter-head"><span class="no">第四回</span><span class="zh">考据</span><h2>十七部经典 · 一个公式，跨域自洽</h2></div>
+      <p class="lead">单一领域自洽可能只是巧合，<b>跨领域自洽才是规律</b>。17 部经典覆盖危机、组织、历史、思想四大领域，全部指向同一个公式。</p>
+      <div class="classics">
+        <div class="citem"><span class="nm">五大经济危机</span><span class="rs div">除法 · 危机解码</span></div>
+        <div class="citem"><span class="nm">墨菲定律</span><span class="rs div">除法 · 自动运行</span></div>
+        <div class="citem"><span class="nm">帕金森定律</span><span class="rs div">除法 · 时间失效</span></div>
+        <div class="citem"><span class="nm">彼得原理</span><span class="rs div">除法 · 晋升错配</span></div>
+        <div class="citem"><span class="nm">债务危机</span><span class="rs div">除法 · 透支未来</span></div>
+        <div class="citem"><span class="nm">中央帝国财政</span><span class="rs div">除法 · 王朝兴衰</span></div>
+        <div class="citem"><span class="nm">历代经济变革</span><span class="rs">乘法 · 平衡之道</span></div>
+        <div class="citem"><span class="nm">人类简史</span><span class="rs">乘法 · 协作故事</span></div>
+        <div class="citem"><span class="nm">置身事内</span><span class="rs">乘法 · 政府市场</span></div>
+        <div class="citem"><span class="nm">大国大城</span><span class="rs">乘法 · 要素配置</span></div>
+        <div class="citem"><span class="nm">熵增定律</span><span class="rs">乘法 · 负熵输入</span></div>
+        <div class="citem"><span class="nm">易经三易</span><span class="rs">乘法 · 统一计量</span></div>
+        <div class="citem"><span class="nm">道德经</span><span class="rs">乘法 · 天道人道</span></div>
+        <div class="citem"><span class="nm">基层中国</span><span class="rs">乘法 · 上下同治</span></div>
+        <div class="citem"><span class="nm">历代政治得失</span><span class="rs">乘法 · 制度常新</span></div>
+        <div class="citem"><span class="nm">帝国三部曲</span><span class="rs">乘法 · 三大支柱</span></div>
+        <div class="citem"><span class="nm">人类简史·货币</span><span class="rs">乘法 · 三价统一</span></div>
+      </div>
+    </section>
+
+    <section id="ch5">
+      <div class="chapter-head"><span class="no">第五回</span><span class="zh">操练</span><h2>落地工具 · 333 模式</h2></div>
+      <p class="lead">先方法论 → 再切片案例 → 后大操练。带走三件趁手工具，<b>学完当晚就能用</b>。</p>
+      <div class="tools">
+        <div class="tool"><div class="days">3<small>天</small></div><div class="dot-line"></div><h3>转训</h3><p>《三价值体检表》：给家庭、企业、自己做一次 E/S/T 全面体检。</p></div>
+        <div class="tool"><div class="days">30<small>天</small></div><div class="dot-line"></div><h3>转化</h3><p>《乘法/除法诊断卡》：任何决策先诊断——你用乘号还是除号？</p></div>
+        <div class="tool"><div class="days">90<small>天</small></div><div class="dot-line"></div><h3>出结果</h3><p>《每日三问》：今天我滋养了 E、S、T 中的哪一个？乘积变大了吗？</p></div>
+      </div>
+    </section>
+
+    <section id="ch6">
+      <div class="chapter-head"><span class="no">第六回</span><span class="zh">答疑</span><h2>常见问题</h2></div>
+      <details open><summary>我是普通上班族，这公式跟我有什么关系？</summary><div class="body">关系很大。你每天的选择——加班换钱（E）却透支健康与家庭（S）和未来（T）——就是除法公式在个人层面的运行。学完这门课，你会第一次「看见」自己的活法属于乘法还是除法。</div></details>
+      <details><summary>这是讲经济学的课吗？会不会听不懂？</summary><div class="body">它从经济学出发，但最终落在生活、家庭与组织上。全课只有一个公式、三个变量，用讲故事的方式讲，不需要任何经济学基础。</div></details>
+      <details><summary>课程有作业和落地工具吗？</summary><div class="body">有。333 落地模式 + 三件套工具，每讲配一个可执行动作，学完当晚就能用。</div></details>
+      <details><summary>为什么用「17 部经典」做验证？</summary><div class="body">单一领域自洽可能只是巧合，跨领域自洽才是规律。17 部经典覆盖危机、组织、历史、思想四大领域，全部指向同一个公式——这就是证据链的厚度。</div></details>
+    </section>
+
+  </main>
+</div>
+
+<!-- 尾页 -->
+<footer class="colophon">
+  <div class="motto">乘则兴 · <span class="g">除则衰</span></div>
+  <p>一个公式，读懂繁荣与危机的全部剧本。<br/>这门课，值得你从头读到尾。</p>
+  <a class="btn" href="#top">↑ 重读卷首</a>
+</footer>
+<div class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  价值守恒定律 Y = E × S × T · 宏观 Y=E×S×T · 微观 y=f(m)×f(h)×f(t)<br/>
+  内容为思想科普，不构成任何投资建议 · 观点基于公开资料整理
+</div>
+
+<script>
+/* 进度条 + 目录高亮 */
+const bar=document.getElementById('progress');
+const links=[...document.querySelectorAll('.toc a')];
+const secs=links.map(a=>document.querySelector(a.getAttribute('href')));
+addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight);
+  bar.style.width=(p*100)+'%';
+  let cur=0;
+  secs.forEach((s,i)=>{if(s&&s.getBoundingClientRect().top<140)cur=i});
+  links.forEach((a,i)=>a.classList.toggle('on',i===cur));
+},{passive:true});
+</script>
+</body>
+</html>

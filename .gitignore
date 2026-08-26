@@ -8,3 +8,7 @@ Thumbs.db
 # IDE
 .idea/
 .vscode/
+
+# Local helper scripts
+_check_pages.ps1
+_dl_pages.ps1

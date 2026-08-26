@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#0a1428"/>
+<title>第二幕 · 冲突 除法的世界 | 价值守恒定律课程 06–09 讲</title>
+<meta name="description" content="价值守恒定律课程第二幕四讲完整讲稿：五大经济危机的同一个密码、墨菲帕金森彼得三大定律的除法本质、中央帝国财政密码、熵增易经道德经的守恒智慧。财情双生智库出品。"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1428'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='900' text-anchor='middle' fill='%23f0cf8f'%3E恒%3C/text%3E%3C/svg%3E"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+/* ==================== 基础 ==================== */
+:root{
+  --bg:#0a1428; --bg2:#0d1b36; --bg3:#102246;
+  --card:#122a52; --card2:#0f2448;
+  --line:rgba(140,170,220,.16); --line2:rgba(140,170,220,.10);
+  --gold:#d5a84d; --gold2:#f0cf8f; --gold-dim:rgba(213,168,77,.16);
+  --teal:#2bc4b6; --teal-soft:rgba(43,196,182,.13);
+  --blue:#5b8ee0; --blue-soft:rgba(91,142,224,.14);
+  --red:#e07a7a; --red-soft:rgba(224,122,122,.13);
+  --green:#6fbf8a; --green-soft:rgba(111,191,138,.13);
+  --ink:#eaf1fb; --ink2:#b8c6dc; --ink3:#8496b4;
+  --r:14px; --r2:10px;
+  --shadow:0 8px 30px rgba(0,0,0,.35);
+  --shadow-gold:0 8px 30px rgba(213,168,77,.22);
+  --font:"Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC",serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.9;font-size:16px;overflow-x:hidden;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(1100px 600px at 80% -10%,rgba(224,122,122,.08),transparent 60%),
+  radial-gradient(900px 500px at 0% 20%,rgba(213,168,77,.08),transparent 60%),
+  radial-gradient(700px 400px at 50% 100%,rgba(43,196,182,.05),transparent 60%)}
+body>*{position:relative;z-index:1}
+::selection{background:rgba(224,122,122,.35);color:#0a1428}
+a{color:var(--gold2);text-decoration:none;transition:color .2s}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+/* ==================== 顶栏 ==================== */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:2000;background:linear-gradient(90deg,var(--gold),var(--red));transition:width .1s linear}
+nav.topnav{position:sticky;top:0;z-index:1500;background:rgba(10,20,40,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:.3s}
+nav.topnav.scrolled{background:rgba(10,20,40,.93);border-bottom-color:rgba(224,122,122,.3)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:11px 24px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--gold2);letter-spacing:.5px;white-space:nowrap}
+.brand .logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--gold),var(--red));display:flex;align-items:center;justify-content:center;font-size:15px;color:#0a1428;font-weight:900;font-family:var(--serif);box-shadow:0 2px 8px rgba(213,168,77,.3)}
+.brand .sub{font-size:11.5px;color:var(--ink3);font-weight:400;letter-spacing:1px;margin-left:2px}
+.ep-nav{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.ep-nav a{color:var(--ink2);padding:6px 11px;border-radius:8px;font-size:13px;transition:.2s;white-space:nowrap}
+.ep-nav a:hover{background:var(--gold-dim);color:var(--gold2);text-decoration:none}
+.ep-nav a.active{background:var(--red-soft);color:var(--red);font-weight:700}
+.ep-nav a.back{color:var(--teal)}
+.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink2);border-radius:8px;padding:6px 11px;cursor:pointer;font-size:17px;line-height:1}
+.menu-toggle:hover{border-color:var(--gold);color:var(--gold)}
+
+/* ==================== 容器 ==================== */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* ==================== 第二幕卷首 ==================== */
+.act-banner{position:relative;padding:84px 0 66px;overflow:hidden;background:
+  radial-gradient(900px 500px at 80% -10%,rgba(224,122,122,.12),transparent 60%),
+  linear-gradient(160deg,var(--bg2) 0%,var(--bg) 70%);text-align:center}
+.act-banner::after{content:"Y = E ÷ (S × T)";position:absolute;font-family:var(--serif);font-size:clamp(80px,14vw,180px);color:rgba(224,122,122,.05);top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;pointer-events:none;font-weight:700;letter-spacing:8px;z-index:0}
+.act-banner .inner{position:relative;z-index:2}
+.act-tag{display:inline-flex;align-items:center;gap:8px;background:var(--red-soft);border:1px solid rgba(224,122,122,.45);color:var(--red);padding:7px 18px;border-radius:100px;font-size:13px;font-weight:700;margin-bottom:24px;letter-spacing:2px}
+.act-banner h1{font-size:clamp(30px,4.8vw,52px);font-weight:900;line-height:1.22;letter-spacing:1px;margin-bottom:16px}
+.act-banner h1 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold) 40%,var(--red));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act-banner .sub{font-size:clamp(14.5px,2vw,17.5px);color:var(--ink2);max-width:780px;margin:0 auto 34px;line-height:2}
+.act-banner .sub b{color:var(--gold2)}
+.act-map{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:980px;margin:0 auto;position:relative;z-index:2}
+.map-item{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px 12px;transition:.3s;text-align:center}
+.map-item:hover{transform:translateY(-3px);border-color:rgba(224,122,122,.45);box-shadow:0 8px 30px rgba(224,122,122,.2)}
+.map-item .no{font-family:var(--serif);font-size:13px;color:var(--red);font-weight:700;letter-spacing:2px;display:block;margin-bottom:6px}
+.map-item .tt{font-size:13px;color:var(--ink);font-weight:700;line-height:1.6}
+.map-item .en{font-size:11px;color:var(--ink3);margin-top:4px;display:block;letter-spacing:.5px}
+.map-item .link{display:inline-block;margin-top:8px;font-size:11.5px;color:var(--teal);font-weight:700;letter-spacing:1px}
+.map-item .link:hover{color:var(--gold2)}
+
+/* ==================== 讲次区块 ==================== */
+.episode-section{padding:72px 0;border-top:1px solid var(--line2);scroll-margin-top:70px;position:relative}
+.episode-section:nth-of-type(odd){background:linear-gradient(180deg,transparent,rgba(224,122,122,.05) 50%,transparent)}
+.ep-head{display:flex;align-items:flex-start;gap:26px;margin-bottom:34px;flex-wrap:wrap}
+.ep-no{flex-shrink:0;text-align:center;padding-top:6px}
+.ep-no .big{font-family:var(--serif);font-size:64px;font-weight:900;line-height:1;color:var(--red);text-shadow:0 0 30px rgba(224,122,122,.35)}
+.ep-no .act{font-size:11px;letter-spacing:3px;color:var(--ink3);margin-top:8px;text-transform:uppercase}
+.ep-title{flex:1;min-width:260px}
+.ep-title .kicker{font-size:12px;letter-spacing:2px;color:var(--red);font-weight:700;margin-bottom:8px;text-transform:uppercase}
+.ep-title h2{font-size:clamp(24px,3.6vw,38px);font-weight:900;letter-spacing:.5px;line-height:1.3;margin-bottom:10px}
+.ep-title .aim{color:var(--ink2);font-size:15px;max-width:680px;line-height:1.9}
+.ep-title .aim b{color:var(--gold2)}
+
+/* ===== 开场钩子 ===== */
+.hook{background:linear-gradient(160deg,rgba(224,122,122,.10),rgba(224,122,122,.03));border:1px solid rgba(224,122,122,.3);border-left:4px solid var(--red);border-radius:var(--r);padding:28px 30px;margin-bottom:30px;position:relative}
+.hook .label{font-size:11px;letter-spacing:3px;color:var(--red);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.hook .label::before{content:"▶";font-size:9px}
+.hook p{font-size:clamp(16px,2vw,19px);color:var(--ink);line-height:2;font-weight:600}
+.hook p .q{color:var(--gold2)}
+
+/* ===== 区块标题 ===== */
+.block{margin:34px 0 18px;display:flex;align-items:center;gap:12px}
+.block .bn{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--red);border:1px solid rgba(224,122,122,.4);background:var(--red-soft);border-radius:8px;padding:2px 11px;letter-spacing:1px}
+.block h3{font-size:20px;font-weight:800;letter-spacing:.5px;color:var(--ink)}
+
+/* ===== 干货卡 ===== */
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.point{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.point::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),transparent)}
+.point.teal::before{background:linear-gradient(90deg,var(--teal),transparent)}
+.point.blue::before{background:linear-gradient(90deg,var(--blue),transparent)}
+.point.gold::before{background:linear-gradient(90deg,var(--gold),transparent)}
+.point:hover{transform:translateY(-3px);border-color:rgba(224,122,122,.4);box-shadow:0 8px 30px rgba(224,122,122,.15)}
+.point .idx{font-family:var(--serif);font-size:15px;color:var(--red);font-weight:700;letter-spacing:2px;margin-bottom:10px;display:block}
+.point h4{font-size:16.5px;margin-bottom:8px;color:var(--ink)}
+.point p{font-size:13.8px;color:var(--ink2);line-height:1.9}
+.point p b{color:var(--ink)}
+
+/* ===== 危机五步剧本（步骤条） ===== */
+.steps-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0}
+.step{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px 14px;position:relative;transition:.3s;text-align:center}
+.step:hover{transform:translateY(-3px);border-color:rgba(224,122,122,.5);box-shadow:0 8px 26px rgba(224,122,122,.18)}
+.step .sno{font-family:var(--serif);font-size:28px;font-weight:900;color:var(--red);line-height:1;display:block;margin-bottom:8px}
+.step h4{font-size:14px;margin-bottom:6px;color:var(--ink)}
+.step p{font-size:12px;color:var(--ink3);line-height:1.7}
+.step .arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);color:var(--red);font-size:14px;z-index:2}
+.step:last-child .arrow{display:none}
+
+/* ===== 公式块 ===== */
+.fx{background:linear-gradient(160deg,var(--bg3),var(--card2));border:1px solid var(--line);border-radius:var(--r);padding:30px 28px;margin:18px 0;text-align:center;position:relative;overflow:hidden}
+.fx::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold))}
+.fx .f{font-family:var(--serif);font-size:clamp(24px,3.8vw,40px);font-weight:900;letter-spacing:3px;color:var(--gold2);text-shadow:0 0 26px rgba(213,168,77,.3)}
+.fx .f .o{color:var(--teal);font-size:.8em}
+.fx .f .r{color:var(--red)}
+.fx .note{font-size:13px;color:var(--ink3);margin-top:12px;letter-spacing:.5px}
+.fx .note b{color:var(--ink2)}
+
+/* ===== 表格 ===== */
+.form-wrap{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-size:13.8px}
+thead{background:rgba(224,122,122,.12)}
+th{color:var(--gold2);font-size:11.5px;letter-spacing:2px;padding:13px 16px;text-align:left;font-weight:700;border-bottom:1px solid var(--line)}
+td{padding:14px 16px;border-bottom:1px solid rgba(140,170,220,.08);color:var(--ink2);vertical-align:top;line-height:1.8}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:rgba(224,122,122,.05)}
+td .fx-s{font-family:var(--serif);font-weight:900;font-size:15px;letter-spacing:1px;white-space:nowrap}
+td .fx-s.good{color:var(--green)} td .fx-s.warn{color:var(--gold)} td .fx-s.bad{color:var(--red)}
+td b{color:var(--ink)}
+td .res{display:inline-block;font-size:11.5px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px;white-space:nowrap}
+.res.boom{background:var(--green-soft);color:var(--green)}
+.res.fake{background:var(--gold-dim);color:var(--gold2)}
+.res.crash{background:var(--red-soft);color:var(--red)}
+.res.bleed{background:var(--red-soft);color:var(--red)}
+.res.zero{background:var(--red-soft);color:var(--red)}
+.res.comp{background:var(--teal-soft);color:var(--teal)}
+.res.mob{display:none}
+.forms-mobile{display:none}
+
+/* ===== 三阶段模型 ===== */
+.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}
+.stage{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;position:relative;overflow:hidden;transition:.3s}
+.stage:hover{transform:translateY(-3px);box-shadow:var(--shadow-gold)}
+.stage::before{content:"";position:absolute;top:0;left:0;right:0;height:4px}
+.stage.s1::before{background:linear-gradient(90deg,var(--green),transparent)}
+.stage.s2::before{background:linear-gradient(90deg,var(--gold),transparent)}
+.stage.s3::before{background:linear-gradient(90deg,var(--red),transparent)}
+.stage .tag{display:inline-block;font-size:11px;letter-spacing:2px;font-weight:800;padding:3px 12px;border-radius:999px;margin-bottom:12px}
+.stage.s1 .tag{background:var(--green-soft);color:var(--green)}
+.stage.s2 .tag{background:var(--gold-dim);color:var(--gold2)}
+.stage.s3 .tag{background:var(--red-soft);color:var(--red)}
+.stage h4{font-size:17px;margin-bottom:10px}
+.stage .eq{font-family:var(--serif);font-size:15.5px;font-weight:900;letter-spacing:1px;margin-bottom:12px}
+.stage.s1 .eq{color:var(--green)} .stage.s2 .eq{color:var(--gold2)} .stage.s3 .eq{color:var(--red)}
+.stage ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.stage li{font-size:13px;color:var(--ink2);padding-left:20px;position:relative;line-height:1.8}
+.stage li::before{content:"▸";position:absolute;left:0;color:var(--gold)}
+.stage .verdict{font-size:13px;font-weight:700;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.stage.s1 .verdict{color:var(--green)} .stage.s2 .verdict{color:var(--gold2)} .stage.s3 .verdict{color:var(--red)}
+
+/* ===== 反转卡 ===== */
+.turn{background:linear-gradient(160deg,var(--red-soft),transparent 80%);border:1px solid rgba(224,122,122,.35);border-left:4px solid var(--red);border-radius:var(--r);padding:26px 28px;margin:18px 0}
+.turn .label{font-size:11px;letter-spacing:3px;color:var(--red);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.turn .label::before{content:"⚡";font-size:12px}
+.turn p{font-size:15.5px;color:var(--ink2);line-height:2}
+.turn p b{color:var(--ink)}
+.turn p .old{color:var(--ink3);text-decoration:line-through;text-decoration-color:rgba(224,122,122,.6)}
+.turn p .new{color:var(--gold2);font-weight:700}
+
+/* ===== 案例卡 ===== */
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.case{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;position:relative;transition:.3s}
+.case:hover{transform:translateY(-3px);box-shadow:var(--shadow-gold)}
+.case .tag{position:absolute;top:-1px;right:20px;font-size:10.5px;letter-spacing:2px;color:var(--red);background:var(--red-soft);border:1px solid rgba(224,122,122,.35);padding:4px 13px;border-radius:0 0 8px 8px}
+.case h4{font-size:16px;margin-bottom:10px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.case h4 .ic{color:var(--gold)}
+.case p{font-size:13.5px;color:var(--ink2);line-height:1.95}
+.case p b{color:var(--ink)}
+.case .moral{font-size:13px;color:var(--teal);font-style:italic;border-left:2px solid rgba(43,196,182,.4);padding-left:12px;margin-top:12px;line-height:1.8}
+
+/* ===== 金句大卡 ===== */
+.quote-block{margin:26px 0;text-align:center;position:relative;padding:36px 24px;border-radius:var(--r);background:
+  radial-gradient(600px 240px at 50% 0%,rgba(224,122,122,.14),transparent 70%),linear-gradient(160deg,var(--bg3),var(--card2));border:1px solid rgba(224,122,122,.3)}
+.quote-block::before,.quote-block::after{content:"“";position:absolute;font-family:var(--serif);font-size:70px;color:rgba(224,122,122,.3);line-height:1}
+.quote-block::before{top:6px;left:20px}
+.quote-block::after{content:"”";bottom:-18px;right:20px}
+.quote-block .qt{font-family:var(--serif);font-size:clamp(21px,3vw,30px);font-weight:900;letter-spacing:2px;line-height:1.7;color:var(--gold2);text-shadow:0 0 30px rgba(213,168,77,.3)}
+.quote-block .qt .sep{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--red);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--red)}
+.quote-block .who{font-size:12.5px;color:var(--ink3);letter-spacing:2px;margin-top:16px;text-transform:uppercase}
+
+/* ===== 落地动作 ===== */
+.action{display:flex;gap:18px;align-items:flex-start;background:linear-gradient(160deg,var(--teal-soft),rgba(43,196,182,.03));border:1px solid rgba(43,196,182,.35);border-radius:var(--r);padding:24px 26px;margin:22px 0}
+.action .ic{flex-shrink:0;width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--teal),var(--gold));display:flex;align-items:center;justify-content:center;font-size:20px;color:#0a1428;font-weight:900;box-shadow:0 4px 14px rgba(43,196,182,.3)}
+.action .label{font-size:11px;letter-spacing:3px;color:var(--teal);font-weight:800;margin-bottom:8px}
+.action h4{font-size:16.5px;color:var(--ink);margin-bottom:8px}
+.action p{font-size:14px;color:var(--ink2);line-height:1.9}
+.action p b{color:var(--ink)}
+.action .steps{margin-top:10px;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.action .steps li{font-size:13.8px;color:var(--ink2);padding-left:24px;position:relative;line-height:1.8}
+.action .steps li::before{content:"①";position:absolute;left:0;color:var(--teal);font-size:12px}
+.action .steps li:nth-child(2)::before{content:"②"}
+.action .steps li:nth-child(3)::before{content:"③"}
+
+/* ===== 悬念尾 ===== */
+.next-ep{margin-top:34px;padding:22px 26px;border:1px dashed rgba(224,122,122,.45);border-radius:var(--r2);display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:rgba(224,122,122,.03)}
+.next-ep .lab{font-size:11px;letter-spacing:3px;color:var(--red);font-weight:800;flex-shrink:0}
+.next-ep p{font-size:14.5px;color:var(--ink2);flex:1;min-width:200px;line-height:1.9}
+.next-ep p b{color:var(--gold2)}
+.next-ep a{flex-shrink:0;font-size:13px;font-weight:700;color:var(--teal)}
+.next-ep a:hover{color:var(--gold2)}
+
+/* ==================== 第三幕预告 ==================== */
+.act3-preview{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 40%);padding:80px 0 70px;text-align:center}
+.act3-preview .tag{display:inline-block;font-size:12px;letter-spacing:4px;color:var(--green);border:1px solid rgba(111,191,138,.4);background:var(--green-soft);padding:6px 18px;border-radius:999px;margin-bottom:22px;font-weight:700}
+.act3-preview h2{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:1px;margin-bottom:16px;line-height:1.3}
+.act3-preview h2 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act3-preview p{color:var(--ink2);font-size:15.5px;max-width:640px;margin:0 auto 30px;line-height:2}
+.act3-preview .next-list{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:34px}
+.act3-preview .next-list span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 20px;font-size:13.5px;color:var(--ink2)}
+.act3-preview .next-list span b{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 30px;border-radius:12px;font-weight:700;font-size:15px;letter-spacing:.5px;transition:.25s;cursor:pointer;border:none;line-height:1.2}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a1428;box-shadow:0 6px 24px rgba(213,168,77,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(213,168,77,.55);color:#0a1428;text-decoration:none}
+.btn-ghost{border:1px solid var(--line);color:var(--ink2);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px);text-decoration:none}
+
+/* ==================== 尾页 ==================== */
+footer{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 30%);padding:54px 0 28px;text-align:center}
+footer .motto{font-family:var(--serif);font-size:clamp(22px,3.4vw,32px);font-weight:900;color:var(--gold2);letter-spacing:5px;margin-bottom:12px;text-shadow:0 0 26px rgba(213,168,77,.3)}
+footer .motto .orb{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--red)}
+footer p{color:var(--ink2);font-size:14px;margin-bottom:24px}
+.foot-line{color:var(--ink3);font-size:12.5px;letter-spacing:1px;line-height:2.2;margin-top:36px;padding-top:26px;border-top:1px solid var(--line2)}
+.foot-line .brand{color:var(--gold);font-weight:700;letter-spacing:3px;font-size:13.5px;margin-bottom:6px}
+.foot-line .links{margin-top:12px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px}
+.foot-line .links a{color:var(--ink3)}
+.foot-line .links a:hover{color:var(--gold2)}
+
+/* ==================== 响应式 ==================== */
+@media (max-width:980px){.act-map{grid-template-columns:repeat(2,1fr)}.steps-row{grid-template-columns:1fr 1fr}.step .arrow{display:none}}
+@media (max-width:860px){
+  .ep-nav{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(10,20,40,.96);backdrop-filter:blur(14px);flex-direction:column;padding:12px 24px;border-bottom:1px solid var(--line)}
+  .ep-nav.open{display:flex}
+  .ep-nav a{width:100%;padding:10px 12px}
+  .menu-toggle{display:inline-block}
+  .brand .sub{display:none}
+  .ep-no .big{font-size:48px}
+  .stages{grid-template-columns:1fr}
+}
+@media (max-width:680px){
+  .act-map{grid-template-columns:1fr 1fr}
+  .wrap{padding:0 18px}
+  .episode-section{padding:56px 0}
+  .hook,.turn{padding:22px 20px}
+  .action{flex-direction:column;gap:14px}
+  .steps-row{grid-template-columns:1fr}
+  table{display:none}
+  .forms-mobile{display:flex;flex-direction:column;gap:12px}
+  .form-mob{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+  .form-mob .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+  .form-mob .fx-s{font-family:var(--serif);font-weight:900;font-size:16px}
+  .form-mob .fx-s.good{color:var(--green)} .form-mob .fx-s.warn{color:var(--gold)} .form-mob .fx-s.bad{color:var(--red)}
+  .form-mob .res{display:inline-block;font-size:11px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px}
+  .form-mob .res.boom{background:var(--green-soft);color:var(--green)}
+  .form-mob .res.fake{background:var(--gold-dim);color:var(--gold2)}
+  .form-mob .res.crash,.form-mob .res.bleed,.form-mob .res.zero{background:var(--red-soft);color:var(--red)}
+  .form-mob .res.comp{background:var(--teal-soft);color:var(--teal)}
+  .form-mob .name{font-size:14.5px;font-weight:700;color:var(--ink);margin-bottom:4px}
+  .form-mob .desc{font-size:12.8px;color:var(--ink2);line-height:1.8}
+}
+@media (max-width:460px){
+  .act-map{grid-template-columns:1fr}
+  .ep-no .big{font-size:40px}
+  .ep-head{gap:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important}
+}
+@media print{
+  nav.topnav,#progress,.menu-toggle,.next-ep a,.act3-preview .btn,.foot-line .links{display:none !important}
+  body{background:#fff;color:#000}
+  .episode-section{page-break-inside:avoid}
+  .hook,.turn,.fx,.form-wrap,.case,.quote-block,.action,.stage,.step{background:#fff !important;border:1px solid #ccc;color:#000}
+  .quote-block .qt{color:#16324f;-webkit-text-fill-color:#16324f}
+  .ep-no .big,.ep-title h2{color:#16324f}
+  table{display:table !important}
+  .forms-mobile{display:none !important}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<!-- ==================== 顶栏 ==================== -->
+<nav class="topnav" id="topnav">
+  <div class="nav-inner">
+    <a href="#act" class="brand">
+      <span class="logo">恒</span>
+      <span>价值守恒定律<span class="sub">· 第二幕讲稿</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    <div class="ep-nav" id="epNav">
+      <a href="#ep6" class="active">06 危机密码</a>
+      <a href="#ep7">07 三大定律</a>
+      <a href="#ep8">08 王朝账本</a>
+      <a href="#ep9">09 古老智慧</a>
+      <a href="第一幕·开场-01至05讲.html" class="back">↩ 第一幕</a>
+      <a href="价值守恒定律课程页.html" class="back">↩ 课程总览</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== 第二幕卷首 ==================== -->
+<header class="act-banner" id="act">
+  <div class="wrap">
+    <div class="inner">
+      <div class="act-tag">ACT II · 冲突 · 除法的世界</div>
+      <h1>第二幕 · 让三兄弟对质<br/><span class="grad">看遍除法的千面剧本</span></h1>
+      <p class="sub">第一幕认识了 E、S、T 三位主角。第二幕，让它们去破案：<b>经济危机、组织失效、王朝兴衰、古老智慧</b>——<br/>四类剧本，一个密码：<b>只对 E 负责，透支 S 与 T，乘积归零。</b></p>
+      <div class="act-map">
+        <a class="map-item" href="#ep6"><span class="no">06</span><span class="tt">五大危机<br/>同一个密码</span><span class="en">CRISIS CODE</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep7"><span class="no">07</span><span class="tt">三大定律<br/>除法本质</span><span class="en">DIVISION LAWS</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep8"><span class="no">08</span><span class="tt">王朝兴衰<br/>财政账本</span><span class="en">DYNASTY LEDGER</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep9"><span class="no">09</span><span class="tt">熵增·易经·道德经<br/>守恒智慧</span><span class="en">ANCIENT WISDOM</span><span class="link">进入讲次 ↓</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================================ -->
+<!-- 第 06 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep6">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">06</div><div class="act">第二幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">危机解码 · 一个密码</div>
+        <h2>五大经济危机的同一个密码</h2>
+        <p class="aim">这一讲的目标：<b>破案</b>。用乘法公式重看 1929 → 1997 → 2008，把"危机是黑天鹅"的迷信拆掉——<b>危机是除法公式的数学必然</b>。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>1929 年大萧条，经济学家说"这次不一样"；1997 年亚洲金融危机，又说"这次不一样"；2008 年次贷危机，还是"这次不一样"。<span class="q">三个时代、三种金融工具、三套导火索——密码却完全相同。</span>今天，我们给危机做一次"尸检"。</p>
+    </div>
+
+    <div class="block"><span class="bn">五步</span><h3>每一次危机，都走完同一部五步剧本</h3></div>
+    <div class="steps-row">
+      <div class="step"><span class="sno">①</span><h4>造神</h4><p>某个"E 神话"被全民相信：铁路股、科技股、房地产，总有一个"永不下跌"。</p><span class="arrow">→</span></div>
+      <div class="step"><span class="sno">②</span><h4>加杠杆</h4><p>借钱买神话：T 的透支正式开始，债务滚雪球。</p><span class="arrow">→</span></div>
+      <div class="step"><span class="sno">③</span><h4>脱实向虚</h4><p>交易替代创造：S（真实价值与信任）被价格游戏取代。</p><span class="arrow">→</span></div>
+      <div class="step"><span class="sno">④</span><h4>断裂</h4><p>某个环节爆雷：信贷收紧、流动性枯竭、价格崩塌。</p><span class="arrow">→</span></div>
+      <div class="step"><span class="sno">⑤</span><h4>归零</h4><p>乘积清零：资产蒸发、信任崩塌、哀鸿遍野。</p></div>
+    </div>
+
+    <div class="fx">
+      <div class="f">危机全程 = Y = E <span class="r">÷</span> (S <span class="r">×</span> T)<span style="font-size:.55em;letter-spacing:1px;color:var(--ink3)">　从第一步就在透支，终点早已注定</span></div>
+      <div class="note"><b>密码：E 单兵突进 → S 失真 → T 透支 → 断裂 → 归零</b>。五步剧本，步步除法。</div>
+    </div>
+
+    <div class="block"><span class="bn">三案例</span><h3>三个时代，同一剧本</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">1929 · 大萧条</span><h4><span class="ic">▣</span>股市神话 + 全民杠杆</h4><p>1920s 美国"永远上涨"的股市神话：全民借钱炒股（<b>造神+加杠杆</b>），交易远超实体（<b>脱实向虚</b>）。1929 年 10 月，一根断弦崩断全盘——<b>四天内市值蒸发三成，随后十年大萧条</b>。</p><p class="moral">神话越响，杠杆越高，摔得越重。</p></div>
+      <div class="case"><span class="tag">1997 · 亚洲金融危机</span><h4><span class="ic">▣</span>高增长 + 债务错配</h4><p>东南亚"亚洲奇迹"：外资涌入、货币高估、<b>短期外债养长期项目</b>——T 严重错配。1997 年泰铢失守，火势蔓延多国：<b>高增长神话一夜反转，货币贬值、企业倒闭</b>。</p><p class="moral">借来的增长（透支 T），永远要还。</p></div>
+      <div class="case"><span class="tag">2008 · 次贷危机</span><h4><span class="ic">▣</span>房价信仰 + 层层证券化</h4><p>美国"房价只涨不跌"：次贷层层打包成金融产品（<b>造神+脱实向虚</b>），风险脱离真实资产。2007 年断供潮起，2008 年雷曼倒下，<b>全球金融海啸</b>。</p><p class="moral">把风险藏得越深，爆炸时越响。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为危机是<b>「黑天鹅」</b>（不可预知的天灾）？<span class="old">那是安慰自己的话。</span> 危机是<b>「灰犀牛」</b>——五步剧本每步都可观测，<span class="new">除法公式运行到终点的数学必然，从来不是意外。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">所有危机<span class="sep"></span>都是除法公式的毕业典礼</div>
+      <div class="who">本讲金句 · 危机从不新鲜，新鲜的是"这次不一样"的说辞</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑥</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>用「五步剧本」给当前局面做体检</h4>
+        <p>不管是大到市场、行业，小到你的财务、项目——套五步剧本走一遍，看它停在哪一步。</p>
+        <ul class="steps">
+          <li>我的领域里，正在被相信的"E 神话"是什么？</li>
+          <li>我或周围人，正在加哪种杠杆（借钱/透支/加码）？</li>
+          <li>如果明天神话破灭，我的暴露有多大？<b>提前把第 ④ 步的保险丝装上</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>危机的密码在<b>国家层面</b>。那你的<b>个人小危机</b>呢？——越怕越来、越忙越乱、做到头反而停摆，<b>三大定律早就写好了同样的密码</b>。</p>
+      <a href="#ep7">进入第 07 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 07 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep7">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">07</div><div class="act">第二幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">组织定律 · 除法本质</div>
+        <h2>墨菲·帕金森·彼得：三大定律的除法本质</h2>
+        <p class="aim">这一讲的目标：<b>拆命</b>。把"命不好"翻译成公式——墨菲怕错、帕金森怕闲、彼得怕升，<b>三个除法程序一直在你身边自动运行</b>。看懂它们，就能拆掉它们。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>为什么你<b>越怕什么越来什么</b>？为什么<b>越忙越乱</b>？为什么<b>做到头反而停摆</b>？<span class="q">你不是命不好——是三个除法程序，正在你的生活里自动运行。</span></p>
+    </div>
+
+    <div class="block"><span class="bn">三定律</span><h3>把"命不好"翻译成公式</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">墨菲</span><h4>墨菲定律 · 压缩容错换效率</h4><p>「可能出错的事，总会出错」= <b>压缩 S（容错）与 T（余量）去换 E（效率）</b>——出错时没有缓冲，小事变事故。</p><p style="margin-top:10px;color:var(--gold2)"><b>破解</b>：清单（把 S 制度化）· 备份（补 T 余量）· 留余（松 S 的弦）</p></div>
+      <div class="point teal"><span class="idx">帕金森</span><h4>帕金森定律 · 时间无边界摊薄价值</h4><p>「工作总膨胀到填满时间」= <b>T 失效</b>——没有边界与标准，分母无限放大，E 被摊薄成薄片。</p><p style="margin-top:10px;color:var(--gold2)"><b>破解</b>：时间盒（固定交付窗口）· 交付标准（明确"完成"的定义）· 学会拒绝（砍）</p></div>
+      <div class="point blue"><span class="idx">彼得</span><h4>彼得原理 · 只看过去 E 不看未来 S/T</h4><p>「人总会升到不胜任的位置」= <b>晋升只看过去的 E（业绩）</b>，不看新岗位需要的 S（带人）与 T（格局）——组织一步步僵化。</p><p style="margin-top:10px;color:var(--gold2)"><b>破解</b>：胜任力晋升（S 导向）· 双轨制（专家线/管理线分开）· 培养（给 T 补课）</p></div>
+    </div>
+
+    <div class="block"><span class="bn">三场景</span><h3>三个办公室的除法日常</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">墨菲 · 加班文化</span><h4><span class="ic">▣</span>KPI 压光余量，事故接踵而至</h4><p>团队为冲业绩无限压缩测试与备份（<b>S/T 被掏空</b>），于是线上事故总在发布会前夜爆发——"墨菲定律又灵了"。<b>不是运气差，是把缓冲垫全抽了</b>。</p><p class="moral">墨菲定律 = 除法的迟到通知。</p></div>
+      <div class="case"><span class="tag">帕金森 · 会议永动机</span><h4><span class="ic">▣</span>无议程会议，越开越长</h4><p>没有时间盒、没有交付标准的会议：30 分钟拖成 3 小时，<b>所有人的 T 被摊薄</b>。你以为"开会有产出"，其实大家用最贵的时间做最便宜的沟通。</p><p class="moral">没有边界的忙碌，是 T 的出血点。</p></div>
+      <div class="case"><span class="tag">彼得 · 晋升错配</span><h4><span class="ic">▣</span>最强工程师，变成最差经理</h4><p>把技术最强者提为管理者（<b>只看过去 E</b>），他却不会带人（S 缺口）、看不到三年后（T 缺口）——团队效率崩塌，他还背锅。<b>双轨制才是解法</b>。</p><p class="moral">让每个人停在胜任的位置，就是乘法。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>「多留余地」</b>是低效？<span class="old">那是除法洗脑。</span> 余量是乘法的<b>保险丝</b>——没有余量的系统，一次小故障就是一次大危机。<br/>你以为<b>「忙」</b>是勤奋？<span class="new">无边界的忙，是 T 的慢性失血。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">墨菲怕错<span class="sep"></span>帕金森怕闲<span class="sep"></span>彼得怕升<span style="font-size:.72em;color:var(--red)">—— 全是除法</span></div>
+      <div class="who">本讲口诀 · 三大定律，一套密码</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑦</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「你的一个困局」做三大定律会诊</h4>
+        <p>选一个最近最头疼的场景（总出错 / 总忙不完 / 总卡住），请三位"医生"轮流诊断。</p>
+        <ul class="steps">
+          <li><b>墨菲诊断</b>：我抽掉了哪些余量/备份/容错？→ 补回一个</li>
+          <li><b>帕金森诊断</b>：哪件事没有时间盒/完成标准？→ 设一个</li>
+          <li><b>彼得诊断</b>：我/团队是否在做"不胜任"的事？→ 换位置或补能力</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>三大定律管的是<b>个人与组织</b>。那管<b>国家的账本</b>呢？——<b>三千年王朝兴衰，为什么每个王朝都逃不过"其兴也勃焉，其亡也忽焉"</b>？</p>
+      <a href="#ep8">进入第 08 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 08 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep8">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">08</div><div class="act">第二幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">历史考据 · 王朝账本</div>
+        <h2>中央帝国财政密码：王朝兴衰的账本</h2>
+        <p class="aim">这一讲的目标：<b>读账</b>。用 E/S/T 三本账重读三千年财政史——<b>王朝的兴衰，是一部乘除法账本</b>；看懂账本，就看懂了历史的重复。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>"其兴也勃焉，其亡也忽焉。"<span class="q">三千年王朝更替，每个王朝都逃不过同一个宿命——不是因为外敌多强、天灾多狠，而是因为它把三本账，算成了一本除账。</span></p>
+    </div>
+
+    <div class="block"><span class="bn">三本账</span><h3>王朝的 E / S / T 三本账</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">E 账</span><h4>财政汲取能力</h4><p>税收、盐铁专卖、币制、官营——<b>E 是王朝的血液</b>。账收得上来，王朝就有力气；收不上来或收得太狠，都是病。</p></div>
+      <div class="point teal"><span class="idx">S 账</span><h4>民心与官僚体系</h4><p>民心的向背（税负感受）与官僚的运转（腐败与效率）——<b>S 是王朝的土壤</b>。税负过重则民怨、官僚膨胀则失灵，土壤流失，树再大也倒。</p></div>
+      <div class="point blue"><span class="idx">T 账</span><h4>制度稳定性</h4><p>土地制度、税制弹性、继承秩序——<b>T 是王朝的根基</b>。土地兼并侵蚀税基、制度僵化丧失弹性，就是 T 的透支。</p></div>
+    </div>
+
+    <div class="block"><span class="bn">三阶段</span><h3>王朝周期 · 从乘法到除法的三阶段</h3></div>
+    <div class="stages">
+      <div class="stage s1">
+        <span class="tag">开国 · 乘法期</span>
+        <h4>轻徭薄赋，与民休息</h4>
+        <div class="eq">E 温和 × S 充盈 × T 稳固</div>
+        <ul>
+          <li>税负轻（E 不过度汲取）</li>
+          <li>民心归附、官僚清明（S 高）</li>
+          <li>制度有弹性、土地矛盾未积（T 稳）</li>
+        </ul>
+        <div class="verdict">→ 盛世：文景之治、贞观之治</div>
+      </div>
+      <div class="stage s2">
+        <span class="tag">中期 · 转型期</span>
+        <h4>E 单兵，账开始失衡</h4>
+        <div class="eq">E 加码 ÷ (S 流失 × T 动摇)</div>
+        <ul>
+          <li>扩张财政：盐铁专卖、加税扩收（E 单兵）</li>
+          <li>民力渐尽、官僚渐腐（S 流失）</li>
+          <li>制度僵化、兼并抬头（T 动摇）</li>
+        </ul>
+        <div class="verdict">→ 表面繁荣，隐患埋下</div>
+      </div>
+      <div class="stage s3">
+        <span class="tag">末期 · 除法期</span>
+        <h4>苛捐杂税，积重难返</h4>
+        <div class="eq">E 榨干 ÷ (S 归零 × T 断裂)</div>
+        <ul>
+          <li>税收到极限、民不聊生（E 竭泽而渔）</li>
+          <li>民变四起、离心离德（S 归零）</li>
+          <li>税基枯竭、制度崩溃（T 断裂）</li>
+        </ul>
+        <div class="verdict">→ 崩溃：乘积归零，改朝换代</div>
+      </div>
+    </div>
+
+    <div class="block"><span class="bn">两案例</span><h3>一本好账，一本坏账</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">乘法 · 文景之治</span><h4><span class="ic">▣</span>轻徭薄赋的复利</h4><p>汉初"与民休息"：税率长期保持低水平（<b>E 温和</b>），民力恢复、国库充盈（<b>S、T 同步积累</b>）。看似"收得少"，换来的是<b>几十年积累的乘积放大</b>——文景之治为汉武帝的大业存够了本金。</p><p class="moral">克制取用，是乘法；竭泽而渔，是除法。</p></div>
+      <div class="case"><span class="tag">除法 · 末代之困</span><h4><span class="ic">▣</span>从盐铁专卖到积重难返</h4><p>王朝中期为扩收推行专卖、加税（<b>E 单兵突进</b>），短期缓解财政，长期伤了民间活力（<b>S 流失</b>）与制度弹性（<b>T 动摇</b>）。土地兼并再掏空税基，末年<b>账越算越紧，民越逼越反</b>——外敌与天灾只是最后的导火索。</p><p class="moral">账本的平衡，从来不在账簿本身，在民心。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为王朝灭亡是因为<b>「外敌入侵、天灾频发」</b>？<span class="old">那是导火索，不是炸药。</span> 炸药永远是<b>E/S/T 账本失衡</b>——<span class="new">账算错了，再强的军队也守不住；账算对了，再大的危机也扛得过。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">王朝兴衰<span class="sep"></span>一部 E/S/T 账本</div>
+      <div class="who">本讲金句 · 民心，是账本里最大的 S</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑧</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「你的组织/家庭」定位周期阶段</h4>
+        <p>把三阶段模型套到你的公司、团队或家庭上——先定位，再对症。</p>
+        <ul class="steps">
+          <li>现在处于哪一阶段：<b>开国（乘法期）/ 中期（转型期）/ 末期（除法期）</b>？</li>
+          <li>三本账里，哪一本最失衡？<b>E 太狠？S 流失？T 动摇？</b></li>
+          <li>本周做一个"回归乘法"的小动作：<b>减一项榨取，加一项滋养</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>账本之外还有"道"。<b>两千年前的先贤，没学过统计，却早把答案写进了三本书</b>——下一讲：熵增、易经、道德经。</p>
+      <a href="#ep9">进入第 09 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 09 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep9">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">09</div><div class="act">第二幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">思想考据 · 守恒智慧</div>
+        <h2>熵增·易经·道德经：古老智慧里的守恒</h2>
+        <p class="aim">这一讲的目标：<b>接典</b>。把现代公式与古老智慧对表——<b>熵增讲"为什么乱"，易经讲"怎么变"，道德经讲"怎么守"</b>。先贤不写公式，写的是公式的真相。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>两千多年前没有统计学、没有宏观经济学，<span class="q">先贤却把"价值守恒"写进了三本书</span>——今天我们对表：熵增、易经、道德经，一本讲乱、一本讲变、一本讲守。</p>
+    </div>
+
+    <div class="block"><span class="bn">三书</span><h3>三本古书，一套密码</h3></div>
+    <div class="form-wrap">
+      <table>
+        <thead><tr><th style="width:110px">典籍</th><th>核心洞察</th><th>对应公式</th><th style="width:110px">给你的钥匙</th></tr></thead>
+        <tbody>
+          <tr><td><b>熵增定律</b></td><td>孤立系统必然走向无序——房间会乱、组织会腐、关系会淡。<b>乱，是默认方向</b>。</td><td><span class="fx-s bad">除法必然</span></td><td><span class="res boom">负熵输入</span></td></tr>
+          <tr><td><b>易经三易</b></td><td>简易（一个公式）· 变易（与时偕行）· 不易（规律不变）。<b>变，是常态</b>。</td><td><span class="fx-s good">乘法结构</span></td><td><span class="res comp">动态平衡</span></td></tr>
+          <tr><td><b>道德经</b></td><td>天道损有余而补不足（自我调节的乘法）；人道损不足而奉有余（马太效应的除法）。<b>守，靠有道</b>。</td><td><span class="fx-s good">乘法 vs 除法</span></td><td><span class="res comp">以有余奉天下</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="forms-mobile">
+      <div class="form-mob"><div class="head"><span class="fx-s bad">除法必然</span><span class="res boom">负熵输入</span></div><div class="name">熵增定律</div><div class="desc">孤立系统必然走向无序——房间会乱、组织会腐、关系会淡。破解：开放系统 + 持续做功 + 建立秩序。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s good">乘法结构</span><span class="res comp">动态平衡</span></div><div class="name">易经三易</div><div class="desc">简易（一个公式）· 变易（与时偕行）· 不易（规律不变）。变，是常态；守恒的只有规律。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s good">乘 vs 除</span><span class="res comp">以有余奉天下</span></div><div class="name">道德经</div><div class="desc">天道损有余而补不足（自我调节的乘法）；人道损不足而奉有余（马太效应的除法）。</div></div>
+    </div>
+
+    <div class="block"><span class="bn">三解</span><h3>用现代公式翻译古书</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">熵增</span><h4>为什么"乱"是默认方向</h4><p>孤立系统熵增——不投入能量的系统必然失序。<b>乘法的反面不是减法，是"不维护"</b>：今天不整理的房间、不维护的关系、不迭代的产品，都在悄悄除向零。</p><p style="margin-top:10px;color:var(--gold2)"><b>负熵三输入</b>：开放系统（引入新能量）· 持续做功（每日整理）· 建立秩序（把整理制度化）</p></div>
+      <div class="point teal"><span class="idx">易经</span><h4>三易 = 公式的三个面相</h4><p><b>简易</b>：万事归于一式——Y=E×S×T，说尽兴衰；<b>变易</b>：变量随时变化，E/S/T 此消彼长，要与时偕行；<b>不易</b>：变的背后，乘法定律不变。<b>穷人变通，富人守恒。</b></p><p style="margin-top:10px;color:var(--gold2)"><b>应用</b>：遇到困境先问——是变量变了，还是我违背了公式？</p></div>
+      <div class="point blue"><span class="idx">道德经</span><h4>天道与人道的对决</h4><p>"天之道，损有余而补不足"——系统自我调节，<b>这是乘法</b>；"人之道，损不足而奉有余"——马太效应、强者恒强，<b>这是除法</b>。破解：<b>以有余奉天下</b>——把多余的 E/S/T 反哺短板，乘积才会变大。</p><p style="margin-top:10px;color:var(--gold2)"><b>启示</b>：真正的乘法，是"利他"的数学表达</p></div>
+    </div>
+
+    <div class="block"><span class="bn">三案例</span><h3>古书照进现代</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">熵增 · 房间与组织</span><h4><span class="ic">▣</span>一切系统都在悄悄变乱</h4><p>房间不收拾三天就乱、团队不管三个月就散、代码不重构一年就腐——<b>熵增不是比喻，是物理</b>。那些"突然"的崩溃，都是长期欠下的负熵。</p><p class="moral">每天的整理，是对抗归零的日课。</p></div>
+      <div class="case"><span class="tag">易经 · 穷则变</span><h4><span class="ic">▣</span>变易，是乘法的重启键</h4><p>"穷则变，变则通"：E 见顶了就找 S 的新增长、制度僵化了就做 T 的改革。<b>乘法公式允许变量调整</b>——死守一个变量的人，是被"不易"骗了：不变的是规律，不是参数。</p><p class="moral">变的是变量，不变的是乘法定律。</p></div>
+      <div class="case"><span class="tag">道德经 · 江海为百谷王</span><h4><span class="ic">▣</span>处下，是最大的 S 存款</h4><p>"江海所以能为百谷王者，以其善下之"——<b>谦卑不是姿态，是 S 的复利</b>。把自己放低，资源与信任反而汇聚；处处争先的人，透支的是所有人的耐心。</p><p class="moral">善下者，乘积最大。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>「古老智慧」</b>是玄学鸡汤？<span class="old">那是没读懂。</span> 它们是 2500 年前就写好的<b>负熵手册与守恒方程</b>——<span class="new">只是没写成数学符号，写成了一句话：乘则兴，除则衰。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">先贤不写公式<span class="sep"></span>写的是公式的真相</div>
+      <div class="who">本讲金句 · 熵增讲乱，易经讲变，道德经讲守——一本是一本的答案</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑨</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>用「负熵三问」检查你的一个系统</h4>
+        <p>选一个你在维护的系统（房间/身体/关系/事业/代码库），连问三问。</p>
+        <ul class="steps">
+          <li><b>开放吗</b>？——有没有新输入：新知识、新朋友、新反馈？</li>
+          <li><b>做功吗</b>？——最近一周，为它做了哪些"整理"动作？</li>
+          <li><b>有秩序吗</b>？——有没有沉淀成制度/模板/习惯，让整理自动化？</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">第二幕完</div>
+      <p>看完了除法的世界：危机、定律、王朝、古书——<b>同一个密码反复验证</b>。第三幕，开始逆转：怎么把乘法装回自己的生活？<b>先做体检</b>。</p>
+      <a href="价值守恒定律课程页.html">回到课程总览 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 第三幕预告 ==================== -->
+<section class="act3-preview">
+  <div class="wrap">
+    <div class="tag">NEXT · ACT III · 逆转</div>
+    <h2>第三幕 · 把乘法装回家<br/><span class="grad">个人 · 家庭 · 企业的三价值体检</span></h2>
+    <p>带着 E/S/T 三兄弟破完案，是时候反身给自己做一次体检了：给家庭打 E/S/T 分、给企业做转型路线图——30 分钟诊断，当晚能行动。</p>
+    <div class="next-list">
+      <span><b>10</b> 个人与家庭的三价值体检</span>
+      <span><b>11</b> 企业转型：从除法到乘法</span>
+    </div>
+    <a class="btn btn-ghost" href="第一幕·开场-01至05讲.html">↩ 回看第一幕</a>
+    <a class="btn btn-gold" href="价值守恒定律课程页.html">↩ 回到十二讲大纲</a>
+  </div>
+</section>
+
+<!-- ==================== 尾页 ==================== -->
+<footer>
+  <div class="wrap">
+    <div class="motto">除则衰<span class="orb"></span>乘则兴</div>
+    <p>第二幕 · 冲突 除法的世界 · 四讲完</p>
+    <a class="btn btn-gold" href="#act">↑ 回到第二幕卷首</a>
+    <div class="foot-line">
+      <div class="brand">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+      价值守恒定律 · 宏观 Y = E × S × T · 微观 y = f(m) × f(h) × f(t)<br/>
+      内容为思想科普，不构成任何投资建议 · 观点基于公开资料整理
+      <div class="links">
+        <a href="第一幕·开场-01至05讲.html">第一幕</a>
+        <a href="价值守恒定律课程页.html">课程总览</a>
+        <a href="../../../index.html">理论主页</a>
+        <a href="../../../library.html">文库</a>
+        <a href="../../../价值守恒定律_量化统计系统分析.html">量化分析</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ===== 进度条 ===== */
+const bar=document.getElementById('progress');
+/* ===== 顶栏 ===== */
+const topnav=document.getElementById('topnav');
+/* ===== 目录高亮 ===== */
+const epLinks=[...document.querySelectorAll('.ep-nav a[href^="#"]')];
+const eps=epLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+/* ===== 移动端菜单 ===== */
+const menuToggle=document.getElementById('menuToggle');
+const epNav=document.getElementById('epNav');
+if(menuToggle){
+  menuToggle.addEventListener('click',()=>{
+    epNav.classList.toggle('open');
+    menuToggle.textContent=epNav.classList.contains('open')?'✕':'☰';
+  });
+  epNav.querySelectorAll('a').forEach(a=>{
+    a.addEventListener('click',()=>{epNav.classList.remove('open');menuToggle.textContent='☰';});
+  });
+}
+/* ===== 滚动联动 ===== */
+let ticking=false;
+const onScroll=()=>{
+  if(!ticking){
+    requestAnimationFrame(()=>{
+      const h=document.documentElement;
+      bar.style.width=(h.scrollTop/(Math.max(h.scrollHeight-h.clientHeight,1))*100)+'%';
+      topnav.classList.toggle('scrolled',window.scrollY>40);
+      let cur=0;
+      eps.forEach((s,i)=>{if(s.getBoundingClientRect().top<160)cur=i;});
+      epLinks.forEach((a,i)=>a.classList.toggle('active',i===cur));
+      ticking=false;
+    });
+    ticking=true;
+  }
+};
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',onScroll,{passive:true});
+onScroll();
+/* ===== 入场动画 ===== */
+const fadeEls=document.querySelectorAll('.point,.case,.map-item,.step,.stage');
+fadeEls.forEach(el=>{
+  el.style.opacity='0';
+  el.style.transform='translateY(18px)';
+  el.style.transition='opacity .6s ease, transform .6s ease';
+});
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.style.opacity='1';
+        e.target.style.transform='translateY(0)';
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+  fadeEls.forEach(el=>io.observe(el));
+}else{
+  fadeEls.forEach(el=>{el.style.opacity='1';el.style.transform='none'});
+}
+</script>
+</body>
+</html>

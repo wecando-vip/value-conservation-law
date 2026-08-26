@@ -1,0 +1,379 @@
+{
+ "S": [
+  [
+   "S01",
+   "宪法",
+   "The Constitution",
+   "根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础",
+   null,
+   null,
+   null
+  ],
+  [
+   "S02",
+   "党章",
+   "The Party Constitution",
+   "政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达",
+   null,
+   null,
+   null
+  ],
+  [
+   "S03",
+   "三权运行",
+   "Separation of Powers in Operation",
+   "立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计",
+   null,
+   null,
+   null
+  ],
+  [
+   "S04",
+   "中华人民共和国民法典",
+   "The Civil Code of the PRC",
+   "民事权利总法典 · 平等主体间 E/S/T 的规则框架",
+   null,
+   null,
+   null
+  ],
+  [
+   "S05",
+   "当代中国马克思主义政治经济学",
+   "Contemporary Marxist Political Economy",
+   "中国特色社会主义政治经济学 · 宏观价值分配的理论根基",
+   null,
+   null,
+   null
+  ],
+  [
+   "S06",
+   "宏观经济学",
+   "Macroeconomics",
+   "总量视角 · 增长、就业、通胀 = 宏观经济三价值",
+   null,
+   null,
+   null
+  ],
+  [
+   "S07",
+   "微观经济学",
+   "Microeconomics",
+   "个体决策 · 供求与福利 = 微观三价值博弈",
+   null,
+   null,
+   null
+  ],
+  [
+   "S08",
+   "分配制度",
+   "The Distribution System",
+   "三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义",
+   null,
+   null,
+   null
+  ],
+  [
+   "S09",
+   "政绩考核",
+   "Performance Appraisal of Officials",
+   "考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考",
+   null,
+   null,
+   null
+  ],
+  [
+   "S10",
+   "中央帝国的财政密码",
+   "The Fiscal Code of Central Empires",
+   "王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生",
+   "en/06 fiscal-code-central-empires-value-conservation.en.html",
+   "es/06 codigo-fiscal-imperios-centrales.es.html",
+   "fr/06 code-fiscal-empires-centraux.fr.html"
+  ],
+  [
+   "S11",
+   "中央帝国三部曲",
+   "The Central Empire Trilogy",
+   "财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除",
+   "en/07 central-empire-trilogy-value-conservation.en.html",
+   "es/07 trilogia-imperio-central.es.html",
+   "fr/07 trilogie-empire-central.fr.html"
+  ],
+  [
+   "S12",
+   "历代经济变革得失",
+   "Economic Reforms Through the Dynasties",
+   "变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T",
+   "en/08 economic-reforms-dynasties-value-conservation.en.html",
+   "es/08 reformas-economicas-dinastias.es.html",
+   "fr/08 réformes-économiques-dynasties.fr.html"
+  ],
+  [
+   "S13",
+   "中国历代政治得失",
+   "The Gains and Losses of Chinese Dynastic Politics",
+   "制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新",
+   "en/09 political-gains-losses-dynasties-value-conservation.en.html",
+   "es/09 politica-dinastias-chinas.es.html",
+   "fr/09 politique-dynasties-chinoises.fr.html"
+  ],
+  [
+   "S14",
+   "置身事内",
+   "Inside the Game: Government and Economic Development",
+   "发展型政府 = \"E 单兵突进\"的除法史；破解 = 服务型政府",
+   "en/10 inside-the-game-value-conservation.en.html",
+   "es/10 dentro-del-juego.es.html",
+   "fr/10 au-coeur-du-jeu.fr.html"
+  ],
+  [
+   "S15",
+   "大国大城",
+   "Great Nation, Great City",
+   "人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚",
+   "en/11 great-nation-great-city-value-conservation.en.html",
+   "es/11 gran-nacion-gran-ciudad.es.html",
+   "fr/11 grande-nation-grande-ville.fr.html"
+  ],
+  [
+   "S16",
+   "基层中国的运行逻辑",
+   "The Operating Logic of Grassroots China",
+   "压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡",
+   null,
+   null,
+   null
+  ],
+  [
+   "S17",
+   "经济危机解码",
+   "The Five Economic Crises Decoded",
+   "危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式",
+   "en/01 five-economic-crises-value-conservation.en.html",
+   "es/01 descifrando-crisis-economicas.es.html",
+   "fr/01 décrypter-crises-économiques.fr.html"
+  ],
+  [
+   "S18",
+   "债务危机与新货币价值内涵",
+   "Debt Crises and the New Connotation of Money",
+   "债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵",
+   "en/05 debt-crises-new-currency-value.en.html",
+   "es/05 crisis-deuda-nueva-moneda.es.html",
+   "fr/05 crise-dette-nouvelle-monnaie.fr.html"
+  ],
+  [
+   "S19",
+   "既要又要还要",
+   "Both, And, Also",
+   "统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧",
+   null,
+   null,
+   null
+  ],
+  [
+   "S20",
+   "毛泽东选集五卷方法论",
+   "Methodology of the Selected Works of Mao Zedong",
+   "矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论",
+   null,
+   null,
+   null
+  ],
+  [
+   "S21",
+   "社会保障",
+   "Social Security",
+   "民生基石 · 社保体系 = 社会价值 S 的兜底工程",
+   null,
+   null,
+   null
+  ],
+  [
+   "S22",
+   "看病难看病贵",
+   "Difficulty and Cost of Medical Care",
+   "健康价值重构 · 医疗资源 = E/S/T 三重错配的破解",
+   null,
+   null,
+   null
+  ]
+ ],
+ "E": [
+  [
+   "E01",
+   "德鲁克管理",
+   "Drucker on Management",
+   "目标与使命 · 管理 = 让 E 服务于 S 与 T",
+   null,
+   null,
+   null
+  ],
+  [
+   "E02",
+   "战略简史",
+   "A Brief History of Strategy",
+   "十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法",
+   null,
+   null,
+   null
+  ],
+  [
+   "E03",
+   "组织管理",
+   "Organizational Management",
+   "价值与组织 · 组织设计 = E/S/T 的协同结构",
+   null,
+   null,
+   null
+  ],
+  [
+   "E04",
+   "人力资源管理",
+   "Human Resource Management",
+   "组织活力引擎 · 人 = 一切价值的承载者",
+   null,
+   null,
+   null
+  ],
+  [
+   "E05",
+   "薪酬绩效考核",
+   "Compensation and Performance",
+   "量化激励 · 考核什么就得到什么 = E/S/T 的指挥棒",
+   null,
+   null,
+   null
+  ],
+  [
+   "E06",
+   "财务管理",
+   "Financial Management",
+   "财智双增 · 财务 = 企业 E 的记账与 S/T 的平衡",
+   null,
+   null,
+   null
+  ],
+  [
+   "E07",
+   "营销管理",
+   "Marketing Management",
+   "价值与顾客 · 营销 = 创造并交付三价值",
+   null,
+   null,
+   null
+  ],
+  [
+   "E08",
+   "企业ESG",
+   "Corporate ESG",
+   "ESG × E/S/T · 环境、社会、治理 = 企业长期价值的度量衡",
+   null,
+   null,
+   null
+  ],
+  [
+   "E09",
+   "华为方法论",
+   "Huawei Methodology",
+   "价值与组织 · 以客户为中心 = E/S/T 的实践范本",
+   null,
+   null,
+   null
+  ],
+  [
+   "E10",
+   "和君咨询方法论",
+   "Hejun Consulting Methodology",
+   "产融互动 · 咨询 = 三价值系统集成的实践",
+   null,
+   null,
+   null
+  ],
+  [
+   "E11",
+   "麦肯锡方法论",
+   "McKinsey Methodology",
+   "八本经典 × 价值守恒 · 咨询 = 结构化解决三价值问题",
+   null,
+   null,
+   null
+  ]
+ ],
+ "F": [
+  [
+   "F01",
+   "情感婚恋",
+   "Emotion and Marriage",
+   "心动价值 · 婚恋 = 家庭 S 与 T 的起点",
+   null,
+   null,
+   null
+  ]
+ ],
+ "P": [
+  [
+   "P01",
+   "突破墨菲定律",
+   "Breaking Free of Murphy's Law",
+   "墨菲定律 = 除法自动运行；破解 = 清单/备份/余量",
+   "en/02 break-free-murphys-law-value-conservation.en.html",
+   "es/02 rompiendo-ley-murphy.es.html",
+   "fr/02 briser-loi-murphy.fr.html"
+  ],
+  [
+   "P02",
+   "帕金森定律",
+   "Parkinson's Law",
+   "帕金森定律 = 时间价值 T 失效；破解 = 时间盒/交付标准",
+   "en/03 parkinsons-law-value-conservation.en.html",
+   "es/03 ley-parkinson.es.html",
+   "fr/03 loi-parkinson.fr.html"
+  ],
+  [
+   "P03",
+   "彼得原理",
+   "The Peter Principle",
+   "彼得原理 = 晋升只看过去 E；破解 = 胜任力晋升/双轨制",
+   "en/04 peter-principle-value-conservation.en.html",
+   "es/04 principio-peter.es.html",
+   "fr/04 principe-peter.fr.html"
+  ],
+  [
+   "P04",
+   "熵增定律",
+   "The Law of Entropy Increase",
+   "熵增 = 孤立系统必然失序；破解 = 负熵输入(开放+做功+秩序)",
+   "en/12 entropy-law-value-conservation.en.html",
+   "es/12 ley-entropia.es.html",
+   "fr/12 loi-entropie.fr.html"
+  ],
+  [
+   "P05",
+   "易经三易",
+   "The Three Changes of the I Ching",
+   "简易(一个公式)/变易(与时偕行)/不易(乘法定律)",
+   "en/13 yi-jing-three-changes-value-conservation.en.html",
+   "es/13 tres-cambios-iching.es.html",
+   "fr/13 trois-changements-iching.fr.html"
+  ],
+  [
+   "P06",
+   "道德经天道人道",
+   "The Heavenly Way and the Human Way",
+   "天道损有余补不足；人道损不足奉有余；破解 = 以有余奉天下",
+   "en/14 tao-te-ching-heavenly-way-value-conservation.en.html",
+   "es/14 camino-cielo-camino-humano.es.html",
+   "fr/14 voie-céleste-voie-humaine.fr.html"
+  ],
+  [
+   "P07",
+   "人类简史",
+   "Sapiens: A Brief History of Humankind",
+   "虚构故事构建协作(S)；金钱只计量 E；破解 = 三价值统一计量",
+   "en/15 sapiens-value-conservation.en.html",
+   "es/15 sapiens.es.html",
+   "fr/15 sapiens.fr.html"
+  ]
+ ]
+}

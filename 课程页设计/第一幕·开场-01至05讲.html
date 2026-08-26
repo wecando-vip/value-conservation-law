@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#0a1428"/>
+<title>第一幕 · 开场 换脑宣言 | 价值守恒定律课程 01–05 讲</title>
+<meta name="description" content="价值守恒定律课程第一幕五讲完整讲稿：一个公式读懂繁荣与危机的全部剧本、乘法与除法两种算法、E 经济价值、S 社会价值、T 时间价值。财情双生智库出品。"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1428'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='900' text-anchor='middle' fill='%23f0cf8f'%3E恒%3C/text%3E%3C/svg%3E"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+/* ==================== 基础 ==================== */
+:root{
+  --bg:#0a1428; --bg2:#0d1b36; --bg3:#102246;
+  --card:#122a52; --card2:#0f2448;
+  --line:rgba(140,170,220,.16); --line2:rgba(140,170,220,.10);
+  --gold:#d5a84d; --gold2:#f0cf8f; --gold-dim:rgba(213,168,77,.16);
+  --teal:#2bc4b6; --teal-soft:rgba(43,196,182,.13);
+  --blue:#5b8ee0; --blue-soft:rgba(91,142,224,.14);
+  --red:#e07a7a; --red-soft:rgba(224,122,122,.13);
+  --green:#6fbf8a; --green-soft:rgba(111,191,138,.13);
+  --ink:#eaf1fb; --ink2:#b8c6dc; --ink3:#8496b4;
+  --r:14px; --r2:10px;
+  --shadow:0 8px 30px rgba(0,0,0,.35);
+  --shadow-gold:0 8px 30px rgba(213,168,77,.22);
+  --font:"Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC",serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.9;font-size:16px;overflow-x:hidden;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(1100px 600px at 80% -10%,rgba(213,168,77,.10),transparent 60%),
+  radial-gradient(900px 500px at 0% 20%,rgba(43,196,182,.07),transparent 60%)}
+body>*{position:relative;z-index:1}
+::selection{background:rgba(213,168,77,.35);color:#0a1428}
+a{color:var(--gold2);text-decoration:none;transition:color .2s}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+/* ==================== 顶栏 ==================== */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:2000;background:linear-gradient(90deg,var(--gold),var(--teal));transition:width .1s linear}
+nav.topnav{position:sticky;top:0;z-index:1500;background:rgba(10,20,40,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:.3s}
+nav.topnav.scrolled{background:rgba(10,20,40,.93);border-bottom-color:rgba(213,168,77,.25)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:11px 24px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--gold2);letter-spacing:.5px;white-space:nowrap}
+.brand .logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--gold),var(--teal));display:flex;align-items:center;justify-content:center;font-size:15px;color:#0a1428;font-weight:900;font-family:var(--serif);box-shadow:0 2px 8px rgba(213,168,77,.3)}
+.brand .sub{font-size:11.5px;color:var(--ink3);font-weight:400;letter-spacing:1px;margin-left:2px}
+.ep-nav{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.ep-nav a{color:var(--ink2);padding:6px 11px;border-radius:8px;font-size:13px;transition:.2s;white-space:nowrap}
+.ep-nav a:hover{background:var(--gold-dim);color:var(--gold2);text-decoration:none}
+.ep-nav a.active{background:var(--gold-dim);color:var(--gold2);font-weight:700}
+.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink2);border-radius:8px;padding:6px 11px;cursor:pointer;font-size:17px;line-height:1}
+.menu-toggle:hover{border-color:var(--gold);color:var(--gold)}
+
+/* ==================== 容器 ==================== */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* ==================== 第一幕卷首 ==================== */
+.act-banner{position:relative;padding:84px 0 66px;overflow:hidden;background:linear-gradient(160deg,var(--bg2) 0%,var(--bg) 70%);text-align:center}
+.act-banner::after{content:"Y = E × S × T";position:absolute;font-family:var(--serif);font-size:clamp(90px,16vw,200px);color:rgba(213,168,77,.04);top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;pointer-events:none;font-weight:700;letter-spacing:8px;z-index:0}
+.act-banner .inner{position:relative;z-index:2}
+.act-tag{display:inline-flex;align-items:center;gap:8px;background:var(--gold-dim);border:1px solid rgba(213,168,77,.4);color:var(--gold2);padding:7px 18px;border-radius:100px;font-size:13px;font-weight:600;margin-bottom:24px;letter-spacing:2px}
+.act-banner h1{font-size:clamp(30px,4.8vw,52px);font-weight:900;line-height:1.22;letter-spacing:1px;margin-bottom:16px}
+.act-banner h1 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold) 45%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act-banner .sub{font-size:clamp(14.5px,2vw,17.5px);color:var(--ink2);max-width:760px;margin:0 auto 34px;line-height:2}
+.act-banner .sub b{color:var(--gold2)}
+.act-map{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;max-width:1000px;margin:0 auto;position:relative;z-index:2}
+.map-item{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px 12px;transition:.3s;text-align:center}
+.map-item:hover{transform:translateY(-3px);border-color:rgba(213,168,77,.45);box-shadow:var(--shadow-gold)}
+.map-item .no{font-family:var(--serif);font-size:13px;color:var(--gold);font-weight:700;letter-spacing:2px;display:block;margin-bottom:6px}
+.map-item .tt{font-size:13px;color:var(--ink);font-weight:700;line-height:1.6}
+.map-item .en{font-size:11px;color:var(--ink3);margin-top:4px;display:block;letter-spacing:.5px}
+.map-item .link{display:inline-block;margin-top:8px;font-size:11.5px;color:var(--teal);font-weight:700;letter-spacing:1px}
+.map-item .link:hover{color:var(--gold2)}
+
+/* ==================== 讲次区块 ==================== */
+.episode-section{padding:72px 0;border-top:1px solid var(--line2);scroll-margin-top:70px;position:relative}
+.episode-section:nth-of-type(odd){background:linear-gradient(180deg,transparent,rgba(13,27,54,.4) 50%,transparent)}
+.ep-head{display:flex;align-items:flex-start;gap:26px;margin-bottom:34px;flex-wrap:wrap}
+.ep-no{flex-shrink:0;text-align:center;padding-top:6px}
+.ep-no .big{font-family:var(--serif);font-size:64px;font-weight:900;line-height:1;color:var(--gold2);text-shadow:0 0 30px rgba(213,168,77,.4)}
+.ep-no .act{font-size:11px;letter-spacing:3px;color:var(--ink3);margin-top:8px;text-transform:uppercase}
+.ep-title{flex:1;min-width:260px}
+.ep-title .kicker{font-size:12px;letter-spacing:2px;color:var(--teal);font-weight:700;margin-bottom:8px;text-transform:uppercase}
+.ep-title h2{font-size:clamp(24px,3.6vw,38px);font-weight:900;letter-spacing:.5px;line-height:1.3;margin-bottom:10px}
+.ep-title .aim{color:var(--ink2);font-size:15px;max-width:680px;line-height:1.9}
+.ep-title .aim b{color:var(--gold2)}
+
+/* ===== 开场钩子 ===== */
+.hook{background:linear-gradient(160deg,rgba(213,168,77,.10),rgba(213,168,77,.03));border:1px solid rgba(213,168,77,.3);border-left:4px solid var(--gold);border-radius:var(--r);padding:28px 30px;margin-bottom:30px;position:relative}
+.hook .label{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.hook .label::before{content:"▶";font-size:9px}
+.hook p{font-size:clamp(16px,2vw,19px);color:var(--ink);line-height:2;font-weight:600}
+.hook p .q{color:var(--gold2)}
+
+/* ===== 区块标题 ===== */
+.block{margin:34px 0 18px;display:flex;align-items:center;gap:12px}
+.block .bn{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--gold);border:1px solid rgba(213,168,77,.4);background:var(--gold-dim);border-radius:8px;padding:2px 11px;letter-spacing:1px}
+.block h3{font-size:20px;font-weight:800;letter-spacing:.5px;color:var(--ink)}
+
+/* ===== 干货卡 ===== */
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.point{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.point::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent)}
+.point.teal::before{background:linear-gradient(90deg,var(--teal),transparent)}
+.point.blue::before{background:linear-gradient(90deg,var(--blue),transparent)}
+.point:hover{transform:translateY(-3px);border-color:rgba(213,168,77,.4);box-shadow:var(--shadow-gold)}
+.point .idx{font-family:var(--serif);font-size:15px;color:var(--gold);font-weight:700;letter-spacing:2px;margin-bottom:10px;display:block}
+.point h4{font-size:16.5px;margin-bottom:8px;color:var(--ink)}
+.point p{font-size:13.8px;color:var(--ink2);line-height:1.9}
+.point p b{color:var(--ink)}
+
+/* ===== 公式块 ===== */
+.fx{background:linear-gradient(160deg,var(--bg3),var(--card2));border:1px solid var(--line);border-radius:var(--r);padding:30px 28px;margin:18px 0;text-align:center;position:relative;overflow:hidden}
+.fx::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--teal))}
+.fx .f{font-family:var(--serif);font-size:clamp(24px,3.8vw,40px);font-weight:900;letter-spacing:3px;color:var(--gold2);text-shadow:0 0 26px rgba(213,168,77,.3)}
+.fx .f .o{color:var(--teal);font-size:.8em}
+.fx .f .r{color:var(--red)}
+.fx .note{font-size:13px;color:var(--ink3);margin-top:12px;letter-spacing:.5px}
+.fx .note b{color:var(--ink2)}
+
+/* ===== 变形表 ===== */
+.form-wrap{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-size:13.8px}
+thead{background:rgba(213,168,77,.1)}
+th{color:var(--gold2);font-size:11.5px;letter-spacing:2px;padding:13px 16px;text-align:left;font-weight:700;border-bottom:1px solid var(--line)}
+td{padding:14px 16px;border-bottom:1px solid rgba(140,170,220,.08);color:var(--ink2);vertical-align:top;line-height:1.8}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:rgba(213,168,77,.05)}
+td .fx-s{font-family:var(--serif);font-weight:900;font-size:15.5px;letter-spacing:1px;white-space:nowrap}
+td .fx-s.good{color:var(--green)} td .fx-s.warn{color:var(--gold)} td .fx-s.bad{color:var(--red)}
+td b{color:var(--ink)}
+td .res{display:inline-block;font-size:11.5px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px;white-space:nowrap}
+.res.boom{background:var(--green-soft);color:var(--green)}
+.res.fake{background:var(--gold-dim);color:var(--gold2)}
+.res.crash{background:var(--red-soft);color:var(--red)}
+.res.bleed{background:var(--red-soft);color:var(--red)}
+.res.zero{background:var(--red-soft);color:var(--red)}
+.res.comp{background:var(--teal-soft);color:var(--teal)}
+.res.mob{display:none}
+.forms-mobile{display:none}
+
+/* ===== 反转卡 ===== */
+.turn{background:linear-gradient(160deg,var(--red-soft),transparent 80%);border:1px solid rgba(224,122,122,.35);border-left:4px solid var(--red);border-radius:var(--r);padding:26px 28px;margin:18px 0}
+.turn .label{font-size:11px;letter-spacing:3px;color:var(--red);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.turn .label::before{content:"⚡";font-size:12px}
+.turn p{font-size:15.5px;color:var(--ink2);line-height:2}
+.turn p b{color:var(--ink)}
+.turn p .old{color:var(--ink3);text-decoration:line-through;text-decoration-color:rgba(224,122,122,.6)}
+.turn p .new{color:var(--gold2);font-weight:700}
+
+/* ===== 案例卡 ===== */
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.case{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;position:relative;transition:.3s}
+.case:hover{transform:translateY(-3px);box-shadow:var(--shadow-gold)}
+.case .tag{position:absolute;top:-1px;right:20px;font-size:10.5px;letter-spacing:2px;color:var(--gold2);background:var(--gold-dim);border:1px solid rgba(213,168,77,.35);padding:4px 13px;border-radius:0 0 8px 8px}
+.case h4{font-size:16px;margin-bottom:10px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.case h4 .ic{color:var(--gold)}
+.case p{font-size:13.5px;color:var(--ink2);line-height:1.95}
+.case p b{color:var(--ink)}
+.case .moral{font-size:13px;color:var(--teal);font-style:italic;border-left:2px solid rgba(43,196,182,.4);padding-left:12px;margin-top:12px;line-height:1.8}
+
+/* ===== 金句大卡 ===== */
+.quote-block{margin:26px 0;text-align:center;position:relative;padding:36px 24px;border-radius:var(--r);background:
+  radial-gradient(600px 240px at 50% 0%,rgba(213,168,77,.16),transparent 70%),linear-gradient(160deg,var(--bg3),var(--card2));border:1px solid rgba(213,168,77,.3)}
+.quote-block::before,.quote-block::after{content:"“";position:absolute;font-family:var(--serif);font-size:70px;color:rgba(213,168,77,.25);line-height:1}
+.quote-block::before{top:6px;left:20px}
+.quote-block::after{content:"”";bottom:-18px;right:20px}
+.quote-block .qt{font-family:var(--serif);font-size:clamp(21px,3vw,30px);font-weight:900;letter-spacing:2px;line-height:1.7;color:var(--gold2);text-shadow:0 0 30px rgba(213,168,77,.3)}
+.quote-block .qt .sep{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--gold);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--gold)}
+.quote-block .who{font-size:12.5px;color:var(--ink3);letter-spacing:2px;margin-top:16px;text-transform:uppercase}
+
+/* ===== 落地动作 ===== */
+.action{display:flex;gap:18px;align-items:flex-start;background:linear-gradient(160deg,var(--teal-soft),rgba(43,196,182,.03));border:1px solid rgba(43,196,182,.35);border-radius:var(--r);padding:24px 26px;margin:22px 0}
+.action .ic{flex-shrink:0;width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--teal),var(--gold));display:flex;align-items:center;justify-content:center;font-size:20px;color:#0a1428;font-weight:900;box-shadow:0 4px 14px rgba(43,196,182,.3)}
+.action .label{font-size:11px;letter-spacing:3px;color:var(--teal);font-weight:800;margin-bottom:8px}
+.action h4{font-size:16.5px;color:var(--ink);margin-bottom:8px}
+.action p{font-size:14px;color:var(--ink2);line-height:1.9}
+.action p b{color:var(--ink)}
+.action .steps{margin-top:10px;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.action .steps li{font-size:13.8px;color:var(--ink2);padding-left:24px;position:relative;line-height:1.8}
+.action .steps li::before{content:"①";position:absolute;left:0;color:var(--teal);font-size:12px}
+.action .steps li:nth-child(2)::before{content:"②"}
+.action .steps li:nth-child(3)::before{content:"③"}
+
+/* ===== 悬念尾 ===== */
+.next-ep{margin-top:34px;padding:22px 26px;border:1px dashed rgba(213,168,77,.4);border-radius:var(--r2);display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:rgba(213,168,77,.03)}
+.next-ep .lab{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800;flex-shrink:0}
+.next-ep p{font-size:14.5px;color:var(--ink2);flex:1;min-width:200px;line-height:1.9}
+.next-ep p b{color:var(--gold2)}
+.next-ep a{flex-shrink:0;font-size:13px;font-weight:700;color:var(--teal)}
+.next-ep a:hover{color:var(--gold2)}
+
+/* ==================== 第二幕预告 ==================== */
+.act2-preview{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 40%);padding:80px 0 70px;text-align:center}
+.act2-preview .tag{display:inline-block;font-size:12px;letter-spacing:4px;color:var(--red);border:1px solid rgba(224,122,122,.4);background:var(--red-soft);padding:6px 18px;border-radius:999px;margin-bottom:22px;font-weight:700}
+.act2-preview h2{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:1px;margin-bottom:16px;line-height:1.3}
+.act2-preview h2 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act2-preview p{color:var(--ink2);font-size:15.5px;max-width:640px;margin:0 auto 30px;line-height:2}
+.act2-preview .next-list{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:34px}
+.act2-preview .next-list span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 20px;font-size:13.5px;color:var(--ink2)}
+.act2-preview .next-list span b{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 30px;border-radius:12px;font-weight:700;font-size:15px;letter-spacing:.5px;transition:.25s;cursor:pointer;border:none;line-height:1.2}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a1428;box-shadow:0 6px 24px rgba(213,168,77,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(213,168,77,.55);color:#0a1428;text-decoration:none}
+.btn-ghost{border:1px solid var(--line);color:var(--ink2);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px);text-decoration:none}
+
+/* ==================== 尾页 ==================== */
+footer{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 30%);padding:54px 0 28px;text-align:center}
+footer .motto{font-family:var(--serif);font-size:clamp(22px,3.4vw,32px);font-weight:900;color:var(--gold2);letter-spacing:5px;margin-bottom:12px;text-shadow:0 0 26px rgba(213,168,77,.3)}
+footer .motto .orb{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--gold)}
+footer p{color:var(--ink2);font-size:14px;margin-bottom:24px}
+.foot-line{color:var(--ink3);font-size:12.5px;letter-spacing:1px;line-height:2.2;margin-top:36px;padding-top:26px;border-top:1px solid var(--line2)}
+.foot-line .brand{color:var(--gold);font-weight:700;letter-spacing:3px;font-size:13.5px;margin-bottom:6px}
+.foot-line .links{margin-top:12px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px}
+.foot-line .links a{color:var(--ink3)}
+.foot-line .links a:hover{color:var(--gold2)}
+
+/* ==================== 响应式 ==================== */
+@media (max-width:980px){.act-map{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:860px){
+  .ep-nav{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(10,20,40,.96);backdrop-filter:blur(14px);flex-direction:column;padding:12px 24px;border-bottom:1px solid var(--line)}
+  .ep-nav.open{display:flex}
+  .ep-nav a{width:100%;padding:10px 12px}
+  .menu-toggle{display:inline-block}
+  .brand .sub{display:none}
+  .ep-no .big{font-size:48px}
+}
+@media (max-width:680px){
+  .act-map{grid-template-columns:1fr 1fr}
+  .wrap{padding:0 18px}
+  .episode-section{padding:56px 0}
+  .hook,.turn{padding:22px 20px}
+  .action{flex-direction:column;gap:14px}
+  table{display:none}
+  .forms-mobile{display:flex;flex-direction:column;gap:12px}
+  .form-mob{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+  .form-mob .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+  .form-mob .fx-s{font-family:var(--serif);font-weight:900;font-size:17px}
+  .form-mob .fx-s.good{color:var(--green)} .form-mob .fx-s.warn{color:var(--gold)} .form-mob .fx-s.bad{color:var(--red)}
+  .form-mob .res{display:inline-block;font-size:11px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px}
+  .form-mob .res.boom{background:var(--green-soft);color:var(--green)}
+  .form-mob .res.fake{background:var(--gold-dim);color:var(--gold2)}
+  .form-mob .res.crash,.form-mob .res.bleed,.form-mob .res.zero{background:var(--red-soft);color:var(--red)}
+  .form-mob .res.comp{background:var(--teal-soft);color:var(--teal)}
+  .form-mob .name{font-size:14.5px;font-weight:700;color:var(--ink);margin-bottom:4px}
+  .form-mob .desc{font-size:12.8px;color:var(--ink2);line-height:1.8}
+}
+@media (max-width:460px){
+  .act-map{grid-template-columns:1fr}
+  .ep-no .big{font-size:40px}
+  .ep-head{gap:16px}
+  .formula-fx{font-size:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important}
+}
+@media print{
+  nav.topnav,#progress,.menu-toggle,.next-ep a,.act2-preview .btn,.foot-line .links{display:none !important}
+  body{background:#fff;color:#000}
+  .episode-section{page-break-inside:avoid}
+  .hook,.turn,.fx,.form-wrap,.case,.quote-block,.action{background:#fff !important;border:1px solid #ccc;color:#000}
+  .quote-block .qt{color:#16324f;-webkit-text-fill-color:#16324f}
+  .ep-no .big,.ep-title h2{color:#16324f}
+  table{display:table !important}
+  .forms-mobile{display:none !important}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<!-- ==================== 顶栏 ==================== -->
+<nav class="topnav" id="topnav">
+  <div class="nav-inner">
+    <a href="#act" class="brand">
+      <span class="logo">恒</span>
+      <span>价值守恒定律<span class="sub">· 第一幕讲稿</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    <div class="ep-nav" id="epNav">
+      <a href="#ep1" class="active">01 总纲</a>
+      <a href="#ep2">02 乘与除</a>
+      <a href="#ep3">03 E 经济价值</a>
+      <a href="#ep4">04 S 社会价值</a>
+      <a href="#ep5">05 T 时间价值</a>
+      <a href="价值守恒定律课程页.html" style="color:var(--teal)">↩ 课程总览</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== 第一幕卷首 ==================== -->
+<header class="act-banner" id="act">
+  <div class="wrap">
+    <div class="inner">
+      <div class="act-tag">ACT I · 开场 · 换脑宣言</div>
+      <h1>第一幕 · 认识三个主角<br/><span class="grad">E、S、T —— 繁荣的密码</span></h1>
+      <p class="sub">第一幕五讲，先完成一件大事：<b>把「财富=钱」这个根深蒂固的旧脑，换成「财富=E×S×T」的新脑。</b><br/>认识三个主角，学会两种算法，拿到一把钥匙。</p>
+      <div class="act-map">
+        <a class="map-item" href="#ep1"><span class="no">01</span><span class="tt">一个公式<br/>读懂全部剧本</span><span class="en">THE FORMULA</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep2"><span class="no">02</span><span class="tt">乘法与除法<br/>两种算法</span><span class="en">TWO ALGORITHMS</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep3"><span class="no">03</span><span class="tt">E 的真相<br/>钱的尽头</span><span class="en">ECONOMIC VALUE</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep4"><span class="no">04</span><span class="tt">S 的真相<br/>人是资产</span><span class="en">SOCIAL VALUE</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep5"><span class="no">05</span><span class="tt">T 的真相<br/>终极货币</span><span class="en">TIME VALUE</span><span class="link">进入讲次 ↓</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================================ -->
+<!-- 第 01 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep1">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">01</div><div class="act">第一幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">定位 · 承诺 · 全课地图</div>
+        <h2>一个公式，读懂繁荣与危机的全部剧本</h2>
+        <p class="aim">这一讲的目标：<b>换脑</b>。不是多学一个知识点，而是把你看世界的镜头换掉——从今往后，你看到的每个新闻、每个困境、每段兴衰，都自动分成三层：经济、社会、时间。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子 · 30 秒抓住你</div>
+      <p>1929 年大萧条，经济学家说"这次不一样"；1997 年亚洲金融危机，又说"这次不一样"；2008 年次贷危机，还是"这次不一样"。结果呢？<span class="q">每次都一样。</span>如果我说，有一把钥匙能同时打开经济危机、职场困局、家庭矛盾三把锁——你信吗？<span class="q">这节课，就是那把钥匙。</span></p>
+    </div>
+
+    <div class="block"><span class="bn">为什么</span><h3>这门课解决什么问题</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">01</span><h4>一个普遍困境</h4><p>「越努力，越无力。」加班越来越多，存款没多；责任越来越重，底气没涨；圈子越来越忙，信任没深。<b>这不是你的问题，是算法的错。</b></p></div>
+      <div class="point teal"><span class="idx">02</span><h4>一个错误算法</h4><p>你一直在用<b>除法</b>活：拿健康换钱（÷S）、拿未来换现在（÷T）、拿信任换指标（÷S）。每次你都觉得"赚了"，但除法的总账，永远是亏的。</p></div>
+      <div class="point blue"><span class="idx">03</span><h4>一个真正答案</h4><p>繁荣与危机、个人与组织、历史与当下，底层是同一个<b>乘法公式</b>：Y = E × S × T。<b>把除法换回乘法，命运就开始反转。</b></p></div>
+    </div>
+
+    <div class="fx">
+      <div class="f">Y = E × S × T</div>
+      <div class="note">经济社会价值总量 = 经济价值 × 社会价值 × 时间价值<br/>微观同理：<b>y = f(m) × f(h) × f(t)</b>（货币价值 × 幸福体验 × 时间价值）</div>
+    </div>
+
+    <div class="block"><span class="bn">承诺</span><h3>学完这门课，你能拿走三样东西</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">A</span><h4>一双「透视眼」</h4><p>任何新闻、任何政策、任何公司的兴衰，你都能一眼拆出 E/S/T 三层账——<b>看懂别人看不懂的剧本</b>。</p></div>
+      <div class="point teal"><span class="idx">B</span><h4>一次「三价值体检」</h4><p>给家庭、企业、人生做一次体检：你的 E、S、T 各自几分？哪一项在拖后腿？<b>当场出诊断，当晚能行动</b>。</p></div>
+      <div class="point blue"><span class="idx">C</span><h4>一套「乘法活法」</h4><p>把努力从"透支"换成"滋养"：<b>做让三者相乘变大的事，少做拆东墙补西墙的事</b>——这是可以执行、可以复盘的活法。</p></div>
+    </div>
+
+    <div class="block"><span class="bn">地图</span><h3>全课十二讲 · 一部四幕正片</h3></div>
+    <div class="form-wrap">
+      <table>
+        <thead><tr><th style="width:70px">幕</th><th>讲次</th><th style="width:130px">主题</th></tr></thead>
+        <tbody>
+          <tr><td><span class="res boom">第一幕</span></td><td><b>01–05</b> · 认识 E、S、T 三个主角与乘除两种算法</td><td>开场 · 立论</td></tr>
+          <tr><td><span class="res crash">第二幕</span></td><td><b>06–09</b> · 五大危机、三大定律、王朝兴衰、古老智慧——除法的世界</td><td>冲突 · 破立</td></tr>
+          <tr><td><span class="res comp">第三幕</span></td><td><b>10–11</b> · 个人家庭体检、企业转型——把乘法落地</td><td>逆转 · 落地</td></tr>
+          <tr><td><span class="res boom">第四幕</span></td><td><b>12</b> · 乘法人生行动宣言 + 333 落地计划</td><td>结局 · 行动</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>努力就有回报</b>？<span class="old">错。</span> 方向错了，越努力越亏——用除法跑 100 步，不如用乘法走 1 步。<br/><span class="new">方向比努力重要，算法比勤奋重要。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">一个公式<span class="sep"></span>读懂繁荣与危机的全部剧本</div>
+      <div class="who">本课钉子 · 记住这一句，你就记住了整门课</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">①</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「最焦虑的一件事」做 E/S/T 初诊</h4>
+        <p>写下此刻最困扰你的一件事（工作、家庭、健康、财务都行），然后诚实回答：它主要是 E 的坑（钱不够）、S 的坑（关系/信任出问题）、还是 T 的坑（透支未来/没有积累）？</p>
+        <ul class="steps">
+          <li>用一句话写下这件事（不超过 30 字）</li>
+          <li>给它打一个标签：<b>E 坑 / S 坑 / T 坑 / 三坑叠加</b></li>
+          <li>保留这张纸——<b>第十二讲结束时，你会用它做对比</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>为什么说<b>「财富不是加法，是乘法」</b>？E+S+T 和 E×S×T 只差一个符号，命运差出十倍——下一讲讲透。</p>
+      <a href="#ep2">进入第 02 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 02 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep2">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">02</div><div class="act">第一幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">公式推导 · 六种变形场景</div>
+        <h2>乘法与除法：繁荣与危机的两种算法</h2>
+        <p class="aim">这一讲的目标：<b>掌握算法</b>。把「乘则兴、除则衰」变成你随身携带的底层操作系统——任何局面，先问一句：这里跑的是乘法还是除法？</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>小学二年级就学过的乘号和除号，凭什么能解释整个世界的兴衰？<span class="q">因为世界运行的根本逻辑，从来不是"多与少"，而是"相乘还是相除"。</span>今天，我们把这两个符号，从算术课本里请出来，安放到国家、企业、家庭的账本上。</p>
+    </div>
+
+    <div class="block"><span class="bn">推导</span><h3>为什么不是 E+S+T，而是 E×S×T？</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">加法</span><h4>加法：一项归零，还能活</h4><p>E+S+T=10+10+0=20。加法世界里，缺一项只是"少一点"。<b>但现实不是这样的。</b></p></div>
+      <div class="point teal"><span class="idx">乘法</span><h4>乘法：一项归零，全部归零</h4><p>E×S×T=10×10×0=<b>0</b>。乘法世界里，任何一项归零，一切归零。<b>这才符合现实。</b></p></div>
+      <div class="point blue"><span class="idx">检验</span><h4>用现实检验</h4><p>信任崩了（S=0），钱再多也白搭；健康没了（f(h)=0），再成功也归零；方向错了（f(t)=0），越努力越远。<b>现实处处是乘法，加法只是错觉。</b></p></div>
+    </div>
+
+    <div class="fx">
+      <div class="f">繁荣：Y = E <span class="o">×</span> S <span class="o">×</span> T<span style="font-size:.55em;letter-spacing:1px;color:var(--ink3)">　三兄弟各就各位，乘积放大</span></div>
+      <div class="note">口诀：<b>乘则兴</b></div>
+    </div>
+    <div class="fx">
+      <div class="f">危机：Y = E <span class="r">÷</span> (S <span class="r">×</span> T)<span style="font-size:.55em;letter-spacing:1px;color:var(--ink3)">　只对 E 负责，把 S、T 当成本砍</span></div>
+      <div class="note">口诀：<b style="color:var(--red)">除则衰</b></div>
+    </div>
+
+    <div class="block"><span class="bn">全景</span><h3>公式的六种变形场景</h3></div>
+    <div class="form-wrap">
+      <table>
+        <thead><tr><th style="width:120px">场景</th><th>公式形态</th><th>典型表现</th><th style="width:90px">结局</th></tr></thead>
+        <tbody>
+          <tr><td><span class="fx-s good">E↑S↑T↑</span></td><td>三旺乘法<br/><b>三价值同时滋养</b></td><td>历朝盛世、优质企业与家庭：收入、人心、基业同步向上，<b>互相哺育</b></td><td><span class="res boom">繁荣</span></td></tr>
+          <tr><td><span class="fx-s warn">E↑S↓T↓</span></td><td>E 单兵突进<br/><b>KPI 至上，牺牲一切</b></td><td>只看利润/增长/GDP 的组织：加班压成本、透支信任、短期化，<b>账面红火，地基掏空</b></td><td><span class="res fake">虚假繁荣</span></td></tr>
+          <tr><td><span class="fx-s bad">E→S→0</span></td><td>S 透支<br/><b>信任崩塌</b></td><td>失信企业一夜蒸发、婚姻破裂、伙伴反目——<b>S 归零，E 瞬间清零</b></td><td><span class="res crash">断崖</span></td></tr>
+          <tr><td><span class="fx-s bad">E↑T↓↓</span></td><td>T 透支<br/><b>寅吃卯粮</b></td><td>高杠杆、债务化、只做短期——<b>把未来的 T 提前花光，利息开始反噬</b></td><td><span class="res bleed">慢性失血</span></td></tr>
+          <tr><td><span class="fx-s bad">任一 = 0</span></td><td>归零定律<br/><b>短板决定一切</b></td><td>健康没了、信任没了、方向没了——<b>乘积瞬间归零，与 E 的大小无关</b></td><td><span class="res zero">归零</span></td></tr>
+          <tr><td><span class="fx-s good">S·T → E</span></td><td>互哺复利<br/><b>S/T 反哺 E</b></td><td>师徒制、品牌、制度、口碑——<b>当年种下的 S 与 T，多年后持续长出 E</b></td><td><span class="res comp">复利</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="forms-mobile">
+      <div class="form-mob"><div class="head"><span class="fx-s good">E↑S↑T↑</span><span class="res boom">繁荣</span></div><div class="name">三旺乘法</div><div class="desc">三价值同时滋养、互相哺育。历朝盛世、优质企业与家庭的共同形态。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s warn">E↑S↓T↓</span><span class="res fake">虚假繁荣</span></div><div class="name">E 单兵突进</div><div class="desc">KPI 至上、牺牲一切。账面红火，地基掏空。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s bad">E→S→0</span><span class="res crash">断崖</span></div><div class="name">S 透支 · 信任崩塌</div><div class="desc">失信企业一夜蒸发、婚姻破裂——S 归零，E 瞬间清零。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s bad">E↑T↓↓</span><span class="res bleed">慢性失血</span></div><div class="name">T 透支 · 寅吃卯粮</div><div class="desc">高杠杆、短期化，把未来提前花光，利息开始反噬。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s bad">任一=0</span><span class="res zero">归零</span></div><div class="name">归零定律</div><div class="desc">短板决定一切：健康、信任、方向任一归零，乘积归零。</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s good">S·T→E</span><span class="res comp">复利</span></div><div class="name">互哺复利</div><div class="desc">师徒制、品牌、制度、口碑——当年种下，多年后持续长出。</div></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>「高效」</b>是压缩成本、加班、压价？<span class="old">那是除法。</span> 你以为<b>「慢」</b>是低效？<span class="new">信任、制度、复利——那些看起来慢的，才是乘法。</span> 快，常常是慢的反面。</p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">乘则兴<span class="sep"></span>除则衰<span class="sep"></span>E、S、T 一眼裁</div>
+      <div class="who">本讲口诀 · 三分钟讲得清，五分钟传得开</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">②</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「你的一天」定性</h4>
+        <p>把昨天 24 小时切成三块，分别回答：哪些时间在<b>滋养</b> E/S/T（乘法），哪些时间在<b>透支</b>它们（除法）？</p>
+        <ul class="steps">
+          <li>列出昨天最重要的 3 件事</li>
+          <li>每件事标注：<b>乘号 ×</b>（滋养）还是 <b>除号 ÷</b>（透支）</li>
+          <li>如果除法占比超过一半——<b>恭喜，你找到了「越努力越无力」的元凶</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>三个变量里，E 看起来最重要——人人都盯着钱。<b>但为什么说 E 是最危险的陷阱？</b>下一讲讲透「钱的真相」。</p>
+      <a href="#ep3">进入第 03 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 03 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep3">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">03</div><div class="act">第一幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">E · 经济价值 · 钱的真相</div>
+        <h2>E 的真相：钱的尽头是什么</h2>
+        <p class="aim">这一讲的目标：<b>破除「钱的迷信」</b>。搞清楚 E 的正确打开方式——什么时候 E 是财富的引擎，什么时候 E 是灾难的开始。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>同样工作十年：一个人年薪百万却负债累累、焦虑到失眠；另一个人月薪五千，却稳稳攒下了底气、人脉和作品。<span class="q">差距不在"赚了多少"，而在"E 是怎么来的"。</span></p>
+    </div>
+
+    <div class="block"><span class="bn">定义</span><h3>E 的正确定义</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">表层</span><h4>账面 E：钱、利润、GDP</h4><p>看得见的数字：工资、营收、市值、指标。<b>注意：账面 E 是"结果"，不是"价值"。</b></p></div>
+      <div class="point teal"><span class="idx">里层</span><h4>真实 E：被需要地创造</h4><p>真实 E = 解决真实问题、被真实需要、产生真实交换。<b>没人需要的"赚钱"，是自嗨的繁荣。</b></p></div>
+      <div class="point blue"><span class="idx">陷阱</span><h4>危险 E：透支换来的 E</h4><p>用 S（信任/健康/家庭）和 T（未来/复利）换来的 E，<b>是借来的繁荣，迟早连本带利还回去</b>。</p></div>
+    </div>
+
+    <div class="block"><span class="bn">三幻觉</span><h3>E 单兵突进的三大幻觉</h3></div>
+    <div class="points">
+      <div class="point red" style="border-left:4px solid var(--red)"><span class="idx">幻觉一</span><h4>利润幻觉：利润 ≠ 价值</h4><p>把利润当唯一标准：压供应商、抠成本、砍研发——短期利润好看，<b>长期价值被亲手掐死</b>。</p></div>
+      <div class="point red" style="border-left:4px solid var(--red)"><span class="idx">幻觉二</span><h4>增长幻觉：增长 ≠ 健康</h4><p>把增长当信仰：为了报表好看而扩张、而负债、而透支——<b>虚胖的增长，摔得最重</b>。</p></div>
+      <div class="point red" style="border-left:4px solid var(--red)"><span class="idx">幻觉三</span><h4>KPI 幻觉：指标 ≠ 目标</h4><p>把指标当真：考核什么就造什么，数字达标了，<b>真问题被数字盖住了</b>。</p></div>
+    </div>
+
+    <div class="block"><span class="bn">案例</span><h3>两个真实剧本</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">企业 · 除法剧本</span><h4><span class="ic">▣</span>巅峰公司的"成功陷阱"</h4><p>某胶片巨头，巅峰期占据市场绝对份额（E 极高），却把"守住现有利润"当作唯一战略，<b>无视用户需求迁移（S）与技术趋势（T）</b>。当时代的除法公式运转完毕：它守住的 E 归零，公司随胶片一起退场。</p><p class="moral">只对 E 负责，是对 E 的背叛——E 的根基在 S 与 T。</p></div>
+      <div class="case"><span class="tag">个人 · 高薪金领剧本</span><h4><span class="ic">▣</span>年薪百万的"空心人"</h4><p>高薪高压岗位：收入数字（E）一路上涨，代价是<b>健康（f(h)）报警、家庭（f(m)与S）失守、持续透支（f(t)）</b>。某天体检单或离职信一到，乘积瞬间归零——<b>原来那些年赚的不是钱，是预支的命。</b></p><p class="moral">赚钱最凶的日子，往往是最该问"我在跑哪种算法"的日子。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>「赚钱」</b>是目的？<span class="old">那是陷阱。</span> 赚钱是乘法运行到位的<b>副产品</b>。<span class="new">先让 E/S/T 相乘变大，钱自己会来；只追 E，E 反而会跑。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">钱的尽头<span class="sep"></span>是价值</div>
+      <div class="who">本讲金句 · 只算钱的账，算不出命的好坏</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">③</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「你的收入」做一次来源拆解</h4>
+        <p>把你现在的收入来源逐个列出来，问一个问题：它来自乘法，还是除法？</p>
+        <ul class="steps">
+          <li><b>乘法来源</b>：技能复利、口碑转介、品牌溢价、长期客户——今天滋养它们</li>
+          <li><b>除法来源</b>：纯卖时间、透支健康、消耗信任、寅吃卯粮——今天警惕它们</li>
+          <li>目标是：<b>3 年内，乘法收入占比过半</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>E 靠什么才守得住、长得大？<b>答案不是钱，是人。</b>下一讲讲 S——为什么说「人，才是最大的资产」。</p>
+      <a href="#ep4">进入第 04 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 04 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep4">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">04</div><div class="act">第一幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">S · 社会价值 · 人的真相</div>
+        <h2>S 的真相：人，才是最大的资产</h2>
+        <p class="aim">这一讲的目标：<b>重新估值「人」</b>。看懂信任、关系、组织活力为什么是乘数而非加数——以及为什么它一归零，一切归零。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>一家公司市值千亿，一夜之间能蒸发几百亿——没有火灾，没有地震，只是<b>一个信任事件</b>。<span class="q">钱是公司最便宜的资产，信任才是。</span>为什么？这一讲讲透。</p>
+    </div>
+
+    <div class="block"><span class="bn">定义</span><h3>S 是什么</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">S</span><h4>信任与关系</h4><p>个人：口碑、信用、人脉深度。组织：客户信任、员工信任、社会信任。<b>S 是唯一买不到的资产。</b></p></div>
+      <div class="point teal"><span class="idx">S</span><h4>组织活力</h4><p>士气、协作、创造力、文化——<b>制度算不出来的生产力</b>，报表上永远不出现，却决定报表上的数字。</p></div>
+      <div class="point blue"><span class="idx">S</span><h4>社会资本</h4><p>人与人的连接网：谁愿意帮你、谁愿意信你、谁愿意跟你。<b>关键时刻，S 是唯一的救命通道。</b></p></div>
+    </div>
+
+    <div class="block"><span class="bn">为什么</span><h3>S 是乘数，不是加数</h3></div>
+    <div class="fx">
+      <div class="f">同样能力：无人信 → 单打独斗<span style="color:var(--ink3);font-size:.6em">　vs　</span>众人信 → 撬动十倍资源</div>
+      <div class="note">S 不直接生钱，但 <b>S × E 才等于真实的变现能力</b>。S=0 时，E 再大也运不出去。</div>
+    </div>
+
+    <div class="block"><span class="bn">案例</span><h3>三个维度的 S 剧本</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">文明 · 人类简史</span><h4><span class="ic">▣</span>认知革命：虚构故事建起协作</h4><p>十万年前，智人靠<b>虚构的共同故事</b>（图腾、传说、货币、法律）让陌生人愿意协作——S 的能力，让人类从食物链中段跃升到顶端。<b>文明本身就是 S 的产物。</b></p><p class="moral">一个组织能走多远，取决于它的"共同故事"有多真、多少人信。</p></div>
+      <div class="case"><span class="tag">企业 · 失信剧本</span><h4><span class="ic">▣</span>信任崩塌的一夜蒸发</h4><p>某食品巨头爆出信任事件，消费者用脚投票，经销商集体观望，<b>多年积累的 E（市场份额、渠道、利润）在数月内溃堤</b>。S 归零的连锁反应：没人买、没人供、没人信——乘积归零。</p><p class="moral">守 S 如守城：破一次，重建要十年。</p></div>
+      <div class="case"><span class="tag">家庭 · 关系账户</span><h4><span class="ic">▣</span>亲密关系是最大的 S 账户</h4><p>家庭里每天都有<b>存取款</b>：一句关心是存款，一次敷衍是取款。平时不存、只取不存的关系，<b>关键时刻一分钱都取不出来</b>——事业再成功，回家没有温度，E 再大也空。</p><p class="moral">S 账户从不破产清算，它只是悄悄归零。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>人脉</b>是"认识多少人"？<span class="old">那是通讯录。</span> S 不是人脉数量，是<b>信任浓度</b>。<span class="new">十个肯为你雪中送炭的人，胜过一万个锦上添花的微信好友。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">人对了<span class="sep"></span>事就对了</div>
+      <div class="who">本讲金句 · 信任是唯一买不到的乘数</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">④</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「关键关系」打分并存款</h4>
+        <p>列出你人生中最重要的 5 个关系（家人、挚友、合伙人、贵人），逐个打 S 分（0–10）：彼此信任、彼此托底的程度。</p>
+        <ul class="steps">
+          <li>找出分数最低的那个——<b>它正在偷偷归零</b></li>
+          <li>本周为它做一次「存款」：一个电话、一顿饭、一次坦诚的倾听</li>
+          <li>下个月再打一次分，<b>对比变化</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>E 有了，S 有了，还差最后一位主角。<b>为什么说时间是终极货币？</b>下一讲讲 T。</p>
+      <a href="#ep5">进入第 05 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 05 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep5">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">05</div><div class="act">第一幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">T · 时间价值 · 终极货币</div>
+        <h2>T 的真相：时间，是终极货币</h2>
+        <p class="aim">这一讲的目标：<b>让时间站到你这边</b>。看懂 T 的三重形态（复利/制度/代际），并学会对抗熵增——把"时间的朋友"从口号变成账本。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>每天都是 24 小时，为什么有人过成复利，有人过成单利，还有人过成负数？<span class="q">因为时间本身不会增值——让时间增值的，是你往时间里放什么。</span></p>
+    </div>
+
+    <div class="block"><span class="bn">三重</span><h3>T 的三重形态</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">一</span><h4>复利：积累的积累</h4><p>技能、作品、知识、口碑，<b>今天的积累成为明天的基础</b>。1.01³⁶⁵ 与 0.99³⁶⁵ 的差距，就是人生分水岭。</p></div>
+      <div class="point teal"><span class="idx">二</span><h4>制度：让时间替你工作</h4><p>好制度（流程/机制/系统）在你睡觉时继续运转：<b>机器、体系、规则都是"时间雇佣兵"</b>。</p></div>
+      <div class="point blue"><span class="idx">三</span><h4>代际：跨越生命的时间</h4><p>家风、品牌、基业、知识——<b>把价值留给下一个十年、下一代人</b>，T 就获得了永生。</p></div>
+    </div>
+
+    <div class="block"><span class="bn">对抗</span><h3>熵增：时间的默认方向是"乱"</h3></div>
+    <div class="fx">
+      <div class="f">房间会乱<span style="color:var(--ink3);font-size:.6em">　组织会腐　关系会淡　</span>← 熵增定律</div>
+      <div class="note">一切系统自发走向无序。<b>T 的职责就是"负熵输入"</b>：持续做功、持续整理、持续建立秩序——<b>守住的秩序，就是时间里的存款</b>。</div>
+    </div>
+
+    <div class="block"><span class="bn">两案例</span><h3>透支 T 与滋养 T</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">透支 · 帕金森与债务</span><h4><span class="ic">▣</span>时间无边界，价值被摊薄</h4><p>帕金森定律：工作总会膨胀到填满时间——<b>没有时间盒与交付标准，T 无限流失</b>。债务危机同理：寅吃卯粮是"负复利"，<b>透支的 T 连本带利向未来收账</b>。</p><p class="moral">不设边界的时间，是被偷走的货币。</p></div>
+      <div class="case"><span class="tag">滋养 · 长期主义组织</span><h4><span class="ic">▣</span>让时间站在自己这边</h4><p>真正长跑的企业：愿意用三年磨一门手艺、五年建一套体系、十年守一个口碑——<b>它们让 T 变成复利机器</b>。短期赚快钱的公司，则把 T 当提款机，越提越薄。</p><p class="moral">慢即是快：把时间当朋友，时间把结果当回礼。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为<b>「快」</b>是效率？<span class="old">那是焦虑的别名。</span> 真正的效率，是<b>让时间站到你这边</b>。<span class="new">慢即是快，少即是多——凡是能积累的，都值得慢慢做。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">时间<span class="sep"></span>是唯一不可再生的资源</div>
+      <div class="who">本讲金句 · 慢即是快，少即是多</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑤</div>
+      <div>
+        <div class="label">落地动作 · 现在就做</div>
+        <h4>给「时间」记一周账，找出三大漏点</h4>
+        <p>连续 7 天，用最简单的方式记录时间去向（只记大块，不用精确到分钟）。</p>
+        <ul class="steps">
+          <li>每天睡前标三行：<b>滋养时间</b>（积累/关系/健康）｜<b>消耗时间</b>（必要事务）｜<b>流失时间</b>（无意识刷屏/内耗）</li>
+          <li>周末统计：流失时间占比多少？</li>
+          <li>选出 1 个最大漏点，下周砍掉一半，<b>把省下的时间转投滋养</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">第一幕完</div>
+      <p>三个主角你都认识了：E、S、T。<b>但它们单独出场时，都是好脾气——一碰面就开打。</b>下一幕，让它们对质。</p>
+      <a href="价值守恒定律课程页.html">回到课程总览 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 第二幕预告 ==================== -->
+<section class="act2-preview">
+  <div class="wrap">
+    <div class="tag">NEXT · ACT II · 冲突</div>
+    <h2>第二幕 · 除法的世界<br/><span class="grad">五大危机 · 同一个密码</span></h2>
+    <p>带着 E/S/T 三兄弟，去破案：1929 大萧条、1997 亚洲金融风暴、2008 次贷危机……它们长得不一样，密码完全相同。还有墨菲、帕金森、彼得三大定律的除法本质，与三千年王朝兴衰的账本。</p>
+    <div class="next-list">
+      <span><b>06</b> 五大危机解码</span>
+      <span><b>07</b> 三大定律除法本质</span>
+      <span><b>08</b> 中央帝国财政密码</span>
+      <span><b>09</b> 熵增·易经·道德经</span>
+    </div>
+    <a class="btn btn-ghost" href="价值守恒定律课程页.html#episodes">↩ 回到十二讲大纲</a>
+  </div>
+</section>
+
+<!-- ==================== 尾页 ==================== -->
+<footer>
+  <div class="wrap">
+    <div class="motto">乘则兴<span class="orb"></span>除则衰</div>
+    <p>第一幕 · 开场 换脑宣言 · 五讲完</p>
+    <a class="btn btn-gold" href="#act">↑ 回到第一幕卷首</a>
+    <div class="foot-line">
+      <div class="brand">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+      价值守恒定律 · 宏观 Y = E × S × T · 微观 y = f(m) × f(h) × f(t)<br/>
+      内容为思想科普，不构成任何投资建议 · 观点基于公开资料整理
+      <div class="links">
+        <a href="价值守恒定律课程页.html">课程总览</a>
+        <a href="../../../index.html">理论主页</a>
+        <a href="../../../library.html">文库</a>
+        <a href="../../../价值守恒定律_量化统计系统分析.html">量化分析</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ===== 进度条 ===== */
+const bar=document.getElementById('progress');
+/* ===== 顶栏 ===== */
+const topnav=document.getElementById('topnav');
+/* ===== 目录高亮 ===== */
+const epLinks=[...document.querySelectorAll('.ep-nav a[href^="#"]')];
+const eps=epLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+/* ===== 移动端菜单 ===== */
+const menuToggle=document.getElementById('menuToggle');
+const epNav=document.getElementById('epNav');
+if(menuToggle){
+  menuToggle.addEventListener('click',()=>{
+    epNav.classList.toggle('open');
+    menuToggle.textContent=epNav.classList.contains('open')?'✕':'☰';
+  });
+  epNav.querySelectorAll('a').forEach(a=>{
+    a.addEventListener('click',()=>{epNav.classList.remove('open');menuToggle.textContent='☰';});
+  });
+}
+/* ===== 滚动联动 ===== */
+let ticking=false;
+const onScroll=()=>{
+  if(!ticking){
+    requestAnimationFrame(()=>{
+      const h=document.documentElement;
+      bar.style.width=(h.scrollTop/(Math.max(h.scrollHeight-h.clientHeight,1))*100)+'%';
+      topnav.classList.toggle('scrolled',window.scrollY>40);
+      let cur=0;
+      eps.forEach((s,i)=>{if(s.getBoundingClientRect().top<160)cur=i;});
+      epLinks.forEach((a,i)=>a.classList.toggle('active',i===cur));
+      ticking=false;
+    });
+    ticking=true;
+  }
+};
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',onScroll,{passive:true});
+onScroll();
+/* ===== 入场动画 ===== */
+const fadeEls=document.querySelectorAll('.point,.case,.map-item');
+fadeEls.forEach(el=>{
+  el.style.opacity='0';
+  el.style.transform='translateY(18px)';
+  el.style.transition='opacity .6s ease, transform .6s ease';
+});
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.style.opacity='1';
+        e.target.style.transform='translateY(0)';
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+  fadeEls.forEach(el=>io.observe(el));
+}else{
+  fadeEls.forEach(el=>{el.style.opacity='1';el.style.transform='none'});
+}
+</script>
+</body>
+</html>

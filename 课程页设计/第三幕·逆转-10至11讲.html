@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#0a1428"/>
+<title>第三幕 · 逆转 把乘法装回家 | 价值守恒定律课程 10–11 讲</title>
+<meta name="description" content="价值守恒定律课程第三幕两讲完整讲稿：个人与家庭的三价值体检（30分钟出诊断）、企业转型从E单兵突进到三价值相乘（组织诊断与转型路线图）。财情双生智库出品。"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1428'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='900' text-anchor='middle' fill='%23f0cf8f'%3E恒%3C/text%3E%3C/svg%3E"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+/* ==================== 基础 ==================== */
+:root{
+  --bg:#0a1428; --bg2:#0d1b36; --bg3:#102246;
+  --card:#122a52; --card2:#0f2448;
+  --line:rgba(140,170,220,.16); --line2:rgba(140,170,220,.10);
+  --gold:#d5a84d; --gold2:#f0cf8f; --gold-dim:rgba(213,168,77,.16);
+  --teal:#2bc4b6; --teal-soft:rgba(43,196,182,.13);
+  --blue:#5b8ee0; --blue-soft:rgba(91,142,224,.14);
+  --red:#e07a7a; --red-soft:rgba(224,122,122,.13);
+  --green:#6fbf8a; --green-soft:rgba(111,191,138,.13);
+  --ink:#eaf1fb; --ink2:#b8c6dc; --ink3:#8496b4;
+  --r:14px; --r2:10px;
+  --shadow:0 8px 30px rgba(0,0,0,.35);
+  --shadow-green:0 8px 30px rgba(111,191,138,.22);
+  --font:"Alibaba PuHuiTi 2.0","PingFang SC","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC",serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.9;font-size:16px;overflow-x:hidden;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(1100px 600px at 80% -10%,rgba(111,191,138,.09),transparent 60%),
+  radial-gradient(900px 500px at 0% 20%,rgba(213,168,77,.08),transparent 60%),
+  radial-gradient(700px 400px at 50% 100%,rgba(43,196,182,.06),transparent 60%)}
+body>*{position:relative;z-index:1}
+::selection{background:rgba(111,191,138,.35);color:#0a1428}
+a{color:var(--gold2);text-decoration:none;transition:color .2s}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:4px}
+
+/* ==================== 顶栏 ==================== */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:2000;background:linear-gradient(90deg,var(--gold),var(--green));transition:width .1s linear}
+nav.topnav{position:sticky;top:0;z-index:1500;background:rgba(10,20,40,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:.3s}
+nav.topnav.scrolled{background:rgba(10,20,40,.93);border-bottom-color:rgba(111,191,138,.3)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:11px 24px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--gold2);letter-spacing:.5px;white-space:nowrap}
+.brand .logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--gold),var(--green));display:flex;align-items:center;justify-content:center;font-size:15px;color:#0a1428;font-weight:900;font-family:var(--serif);box-shadow:0 2px 8px rgba(213,168,77,.3)}
+.brand .sub{font-size:11.5px;color:var(--ink3);font-weight:400;letter-spacing:1px;margin-left:2px}
+.ep-nav{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.ep-nav a{color:var(--ink2);padding:6px 11px;border-radius:8px;font-size:13px;transition:.2s;white-space:nowrap}
+.ep-nav a:hover{background:var(--gold-dim);color:var(--gold2);text-decoration:none}
+.ep-nav a.active{background:var(--green-soft);color:var(--green);font-weight:700}
+.ep-nav a.back{color:var(--teal)}
+.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink2);border-radius:8px;padding:6px 11px;cursor:pointer;font-size:17px;line-height:1}
+.menu-toggle:hover{border-color:var(--green);color:var(--green)}
+
+/* ==================== 容器 ==================== */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* ==================== 第三幕卷首 ==================== */
+.act-banner{position:relative;padding:84px 0 66px;overflow:hidden;background:
+  radial-gradient(900px 500px at 80% -10%,rgba(111,191,138,.14),transparent 60%),
+  linear-gradient(160deg,var(--bg2) 0%,var(--bg) 70%);text-align:center}
+.act-banner::after{content:"Y = E × S × T";position:absolute;font-family:var(--serif);font-size:clamp(80px,14vw,180px);color:rgba(111,191,138,.06);top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;pointer-events:none;font-weight:700;letter-spacing:8px;z-index:0}
+.act-banner .inner{position:relative;z-index:2}
+.act-tag{display:inline-flex;align-items:center;gap:8px;background:var(--green-soft);border:1px solid rgba(111,191,138,.45);color:var(--green);padding:7px 18px;border-radius:100px;font-size:13px;font-weight:700;margin-bottom:24px;letter-spacing:2px}
+.act-banner h1{font-size:clamp(30px,4.8vw,52px);font-weight:900;line-height:1.22;letter-spacing:1px;margin-bottom:16px}
+.act-banner h1 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold) 40%,var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act-banner .sub{font-size:clamp(14.5px,2vw,17.5px);color:var(--ink2);max-width:780px;margin:0 auto 34px;line-height:2}
+.act-banner .sub b{color:var(--gold2)}
+.act-map{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:860px;margin:0 auto;position:relative;z-index:2}
+.map-item{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:20px 14px;transition:.3s;text-align:center}
+.map-item:hover{transform:translateY(-3px);border-color:rgba(111,191,138,.5);box-shadow:var(--shadow-green)}
+.map-item .no{font-family:var(--serif);font-size:13px;color:var(--green);font-weight:700;letter-spacing:2px;display:block;margin-bottom:6px}
+.map-item .tt{font-size:13.5px;color:var(--ink);font-weight:700;line-height:1.6}
+.map-item .en{font-size:11px;color:var(--ink3);margin-top:4px;display:block;letter-spacing:.5px}
+.map-item .link{display:inline-block;margin-top:8px;font-size:11.5px;color:var(--teal);font-weight:700;letter-spacing:1px}
+.map-item .link:hover{color:var(--gold2)}
+
+/* ==================== 讲次区块 ==================== */
+.episode-section{padding:72px 0;border-top:1px solid var(--line2);scroll-margin-top:70px;position:relative}
+.episode-section:nth-of-type(odd){background:linear-gradient(180deg,transparent,rgba(111,191,138,.05) 50%,transparent)}
+.ep-head{display:flex;align-items:flex-start;gap:26px;margin-bottom:34px;flex-wrap:wrap}
+.ep-no{flex-shrink:0;text-align:center;padding-top:6px}
+.ep-no .big{font-family:var(--serif);font-size:64px;font-weight:900;line-height:1;color:var(--green);text-shadow:0 0 30px rgba(111,191,138,.35)}
+.ep-no .act{font-size:11px;letter-spacing:3px;color:var(--ink3);margin-top:8px;text-transform:uppercase}
+.ep-title{flex:1;min-width:260px}
+.ep-title .kicker{font-size:12px;letter-spacing:2px;color:var(--green);font-weight:700;margin-bottom:8px;text-transform:uppercase}
+.ep-title h2{font-size:clamp(24px,3.6vw,38px);font-weight:900;letter-spacing:.5px;line-height:1.3;margin-bottom:10px}
+.ep-title .aim{color:var(--ink2);font-size:15px;max-width:680px;line-height:1.9}
+.ep-title .aim b{color:var(--gold2)}
+
+/* ===== 开场钩子 ===== */
+.hook{background:linear-gradient(160deg,rgba(111,191,138,.10),rgba(111,191,138,.03));border:1px solid rgba(111,191,138,.3);border-left:4px solid var(--green);border-radius:var(--r);padding:28px 30px;margin-bottom:30px;position:relative}
+.hook .label{font-size:11px;letter-spacing:3px;color:var(--green);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.hook .label::before{content:"▶";font-size:9px}
+.hook p{font-size:clamp(16px,2vw,19px);color:var(--ink);line-height:2;font-weight:600}
+.hook p .q{color:var(--gold2)}
+
+/* ===== 区块标题 ===== */
+.block{margin:34px 0 18px;display:flex;align-items:center;gap:12px}
+.block .bn{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--green);border:1px solid rgba(111,191,138,.4);background:var(--green-soft);border-radius:8px;padding:2px 11px;letter-spacing:1px}
+.block h3{font-size:20px;font-weight:800;letter-spacing:.5px;color:var(--ink)}
+
+/* ===== 干货卡 ===== */
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.point{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.point::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--green),transparent)}
+.point.teal::before{background:linear-gradient(90deg,var(--teal),transparent)}
+.point.blue::before{background:linear-gradient(90deg,var(--blue),transparent)}
+.point.gold::before{background:linear-gradient(90deg,var(--gold),transparent)}
+.point:hover{transform:translateY(-3px);border-color:rgba(111,191,138,.4);box-shadow:var(--shadow-green)}
+.point .idx{font-family:var(--serif);font-size:15px;color:var(--green);font-weight:700;letter-spacing:2px;margin-bottom:10px;display:block}
+.point h4{font-size:16.5px;margin-bottom:8px;color:var(--ink)}
+.point p{font-size:13.8px;color:var(--ink2);line-height:1.9}
+.point p b{color:var(--ink)}
+.point .fix{margin-top:10px;font-size:13px;color:var(--gold2);border-left:2px solid rgba(213,168,77,.4);padding-left:10px;line-height:1.8}
+
+/* ===== 体检表 ===== */
+.form-wrap{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-size:13.8px}
+thead{background:rgba(111,191,138,.12)}
+th{color:var(--gold2);font-size:11.5px;letter-spacing:2px;padding:13px 16px;text-align:left;font-weight:700;border-bottom:1px solid var(--line)}
+td{padding:14px 16px;border-bottom:1px solid rgba(140,170,220,.08);color:var(--ink2);vertical-align:top;line-height:1.8}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:rgba(111,191,138,.05)}
+td .fx-s{font-family:var(--serif);font-weight:900;font-size:16px;letter-spacing:1px;white-space:nowrap}
+td .fx-s.e{color:var(--gold2)} td .fx-s.s{color:var(--teal)} td .fx-s.t{color:var(--blue)}
+td b{color:var(--ink)}
+td .score-bar{display:inline-block;width:64px;height:6px;border-radius:3px;background:rgba(255,255,255,.08);vertical-align:middle;margin-right:8px;overflow:hidden}
+td .score-bar i{display:block;height:100%;border-radius:3px}
+td .score-bar .hi{width:80%;background:linear-gradient(90deg,var(--green),var(--teal))}
+td .score-bar .mid{width:55%;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+td .score-bar .low{width:30%;background:linear-gradient(90deg,var(--red),var(--gold))}
+td .score-num{font-family:var(--serif);font-weight:900;font-size:16px;color:var(--gold2)}
+.res{display:inline-block;font-size:11.5px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px;white-space:nowrap}
+.res.ok{background:var(--green-soft);color:var(--green)}
+.res.warn{background:var(--gold-dim);color:var(--gold2)}
+.res.danger{background:var(--red-soft);color:var(--red)}
+.forms-mobile{display:none}
+
+/* ===== 家庭画像 ===== */
+.portraits{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.portrait{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;position:relative;transition:.3s;border-top:3px solid var(--teal)}
+.portrait:hover{transform:translateY(-3px);box-shadow:var(--shadow-green)}
+.portrait.p2{border-top-color:var(--gold)}
+.portrait.p3{border-top-color:var(--red)}
+.portrait .tag{display:inline-block;font-size:11px;letter-spacing:2px;font-weight:800;padding:3px 12px;border-radius:999px;margin-bottom:12px}
+.portrait.p1 .tag{background:var(--teal-soft);color:var(--teal)}
+.portrait.p2 .tag{background:var(--gold-dim);color:var(--gold2)}
+.portrait.p3 .tag{background:var(--red-soft);color:var(--red)}
+.portrait h4{font-size:17px;margin-bottom:10px}
+.portrait .eq{font-family:var(--serif);font-size:17px;font-weight:900;letter-spacing:1px;margin-bottom:10px}
+.portrait.p1 .eq{color:var(--teal)} .portrait.p2 .eq{color:var(--gold2)} .portrait.p3 .eq{color:var(--red)}
+.portrait p{font-size:13.5px;color:var(--ink2);line-height:1.9}
+.portrait .verdict{font-size:13px;font-weight:700;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.portrait.p1 .verdict{color:var(--green)} .portrait.p2 .verdict{color:var(--gold2)} .portrait.p3 .verdict{color:var(--red)}
+
+/* ===== 五信号 ===== */
+.signals{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.signal{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:20px;display:flex;gap:14px;align-items:flex-start;transition:.3s}
+.signal:hover{transform:translateY(-3px);border-color:rgba(224,122,122,.4);box-shadow:0 8px 26px rgba(224,122,122,.15)}
+.signal .sno{flex-shrink:0;width:36px;height:36px;border-radius:10px;background:var(--red-soft);color:var(--red);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:900;font-size:17px}
+.signal h4{font-size:15px;margin-bottom:4px;color:var(--ink)}
+.signal p{font-size:13px;color:var(--ink2);line-height:1.8}
+.signal p b{color:var(--gold2)}
+
+/* ===== 转型三阶段 ===== */
+.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}
+.stage{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;position:relative;overflow:hidden;transition:.3s}
+.stage:hover{transform:translateY(-3px);box-shadow:var(--shadow-green)}
+.stage::before{content:"";position:absolute;top:0;left:0;right:0;height:4px}
+.stage.s1::before{background:linear-gradient(90deg,var(--red),transparent)}
+.stage.s2::before{background:linear-gradient(90deg,var(--gold),transparent)}
+.stage.s3::before{background:linear-gradient(90deg,var(--green),transparent)}
+.stage .tag{display:inline-block;font-size:11px;letter-spacing:2px;font-weight:800;padding:3px 12px;border-radius:999px;margin-bottom:12px}
+.stage.s1 .tag{background:var(--red-soft);color:var(--red)}
+.stage.s2 .tag{background:var(--gold-dim);color:var(--gold2)}
+.stage.s3 .tag{background:var(--green-soft);color:var(--green)}
+.stage h4{font-size:17px;margin-bottom:10px}
+.stage .eq{font-family:var(--serif);font-size:15px;font-weight:900;letter-spacing:1px;margin-bottom:12px}
+.stage.s1 .eq{color:var(--red)} .stage.s2 .eq{color:var(--gold2)} .stage.s3 .eq{color:var(--green)}
+.stage ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.stage li{font-size:13px;color:var(--ink2);padding-left:20px;position:relative;line-height:1.8}
+.stage li::before{content:"▸";position:absolute;left:0;color:var(--gold)}
+.stage .verdict{font-size:13px;font-weight:700;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.stage.s1 .verdict{color:var(--red)} .stage.s2 .verdict{color:var(--gold2)} .stage.s3 .verdict{color:var(--green)}
+
+/* ===== 乘法飞轮 ===== */
+.flywheel{display:flex;align-items:center;justify-content:center;gap:40px;margin:24px 0;flex-wrap:wrap}
+.flywheel .ring{position:relative;width:clamp(260px,34vw,340px);height:clamp(260px,34vw,340px);flex-shrink:0}
+.flywheel .ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.flywheel .ring .hub{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:88px;height:88px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--gold2),var(--gold));display:flex;flex-direction:column;align-items:center;justify-content:center;color:#0a1428;font-weight:900;box-shadow:0 0 30px rgba(213,168,77,.5);text-align:center;line-height:1.2}
+.flywheel .ring .hub .x{font-family:var(--serif);font-size:30px;font-weight:900}
+.flywheel .ring .hub .lbl{font-size:10px;letter-spacing:2px;margin-top:2px}
+.flywheel .node{position:absolute;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;transform:translate(-50%,-50%)}
+.flywheel .node .dot{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#0a1428;box-shadow:0 4px 14px rgba(0,0,0,.4);border:3px solid rgba(10,20,40,.5)}
+.flywheel .node .nl{font-size:12px;color:var(--ink2);font-weight:700;letter-spacing:1px}
+.flywheel .node .nt{font-size:10.5px;color:var(--ink3);max-width:90px;line-height:1.5}
+.flywheel .side{max-width:280px}
+.flywheel .side .st{font-family:var(--serif);font-size:20px;font-weight:900;color:var(--green);margin-bottom:10px}
+.flywheel .side p{font-size:13.5px;color:var(--ink2);line-height:1.9}
+.flywheel .side p b{color:var(--ink)}
+
+/* ===== 反转卡 ===== */
+.turn{background:linear-gradient(160deg,var(--green-soft),transparent 80%);border:1px solid rgba(111,191,138,.35);border-left:4px solid var(--green);border-radius:var(--r);padding:26px 28px;margin:18px 0}
+.turn .label{font-size:11px;letter-spacing:3px;color:var(--green);font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.turn .label::before{content:"⚡";font-size:12px}
+.turn p{font-size:15.5px;color:var(--ink2);line-height:2}
+.turn p b{color:var(--ink)}
+.turn p .old{color:var(--ink3);text-decoration:line-through;text-decoration-color:rgba(224,122,122,.6)}
+.turn p .new{color:var(--green);font-weight:700}
+
+/* ===== 案例卡 ===== */
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.case{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:24px;position:relative;transition:.3s}
+.case:hover{transform:translateY(-3px);box-shadow:var(--shadow-green)}
+.case .tag{position:absolute;top:-1px;right:20px;font-size:10.5px;letter-spacing:2px;color:var(--green);background:var(--green-soft);border:1px solid rgba(111,191,138,.35);padding:4px 13px;border-radius:0 0 8px 8px}
+.case h4{font-size:16px;margin-bottom:10px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.case h4 .ic{color:var(--gold)}
+.case p{font-size:13.5px;color:var(--ink2);line-height:1.95}
+.case p b{color:var(--ink)}
+.case .moral{font-size:13px;color:var(--teal);font-style:italic;border-left:2px solid rgba(43,196,182,.4);padding-left:12px;margin-top:12px;line-height:1.8}
+
+/* ===== 金句大卡 ===== */
+.quote-block{margin:26px 0;text-align:center;position:relative;padding:36px 24px;border-radius:var(--r);background:
+  radial-gradient(600px 240px at 50% 0%,rgba(111,191,138,.14),transparent 70%),linear-gradient(160deg,var(--bg3),var(--card2));border:1px solid rgba(111,191,138,.3)}
+.quote-block::before,.quote-block::after{content:"“";position:absolute;font-family:var(--serif);font-size:70px;color:rgba(111,191,138,.3);line-height:1}
+.quote-block::before{top:6px;left:20px}
+.quote-block::after{content:"”";bottom:-18px;right:20px}
+.quote-block .qt{font-family:var(--serif);font-size:clamp(21px,3vw,30px);font-weight:900;letter-spacing:2px;line-height:1.7;color:var(--gold2);text-shadow:0 0 30px rgba(213,168,77,.3)}
+.quote-block .qt .sep{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--green);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--green)}
+.quote-block .who{font-size:12.5px;color:var(--ink3);letter-spacing:2px;margin-top:16px;text-transform:uppercase}
+
+/* ===== 落地动作 ===== */
+.action{display:flex;gap:18px;align-items:flex-start;background:linear-gradient(160deg,var(--teal-soft),rgba(43,196,182,.03));border:1px solid rgba(43,196,182,.35);border-radius:var(--r);padding:24px 26px;margin:22px 0}
+.action .ic{flex-shrink:0;width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--teal),var(--gold));display:flex;align-items:center;justify-content:center;font-size:20px;color:#0a1428;font-weight:900;box-shadow:0 4px 14px rgba(43,196,182,.3)}
+.action .label{font-size:11px;letter-spacing:3px;color:var(--teal);font-weight:800;margin-bottom:8px}
+.action h4{font-size:16.5px;color:var(--ink);margin-bottom:8px}
+.action p{font-size:14px;color:var(--ink2);line-height:1.9}
+.action p b{color:var(--ink)}
+.action .steps{margin-top:10px;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.action .steps li{font-size:13.8px;color:var(--ink2);padding-left:24px;position:relative;line-height:1.8}
+.action .steps li::before{content:"①";position:absolute;left:0;color:var(--teal);font-size:12px}
+.action .steps li:nth-child(2)::before{content:"②"}
+.action .steps li:nth-child(3)::before{content:"③"}
+.action .steps li:nth-child(4)::before{content:"④"}
+
+/* ===== 悬念尾 ===== */
+.next-ep{margin-top:34px;padding:22px 26px;border:1px dashed rgba(111,191,138,.45);border-radius:var(--r2);display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:rgba(111,191,138,.03)}
+.next-ep .lab{font-size:11px;letter-spacing:3px;color:var(--green);font-weight:800;flex-shrink:0}
+.next-ep p{font-size:14.5px;color:var(--ink2);flex:1;min-width:200px;line-height:1.9}
+.next-ep p b{color:var(--gold2)}
+.next-ep a{flex-shrink:0;font-size:13px;font-weight:700;color:var(--teal)}
+.next-ep a:hover{color:var(--gold2)}
+
+/* ==================== 第四幕预告 ==================== */
+.act4-preview{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 40%);padding:80px 0 70px;text-align:center}
+.act4-preview .tag{display:inline-block;font-size:12px;letter-spacing:4px;color:var(--gold);border:1px solid rgba(213,168,77,.4);background:var(--gold-dim);padding:6px 18px;border-radius:999px;margin-bottom:22px;font-weight:700}
+.act4-preview h2{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:1px;margin-bottom:16px;line-height:1.3}
+.act4-preview h2 .grad{background:linear-gradient(100deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.act4-preview p{color:var(--ink2);font-size:15.5px;max-width:640px;margin:0 auto 30px;line-height:2}
+.act4-preview .next-list{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:34px}
+.act4-preview .next-list span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 20px;font-size:13.5px;color:var(--ink2)}
+.act4-preview .next-list span b{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 30px;border-radius:12px;font-weight:700;font-size:15px;letter-spacing:.5px;transition:.25s;cursor:pointer;border:none;line-height:1.2}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a1428;box-shadow:0 6px 24px rgba(213,168,77,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(213,168,77,.55);color:#0a1428;text-decoration:none}
+.btn-ghost{border:1px solid var(--line);color:var(--ink2);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px);text-decoration:none}
+
+/* ==================== 尾页 ==================== */
+footer{border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,var(--bg2) 30%);padding:54px 0 28px;text-align:center}
+footer .motto{font-family:var(--serif);font-size:clamp(22px,3.4vw,32px);font-weight:900;color:var(--gold2);letter-spacing:5px;margin-bottom:12px;text-shadow:0 0 26px rgba(213,168,77,.3)}
+footer .motto .orb{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin:0 12px;vertical-align:middle;box-shadow:0 0 10px var(--green)}
+footer p{color:var(--ink2);font-size:14px;margin-bottom:24px}
+.foot-line{color:var(--ink3);font-size:12.5px;letter-spacing:1px;line-height:2.2;margin-top:36px;padding-top:26px;border-top:1px solid var(--line2)}
+.foot-line .brand{color:var(--gold);font-weight:700;letter-spacing:3px;font-size:13.5px;margin-bottom:6px}
+.foot-line .links{margin-top:12px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px}
+.foot-line .links a{color:var(--ink3)}
+.foot-line .links a:hover{color:var(--gold2)}
+
+/* ==================== 响应式 ==================== */
+@media (max-width:980px){.stages{grid-template-columns:1fr}.flywheel{flex-direction:column}}
+@media (max-width:860px){
+  .ep-nav{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(10,20,40,.96);backdrop-filter:blur(14px);flex-direction:column;padding:12px 24px;border-bottom:1px solid var(--line)}
+  .ep-nav.open{display:flex}
+  .ep-nav a{width:100%;padding:10px 12px}
+  .menu-toggle{display:inline-block}
+  .brand .sub{display:none}
+  .ep-no .big{font-size:48px}
+}
+@media (max-width:680px){
+  .act-map{grid-template-columns:1fr}
+  .wrap{padding:0 18px}
+  .episode-section{padding:56px 0}
+  .hook,.turn{padding:22px 20px}
+  .action{flex-direction:column;gap:14px}
+  table{display:none}
+  .forms-mobile{display:flex;flex-direction:column;gap:12px}
+  .form-mob{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+  .form-mob .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+  .form-mob .fx-s{font-family:var(--serif);font-weight:900;font-size:17px}
+  .form-mob .fx-s.e{color:var(--gold2)} .form-mob .fx-s.s{color:var(--teal)} .form-mob .fx-s.t{color:var(--blue)}
+  .form-mob .res{display:inline-block;font-size:11px;padding:2px 10px;border-radius:999px;font-weight:700;letter-spacing:1px}
+  .form-mob .res.ok{background:var(--green-soft);color:var(--green)}
+  .form-mob .res.warn{background:var(--gold-dim);color:var(--gold2)}
+  .form-mob .res.danger{background:var(--red-soft);color:var(--red)}
+  .form-mob .name{font-size:14.5px;font-weight:700;color:var(--ink);margin-bottom:4px}
+  .form-mob .desc{font-size:12.8px;color:var(--ink2);line-height:1.8}
+}
+@media (max-width:460px){
+  .ep-no .big{font-size:40px}
+  .ep-head{gap:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important}
+}
+@media print{
+  nav.topnav,#progress,.menu-toggle,.next-ep a,.act4-preview .btn,.foot-line .links{display:none !important}
+  body{background:#fff;color:#000}
+  .episode-section{page-break-inside:avoid}
+  .hook,.turn,.fx,.form-wrap,.case,.quote-block,.action,.stage,.portrait,.signal{background:#fff !important;border:1px solid #ccc;color:#000}
+  .quote-block .qt{color:#16324f;-webkit-text-fill-color:#16324f}
+  .ep-no .big,.ep-title h2{color:#16324f}
+  table{display:table !important}
+  .forms-mobile{display:none !important}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<!-- ==================== 顶栏 ==================== -->
+<nav class="topnav" id="topnav">
+  <div class="nav-inner">
+    <a href="#act" class="brand">
+      <span class="logo">恒</span>
+      <span>价值守恒定律<span class="sub">· 第三幕讲稿</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    <div class="ep-nav" id="epNav">
+      <a href="#ep10" class="active">10 家庭体检</a>
+      <a href="#ep11">11 企业转型</a>
+      <a href="第二幕·冲突-06至09讲.html" class="back">↩ 第二幕</a>
+      <a href="第一幕·开场-01至05讲.html" class="back">↩ 第一幕</a>
+      <a href="价值守恒定律课程页.html" class="back">↩ 课程总览</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== 第三幕卷首 ==================== -->
+<header class="act-banner" id="act">
+  <div class="wrap">
+    <div class="inner">
+      <div class="act-tag">ACT III · 逆转 · 把乘法装回家</div>
+      <h1>第三幕 · 反身诊断<br/><span class="grad">个人 · 家庭 · 企业的乘法开关</span></h1>
+      <p class="sub">破完案，该回家了。第三幕两讲，把公式用回自己身上：<br/><b>先给家庭做一次 30 分钟的三价值体检，再给组织画一张从除法到乘法的转型路线图。</b></p>
+      <div class="act-map">
+        <a class="map-item" href="#ep10"><span class="no">10</span><span class="tt">个人与家庭<br/>三价值体检</span><span class="en">FAMILY CHECKUP</span><span class="link">进入讲次 ↓</span></a>
+        <a class="map-item" href="#ep11"><span class="no">11</span><span class="tt">企业转型<br/>从除法到乘法</span><span class="en">ORGANIZATION PIVOT</span><span class="link">进入讲次 ↓</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================================ -->
+<!-- 第 10 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep10">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">10</div><div class="act">第三幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">落地 · 个人与家庭</div>
+        <h2>个人与家庭的三价值体检</h2>
+        <p class="aim">这一讲的目标：<b>动手</b>。30 分钟，三个维度，给家庭做一次 E/S/T 体检——<b>当场出诊断，当晚能行动</b>。这是整门课第一份"学完就能用"的交付。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>你给车做年检、给身体做体检、给手机贴膜，<span class="q">却从没给"家庭"和"人生"做过一次价值体检。</span>30 分钟，三个维度，当场出诊断——这可能是你今年做过最有性价比的一件事。</p>
+    </div>
+
+    <div class="block"><span class="bn">体检表</span><h3>三价值体检表 · 三个维度，各 0–10 分</h3></div>
+    <div class="form-wrap">
+      <table>
+        <thead><tr><th style="width:90px">维度</th><th>打分问自己（诚实回答）</th><th style="width:130px">参考分数</th><th style="width:110px">判定</th></tr></thead>
+        <tbody>
+          <tr><td><span class="fx-s e">E 货币价值</span></td><td><b>我的收入与资产，是"创造"来的还是"透支"来的？</b><br/>收入覆盖生活后有没有结余？结余是本金还是负债？</td><td><span class="score-bar"><i class="mid"></i></span><span class="score-num">5.5</span></td><td><span class="res warn">中等 · 有结余但靠劳动</span></td></tr>
+          <tr><td><span class="fx-s s">S 幸福体验</span></td><td><b>我的健康、关系、情绪、意义感，最近在涨还是在跌？</b><br/>多久没深度陪家人了？多久没心流了？</td><td><span class="score-bar"><i class="low"></i></span><span class="score-num">4.0</span></td><td><span class="res danger">偏低 · 在透支</span></td></tr>
+          <tr><td><span class="fx-s t">T 时间价值</span></td><td><b>我有没有在做"会积累"的事？</b><br/>技能/作品/口碑/资产，五年后还在吗？在复利吗？</td><td><span class="score-bar"><i class="mid"></i></span><span class="score-num">5.0</span></td><td><span class="res warn">中等 · 有积累但散</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="forms-mobile">
+      <div class="form-mob"><div class="head"><span class="fx-s e">E 货币价值</span><span class="res warn">5.5 · 中等</span></div><div class="name">问：收入与资产是创造来的还是透支来的？</div><div class="desc">收入覆盖生活后有结余？结余是本金还是负债？</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s s">S 幸福体验</span><span class="res danger">4.0 · 偏低</span></div><div class="name">问：健康、关系、情绪、意义感在涨还是在跌？</div><div class="desc">多久没深度陪家人？多久没心流？</div></div>
+      <div class="form-mob"><div class="head"><span class="fx-s t">T 时间价值</span><span class="res warn">5.0 · 中等</span></div><div class="name">问：有没有在做"会积累"的事？</div><div class="desc">技能/作品/口碑/资产，五年后还在吗？在复利吗？</div></div>
+    </div>
+    <p style="font-size:13px;color:var(--ink3);margin-top:10px">※ 打分规则：<b>8–10 健康</b> · <b>5–7 中等</b> · <b>0–4 危险</b>。三项相乘，就是你的"人生乘积"——别只看单项，看乘积。</p>
+
+    <div class="block"><span class="bn">诊断</span><h3>三种典型家庭画像，对号入座</h3></div>
+    <div class="portraits">
+      <div class="portrait p1">
+        <span class="tag">画像一 · 健康平衡型</span>
+        <h4>E/S/T 三项均衡</h4>
+        <div class="eq">8 × 7 × 7 = 392</div>
+        <p>收入稳步、关系滋养、有复利积累。<b>乘积最大，抗风险能力最强</b>——偶有波动，其他两项托底。</p>
+        <div class="verdict">→ 保持节奏，别被"别人更快"带偏</div>
+      </div>
+      <div class="portrait p2">
+        <span class="tag">画像二 · 透支拼搏型</span>
+        <h4>E 高，S/T 被掏空</h4>
+        <div class="eq">9 × 3 × 3 = 81</div>
+        <p>收入很高，但<b>健康报警、关系疏离、没有积累</b>——账面好看，乘积惨淡。<b>典型的除法家庭：用 S/T 换 E</b>。</p>
+        <div class="verdict">→ 止血优先：先还 S/T 的欠账，E 慢一点没关系</div>
+      </div>
+      <div class="portrait p3">
+        <span class="tag">画像三 · 单一追逐型</span>
+        <h4>只追一项，其余放任</h4>
+        <div class="eq">6 × 8 × 2 = 96</div>
+        <p>要么只求安逸（E 常年低迷），要么只扑事业（T 没有沉淀）。<b>单项高分掩盖不了乘积的平庸</b>。</p>
+        <div class="verdict">→ 补短板：给最弱的一项，制定 90 天动作</div>
+      </div>
+    </div>
+
+    <div class="block"><span class="bn">补短板</span><h3>体检之后：把分数变成动作</h3></div>
+    <div class="points">
+      <div class="point"><span class="idx">E 短板</span><h4>货币价值低</h4><p>不开源、只靠死工资、负债在涨。<b>动作：技能投资 + 副业探索 + 债务降速</b>。</p><p class="fix">每月固定 5% 收入投入"增值技能"</p></div>
+      <div class="point teal"><span class="idx">S 短板</span><h4>幸福体验低</h4><p>健康报警、关系疏离、情绪内耗。<b>动作：关系存款 + 健康投入 + 情绪整理</b>。</p><p class="fix">每周一次"无手机深度陪伴"</p></div>
+      <div class="point blue"><span class="idx">T 短板</span><h4>时间价值低</h4><p>忙而不积、没有作品、没有制度沉淀。<b>动作：复利建设 + 制度沉淀 + 作品主义</b>。</p><p class="fix">每季度完成一个"会留下"的作品</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为体检是<b>「查有没有病」</b>？<span class="old">那是医疗思维。</span> 三价值体检是<b>「看乘积」</b>——<span class="new">分数低不可怕，那是"机会清单"；看不见短板才可怕，因为乘积正在悄悄归零。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">给人生做一次乘法体检<span class="sep"></span>别等乘积归零才看见短板</div>
+      <div class="who">本讲金句 · 30 分钟，换一年的方向感</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑩</div>
+      <div>
+        <div class="label">落地动作 · 今晚就做</div>
+        <h4>全家 30 分钟体检夜</h4>
+        <p>今晚安排一次 30 分钟的家庭会议，用上面的体检表，全家各打一次分（可以让孩子也给父母打分）。</p>
+        <ul class="steps">
+          <li>每人算出自己的三项分数与<b>乘积</b></li>
+          <li>每人说出一个"最想补的短板"</li>
+          <li>定一个<b>全家 90 天目标</b>（比如：每月一次旅行 / 每周三顿在家吃饭）</li>
+          <li>把体检表贴冰箱，<b>每季度重测一次，看乘积变没变</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">下一讲</div>
+      <p>家庭体检做完了。<b>那组织呢？</b>——为什么很多公司"报表很漂亮，老板却睡不着觉"？下一讲：企业转型路线图。</p>
+      <a href="#ep11">进入第 11 讲 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ -->
+<!-- 第 11 讲 -->
+<!-- ================================================================ -->
+<section class="episode-section" id="ep11">
+  <div class="wrap">
+    <div class="ep-head">
+      <div class="ep-no"><div class="big">11</div><div class="act">第三幕</div></div>
+      <div class="ep-title">
+        <div class="kicker">落地 · 组织转型</div>
+        <h2>企业转型：从「E 单兵突进」到「三价值相乘」</h2>
+        <p class="aim">这一讲的目标：<b>上手</b>。给组织做一次除法诊断，拿到三阶段转型路线图，并看懂那个让乘积自动放大的<b>乘法飞轮</b>——学完即用。</p>
+      </div>
+    </div>
+
+    <div class="hook">
+      <div class="label">开场钩子</div>
+      <p>报表很漂亮，利润在涨，KPI 全达标——<span class="q">老板却睡不着觉。</span>因为 E 单兵突进走到尽头：<b>账面数字还在，地基已经空了。</b>今天，我们把"睡不着"翻译成公式，然后给出路。</p>
+    </div>
+
+    <div class="block"><span class="bn">五信号</span><h3>组织除法诊断 · 五个红灯信号</h3></div>
+    <div class="signals">
+      <div class="signal"><span class="sno">1</span><div><h4>KPI 压过使命</h4><p>考核什么就造什么，<b>指标 ≠ 目标</b>——数字达标了，真问题被盖住。</p></div></div>
+      <div class="signal"><span class="sno">2</span><div><h4>员工没有呼吸感</h4><p>加班文化、高压内卷，<b>S（士气与活力）在流失</b>，人还在，心已走。</p></div></div>
+      <div class="signal"><span class="sno">3</span><div><h4>客户信任悄悄流失</h4><p>投诉上升、复购下滑、口碑转负——<b>S 归零的前兆</b>，报表还看不出。</p></div></div>
+      <div class="signal"><span class="sno">4</span><div><h4>只有季度，没有十年</h4><p>决策全短期化、研发被砍、制度不沉淀——<b>T 在透支</b>，公司越跑越轻。</p></div></div>
+      <div class="signal"><span class="sno">5</span><div><h4>增长靠压榨，不靠创造</h4><p>增长来自压成本、压员工、压供应商——<b>E 单兵突进</b>，吃的是老本。</p></div></div>
+    </div>
+
+    <div class="block"><span class="bn">三阶段</span><h3>转型路线图 · 诊断 → 止血 → 相乘</h3></div>
+    <div class="stages">
+      <div class="stage s1">
+        <span class="tag">第一步 · 诊断</span>
+        <h4>给组织做 E/S/T 体检</h4>
+        <div class="eq">先看清账，再动手</div>
+        <ul>
+          <li><b>E</b>：财务健康度、利润质量、现金流结构</li>
+          <li><b>S</b>：员工敬业度、客户信任度、口碑走向</li>
+          <li><b>T</b>：战略定力、制度沉淀、研发投入占比</li>
+        </ul>
+        <div class="verdict">→ 产出：一张"除法红灯清单"</div>
+      </div>
+      <div class="stage s2">
+        <span class="tag">第二步 · 止血</span>
+        <h4>先停除法，再谈增长</h4>
+        <div class="eq">砍掉最伤 S/T 的动作</div>
+        <ul>
+          <li>砍掉或改造<b>最伤 S/T 的 KPI</b>（如纯压价、纯时长考核）</li>
+          <li>给透支性增长<b>降速</b>，留出缓冲余量</li>
+          <li>先补最痛的短板：<b>员工呼吸感 or 客户信任</b>，二选一聚焦</li>
+        </ul>
+        <div class="verdict">→ 止血期 90 天，先让乘积不再漏</div>
+      </div>
+      <div class="stage s3">
+        <span class="tag">第三步 · 相乘</span>
+        <h4>启动乘法飞轮</h4>
+        <div class="eq">让三价值互相哺育</div>
+        <ul>
+          <li><b>S → E</b>：员工成长 → 客户价值 → 业绩回报</li>
+          <li><b>T → E</b>：制度与研发沉淀 → 效率与壁垒</li>
+          <li><b>E → S/T</b>：利润反哺投入，飞轮越转越快</li>
+        </ul>
+        <div class="verdict">→ 飞轮转起来，乘积自动放大</div>
+      </div>
+    </div>
+
+    <div class="block"><span class="bn">飞轮</span><h3>乘法飞轮 · 让乘积自动放大</h3></div>
+    <div class="flywheel">
+      <div class="ring">
+        <svg viewBox="0 0 340 340">
+          <circle cx="170" cy="170" r="150" fill="none" stroke="rgba(140,170,220,.12)" stroke-width="1"/>
+          <circle cx="170" cy="170" r="118" fill="none" stroke="rgba(111,191,138,.25)" stroke-width="2" stroke-dasharray="6 8"/>
+          <circle cx="170" cy="170" r="118" fill="none" stroke="rgba(213,168,77,.18)" stroke-width="2" stroke-dasharray="6 8" stroke-dashoffset="28"/>
+        </svg>
+        <div class="hub"><div class="x">×</div><div class="lbl">乘法飞轮</div></div>
+        <div class="node" style="top:12%;left:50%"><div class="dot" style="background:var(--teal)">S₁</div><div class="nl">员工成长</div><div class="nt">技能·士气·意义</div></div>
+        <div class="node" style="top:50%;left:97%"><div class="dot" style="background:var(--teal)">S₂</div><div class="nl">客户满意</div><div class="nt">价值·体验·信任</div></div>
+        <div class="node" style="top:88%;left:50%"><div class="dot" style="background:var(--gold2)">E₁</div><div class="nl">口碑复购</div><div class="nt">增长·收入·利润</div></div>
+        <div class="node" style="top:50%;left:3%"><div class="dot" style="background:var(--blue)">T₁</div><div class="nl">制度研发</div><div class="nt">体系·壁垒·复利</div></div>
+        <div class="node" style="top:26%;left:14%"><div class="dot" style="background:var(--blue)">T₂</div><div class="nl">战略定力</div><div class="nt">长期·边界·取舍</div></div>
+        <div class="node" style="top:26%;left:86%"><div class="dot" style="background:var(--gold2)">E₂</div><div class="nl">利润反哺</div><div class="nt">再投入·再增长</div></div>
+      </div>
+      <div class="side">
+        <div class="st">飞轮逻辑</div>
+        <p>员工成长（S）→ 客户满意（S）→ 口碑复购（E）→ 利润（E）→ 反哺制度与研发（T）→ 员工再成长（S）——<b>六格一转，一圈一圈，乘积自动放大</b>。</p>
+        <p style="margin-top:10px;color:var(--gold2)"><b>记住：</b>除法组织靠老板推轮子，乘法组织让轮子自己转。</p>
+      </div>
+    </div>
+
+    <div class="block"><span class="bn">两案例</span><h3>换算法，不换引擎</h3></div>
+    <div class="cases">
+      <div class="case"><span class="tag">连锁餐饮 · 从扩张到深耕</span><h4><span class="ic">▣</span>疯狂开店的"E 单兵"之困</h4><p>某连锁餐饮早年疯狂扩张（<b>E 单兵突进</b>）：门店激增、单店质量下滑、员工流动率飙升（S 流失）。转型后砍掉扩张目标，<b>深耕单店品质与员工成长（S）</b>——翻台率、口碑、加盟意愿反而齐升。</p><p class="moral">收着打，往往比冲得快，走得更远。</p></div>
+      <div class="case"><span class="tag">制造企业 · 从压榨到共建</span><h4><span class="ic">▣</span>压供应商成本的"除法账"</h4><p>某制造企业常年压供应商价格（<b>把 S 当成本砍</b>），结果质量波动、交期失信、客户流失。转型为<b>与核心供应商共建</b>：共享计划、共担研发（T 反哺）——供应链更稳，综合成本反而下降。</p><p class="moral">把伙伴当成本的公司，最终自己变成成本。</p></div>
+    </div>
+
+    <div class="turn">
+      <div class="label">认知反转</div>
+      <p>你以为转型是<b>「砍成本、换赛道、抓风口」</b>？<span class="old">那是换汤不换药。</span> 转型不是换引擎，是<b>换算法</b>——<span class="new">同样的团队、同样的市场，把除法换成乘法，结果翻天覆地。</span></p>
+    </div>
+
+    <div class="quote-block">
+      <div class="qt">转型不是换赛道<span class="sep"></span>是换算法</div>
+      <div class="who">本讲金句 · 乘法飞轮一旦转起来，就是复利</div>
+    </div>
+
+    <div class="action">
+      <div class="ic">⑪</div>
+      <div>
+        <div class="label">落地动作 · 本周就做</div>
+        <h4>给组织做一次「五信号自检」</h4>
+        <p>如果你在带团队/做公司：拉上核心伙伴，把五个红灯信号过一遍，逐条诚实打分（0–5）。</p>
+        <ul class="steps">
+          <li>选出<b>红灯最亮</b>的那一个信号（最伤 S/T 的）</li>
+          <li>找出制造它的那个<b>KPI 或制度</b>——它就是除法的开关</li>
+          <li>下季度砍掉或改造它，<b>换成一个乘法指标</b>（如：客户净推荐值 / 员工敬业度）</li>
+          <li>90 天后对比：<b>乘积变大了吗？</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="next-ep">
+      <div class="lab">第三幕完</div>
+      <p>体检做了，转型图有了——<b>还差最后一幕：把它变成一生的活法。</b>第四幕：给人生换脑的乘法人生行动宣言。</p>
+      <a href="价值守恒定律课程页.html">回到课程总览 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 第四幕预告 ==================== -->
+<section class="act4-preview">
+  <div class="wrap">
+    <div class="tag">FINALE · ACT IV · 结局</div>
+    <h2>第四幕 · 给人生换脑<br/><span class="grad">乘法人生行动宣言</span></h2>
+    <p>十二讲的正片走到这里，是时候兑现第一幕的承诺了：333 落地计划——3 天转训、30 天转化、3 个月出结果。<b>最后一讲，把公式变成一生的活法。</b></p>
+    <div class="next-list">
+      <span><b>12</b> 乘法人生行动宣言 + 333 落地计划</span>
+    </div>
+    <a class="btn btn-ghost" href="第二幕·冲突-06至09讲.html">↩ 回看第二幕</a>
+    <a class="btn btn-gold" href="第一幕·开场-01至05讲.html">↩ 回看第一幕</a>
+  </div>
+</section>
+
+<!-- ==================== 尾页 ==================== -->
+<footer>
+  <div class="wrap">
+    <div class="motto">乘则兴<span class="orb"></span>除则衰</div>
+    <p>第三幕 · 逆转 把乘法装回家 · 两讲完</p>
+    <a class="btn btn-gold" href="#act">↑ 回到第三幕卷首</a>
+    <div class="foot-line">
+      <div class="brand">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+      价值守恒定律 · 宏观 Y = E × S × T · 微观 y = f(m) × f(h) × f(t)<br/>
+      内容为思想科普，不构成任何投资建议 · 观点基于公开资料整理
+      <div class="links">
+        <a href="第二幕·冲突-06至09讲.html">第二幕</a>
+        <a href="第一幕·开场-01至05讲.html">第一幕</a>
+        <a href="价值守恒定律课程页.html">课程总览</a>
+        <a href="../../../index.html">理论主页</a>
+        <a href="../../../library.html">文库</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ===== 进度条 ===== */
+const bar=document.getElementById('progress');
+/* ===== 顶栏 ===== */
+const topnav=document.getElementById('topnav');
+/* ===== 目录高亮 ===== */
+const epLinks=[...document.querySelectorAll('.ep-nav a[href^="#"]')];
+const eps=epLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+/* ===== 移动端菜单 ===== */
+const menuToggle=document.getElementById('menuToggle');
+const epNav=document.getElementById('epNav');
+if(menuToggle){
+  menuToggle.addEventListener('click',()=>{
+    epNav.classList.toggle('open');
+    menuToggle.textContent=epNav.classList.contains('open')?'✕':'☰';
+  });
+  epNav.querySelectorAll('a').forEach(a=>{
+    a.addEventListener('click',()=>{epNav.classList.remove('open');menuToggle.textContent='☰';});
+  });
+}
+/* ===== 滚动联动 ===== */
+let ticking=false;
+const onScroll=()=>{
+  if(!ticking){
+    requestAnimationFrame(()=>{
+      const h=document.documentElement;
+      bar.style.width=(h.scrollTop/(Math.max(h.scrollHeight-h.clientHeight,1))*100)+'%';
+      topnav.classList.toggle('scrolled',window.scrollY>40);
+      let cur=0;
+      eps.forEach((s,i)=>{if(s.getBoundingClientRect().top<160)cur=i;});
+      epLinks.forEach((a,i)=>a.classList.toggle('active',i===cur));
+      ticking=false;
+    });
+    ticking=true;
+  }
+};
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',onScroll,{passive:true});
+onScroll();
+/* ===== 入场动画 ===== */
+const fadeEls=document.querySelectorAll('.point,.case,.map-item,.portrait,.signal,.stage');
+fadeEls.forEach(el=>{
+  el.style.opacity='0';
+  el.style.transform='translateY(18px)';
+  el.style.transition='opacity .6s ease, transform .6s ease';
+});
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.style.opacity='1';
+        e.target.style.transform='translateY(0)';
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+  fadeEls.forEach(el=>io.observe(el));
+}else{
+  fadeEls.forEach(el=>{el.style.opacity='1';el.style.transform='none'});
+}
+</script>
+</body>
+</html>
