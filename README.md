@@ -99,27 +99,27 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | ---- | ---- | ------- | -------- |
 | **S** 国家 · 经济社会 Society & State | | | |
 | S01 | [经济危机解码](zh/S01 经济危机解码-价值守恒论证.html) | The Five Economic Crises Decoded | 危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式 |
-| S02 | [宪法](zh/S02 宪法-价值守恒论证.html) | The Constitution | 根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础 |
-| S03 | [党章](zh/S03 党章-价值守恒论证.html) | The Party Constitution | 政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达 |
-| S04 | [三权运行](zh/S04 三权运行-价值守恒论证.html) | Separation of Powers in Operation | 立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计 |
-| S05 | [中华人民共和国民法典](zh/S05 中华人民共和国民法典-价值守恒论证.html) | The Civil Code of the PRC | 民事权利总法典 · 平等主体间 E/S/T 的规则框架 |
-| S06 | [当代中国马克思主义政治经济学](zh/S06 当代中国马克思主义政治经济学-价值守恒论证.html) | Contemporary Marxist Political Economy | 中国特色社会主义政治经济学 · 宏观价值分配的理论根基 |
-| S07 | [宏观经济学](zh/S07 宏观经济学-价值守恒论证.html) | Macroeconomics | 总量视角 · 增长、就业、通胀 = 宏观经济三价值 |
-| S08 | [微观经济学](zh/S08 微观经济学-价值守恒论证.html) | Microeconomics | 个体决策 · 供求与福利 = 微观三价值博弈 |
-| S09 | [分配制度](zh/S09 分配制度-价值守恒论证.html) | The Distribution System | 三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义 |
-| S10 | [政绩考核](zh/S10 政绩考核-价值守恒论证.html) | Performance Appraisal of Officials | 考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考 |
-| S11 | [中央帝国的财政密码](zh/S11 中央帝国的财政密码-价值守恒论证.html) | The Fiscal Code of Central Empires | 王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生 |
-| S12 | [中央帝国三部曲](zh/S12 中央帝国三部曲-价值守恒论证.html) | The Central Empire Trilogy | 财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除 |
-| S13 | [历代经济变革得失](zh/S13 历代经济变革得失-价值守恒论证.html) | Economic Reforms Through the Dynasties | 变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T |
-| S14 | [中国历代政治得失](zh/S14 中国历代政治得失-价值守恒论证.html) | The Gains and Losses of Chinese Dynastic Politics | 制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新 |
-| S15 | [置身事内](zh/S15 置身事内-价值守恒论证.html) | Inside the Game: Government and Economic Development | 发展型政府 = "E 单兵突进"的除法史；破解 = 服务型政府 |
-| S16 | [大国大城](zh/S16 大国大城-价值守恒论证.html) | Great Nation, Great City | 人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚 |
-| S17 | [基层中国的运行逻辑](zh/S17 基层中国的运行逻辑-价值守恒论证.html) | The Operating Logic of Grassroots China | 压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡 |
-| S18 | [债务危机与新货币价值内涵](zh/S18 债务危机与新货币价值内涵-价值守恒论证.html) | Debt Crises and the New Connotation of Money | 债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵 |
-| S19 | [既要又要还要](zh/S19 既要又要还要-价值守恒论证.html) | Both, And, Also | 统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧 |
-| S20 | [毛泽东选集五卷方法论](zh/S20 毛泽东选集五卷方法论-价值守恒论证.html) | Methodology of the Selected Works of Mao Zedong | 矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论 |
-| S21 | [社会保障](zh/S21 社会保障-价值守恒论证.html) | Social Security | 民生基石 · 社保体系 = 社会价值 S 的兜底工程 |
-| S22 | [看病难看病贵](zh/S22 看病难看病贵-价值守恒论证.html) | Difficulty and Cost of Medical Care | 健康价值重构 · 医疗资源 = E/S/T 三重错配的破解 |
+| S02 | [当代中国马克思主义政治经济学](zh/S02 当代中国马克思主义政治经济学-价值守恒论证.html) | Contemporary Marxist Political Economy | 中国特色社会主义政治经济学 · 宏观价值分配的理论根基 |
+| S03 | [宏观经济学](zh/S03 宏观经济学-价值守恒论证.html) | Macroeconomics | 总量视角 · 增长、就业、通胀 = 宏观经济三价值 |
+| S04 | [微观经济学](zh/S04 微观经济学-价值守恒论证.html) | Microeconomics | 个体决策 · 供求与福利 = 微观三价值博弈 |
+| S05 | [分配制度](zh/S05 分配制度-价值守恒论证.html) | The Distribution System | 三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义 |
+| S06 | [政绩考核](zh/S06 政绩考核-价值守恒论证.html) | Performance Appraisal of Officials | 考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考 |
+| S07 | [中央帝国的财政密码](zh/S07 中央帝国的财政密码-价值守恒论证.html) | The Fiscal Code of Central Empires | 王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生 |
+| S08 | [中央帝国三部曲](zh/S08 中央帝国三部曲-价值守恒论证.html) | The Central Empire Trilogy | 财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除 |
+| S09 | [历代经济变革得失](zh/S09 历代经济变革得失-价值守恒论证.html) | Economic Reforms Through the Dynasties | 变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T |
+| S10 | [中国历代政治得失](zh/S10 中国历代政治得失-价值守恒论证.html) | The Gains and Losses of Chinese Dynastic Politics | 制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新 |
+| S11 | [置身事内](zh/S11 置身事内-价值守恒论证.html) | Inside the Game: Government and Economic Development | 发展型政府 = "E 单兵突进"的除法史；破解 = 服务型政府 |
+| S12 | [大国大城](zh/S12 大国大城-价值守恒论证.html) | Great Nation, Great City | 人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚 |
+| S13 | [基层中国的运行逻辑](zh/S13 基层中国的运行逻辑-价值守恒论证.html) | The Operating Logic of Grassroots China | 压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡 |
+| S14 | [债务危机与新货币价值内涵](zh/S14 债务危机与新货币价值内涵-价值守恒论证.html) | Debt Crises and the New Connotation of Money | 债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵 |
+| S15 | [既要又要还要](zh/S15 既要又要还要-价值守恒论证.html) | Both, And, Also | 统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧 |
+| S16 | [毛泽东选集五卷方法论](zh/S16 毛泽东选集五卷方法论-价值守恒论证.html) | Methodology of the Selected Works of Mao Zedong | 矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论 |
+| S17 | [社会保障](zh/S17 社会保障-价值守恒论证.html) | Social Security | 民生基石 · 社保体系 = 社会价值 S 的兜底工程 |
+| S18 | [看病难看病贵](zh/S18 看病难看病贵-价值守恒论证.html) | Difficulty and Cost of Medical Care | 健康价值重构 · 医疗资源 = E/S/T 三重错配的破解 |
+| S19 | [宪法](zh/S19 宪法-价值守恒论证.html) | The Constitution | 根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础 |
+| S20 | [党章](zh/S20 党章-价值守恒论证.html) | The Party Constitution | 政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达 |
+| S21 | [三权运行](zh/S21 三权运行-价值守恒论证.html) | Separation of Powers in Operation | 立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计 |
+| S22 | [中华人民共和国民法典](zh/S22 中华人民共和国民法典-价值守恒论证.html) | The Civil Code of the PRC | 民事权利总法典 · 平等主体间 E/S/T 的规则框架 |
 | **E** 企业 Enterprise | | | |
 | E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
 | E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
@@ -199,7 +199,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── zh/                 # 中文版应用文档（41 篇，按领域分类编号）
 │   ├── [S] 国家 · 经济社会
 │   │   ├── S01 经济危机解码-价值守恒论证.html
-│   │   ├── S02 宪法-价值守恒论证.html
+│   │   ├── S02 当代中国马克思主义政治经济学-价值守恒论证.html
 │   │   ├── …（S01–S22，见上方系列总览）
 │   ├── [E] 企业
 │   │   ├── E01 德鲁克管理-价值守恒论证.html

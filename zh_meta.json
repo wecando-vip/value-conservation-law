@@ -11,42 +11,6 @@
   ],
   [
    "S02",
-   "宪法",
-   "The Constitution",
-   "根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础",
-   null,
-   null,
-   null
-  ],
-  [
-   "S03",
-   "党章",
-   "The Party Constitution",
-   "政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达",
-   null,
-   null,
-   null
-  ],
-  [
-   "S04",
-   "三权运行",
-   "Separation of Powers in Operation",
-   "立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计",
-   null,
-   null,
-   null
-  ],
-  [
-   "S05",
-   "中华人民共和国民法典",
-   "The Civil Code of the PRC",
-   "民事权利总法典 · 平等主体间 E/S/T 的规则框架",
-   null,
-   null,
-   null
-  ],
-  [
-   "S06",
    "当代中国马克思主义政治经济学",
    "Contemporary Marxist Political Economy",
    "中国特色社会主义政治经济学 · 宏观价值分配的理论根基",
@@ -55,7 +19,7 @@
    null
   ],
   [
-   "S07",
+   "S03",
    "宏观经济学",
    "Macroeconomics",
    "总量视角 · 增长、就业、通胀 = 宏观经济三价值",
@@ -64,7 +28,7 @@
    null
   ],
   [
-   "S08",
+   "S04",
    "微观经济学",
    "Microeconomics",
    "个体决策 · 供求与福利 = 微观三价值博弈",
@@ -73,7 +37,7 @@
    null
   ],
   [
-   "S09",
+   "S05",
    "分配制度",
    "The Distribution System",
    "三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义",
@@ -82,7 +46,7 @@
    null
   ],
   [
-   "S10",
+   "S06",
    "政绩考核",
    "Performance Appraisal of Officials",
    "考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考",
@@ -91,7 +55,7 @@
    null
   ],
   [
-   "S11",
+   "S07",
    "中央帝国的财政密码",
    "The Fiscal Code of Central Empires",
    "王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生",
@@ -100,7 +64,7 @@
    "fr/06 code-fiscal-empires-centraux.fr.html"
   ],
   [
-   "S12",
+   "S08",
    "中央帝国三部曲",
    "The Central Empire Trilogy",
    "财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除",
@@ -109,7 +73,7 @@
    "fr/07 trilogie-empire-central.fr.html"
   ],
   [
-   "S13",
+   "S09",
    "历代经济变革得失",
    "Economic Reforms Through the Dynasties",
    "变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T",
@@ -118,7 +82,7 @@
    "fr/08 réformes-économiques-dynasties.fr.html"
   ],
   [
-   "S14",
+   "S10",
    "中国历代政治得失",
    "The Gains and Losses of Chinese Dynastic Politics",
    "制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新",
@@ -127,7 +91,7 @@
    "fr/09 politique-dynasties-chinoises.fr.html"
   ],
   [
-   "S15",
+   "S11",
    "置身事内",
    "Inside the Game: Government and Economic Development",
    "发展型政府 = \"E 单兵突进\"的除法史；破解 = 服务型政府",
@@ -136,7 +100,7 @@
    "fr/10 au-coeur-du-jeu.fr.html"
   ],
   [
-   "S16",
+   "S12",
    "大国大城",
    "Great Nation, Great City",
    "人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚",
@@ -145,7 +109,7 @@
    "fr/11 grande-nation-grande-ville.fr.html"
   ],
   [
-   "S17",
+   "S13",
    "基层中国的运行逻辑",
    "The Operating Logic of Grassroots China",
    "压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡",
@@ -154,7 +118,7 @@
    null
   ],
   [
-   "S18",
+   "S14",
    "债务危机与新货币价值内涵",
    "Debt Crises and the New Connotation of Money",
    "债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵",
@@ -163,7 +127,7 @@
    "fr/05 crise-dette-nouvelle-monnaie.fr.html"
   ],
   [
-   "S19",
+   "S15",
    "既要又要还要",
    "Both, And, Also",
    "统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧",
@@ -172,7 +136,7 @@
    null
   ],
   [
-   "S20",
+   "S16",
    "毛泽东选集五卷方法论",
    "Methodology of the Selected Works of Mao Zedong",
    "矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论",
@@ -181,7 +145,7 @@
    null
   ],
   [
-   "S21",
+   "S17",
    "社会保障",
    "Social Security",
    "民生基石 · 社保体系 = 社会价值 S 的兜底工程",
@@ -190,10 +154,46 @@
    null
   ],
   [
-   "S22",
+   "S18",
    "看病难看病贵",
    "Difficulty and Cost of Medical Care",
    "健康价值重构 · 医疗资源 = E/S/T 三重错配的破解",
+   null,
+   null,
+   null
+  ],
+  [
+   "S19",
+   "宪法",
+   "The Constitution",
+   "根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础",
+   null,
+   null,
+   null
+  ],
+  [
+   "S20",
+   "党章",
+   "The Party Constitution",
+   "政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达",
+   null,
+   null,
+   null
+  ],
+  [
+   "S21",
+   "三权运行",
+   "Separation of Powers in Operation",
+   "立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计",
+   null,
+   null,
+   null
+  ],
+  [
+   "S22",
+   "中华人民共和国民法典",
+   "The Civil Code of the PRC",
+   "民事权利总法典 · 平等主体间 E/S/T 的规则框架",
    null,
    null,
    null
