@@ -226,6 +226,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── library-family.html     # 分类导航页：家庭（F，7 篇）
 ├── library-personal.html   # 分类导航页：个人（P，17 篇）
 ├── valuesitemap.xml    # 站点地图（百度/Google 收录，131 URL + hreflang 多语言关联）
+├── robots.txt          # 爬虫协议（开放收录：国内外搜索引擎 + AI 大模型爬虫）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
 ├── zh_meta.json        # zh 文库元数据（编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）

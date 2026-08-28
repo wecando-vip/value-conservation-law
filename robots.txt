@@ -1,0 +1,170 @@
+# ============================================================
+# robots.txt — 财情倍增的价值守恒定律
+# The Law of Value Conservation for Wealth–Wellbeing Multiplication
+#
+# 策略：开放收录
+#   - 允许国内外主流搜索引擎抓取收录
+#   - 允许主流 AI 大模型爬虫抓取（检索引用 / 训练语料）
+#   - 全部页面允许，无屏蔽目录
+#
+# 站点：https://wecando-vip.github.io/value-conservation-law/
+# 更新：2026-08-28
+# ============================================================
+
+# ---------- 兜底规则：默认全部开放 ----------
+User-agent: *
+Allow: /
+Crawl-delay: 2
+
+# ============ 国内搜索引擎 ============
+
+# 百度
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# 搜狗
+User-agent: Sogou web spider
+Allow: /
+
+# 360 搜索
+User-agent: 360Spider
+Allow: /
+
+# 神马搜索（UC / 阿里巴巴）
+User-agent: YisouSpider
+Allow: /
+
+# 字节跳动 / 头条搜索
+User-agent: ByteSpider
+Allow: /
+
+# 夸克搜索
+User-agent: QuarkBot
+Allow: /
+
+# 华为花瓣搜索
+User-agent: PetalBot
+Allow: /
+
+# 腾讯搜搜 / QQ 浏览器
+User-agent: SosoSpider
+Allow: /
+
+# ============ 国外搜索引擎 ============
+
+# Google（网页 / 图片 / 移动 / 新闻）
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Googlebot-Mobile
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+
+# Bing（微软）
+User-agent: bingbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex（俄罗斯）
+User-agent: YandexBot
+Allow: /
+
+# Naver（韩国）
+User-agent: Yeti
+Allow: /
+
+# Seznam（捷克）
+User-agent: SeznamBot
+Allow: /
+
+# ============ AI 大模型爬虫（允许抓取 / 收录） ============
+
+# OpenAI — ChatGPT 训练语料
+User-agent: GPTBot
+Allow: /
+
+# OpenAI — ChatGPT 联网搜索索引
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI — ChatGPT 对话中引用抓取
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic — Claude 训练
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic — 其他产品
+User-agent: anthropic-ai
+Allow: /
+
+# Google — Gemini 训练 / AI Overview 引用
+User-agent: Google-Extended
+Allow: /
+
+# Google — 其他抓取用途
+User-agent: GoogleOther
+Allow: /
+
+# Common Crawl — 全球语料库（多模型数据源）
+User-agent: CCBot
+Allow: /
+
+# Perplexity — AI 搜索
+User-agent: PerplexityBot
+Allow: /
+
+# Apple — Siri / Apple Intelligence
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# 字节跳动 — 豆包 / 扣子（国内大模型）
+User-agent: Bytespider
+Allow: /
+
+# Meta — Llama 系列
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Amazon — Alexa AI
+User-agent: Amazonbot
+Allow: /
+
+# Cohere — 企业级大模型
+User-agent: cohere-ai
+Allow: /
+
+# AI2 — Semantic Scholar / AI 论文检索
+User-agent: AI2Bot
+Allow: /
+
+# You.com — AI 搜索
+User-agent: YouBot
+Allow: /
+
+# DuckDuckGo — AI 助手
+User-agent: DuckAssistBot
+Allow: /
+
+# ============================================================
+# 站点地图声明（Sitemap 指令全局生效，不限 User-agent）
+# ============================================================
+
+Sitemap: https://wecando-vip.github.io/value-conservation-law/valuesitemap.xml
+
+# 说明：
+# - 未公开专用爬虫 UA 的国内大模型（DeepSeek / 通义千问 / 文心一言 等）
+#   走上方 `User-agent: *` 兜底规则，同样允许抓取。
+# - 如需限制"仅收录不训练"，可将对应 AI 爬虫组的 Allow 改为：
+#     User-agent: GPTBot
+#     Disallow: /
+#   但当前策略为开放收录，故全部 Allow。
