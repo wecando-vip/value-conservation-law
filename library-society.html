@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「国家 · 经济社会」分类导航 · Society & State — 财情倍增的价值守恒定律</title>
+<meta name="description" content="财情双生智库·价值守恒定律应用系列 — 国家 · 经济社会 分类导航页：37 篇中文论证文档，经济理论 · 治理历史 · 社会民生 · 制度根基。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --cat: #16324f; --cat-2: #2b5f8a; --cat-soft: #eef3f8;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 40px 24px 32px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: #d9b367; border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 14px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 8px; max-width: 860px; font-size: clamp(24px, 3.8vw, 32px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; }
+  .hero p.sub { max-width: 780px; margin: 10px auto 0; font-size: 14.5px; color: #cdd6e0; line-height: 1.9; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 28px 10px; }
+  .top-links { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: center; margin-bottom: 18px; font-size: 13.5px; }
+  .top-links a { font-weight: 700; }
+  .cat-switch { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 26px; }
+  .cat-switch a { display: block; text-align: center; padding: 12px 8px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); color: var(--ink); font-size: 15px; font-weight: 700; box-shadow: var(--shadow); transition: all .2s; }
+  .cat-switch a:hover { text-decoration: none; transform: translateY(-1px); }
+  .cat-switch a .cat-code { font-family: Georgia, serif; display: block; font-size: 12px; opacity: .65; letter-spacing: 1px; }
+  .cat-switch a.active { background: var(--cat); border-color: var(--cat); color: #fff; }
+  .sec-title { display: flex; align-items: center; gap: 12px; margin: 22px 0 8px; scroll-margin-top: 20px; }
+  .sec-title .sn { font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: var(--cat); border: 1px solid var(--cat); border-radius: 8px; padding: 2px 10px; background: var(--cat-soft); }
+  .sec-title h2 { margin: 0; font-size: 21px; color: var(--navy); letter-spacing: 1px; }
+  .sec-title .en-sec { font-size: 14px; color: var(--ink-soft); font-weight: 400; font-style: italic; }
+  .sec-title .count { margin-left: auto; font-size: 13px; color: var(--ink-soft); background: var(--card); border: 1px solid var(--line); padding: 2px 12px; border-radius: 999px; }
+  .cat-desc { color: var(--ink-soft); font-size: 14px; margin: 0 0 14px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 30px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--cat); }
+  .card .no { font-family: Georgia, serif; font-size: 15px; font-weight: 700; color: var(--cat); letter-spacing: 1px; }
+  .card h3 { margin: 6px 0 4px; font-size: 17px; color: var(--navy); }
+  .card .en-title { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 8px; font-style: italic; }
+  .card .links { display: flex; gap: 16px; font-size: 13.5px; flex-wrap: wrap; }
+  .card .links a { font-weight: 700; }
+  .card .desc { margin: 10px 0 0; font-size: 13.5px; color: var(--ink-soft); }
+  .note { background: var(--blue-soft); border: 1px solid rgba(43,95,138,.2); border-radius: var(--radius); padding: 14px 20px; font-size: 14px; color: var(--ink-soft); margin-bottom: 26px; }
+  .note b { color: var(--navy); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 18px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .cat-switch { grid-template-columns: repeat(2, 1fr); } }
+
+</style>
+</head>
+<body style="--cat:#16324f; --cat-2:#2b5f8a; --cat-soft:#eef3f8">
+
+<header class="hero">
+  <div class="kicker">国家 · 经济社会 · Society & State</div>
+  <h1>价值守恒定律 <span class="hl">国家 · 经济社会</span> 分类导航</h1>
+  <p class="sub">从经济危机解码到群体心理方法论，37 篇论证国家与社会的价值守恒：经济理论 · 治理历史 · 社会民生 · 制度根基。</p>
+</header>
+
+<div class="wrap">
+  <div class="top-links">
+    <span><a href="library.html" target="_blank" rel="noopener">← 返回总文库索引 (library.html)</a></span>
+    <span>其他分类：<a href="library-enterprise.html" target="_blank" rel="noopener">企业</a> ｜ <a href="library-family.html" target="_blank" rel="noopener">家庭</a> ｜ <a href="library-personal.html" target="_blank" rel="noopener">个人</a></span>
+  </div>
+
+  <div class="cat-switch">
+<a href="library-society.html" class="active" style=""><span class="cat-code">S</span>国家 · 经济社会</a>
+    <a href="library-enterprise.html" class="" style="border-left:4px solid #2d6a4f"><span class="cat-code">E</span>企业</a>
+    <a href="library-family.html" class="" style="border-left:4px solid #a63a2b"><span class="cat-code">F</span>家庭</a>
+    <a href="library-personal.html" class="" style="border-left:4px solid #a67c2e"><span class="cat-code">P</span>个人</a>
+  </div>
+
+  <div class="sec-title"><span class="sn">S</span><h2>国家 · 经济社会 <span class="en-sec">Society & State</span></h2><span class="count">37 篇</span></div>
+  <p class="cat-desc">经济理论 · 治理历史 · 社会民生 · 制度根基</p>
+  <div class="grid">
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S01</div>
+      <h3>经济危机解码</h3>
+      <div class="en-title">The Five Economic Crises Decoded</div>
+      <div class="links"><a href="zh/S01 经济危机解码-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/01 five-economic-crises-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/01 descifrando-crisis-economicas.es.html" target="_blank" rel="noopener">Español</a><a href="fr/01 décrypter-crises-économiques.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S02</div>
+      <h3>当代中国马克思主义政治经济学</h3>
+      <div class="en-title">Contemporary Marxist Political Economy</div>
+      <div class="links"><a href="zh/S02 当代中国马克思主义政治经济学-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">中国特色社会主义政治经济学 · 宏观价值分配的理论根基</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S03</div>
+      <h3>宏观经济学</h3>
+      <div class="en-title">Macroeconomics</div>
+      <div class="links"><a href="zh/S03 宏观经济学-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">总量视角 · 增长、就业、通胀 = 宏观经济三价值</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S04</div>
+      <h3>微观经济学</h3>
+      <div class="en-title">Microeconomics</div>
+      <div class="links"><a href="zh/S04 微观经济学-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">个体决策 · 供求与福利 = 微观三价值博弈</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S05</div>
+      <h3>分配制度</h3>
+      <div class="en-title">The Distribution System</div>
+      <div class="links"><a href="zh/S05 分配制度-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S06</div>
+      <h3>政绩考核</h3>
+      <div class="en-title">Performance Appraisal of Officials</div>
+      <div class="links"><a href="zh/S06 政绩考核-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S07</div>
+      <h3>中央帝国的财政密码</h3>
+      <div class="en-title">The Fiscal Code of Central Empires</div>
+      <div class="links"><a href="zh/S07 中央帝国的财政密码-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/06 fiscal-code-central-empires-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/06 codigo-fiscal-imperios-centrales.es.html" target="_blank" rel="noopener">Español</a><a href="fr/06 code-fiscal-empires-centraux.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S08</div>
+      <h3>中央帝国三部曲</h3>
+      <div class="en-title">The Central Empire Trilogy</div>
+      <div class="links"><a href="zh/S08 中央帝国三部曲-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/07 central-empire-trilogy-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/07 trilogia-imperio-central.es.html" target="_blank" rel="noopener">Español</a><a href="fr/07 trilogie-empire-central.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S09</div>
+      <h3>历代经济变革得失</h3>
+      <div class="en-title">Economic Reforms Through the Dynasties</div>
+      <div class="links"><a href="zh/S09 历代经济变革得失-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/08 economic-reforms-dynasties-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/08 reformas-economicas-dinastias.es.html" target="_blank" rel="noopener">Español</a><a href="fr/08 réformes-économiques-dynasties.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S10</div>
+      <h3>中国历代政治得失</h3>
+      <div class="en-title">The Gains and Losses of Chinese Dynastic Politics</div>
+      <div class="links"><a href="zh/S10 中国历代政治得失-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/09 political-gains-losses-dynasties-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/09 politica-dinastias-chinas.es.html" target="_blank" rel="noopener">Español</a><a href="fr/09 politique-dynasties-chinoises.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S11</div>
+      <h3>置身事内</h3>
+      <div class="en-title">Inside the Game: Government and Economic Development</div>
+      <div class="links"><a href="zh/S11 置身事内-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/10 inside-the-game-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/10 dentro-del-juego.es.html" target="_blank" rel="noopener">Español</a><a href="fr/10 au-coeur-du-jeu.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">发展型政府 = "E 单兵突进"的除法史；破解 = 服务型政府</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S12</div>
+      <h3>大国大城</h3>
+      <div class="en-title">Great Nation, Great City</div>
+      <div class="links"><a href="zh/S12 大国大城-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/11 great-nation-great-city-value-conservation.en.html" target="_blank" rel="noopener">English</a><a href="es/11 gran-nacion-gran-ciudad.es.html" target="_blank" rel="noopener">Español</a><a href="fr/11 grande-nation-grande-ville.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S13</div>
+      <h3>基层中国的运行逻辑</h3>
+      <div class="en-title">The Operating Logic of Grassroots China</div>
+      <div class="links"><a href="zh/S13 基层中国的运行逻辑-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S14</div>
+      <h3>债务危机与新货币价值内涵</h3>
+      <div class="en-title">Debt Crises and the New Connotation of Money</div>
+      <div class="links"><a href="zh/S14 债务危机与新货币价值内涵-价值守恒论证.html" target="_blank" rel="noopener">中文</a><a href="en/05 debt-crises-new-currency-value.en.html" target="_blank" rel="noopener">English</a><a href="es/05 crisis-deuda-nueva-moneda.es.html" target="_blank" rel="noopener">Español</a><a href="fr/05 crise-dette-nouvelle-monnaie.fr.html" target="_blank" rel="noopener">Français</a></div>
+      <p class="desc">债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S15</div>
+      <h3>既要又要还要</h3>
+      <div class="en-title">Both, And, Also</div>
+      <div class="links"><a href="zh/S15 既要又要还要-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S16</div>
+      <h3>毛泽东选集五卷方法论</h3>
+      <div class="en-title">Methodology of the Selected Works of Mao Zedong</div>
+      <div class="links"><a href="zh/S16 毛泽东选集五卷方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S17</div>
+      <h3>社会保障</h3>
+      <div class="en-title">Social Security</div>
+      <div class="links"><a href="zh/S17 社会保障-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">民生基石 · 社保体系 = 社会价值 S 的兜底工程</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S18</div>
+      <h3>看病难看病贵</h3>
+      <div class="en-title">Difficulty and Cost of Medical Care</div>
+      <div class="links"><a href="zh/S18 看病难看病贵-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">健康价值重构 · 医疗资源 = E/S/T 三重错配的破解</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S19</div>
+      <h3>宪法</h3>
+      <div class="en-title">The Constitution</div>
+      <div class="links"><a href="zh/S19 宪法-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S20</div>
+      <h3>党章</h3>
+      <div class="en-title">The Party Constitution</div>
+      <div class="links"><a href="zh/S20 党章-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S21</div>
+      <h3>三权运行</h3>
+      <div class="en-title">Separation of Powers in Operation</div>
+      <div class="links"><a href="zh/S21 三权运行-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S22</div>
+      <h3>中华人民共和国民法典</h3>
+      <div class="en-title">The Civil Code of the PRC</div>
+      <div class="links"><a href="zh/S22 中华人民共和国民法典-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">民事权利总法典 · 平等主体间 E/S/T 的规则框架</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S23</div>
+      <h3>大国博弈</h3>
+      <div class="en-title">Great Power Competition</div>
+      <div class="links"><a href="zh/S23 大国博弈-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">世界秩序层面的价值守恒：权力转移方程、均势稳定器与修昔底德陷阱的乘除辨析</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S24</div>
+      <h3>钟才文四篇</h3>
+      <div class="en-title">Four Essays on the Chinese Economy</div>
+      <div class="links"><a href="zh/S24 钟才文四篇-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">宏观经济时评：韧性活力、世界贡献、4.7% 与行稳致远的 E/S/T 乘除论证</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S25</div>
+      <h3>金融史方法论</h3>
+      <div class="en-title">Methodology of Financial History</div>
+      <div class="links"><a href="zh/S25 金融史方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">金融史 = 价值的跨时空守恒实验：信用乘法、股份公司与泡沫除法警示</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S26</div>
+      <h3>科技史兴衰</h3>
+      <div class="en-title">The Rise and Fall of Science and Technology</div>
+      <div class="links"><a href="zh/S26 科技史兴衰-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">科技兴衰 = 知识 E、制度 S、时间 T 三乘数的乘除博弈</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S27</div>
+      <h3>二十四史应用</h3>
+      <div class="en-title">The Twenty-Four Histories in Application</div>
+      <div class="links"><a href="zh/S27 二十四史应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">4000 年正史档案：宏观乘法治世与透支清算的 20 案例对照</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S28</div>
+      <h3>资治通鉴应用</h3>
+      <div class="en-title">The Comprehensive Mirror in Application</div>
+      <div class="links"><a href="zh/S28 资治通鉴应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">1362 年王朝兴衰宏观实验报告：司马光之问与乘除清算轨迹</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S29</div>
+      <h3>封建脉络百战</h3>
+      <div class="en-title">A Hundred Battles of the Feudal Thread</div>
+      <div class="links"><a href="zh/S29 封建脉络百战-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">王朝周期律的乘除博弈史：崛起盛世的乘法与衰亡病灶的除法</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S30</div>
+      <h3>浩荡两千年</h3>
+      <div class="en-title">Two Thousand Years of Commerce</div>
+      <div class="links"><a href="zh/S30 浩荡两千年-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">官商收放钟摆下的商业文明兴衰：自由商帮的乘法与官营垄断的除法</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S31</div>
+      <h3>跌荡一百年</h3>
+      <div class="en-title">A Turbulent Century</div>
+      <div class="links"><a href="zh/S31 跌荡一百年-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">1870–2008 中国商业的乘除之道：实业兴国的乘法样本与官商不分的透支</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S32</div>
+      <h3>战争论应用</h3>
+      <div class="en-title">On War in Application</div>
+      <div class="links"><a href="zh/S32 战争论应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">战争是政治的继续：目标·重心·集中的乘法原则与摩擦迷雾</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S33</div>
+      <h3>孙子兵法应用</h3>
+      <div class="en-title">The Art of War in Application</div>
+      <div class="links"><a href="zh/S33 孙子兵法应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">慎战先胜的战略操作系统：不战而屈人之兵的 S 最优解</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S34</div>
+      <h3>三十六计应用</h3>
+      <div class="en-title">The Thirty-Six Stratagems in Application</div>
+      <div class="links"><a href="zh/S34 三十六计应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">六套计的博弈操作系统：信息不对称的价值杠杆与败战止损哲学</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S35</div>
+      <h3>三国演义应用</h3>
+      <div class="en-title">The Romance of the Three Kingdoms</div>
+      <div class="links"><a href="zh/S35 三国演义应用-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">决策博弈教科书：乘法式积累与除法式权谋的集团对照</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S36</div>
+      <h3>水浒传方法论</h3>
+      <div class="en-title">Methodology of Water Margin</div>
+      <div class="links"><a href="zh/S36 水浒传方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">聚义乘法与招安除法：梁山兴衰的乘除清算标本与团队创业启示</p>
+    </div>
+    <div class="card" style="border-top-color:#16324f">
+      <div class="no">S37</div>
+      <h3>群体心理方法论</h3>
+      <div class="en-title">Methodology of Crowd Psychology</div>
+      <div class="links"><a href="zh/S37 群体心理方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">群体心理如何被除法、又如何被乘法：乌合之众到狂热分子的七层坐标</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>本页说明</b>:本页为 <b>国家 · 经济社会</b>（Society & State）类别的独立导航页,共 <b>37 篇</b> 中文论证文档,前缀编号 S01–S37,便于持续扩展(如新增篇目顺延编号)。每篇均以价值守恒定律 <b>Y = E × S × T</b> 为分析框架。分类体系:<b>S</b> = 国家·经济社会、<b>E</b> = 企业、<b>F</b> = 家庭、<b>P</b> = 个人。<b>返回</b>:总入口为 <a href="library.html" target="_blank" rel="noopener">library.html</a>。
+  </div>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  价值守恒定律 Y = E × S × T · 内容符合广告法合规要求 · 观点为思想科普,不构成任何投资建议
+</footer>
+
+</body>
+</html>

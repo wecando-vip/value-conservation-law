@@ -221,6 +221,10 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── index.html          # 中文版理论文档（单文件，零依赖，可离线阅读）
 ├── index.en.html       # English 版本文档（The Law of Value Conservation）
 ├── library.html        # 文库索引（语言 × 领域分类矩阵，总入口）
+├── library-society.html    # 分类导航页：国家 · 经济社会（S，37 篇）
+├── library-enterprise.html # 分类导航页：企业（E，12 篇）
+├── library-family.html     # 分类导航页：家庭（F，7 篇）
+├── library-personal.html   # 分类导航页：个人（P，17 篇）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
 ├── zh_meta.json        # zh 文库元数据（编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）

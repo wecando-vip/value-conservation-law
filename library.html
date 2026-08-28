@@ -40,9 +40,13 @@
   .lang .ok { color: var(--green); background: var(--green-soft); border: 1px solid rgba(45,106,79,.25); }
   .lang .soon { color: var(--gold); background: var(--gold-soft); border: 1px dashed rgba(166,124,46,.4); }
   .lang a { display: block; margin-top: 6px; font-size: 13px; font-weight: 700; color: var(--navy-2); }
-  .cat-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 26px; }
+  .cat-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
   .cat-nav a { display: inline-block; padding: 6px 16px; border-radius: 999px; font-size: 14px; font-weight: 700; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
   .cat-nav a:hover { text-decoration: none; }
+  .lib-nav { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 0 0 26px; padding: 10px 14px; background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius); }
+  .lib-nav .label { font-size: 13px; color: var(--ink-soft); font-weight: 700; letter-spacing: 1px; }
+  .lib-nav a { display: inline-block; padding: 5px 16px; border-radius: 999px; font-size: 14px; font-weight: 700; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+  .lib-nav a:hover { text-decoration: none; color: #fff; }
   .sec-title { display: flex; align-items: center; gap: 12px; margin: 26px 0 8px; scroll-margin-top: 20px; }
   .sec-title .sn { font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: var(--gold); border: 1px solid rgba(166,124,46,.4); border-radius: 8px; padding: 2px 10px; background: var(--gold-soft); }
   .sec-title h2 { margin: 0; font-size: 21px; color: var(--navy); letter-spacing: 1px; }
@@ -91,6 +95,14 @@
     <a href="#cat-E" style="border-left:4px solid #2d6a4f">企业</a>
     <a href="#cat-F" style="border-left:4px solid #a63a2b">家庭</a>
     <a href="#cat-P" style="border-left:4px solid #a67c2e">个人</a>
+  </div>
+
+  <div class="lib-nav">
+    <span class="label">独立导航页 ↓</span>
+    <a href="library-society.html" target="_blank" rel="noopener" style="border-left:4px solid #16324f">国家 · 经济社会</a>
+    <a href="library-enterprise.html" target="_blank" rel="noopener" style="border-left:4px solid #2d6a4f">企业</a>
+    <a href="library-family.html" target="_blank" rel="noopener" style="border-left:4px solid #a63a2b">家庭</a>
+    <a href="library-personal.html" target="_blank" rel="noopener" style="border-left:4px solid #a67c2e">个人</a>
   </div>
 
 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「家庭」分类导航 · Family — 财情倍增的价值守恒定律</title>
+<meta name="description" content="财情双生智库·价值守恒定律应用系列 — 家庭 分类导航页：7 篇中文论证文档，婚姻家庭 · 亲密关系 · 亲子教育。"/>
+<link rel="stylesheet" href="https://unpkg.com/common_word_font@1.0.20/alibaba-puhuiti/stylesheetforall.css"/>
+<style>
+
+  :root {
+    --paper: #faf9f6; --card: #ffffff;
+    --ink: #22272e; --ink-soft: #5b6472; --line: #e6e4dd;
+    --navy: #16324f; --navy-2: #2b5f8a;
+    --gold: #a67c2e; --gold-soft: #f3ead6; --blue-soft: #eef3f8;
+    --green: #2d6a4f; --green-soft: #eaf3e6; --red: #a63a2b; --red-soft: #f9ecec;
+    --cat: #16324f; --cat-2: #2b5f8a; --cat-soft: #eef3f8;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(20,30,40,.05), 0 6px 20px rgba(20,30,40,.05);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.9; font-size: 16px;
+  }
+  a { color: var(--navy-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 40px 24px 32px; text-align: center; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
+  .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: #d9b367; border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 14px; background: rgba(166,124,46,.08); }
+  .hero h1 { margin: 0 auto 8px; max-width: 860px; font-size: clamp(24px, 3.8vw, 32px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
+  .hero h1 .hl { color: #d9b367; }
+  .hero p.sub { max-width: 780px; margin: 10px auto 0; font-size: 14.5px; color: #cdd6e0; line-height: 1.9; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 28px 10px; }
+  .top-links { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: center; margin-bottom: 18px; font-size: 13.5px; }
+  .top-links a { font-weight: 700; }
+  .cat-switch { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 26px; }
+  .cat-switch a { display: block; text-align: center; padding: 12px 8px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); color: var(--ink); font-size: 15px; font-weight: 700; box-shadow: var(--shadow); transition: all .2s; }
+  .cat-switch a:hover { text-decoration: none; transform: translateY(-1px); }
+  .cat-switch a .cat-code { font-family: Georgia, serif; display: block; font-size: 12px; opacity: .65; letter-spacing: 1px; }
+  .cat-switch a.active { background: var(--cat); border-color: var(--cat); color: #fff; }
+  .sec-title { display: flex; align-items: center; gap: 12px; margin: 22px 0 8px; scroll-margin-top: 20px; }
+  .sec-title .sn { font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: var(--cat); border: 1px solid var(--cat); border-radius: 8px; padding: 2px 10px; background: var(--cat-soft); }
+  .sec-title h2 { margin: 0; font-size: 21px; color: var(--navy); letter-spacing: 1px; }
+  .sec-title .en-sec { font-size: 14px; color: var(--ink-soft); font-weight: 400; font-style: italic; }
+  .sec-title .count { margin-left: auto; font-size: 13px; color: var(--ink-soft); background: var(--card); border: 1px solid var(--line); padding: 2px 12px; border-radius: 999px; }
+  .cat-desc { color: var(--ink-soft); font-size: 14px; margin: 0 0 14px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 30px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); border-top: 3px solid var(--cat); }
+  .card .no { font-family: Georgia, serif; font-size: 15px; font-weight: 700; color: var(--cat); letter-spacing: 1px; }
+  .card h3 { margin: 6px 0 4px; font-size: 17px; color: var(--navy); }
+  .card .en-title { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 8px; font-style: italic; }
+  .card .links { display: flex; gap: 16px; font-size: 13.5px; flex-wrap: wrap; }
+  .card .links a { font-weight: 700; }
+  .card .desc { margin: 10px 0 0; font-size: 13.5px; color: var(--ink-soft); }
+  .note { background: var(--blue-soft); border: 1px solid rgba(43,95,138,.2); border-radius: var(--radius); padding: 14px 20px; font-size: 14px; color: var(--ink-soft); margin-bottom: 26px; }
+  .note b { color: var(--navy); }
+  .foot { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 18px 10px 30px; line-height: 1.9; }
+  .brand-line { color: var(--gold); font-weight: 700; letter-spacing: 2px; margin-bottom: 6px; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .cat-switch { grid-template-columns: repeat(2, 1fr); } }
+
+</style>
+</head>
+<body style="--cat:#a63a2b; --cat-2:#c05a48; --cat-soft:#f9f1ef">
+
+<header class="hero">
+  <div class="kicker">家庭 · Family</div>
+  <h1>价值守恒定律 <span class="hl">家庭</span> 分类导航</h1>
+  <p class="sub">从情感婚恋到红楼梦家族兴衰，7 篇论证家庭层面的价值守恒：婚姻家庭 · 亲密关系 · 亲子教育。</p>
+</header>
+
+<div class="wrap">
+  <div class="top-links">
+    <span><a href="library.html" target="_blank" rel="noopener">← 返回总文库索引 (library.html)</a></span>
+    <span>其他分类：<a href="library-society.html" target="_blank" rel="noopener">国家 · 经济社会</a> ｜ <a href="library-enterprise.html" target="_blank" rel="noopener">企业</a> ｜ <a href="library-personal.html" target="_blank" rel="noopener">个人</a></span>
+  </div>
+
+  <div class="cat-switch">
+<a href="library-society.html" class="" style="border-left:4px solid #16324f"><span class="cat-code">S</span>国家 · 经济社会</a>
+    <a href="library-enterprise.html" class="" style="border-left:4px solid #2d6a4f"><span class="cat-code">E</span>企业</a>
+    <a href="library-family.html" class="active" style=""><span class="cat-code">F</span>家庭</a>
+    <a href="library-personal.html" class="" style="border-left:4px solid #a67c2e"><span class="cat-code">P</span>个人</a>
+  </div>
+
+  <div class="sec-title"><span class="sn">F</span><h2>家庭 <span class="en-sec">Family</span></h2><span class="count">7 篇</span></div>
+  <p class="cat-desc">婚姻家庭 · 亲密关系 · 亲子教育</p>
+  <div class="grid">
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F01</div>
+      <h3>情感婚恋</h3>
+      <div class="en-title">Emotion and Marriage</div>
+      <div class="links"><a href="zh/F01 情感婚恋-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">心动价值 · 婚恋 = 家庭 S 与 T 的起点</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F02</div>
+      <h3>婚姻家庭方法论</h3>
+      <div class="en-title">Methodology of Marriage and Family</div>
+      <div class="links"><a href="zh/F02 婚姻家庭方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">识家·治家·立家的系统之道：婚姻是制度、家庭是系统的微观三因子论证</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F03</div>
+      <h3>亲密关系方法论</h3>
+      <div class="en-title">Methodology of Intimate Relationships</div>
+      <div class="links"><a href="zh/F03 亲密关系方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">在爱中经营财情综合价值的跨主体守恒：依恋、沟通与冲突修复</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F04</div>
+      <h3>亲子教育方法论</h3>
+      <div class="en-title">Methodology of Parenting</div>
+      <div class="links"><a href="zh/F04 亲子教育方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">亲子关系与子女教育：发展心理学奠基、7 层深度 × 六维画像</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F05</div>
+      <h3>婚内财产方法论</h3>
+      <div class="en-title">Methodology of Marital Property</div>
+      <div class="links"><a href="zh/F05 婚内财产方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">婚内财产的乘除论证：法定与约定、共建积累与失守损耗</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F06</div>
+      <h3>出轨离婚方法论</h3>
+      <div class="en-title">Methodology of Infidelity and Divorce</div>
+      <div class="links"><a href="zh/F06 出轨离婚方法论-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">识伤·抉择·重生的守恒路径：修复与离开的决策框架</p>
+    </div>
+    <div class="card" style="border-top-color:#a63a2b">
+      <div class="no">F07</div>
+      <h3>红楼梦家族兴衰</h3>
+      <div class="en-title">The Rise and Fall of the Jia Family</div>
+      <div class="links"><a href="zh/F07 红楼梦家族兴衰-价值守恒论证.html" target="_blank" rel="noopener">中文</a></div>
+      <p class="desc">贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>本页说明</b>:本页为 <b>家庭</b>（Family）类别的独立导航页,共 <b>7 篇</b> 中文论证文档,前缀编号 F01–F7,便于持续扩展(如新增篇目顺延编号)。每篇均以价值守恒定律 <b>Y = E × S × T</b> 为分析框架。分类体系:<b>S</b> = 国家·经济社会、<b>E</b> = 企业、<b>F</b> = 家庭、<b>P</b> = 个人。<b>返回</b>:总入口为 <a href="library.html" target="_blank" rel="noopener">library.html</a>。
+  </div>
+</div>
+
+<footer class="foot">
+  <div class="brand-line">∞ 财情双生智库 · Econ-Sentiment Twin Think Tank</div>
+  价值守恒定律 Y = E × S × T · 内容符合广告法合规要求 · 观点为思想科普,不构成任何投资建议
+</footer>
+
+</body>
+</html>
