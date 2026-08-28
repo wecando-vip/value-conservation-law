@@ -12,3 +12,6 @@ Thumbs.db
 # Local helper scripts
 _check_pages.ps1
 _dl_pages.ps1
+
+# Build artifacts
+*.zip
