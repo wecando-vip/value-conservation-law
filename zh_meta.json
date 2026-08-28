@@ -197,6 +197,141 @@
    null,
    null,
    null
+  ],
+  [
+   "S23",
+   "大国博弈",
+   "Great Power Competition",
+   "世界秩序层面的价值守恒：权力转移方程、均势稳定器与修昔底德陷阱的乘除辨析",
+   null,
+   null,
+   null
+  ],
+  [
+   "S24",
+   "钟才文四篇",
+   "Four Essays on the Chinese Economy",
+   "宏观经济时评：韧性活力、世界贡献、4.7% 与行稳致远的 E/S/T 乘除论证",
+   null,
+   null,
+   null
+  ],
+  [
+   "S25",
+   "金融史方法论",
+   "Methodology of Financial History",
+   "金融史 = 价值的跨时空守恒实验：信用乘法、股份公司与泡沫除法警示",
+   null,
+   null,
+   null
+  ],
+  [
+   "S26",
+   "科技史兴衰",
+   "The Rise and Fall of Science and Technology",
+   "科技兴衰 = 知识 E、制度 S、时间 T 三乘数的乘除博弈",
+   null,
+   null,
+   null
+  ],
+  [
+   "S27",
+   "二十四史应用",
+   "The Twenty-Four Histories in Application",
+   "4000 年正史档案：宏观乘法治世与透支清算的 20 案例对照",
+   null,
+   null,
+   null
+  ],
+  [
+   "S28",
+   "资治通鉴应用",
+   "The Comprehensive Mirror in Application",
+   "1362 年王朝兴衰宏观实验报告：司马光之问与乘除清算轨迹",
+   null,
+   null,
+   null
+  ],
+  [
+   "S29",
+   "封建脉络百战",
+   "A Hundred Battles of the Feudal Thread",
+   "王朝周期律的乘除博弈史：崛起盛世的乘法与衰亡病灶的除法",
+   null,
+   null,
+   null
+  ],
+  [
+   "S30",
+   "浩荡两千年",
+   "Two Thousand Years of Commerce",
+   "官商收放钟摆下的商业文明兴衰：自由商帮的乘法与官营垄断的除法",
+   null,
+   null,
+   null
+  ],
+  [
+   "S31",
+   "跌荡一百年",
+   "A Turbulent Century",
+   "1870–2008 中国商业的乘除之道：实业兴国的乘法样本与官商不分的透支",
+   null,
+   null,
+   null
+  ],
+  [
+   "S32",
+   "战争论应用",
+   "On War in Application",
+   "战争是政治的继续：目标·重心·集中的乘法原则与摩擦迷雾",
+   null,
+   null,
+   null
+  ],
+  [
+   "S33",
+   "孙子兵法应用",
+   "The Art of War in Application",
+   "慎战先胜的战略操作系统：不战而屈人之兵的 S 最优解",
+   null,
+   null,
+   null
+  ],
+  [
+   "S34",
+   "三十六计应用",
+   "The Thirty-Six Stratagems in Application",
+   "六套计的博弈操作系统：信息不对称的价值杠杆与败战止损哲学",
+   null,
+   null,
+   null
+  ],
+  [
+   "S35",
+   "三国演义应用",
+   "The Romance of the Three Kingdoms",
+   "决策博弈教科书：乘法式积累与除法式权谋的集团对照",
+   null,
+   null,
+   null
+  ],
+  [
+   "S36",
+   "水浒传方法论",
+   "Methodology of Water Margin",
+   "聚义乘法与招安除法：梁山兴衰的乘除清算标本与团队创业启示",
+   null,
+   null,
+   null
+  ],
+  [
+   "S37",
+   "群体心理方法论",
+   "Methodology of Crowd Psychology",
+   "群体心理如何被除法、又如何被乘法：乌合之众到狂热分子的七层坐标",
+   null,
+   null,
+   null
   ]
  ],
  "E": [
@@ -298,6 +433,15 @@
    null,
    null,
    null
+  ],
+  [
+   "E12",
+   "企业兴衰规律",
+   "The Rise and Fall of Enterprises",
+   "企业兴衰 = 三乘数同步与否：吴晓波四部企业史为案例的乘除纵深",
+   null,
+   null,
+   null
   ]
  ],
  "F": [
@@ -306,6 +450,60 @@
    "情感婚恋",
    "Emotion and Marriage",
    "心动价值 · 婚恋 = 家庭 S 与 T 的起点",
+   null,
+   null,
+   null
+  ],
+  [
+   "F02",
+   "婚姻家庭方法论",
+   "Methodology of Marriage and Family",
+   "识家·治家·立家的系统之道：婚姻是制度、家庭是系统的微观三因子论证",
+   null,
+   null,
+   null
+  ],
+  [
+   "F03",
+   "亲密关系方法论",
+   "Methodology of Intimate Relationships",
+   "在爱中经营财情综合价值的跨主体守恒：依恋、沟通与冲突修复",
+   null,
+   null,
+   null
+  ],
+  [
+   "F04",
+   "亲子教育方法论",
+   "Methodology of Parenting",
+   "亲子关系与子女教育：发展心理学奠基、7 层深度 × 六维画像",
+   null,
+   null,
+   null
+  ],
+  [
+   "F05",
+   "婚内财产方法论",
+   "Methodology of Marital Property",
+   "婚内财产的乘除论证：法定与约定、共建积累与失守损耗",
+   null,
+   null,
+   null
+  ],
+  [
+   "F06",
+   "出轨离婚方法论",
+   "Methodology of Infidelity and Divorce",
+   "识伤·抉择·重生的守恒路径：修复与离开的决策框架",
+   null,
+   null,
+   null
+  ],
+  [
+   "F07",
+   "红楼梦家族兴衰",
+   "The Rise and Fall of the Jia Family",
+   "贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账",
    null,
    null,
    null
@@ -374,6 +572,96 @@
    "en/15 sapiens-value-conservation.en.html",
    "es/15 sapiens.es.html",
    "fr/15 sapiens.fr.html"
+  ],
+  [
+   "P08",
+   "佛家思想应用",
+   "Buddhist Thought in Application",
+   "看破除法、实证乘法的的心性科学系统：缘起性空与八正道阶梯",
+   null,
+   null,
+   null
+  ],
+  [
+   "P09",
+   "儒家思想应用",
+   "Confucian Thought in Application",
+   "内圣外王的心性操作系统：修齐治平的 E/S/T 扩展链",
+   null,
+   null,
+   null
+  ],
+  [
+   "P10",
+   "道家思想应用",
+   "Taoist Thought in Application",
+   "道法自然的调衡系统：无为而治的最小干预乘法与周期预警",
+   null,
+   null,
+   null
+  ],
+  [
+   "P11",
+   "中国哲学史方法论",
+   "Methodology of Chinese Philosophy",
+   "道如何安顿与守恒的 3000 年乘除心法：儒道法墨佛学与宋明理学",
+   null,
+   null,
+   null
+  ],
+  [
+   "P12",
+   "西方哲学史方法论",
+   "Methodology of Western Philosophy",
+   "意义与价值的 2500 年守恒史：从古希腊逻各斯到尼采的乘除演进",
+   null,
+   null,
+   null
+  ],
+  [
+   "P13",
+   "文学史方法论",
+   "Methodology of Literary History",
+   "精神价值的跨时空守恒：抒情与叙事传统、经典化的乘法机制",
+   null,
+   null,
+   null
+  ],
+  [
+   "P14",
+   "艺术史方法论",
+   "Methodology of Art History",
+   "把不可言说之美固化为形并跨时空守恒：写意与写实的乘除对照",
+   null,
+   null,
+   null
+  ],
+  [
+   "P15",
+   "宗教史方法论",
+   "Methodology of Religious History",
+   "人类以超越性信仰寻找终极价值守恒锚点的方法论史",
+   null,
+   null,
+   null
+  ],
+  [
+   "P16",
+   "西游成事智慧",
+   "Wisdom of Achieving Success from Journey to the West",
+   "布局·入局·胜局的成事方法论：取经大业与八十一难的 T 积累",
+   null,
+   null,
+   null
+  ],
+  [
+   "P17",
+   "金瓶梅个人成长",
+   "Personal Growth from Jin Ping Mei",
+   "西门庆的除法人生：财商、人情与传承的反面教科书与成长七律",
+   null,
+   null,
+   null
   ]
  ]
 }

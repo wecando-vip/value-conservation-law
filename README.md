@@ -26,7 +26,7 @@
 
 价值导向，是一切经济社会行为的指挥棒——无论政府、企业，还是个人、家庭。
 
-本项目由**财情双生智库**（Econ-Sentiment Twin Think Tank）提出，历经 **10 多年**的博采众长、整合创新研发，将自然科学、社会科学、思维科学三大领域的整体最优解，转化为系统性的技术解决方案，形成独具特色的**产融联动、义利倍增**思想体系及实战方法。
+本项目由**财情双生智库**（Econ-Sentiment Twin Think Tank）提出，历经 **10 多年**的博采众长、整合创新研发，将自然科学、社会科学、思维科学三大领域的整体最优解，转化为系统性的技术解决方案，形成独具特色的**产融联动、财情倍增**思想体系及实战方法。
 
 在社会主义核心价值观下，本项目致力于从 0-1 创新经济社会核心基础科学，将「自私逐利的市场经济」与「强调集体利他的社会主义」纳入统一的价值内涵评估框架，形成一套上下贯通、宏观微观一致的**价值计量模型**，可解释西方主流经济学无法解释的原生经济现象，并以创造巨额价值增量为牵引，服务国家长治久安、企业基业长青、人民共同富裕。
 
@@ -85,13 +85,13 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 
 | 目录 | 语言 | 状态 |
 | ---- | ---- | ---- |
-| `zh/` | 中文 Chinese | ✅ 41 篇已发布 |
+| `zh/` | 中文 Chinese | ✅ 73 篇已发布 |
 | `en/` | English | ✅ 15 docs published |
 | `es/` | Español | ✅ 15 docs publicados |
 | `ar/` | العربية | 🔜 规划中 |
 | `fr/` | Français | ✅ 15 docs publiés |
 
-### 系列总览（按领域分类 · 41 篇）
+### 系列总览（按领域分类 · 73 篇）
 
 > 分类编号：**S** = 国家·经济社会、**E** = 企业、**F** = 家庭、**P** = 个人；后接两位序号，便于持续扩展。
 
@@ -120,6 +120,21 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | S20 | [党章](zh/S20 党章-价值守恒论证.html) | The Party Constitution | 政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达 |
 | S21 | [三权运行](zh/S21 三权运行-价值守恒论证.html) | Separation of Powers in Operation | 立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计 |
 | S22 | [中华人民共和国民法典](zh/S22 中华人民共和国民法典-价值守恒论证.html) | The Civil Code of the PRC | 民事权利总法典 · 平等主体间 E/S/T 的规则框架 |
+| S23 | [大国博弈](zh/S23 大国博弈-价值守恒论证.html) | Great Power Competition | 世界秩序层面的价值守恒：权力转移方程、均势稳定器与修昔底德陷阱的乘除辨析 |
+| S24 | [钟才文四篇](zh/S24 钟才文四篇-价值守恒论证.html) | Four Essays on the Chinese Economy | 宏观经济时评：韧性活力、世界贡献、4.7% 与行稳致远的 E/S/T 乘除论证 |
+| S25 | [金融史方法论](zh/S25 金融史方法论-价值守恒论证.html) | Methodology of Financial History | 金融史 = 价值的跨时空守恒实验：信用乘法、股份公司与泡沫除法警示 |
+| S26 | [科技史兴衰](zh/S26 科技史兴衰-价值守恒论证.html) | The Rise and Fall of Science and Technology | 科技兴衰 = 知识 E、制度 S、时间 T 三乘数的乘除博弈 |
+| S27 | [二十四史应用](zh/S27 二十四史应用-价值守恒论证.html) | The Twenty-Four Histories in Application | 4000 年正史档案：宏观乘法治世与透支清算的 20 案例对照 |
+| S28 | [资治通鉴应用](zh/S28 资治通鉴应用-价值守恒论证.html) | The Comprehensive Mirror in Application | 1362 年王朝兴衰宏观实验报告：司马光之问与乘除清算轨迹 |
+| S29 | [封建脉络百战](zh/S29 封建脉络百战-价值守恒论证.html) | A Hundred Battles of the Feudal Thread | 王朝周期律的乘除博弈史：崛起盛世的乘法与衰亡病灶的除法 |
+| S30 | [浩荡两千年](zh/S30 浩荡两千年-价值守恒论证.html) | Two Thousand Years of Commerce | 官商收放钟摆下的商业文明兴衰：自由商帮的乘法与官营垄断的除法 |
+| S31 | [跌荡一百年](zh/S31 跌荡一百年-价值守恒论证.html) | A Turbulent Century | 1870–2008 中国商业的乘除之道：实业兴国的乘法样本与官商不分的透支 |
+| S32 | [战争论应用](zh/S32 战争论应用-价值守恒论证.html) | On War in Application | 战争是政治的继续：目标·重心·集中的乘法原则与摩擦迷雾 |
+| S33 | [孙子兵法应用](zh/S33 孙子兵法应用-价值守恒论证.html) | The Art of War in Application | 慎战先胜的战略操作系统：不战而屈人之兵的 S 最优解 |
+| S34 | [三十六计应用](zh/S34 三十六计应用-价值守恒论证.html) | The Thirty-Six Stratagems in Application | 六套计的博弈操作系统：信息不对称的价值杠杆与败战止损哲学 |
+| S35 | [三国演义应用](zh/S35 三国演义应用-价值守恒论证.html) | The Romance of the Three Kingdoms | 决策博弈教科书：乘法式积累与除法式权谋的集团对照 |
+| S36 | [水浒传方法论](zh/S36 水浒传方法论-价值守恒论证.html) | Methodology of Water Margin | 聚义乘法与招安除法：梁山兴衰的乘除清算标本与团队创业启示 |
+| S37 | [群体心理方法论](zh/S37 群体心理方法论-价值守恒论证.html) | Methodology of Crowd Psychology | 群体心理如何被除法、又如何被乘法：乌合之众到狂热分子的七层坐标 |
 | **E** 企业 Enterprise | | | |
 | E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
 | E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
@@ -132,8 +147,15 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | E09 | [华为方法论](zh/E09 华为方法论-价值守恒论证.html) | Huawei Methodology | 价值与组织 · 以客户为中心 = E/S/T 的实践范本 |
 | E10 | [和君咨询方法论](zh/E10 和君咨询方法论-价值守恒论证.html) | Hejun Consulting Methodology | 产融互动 · 咨询 = 三价值系统集成的实践 |
 | E11 | [麦肯锡方法论](zh/E11 麦肯锡方法论-价值守恒论证.html) | McKinsey Methodology | 八本经典 × 价值守恒 · 咨询 = 结构化解决三价值问题 |
+| E12 | [企业兴衰规律](zh/E12 企业兴衰规律-价值守恒论证.html) | The Rise and Fall of Enterprises | 企业兴衰 = 三乘数同步与否：吴晓波四部企业史为案例的乘除纵深 |
 | **F** 家庭 Family | | | |
 | F01 | [情感婚恋](zh/F01 情感婚恋-价值守恒论证.html) | Emotion and Marriage | 心动价值 · 婚恋 = 家庭 S 与 T 的起点 |
+| F02 | [婚姻家庭方法论](zh/F02 婚姻家庭方法论-价值守恒论证.html) | Methodology of Marriage and Family | 识家·治家·立家的系统之道：婚姻是制度、家庭是系统的微观三因子论证 |
+| F03 | [亲密关系方法论](zh/F03 亲密关系方法论-价值守恒论证.html) | Methodology of Intimate Relationships | 在爱中经营财情综合价值的跨主体守恒：依恋、沟通与冲突修复 |
+| F04 | [亲子教育方法论](zh/F04 亲子教育方法论-价值守恒论证.html) | Methodology of Parenting | 亲子关系与子女教育：发展心理学奠基、7 层深度 × 六维画像 |
+| F05 | [婚内财产方法论](zh/F05 婚内财产方法论-价值守恒论证.html) | Methodology of Marital Property | 婚内财产的乘除论证：法定与约定、共建积累与失守损耗 |
+| F06 | [出轨离婚方法论](zh/F06 出轨离婚方法论-价值守恒论证.html) | Methodology of Infidelity and Divorce | 识伤·抉择·重生的守恒路径：修复与离开的决策框架 |
+| F07 | [红楼梦家族兴衰](zh/F07 红楼梦家族兴衰-价值守恒论证.html) | The Rise and Fall of the Jia Family | 贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账 |
 | **P** 个人 Personal | | | |
 | P01 | [突破墨菲定律](zh/P01 突破墨菲定律-价值守恒论证.html) | Breaking Free of Murphy's Law | 墨菲定律 = 除法自动运行；破解 = 清单/备份/余量 |
 | P02 | [帕金森定律](zh/P02 帕金森定律-价值守恒论证.html) | Parkinson's Law | 帕金森定律 = 时间价值 T 失效；破解 = 时间盒/交付标准 |
@@ -142,6 +164,16 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | P05 | [易经三易](zh/P05 易经三易-价值守恒论证.html) | The Three Changes of the I Ching | 简易(一个公式)/变易(与时偕行)/不易(乘法定律) |
 | P06 | [道德经天道人道](zh/P06 道德经天道人道-价值守恒论证.html) | The Heavenly Way and the Human Way | 天道损有余补不足；人道损不足奉有余；破解 = 以有余奉天下 |
 | P07 | [人类简史](zh/P07 人类简史-价值守恒论证.html) | Sapiens: A Brief History of Humankind | 虚构故事构建协作(S)；金钱只计量 E；破解 = 三价值统一计量 |
+| P08 | [佛家思想应用](zh/P08 佛家思想应用-价值守恒论证.html) | Buddhist Thought in Application | 看破除法、实证乘法的的心性科学系统：缘起性空与八正道阶梯 |
+| P09 | [儒家思想应用](zh/P09 儒家思想应用-价值守恒论证.html) | Confucian Thought in Application | 内圣外王的心性操作系统：修齐治平的 E/S/T 扩展链 |
+| P10 | [道家思想应用](zh/P10 道家思想应用-价值守恒论证.html) | Taoist Thought in Application | 道法自然的调衡系统：无为而治的最小干预乘法与周期预警 |
+| P11 | [中国哲学史方法论](zh/P11 中国哲学史方法论-价值守恒论证.html) | Methodology of Chinese Philosophy | 道如何安顿与守恒的 3000 年乘除心法：儒道法墨佛学与宋明理学 |
+| P12 | [西方哲学史方法论](zh/P12 西方哲学史方法论-价值守恒论证.html) | Methodology of Western Philosophy | 意义与价值的 2500 年守恒史：从古希腊逻各斯到尼采的乘除演进 |
+| P13 | [文学史方法论](zh/P13 文学史方法论-价值守恒论证.html) | Methodology of Literary History | 精神价值的跨时空守恒：抒情与叙事传统、经典化的乘法机制 |
+| P14 | [艺术史方法论](zh/P14 艺术史方法论-价值守恒论证.html) | Methodology of Art History | 把不可言说之美固化为形并跨时空守恒：写意与写实的乘除对照 |
+| P15 | [宗教史方法论](zh/P15 宗教史方法论-价值守恒论证.html) | Methodology of Religious History | 人类以超越性信仰寻找终极价值守恒锚点的方法论史 |
+| P16 | [西游成事智慧](zh/P16 西游成事智慧-价值守恒论证.html) | Wisdom of Achieving Success from Journey to the West | 布局·入局·胜局的成事方法论：取经大业与八十一难的 T 积累 |
+| P17 | [金瓶梅个人成长](zh/P17 金瓶梅个人成长-价值守恒论证.html) | Personal Growth from Jin Ping Mei | 西门庆的除法人生：财商、人情与传承的反面教科书与成长七律 |
 ### 系列特点
 
 - **答案优先**：符合 GEO 规范，开头直接给出结论，44.2% 的 AI 引用来自前 30% 内容
@@ -149,7 +181,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **数据支撑**：每 150-200 字一个数据点，均标注来源
 - **合规输出**：全部内容符合《中华人民共和国广告法》要求，无极限用语
 - **四语对照**：每篇中英西法版结构一致、锚点对应，便于对照阅读
-- **多语言扩展**：`zh/` 41 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
+- **多语言扩展**：`zh/` 73 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
 
 ---
 
@@ -161,7 +193,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **公式渲染**：OMML → LaTeX 转换渲染，公式清晰美观
 - **图片内嵌**：插图已内嵌为 base64，可离线完整阅读
 - **交互体验**：目录滚动高亮、图片点击灯箱放大、响应式布局（桌面 / 移动端自适应）
-- **应用文档系列**：另含 41 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 41、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
+- **应用文档系列**：另含 73 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 73、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
 - **文库索引**：`library.html` 提供语言 × 主题总索引，方便快速查找与对照
 
 ---
@@ -196,19 +228,21 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── images/             # 原始插图资源
 ├── embed/              # 内嵌图片副本
 │
-├── zh/                 # 中文版应用文档（41 篇，按领域分类编号）
+├── zh/                 # 中文版应用文档（73 篇，按领域分类编号）
 │   ├── [S] 国家 · 经济社会
 │   │   ├── S01 经济危机解码-价值守恒论证.html
 │   │   ├── S02 当代中国马克思主义政治经济学-价值守恒论证.html
-│   │   ├── …（S01–S22，见上方系列总览）
+│   │   ├── …（S01–S37，见上方系列总览）
 │   ├── [E] 企业
 │   │   ├── E01 德鲁克管理-价值守恒论证.html
-│   │   ├── …（E01–E11）
+│   │   ├── …（E01–E12）
 │   ├── [F] 家庭
 │   │   ├── F01 情感婚恋-价值守恒论证.html
+│   │   ├── F02 婚姻家庭方法论-价值守恒论证.html
+│   │   ├── …（F01–F07）
 │   ├── [P] 个人
 │   │   ├── P01 突破墨菲定律-价值守恒论证.html
-│   │   ├── …（P01–P07）
+│   │   ├── …（P01–P17）
 │
 ├── en/                 # English docs（15 pages）
 │   ├── 01 five-economic-crises-value-conservation.en.html
