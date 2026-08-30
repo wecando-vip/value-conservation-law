@@ -1,7 +1,7 @@
 /* ============================================================
    通用底部 · 许可与声明  (Shared Footer · License & Disclaimer)
    财情倍增的价值守恒定律 / The Law of Value Conservation
-   站点：https://wecando-vip.github.io/value-conservation-law/
+   站点：https://wecando.vip/value-conservation-law/
    用法：在文章 </body> 前引入 <script src="../assets/footer.js"></script>
    说明：单点维护，所有文章共享；根据 <html lang> 自动切换中/英文案
    ============================================================ */

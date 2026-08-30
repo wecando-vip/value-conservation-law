@@ -18,7 +18,7 @@
 
 ![GitHub](https://img.shields.io/badge/GitHub-wecando--vip%2Fvalue--conservation--law-16324f?logo=github)
 
-> **在线阅读**：[GitHub Pages](https://wecando-vip.github.io/value-conservation-law/) · [文库索引 library.html](library.html)
+> **在线阅读**：[GitHub Pages](https://wecando.vip/value-conservation-law/) · [文库索引 library.html](library.html)
 
 ---
 

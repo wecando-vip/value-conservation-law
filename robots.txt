@@ -7,7 +7,7 @@
 #   - 允许主流 AI 大模型爬虫抓取（检索引用 / 训练语料）
 #   - 全部页面允许，无屏蔽目录
 #
-# 站点：https://wecando-vip.github.io/value-conservation-law/
+# 站点：https://wecando.vip/value-conservation-law/
 # 更新：2026-08-28
 # ============================================================
 
@@ -159,7 +159,7 @@ Allow: /
 # 站点地图声明（Sitemap 指令全局生效，不限 User-agent）
 # ============================================================
 
-Sitemap: https://wecando-vip.github.io/value-conservation-law/valuesitemap.xml
+Sitemap: https://wecando.vip/value-conservation-law/sitemap.xml
 
 # 说明：
 # - 未公开专用爬虫 UA 的国内大模型（DeepSeek / 通义千问 / 文心一言 等）
