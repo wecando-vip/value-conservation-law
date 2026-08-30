@@ -227,6 +227,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── library-personal.html   # 分类导航页：个人（P，17 篇）
 ├── valuesitemap.xml    # 站点地图（百度/Google 收录，131 URL + hreflang 多语言关联）
 ├── robots.txt          # 爬虫协议（开放收录：国内外搜索引擎 + AI 大模型爬虫）
+├── assets/footer.js    # 共享底部 · 许可与声明（自动按 <html lang> 中英切换，所有文章单行引用）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
 ├── zh_meta.json        # zh 文库元数据（编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）
@@ -334,6 +335,8 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ---
 
 ## 📄 许可与声明
+
+> 全部 119 篇内容文章（zh 73 + en/es/fr 各 15 + 量化研报）已通过 `assets/footer.js` 共享组件在底部自动注入以下声明，**单点维护、改一处全局生效**。
 
 - **内容许可**：本文档内容遵循 **CC BY-NC 4.0**（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但**不得用于商业目的**，且必须标注署名并保留许可声明。
 - **版权归属**：理论体系与文档内容版权归财情双生智库（Econ-Sentiment Twin Think Tank）及相关作者所有。
