@@ -15,3 +15,8 @@ _dl_pages.ps1
 
 # Build artifacts
 *.zip
+
+# 百科词条方案（用户要求不同步 GitHub，勿提交）
+*词条方案_价值守恒定律.md
+抖音百科词条方案*.md
+搜狗百科词条方案*.md
