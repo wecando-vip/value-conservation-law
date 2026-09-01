@@ -62,6 +62,8 @@
 - [S48 苏联俄罗斯历史](https://wecando.vip/value-conservation-law/zh/S48%20%E8%8B%8F%E8%81%94%E4%BF%84%E7%BD%97%E6%96%AF%E5%8E%86%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 留里克到苏联解体的千年乘除：帝国扩张与制度崩解的价值清算
 - [S49 英国史方法论](https://wecando.vip/value-conservation-law/zh/S49%20%E8%8B%B1%E5%9B%BD%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 大宪章到日不落帝国的乘除兴衰：英国人物浮沉与王朝更替
 - [S50 独裁者手册方法论](https://wecando.vip/value-conservation-law/zh/S50%20%E7%8B%AC%E8%A3%81%E8%80%85%E6%89%8B%E5%86%8C-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 选择人理论与政治生存算法：W/S 联盟比下的乘除兴衰
+- [S51 国有企业方法论](https://wecando.vip/value-conservation-law/zh/S51%20%E5%9B%BD%E6%9C%89%E4%BC%81%E4%B8%9A-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 官营经济与王朝兴衰：盐铁官营、宋代官营工场到国企改革的乘除清算与个人幸福
+- [S52 税收与王朝兴衰方法论](https://wecando.vip/value-conservation-law/zh/S52%20%E7%A8%8E%E6%94%B6%E4%B8%8E%E7%8E%8B%E6%9C%9D%E5%85%B4%E8%A1%B0-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 良税制乘法、恶税制除法：从井田制到一条鞭法的税制乘除史
 
 ## 中文文库 · 企业（E01–E12）
 - [E01 德鲁克管理](https://wecando.vip/value-conservation-law/zh/E01%20%E5%BE%B7%E9%B2%81%E5%85%8B%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 目标与使命 · 管理 = 让 E 服务于 S 与 T
@@ -105,10 +107,6 @@
 - [P15 宗教史方法论](https://wecando.vip/value-conservation-law/zh/P15%20%E5%AE%97%E6%95%99%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 人类以超越性信仰寻找终极价值守恒锚点的方法论史
 - [P16 西游成事智慧](https://wecando.vip/value-conservation-law/zh/P16%20%E8%A5%BF%E6%B8%B8%E6%88%90%E4%BA%8B%E6%99%BA%E6%85%A7-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 布局·入局·胜局的成事方法论：取经大业与八十一难的 T 积累
 - [P17 金瓶梅个人成长](https://wecando.vip/value-conservation-law/zh/P17%20%E9%87%91%E7%93%B6%E6%A2%85%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 西门庆的除法人生：财商、人情与传承的反面教科书与成长七律
-
-## 中文文库 · 专题（无编号）
-- [国有企业](https://wecando.vip/value-conservation-law/zh/%E5%9B%BD%E6%9C%89%E4%BC%81%E4%B8%9A_%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 专题论证（以《中央帝国的财政密码》为线索）
-- [税收与王朝兴衰](https://wecando.vip/value-conservation-law/zh/%E7%A8%8E%E6%94%B6%E4%B8%8E%E7%8E%8B%E6%9C%9D%E5%85%B4%E8%A1%B0_%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 专题论证（以《中央帝国的财政密码》为线索）
 
 ## English Library（15 docs）
 - [The Five Economic Crises Decoded](https://wecando.vip/value-conservation-law/en/01%20five-economic-crises-value-conservation.en.html): English version of 经济危机解码 — value conservation argument (EN)
