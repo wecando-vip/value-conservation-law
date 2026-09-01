@@ -151,6 +151,7 @@
 | S47 | [美国史方法论](zh/S47 美国史方法论-价值守恒论证.html) | Methodology of American History | 建国立宪到冷战霸权的四百年乘除：美国人物浮沉与国家兴衰 |
 | S48 | [苏联俄罗斯历史](zh/S48 苏联俄罗斯历史-价值守恒论证.html) | History of the Soviet Union and Russia | 留里克到苏联解体的千年乘除：帝国扩张与制度崩解的价值清算 |
 | S49 | [英国史方法论](zh/S49 英国史方法论-价值守恒论证.html) | Methodology of English History | 大宪章到日不落帝国的乘除兴衰：英国人物浮沉与王朝更替 |
+| S50 | [独裁者手册方法论](zh/S50 独裁者手册-价值守恒论证.html) | Methodology of The Dictator's Handbook | 选择人理论与政治生存算法：W/S 联盟比下的乘除兴衰 |
 | **E** 企业 Enterprise | | | |
 | E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
 | E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
@@ -266,7 +267,7 @@
 │   ├── [S] 国家 · 经济社会
 │   │   ├── S01 经济危机解码-价值守恒论证.html
 │   │   ├── S02 政治经济学-价值守恒论证.html
-│   │   ├── …（S01–S49，见上方系列总览）
+│   │   ├── …（S01–S50，见上方系列总览）
 │   ├── [E] 企业
 │   │   ├── E01 德鲁克管理-价值守恒论证.html
 │   │   ├── …（E01–E12）

@@ -93,6 +93,9 @@
     color: var(--ink-soft); font-size: 17px; margin: 0 0 26px;
     font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
   }
+  .hero .sub b { color: var(--navy); font-weight: 700; }
+  .hero .sub .hl { color: var(--gold); font-weight: 700; }
+  .hero .sub .fw { color: var(--navy-2); font-weight: 800; }
   .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
   .hero .chip {
     font-size: 13.5px; color: var(--navy);
@@ -350,6 +353,43 @@
   .libnav-card.per { border-left-color: #7a4a3f; }
   @media (max-width: 900px) { .libnav-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 520px) { .libnav-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- 价值守恒定律 · 三色三卡 ---------- */
+  .law-wrap {
+    max-width: 1060px; margin: 0 auto; padding: 26px 28px 4px;
+  }
+  .law-block {
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .law-card {
+    padding: 16px 22px 16px 24px;
+    border: 1px solid var(--line); border-radius: 10px;
+    box-shadow: var(--shadow);
+  }
+  .law-card-label {
+    display: inline-block; font-weight: 800; letter-spacing: 1px;
+    padding: 2px 10px; border-radius: 4px; margin-bottom: 10px; font-size: 13px;
+    font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .law-card p { margin: 0; line-height: 1.95; color: #3d3a33; text-align: justify; }
+  .law-card p b { color: var(--navy); }
+  .law-card-concept { background: linear-gradient(135deg, #fbf6e8, #fff); border-left: 4px solid var(--gold, #a67c2e); }
+  .law-card-concept .law-card-label { color: #a67c2e; background: rgba(166,124,46,.12); }
+  .law-card-macro { background: linear-gradient(135deg, #eef4fb, #fff); border-left: 4px solid #2a5a8f; }
+  .law-card-macro .law-card-label { color: #2a5a8f; background: rgba(42,90,143,.10); }
+  .law-card-micro { background: linear-gradient(135deg, #ecf3ed, #fff); border-left: 4px solid #3f7a4a; }
+  .law-card-micro .law-card-label { color: #3f7a4a; background: rgba(63,122,74,.10); }
+  .law-card .ctx {
+    display: block; margin-top: 8px; padding: 4px 12px;
+    border-left: 3px solid; border-radius: 4px;
+  }
+  .law-card-concept .ctx { border-left-color: #e2cfa3; background: rgba(166,124,46,.06); }
+  .law-card-macro .ctx { border-left-color: #b9cfe4; background: rgba(42,90,143,.05); }
+  .law-card-micro .ctx { border-left-color: #bfd6c2; background: rgba(63,122,74,.05); }
+  @media (max-width: 620px) {
+    .law-wrap { padding: 20px 14px 4px; }
+    .law-card { padding: 14px 16px; }
+  }
 </style>
 </head>
 <body>
@@ -369,7 +409,7 @@
   <div class="kicker">VALUE CONSERVATION LAW</div>
   <h1>财情可倍增的价值守恒定律</h1>
   <div class="divider"></div>
-  <p class="sub">财情倍增，价值守恒 —— 重构经济社会度量衡，开辟统一大市场新路径</p>
+  <p class="sub"><b class="hl">价值守恒（乘法兴、除法衰）</b> —— 重构经济社会<b>度、量、衡</b>，开辟<b>统一大市场新路径</b>。<br><span class="fw">前景展望：</span>这一理论创新有望成为<b>社会科学领域的核心基础性创新</b>；<br><span class="fw">论证和应用体系</span>，有望成为<b class="hl">“为天地立心，为生民立命，为往圣继绝学，为万世开太平”</b>的理论基石。</p>
   <div class="chips">
     <span class="chip">经济价值 <b>E</b></span>
     <span class="chip">社会价值 <b>S</b></span>
@@ -389,6 +429,23 @@
     <a class="libnav-card ent" href="library-enterprise.html"><span class="t">E · 企业</span><span class="n">12 篇</span><span class="d">经营管理 · 组织人力 · 财务营销 · 方法论</span></a>
     <a class="libnav-card fam" href="library-family.html"><span class="t">F · 家庭</span><span class="n">8 篇</span><span class="d">婚姻家庭 · 亲密关系 · 亲子教育</span></a>
     <a class="libnav-card per" href="library-personal.html"><span class="t">P · 个人</span><span class="n">17 篇</span><span class="d">思想方法论 · 思维定律 · 个人成长 · 人生智慧</span></a>
+  </div>
+</div>
+
+<div class="law-wrap">
+  <div class="law-block">
+    <div class="law-card law-card-concept">
+      <span class="law-card-label">价值守恒定律</span>
+      <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+    </div>
+    <div class="law-card law-card-macro">
+      <span class="law-card-label">核心公式 · 宏观</span>
+      <p><b>宏观：</b>Y = E × S × T = 经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</p>
+    </div>
+    <div class="law-card law-card-micro">
+      <span class="law-card-label">核心公式 · 微观</span>
+      <p><b>微观：</b>y = f(m)货币价值 × f(h)幸福体验 × f(t)时间价值=财情价值总量</p>
+    </div>
   </div>
 </div>
 
