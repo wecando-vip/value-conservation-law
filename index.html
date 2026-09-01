@@ -90,12 +90,36 @@
     background: linear-gradient(90deg, var(--gold), transparent);
   }
   .hero .sub {
-    color: var(--ink-soft); font-size: 17px; margin: 0 0 26px;
+    display: flex; flex-direction: column; align-items: center; gap: 12px;
+    margin: 0 auto 30px; max-width: 900px;
     font-family: "Alibaba PuHuiTi 2.0", "PingFang SC", "Microsoft YaHei", sans-serif;
   }
-  .hero .sub b { color: var(--navy); font-weight: 700; }
-  .hero .sub .hl { color: var(--gold); font-weight: 700; }
-  .hero .sub .fw { color: var(--navy-2); font-weight: 800; }
+  .hero .sub-line {
+    display: flex; align-items: flex-start; gap: 14px; width: 100%;
+    text-align: left; background: #fff; border: 1px solid var(--line);
+    border-radius: 14px; padding: 15px 20px;
+    box-shadow: 0 1px 4px rgba(20,30,40,.05);
+  }
+  .hero .sub-line.lead { background: linear-gradient(135deg, #fdf9f0, #fff); border-color: #e2cfa3; }
+  .hero .sub-tag {
+    flex: 0 0 auto; min-width: 76px; text-align: center;
+    font-size: 12.5px; letter-spacing: 2px; font-weight: 700; color: #fff;
+    padding: 5px 12px; border-radius: 999px; margin-top: 2px;
+  }
+  .hero .sub-tag.gold { background: var(--gold); }
+  .hero .sub-tag.navy { background: var(--navy); }
+  .hero .sub-tag.green { background: #3f7a4a; }
+  .hero .sub-text { color: var(--ink-soft); font-size: 16.5px; line-height: 1.8; }
+  .hero .sub-line.lead .sub-text { font-size: 18px; }
+  .hero .sub-text b { color: var(--navy); font-weight: 700; }
+  .hero .sub-text .hl { color: var(--gold); font-weight: 700; }
+  .hero .sub-text .fw { color: var(--navy-2); font-weight: 800; }
+  @media (max-width: 620px) {
+    .hero .sub-line { flex-direction: column; gap: 8px; padding: 14px 16px; }
+    .hero .sub-tag { align-self: flex-start; min-width: auto; }
+    .hero .sub-text { font-size: 15.5px; }
+    .hero .sub-line.lead .sub-text { font-size: 16.5px; }
+  }
   .hero .chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
   .hero .chip {
     font-size: 13.5px; color: var(--navy);
@@ -409,7 +433,20 @@
   <div class="kicker">VALUE CONSERVATION LAW</div>
   <h1>财情可倍增的价值守恒定律</h1>
   <div class="divider"></div>
-  <p class="sub"><b class="hl">价值守恒（乘法兴、除法衰）</b> —— 重构经济社会<b>度、量、衡</b>，开辟<b>统一大市场新路径</b>。<br><span class="fw">前景展望：</span>这一理论创新有望成为<b>社会科学领域的核心基础性创新</b>；<br><span class="fw">论证和应用体系</span>，有望成为<b class="hl">“人类命运共同体”</b>和<b class="hl">“为天地立心，为生民立命，为往圣继绝学，为万世开太平”</b>的理论基石。</p>
+  <div class="sub">
+    <div class="sub-line lead">
+      <span class="sub-tag gold">核心命题</span>
+      <span class="sub-text"><b class="hl">价值守恒（乘法兴、除法衰）</b> —— 重构经济社会<b>度、量、衡</b>，开辟<b>统一大市场新路径</b>。</span>
+    </div>
+    <div class="sub-line">
+      <span class="sub-tag navy">前景展望</span>
+      <span class="sub-text">这一理论创新有望成为<b>社会科学领域的核心基础性创新</b>。</span>
+    </div>
+    <div class="sub-line">
+      <span class="sub-tag green">应用基石</span>
+      <span class="sub-text">论证和应用体系，有望成为<b class="hl">“人类命运共同体”</b>和<b class="hl">“为天地立心，为生民立命，为往圣继绝学，为万世开太平”</b>的理论基石。</span>
+    </div>
+  </div>
   <div class="chips">
     <span class="chip">经济价值 <b>E</b></span>
     <span class="chip">社会价值 <b>S</b></span>
