@@ -1,0 +1,169 @@
+# 财情可倍增的价值守恒定律 | The Law of Value Conservation for Wealth–Wellbeing Multiplication
+
+> 统一大市场价值计量及价值倍增引导系统：以价值守恒定律 `Y = E × S × T`（经济价值 × 社会价值 × 时间价值）论证经济、社会、企业与个人的兴衰规律。价值既不会凭空产生，也不会凭空消失，只会转化与转移，总量守恒；乘则兴，除则衰。
+>
+> 语言：中文（zh，89 篇）/ English（15）/ Español（15）/ Français（15）· 许可：CC BY-NC 4.0（署名-非商业性使用）· 作者：财情双生智库 Econ-Sentiment Twin Think Tank · 仓库：https://github.com/wecando-vip/value-conservation-law
+
+## 核心入口 Core Pages
+- [首页 · 中文](https://wecando.vip/value-conservation-law/index.html): 理论总纲 · 宏观公式 Y=E×S×T 与微观公式 y=f(m)×f(h)×f(t) · 三色三卡开篇
+- [Home · English](https://wecando.vip/value-conservation-law/index.en.html): The Law of Value Conservation — theory overview (EN)
+- [文库总索引 library.html](https://wecando.vip/value-conservation-law/library.html): 语言 × 领域分类矩阵总入口（S 国家/E 企业/F 家庭/P 个人）
+- [分类导航 · 国家经济社会](https://wecando.vip/value-conservation-law/library-society.html) · [企业](https://wecando.vip/value-conservation-law/library-enterprise.html) · [家庭](https://wecando.vip/value-conservation-law/library-family.html) · [个人](https://wecando.vip/value-conservation-law/library-personal.html)
+- [量化统计系统分析](https://wecando.vip/value-conservation-law/%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B_%E9%87%8F%E5%8C%96%E7%BB%9F%E8%AE%A1%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90.html): 公式的统计学与计量分析研报
+
+## 中文文库 · 国家 · 经济社会（S01–S50）
+- [S01 经济危机解码](https://wecando.vip/value-conservation-law/zh/S01%20%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E8%A7%A3%E7%A0%81-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式
+- [S02 政治经济学](https://wecando.vip/value-conservation-law/zh/S02%20%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 中国特色社会主义政治经济学 · 宏观价值分配的理论根基
+- [S03 宏观经济学](https://wecando.vip/value-conservation-law/zh/S03%20%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 总量视角 · 增长、就业、通胀 = 宏观经济三价值
+- [S04 微观经济学](https://wecando.vip/value-conservation-law/zh/S04%20%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 个体决策 · 供求与福利 = 微观三价值博弈
+- [S05 分配制度](https://wecando.vip/value-conservation-law/zh/S05%20%E5%88%86%E9%85%8D%E5%88%B6%E5%BA%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义
+- [S06 政绩考核](https://wecando.vip/value-conservation-law/zh/S06%20%E6%94%BF%E7%BB%A9%E8%80%83%E6%A0%B8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 考核指挥棒 · 若只考 E 则 S/T 被牺牲；破解 = 三价值入考
+- [S07 中央帝国的财政密码](https://wecando.vip/value-conservation-law/zh/S07%20%E4%B8%AD%E5%A4%AE%E5%B8%9D%E5%9B%BD%E7%9A%84%E8%B4%A2%E6%94%BF%E5%AF%86%E7%A0%81-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 王朝兴衰 = 经济汲取 E 的边界；破解 = 财政与民共生
+- [S08 中央帝国三部曲](https://wecando.vip/value-conservation-law/zh/S08%20%E4%B8%AD%E5%A4%AE%E5%B8%9D%E5%9B%BD%E4%B8%89%E9%83%A8%E6%9B%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 财政(基础)/军事(骨架)/哲学(灵魂) = E、S、T 的乘除
+- [S09 历代经济变革得失](https://wecando.vip/value-conservation-law/zh/S09%20%E5%8E%86%E4%BB%A3%E7%BB%8F%E6%B5%8E%E5%8F%98%E9%9D%A9%E5%BE%97%E5%A4%B1-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 变革成败 = 政府汲取 E 与民间活力 S 的平衡 + 制度稳定 T
+- [S10 中国历代政治得失](https://wecando.vip/value-conservation-law/zh/S10%20%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 制度兴衰 = 制度与人事配合、与时代配合；破解 = 制度常新
+- [S11 置身事内](https://wecando.vip/value-conservation-law/zh/S11%20%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 发展型政府 = "E 单兵突进"的除法史；破解 = 服务型政府
+- [S12 大国大城](https://wecando.vip/value-conservation-law/zh/S12%20%E5%A4%A7%E5%9B%BD%E5%A4%A7%E5%9F%8E-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 人地错配 = 行政干预扭曲要素配置；破解 = 市场决定集聚
+- [S13 基层中国的运行逻辑](https://wecando.vip/value-conservation-law/zh/S13%20%E5%9F%BA%E5%B1%82%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%BF%90%E8%A1%8C%E9%80%BB%E8%BE%91-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 压力型运行 = 考核 E 单兵突进；破解 = 上下同治 + 三价值度量衡
+- [S14 债务危机与新货币价值内涵](https://wecando.vip/value-conservation-law/zh/S14%20%E5%80%BA%E5%8A%A1%E5%8D%B1%E6%9C%BA%E4%B8%8E%E6%96%B0%E8%B4%A7%E5%B8%81%E4%BB%B7%E5%80%BC%E5%86%85%E6%B6%B5-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 债务危机 = E 的时差账(S、T 被透支)；破解 = 新货币价值内涵
+- [S15 既要又要还要](https://wecando.vip/value-conservation-law/zh/S15%20%E6%97%A2%E8%A6%81%E5%8F%88%E8%A6%81%E8%BF%98%E8%A6%81-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 统筹方法论 · 多目标并存 = 乘法而非除法的取舍智慧
+- [S16 毛泽东选集五卷方法论](https://wecando.vip/value-conservation-law/zh/S16%20%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86%E4%BA%94%E5%8D%B7%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 矛盾分析 · 实践论与矛盾论 = 三价值动态平衡的方法论
+- [S17 社会保障](https://wecando.vip/value-conservation-law/zh/S17%20%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 民生基石 · 社保体系 = 社会价值 S 的兜底工程
+- [S18 看病难看病贵](https://wecando.vip/value-conservation-law/zh/S18%20%E7%9C%8B%E7%97%85%E9%9A%BE%E7%9C%8B%E7%97%85%E8%B4%B5-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 健康价值重构 · 医疗资源 = E/S/T 三重错配的破解
+- [S19 宪法](https://wecando.vip/value-conservation-law/zh/S19%20%E5%AE%AA%E6%B3%95-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 根本法 · 国家权力的总章程，E/S/T 的统一度量衡基础
+- [S20 党章](https://wecando.vip/value-conservation-law/zh/S20%20%E5%85%9A%E7%AB%A0-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 政党章程 · 使命与纪律，S 价值（集体利他）的制度化表达
+- [S21 三权运行](https://wecando.vip/value-conservation-law/zh/S21%20%E4%B8%89%E6%9D%83%E8%BF%90%E8%A1%8C-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 立法·行政·司法 · 权力分工协作，三价值各自归位的制度设计
+- [S22 中华人民共和国民法典](https://wecando.vip/value-conservation-law/zh/S22%20%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E6%B3%95%E5%85%B8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 民事权利总法典 · 平等主体间 E/S/T 的规则框架
+- [S23 大国博弈](https://wecando.vip/value-conservation-law/zh/S23%20%E5%A4%A7%E5%9B%BD%E5%8D%9A%E5%BC%88-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 世界秩序层面的价值守恒：权力转移方程、均势稳定器与修昔底德陷阱的乘除辨析
+- [S24 钟才文四篇](https://wecando.vip/value-conservation-law/zh/S24%20%E9%92%9F%E6%89%8D%E6%96%87%E5%9B%9B%E7%AF%87-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 宏观经济时评：韧性活力、世界贡献、4.7% 与行稳致远的 E/S/T 乘除论证
+- [S25 金融史方法论](https://wecando.vip/value-conservation-law/zh/S25%20%E9%87%91%E8%9E%8D%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 金融史 = 价值的跨时空守恒实验：信用乘法、股份公司与泡沫除法警示
+- [S26 科技史兴衰](https://wecando.vip/value-conservation-law/zh/S26%20%E7%A7%91%E6%8A%80%E5%8F%B2%E5%85%B4%E8%A1%B0-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 科技兴衰 = 知识 E、制度 S、时间 T 三乘数的乘除博弈
+- [S27 二十四史应用](https://wecando.vip/value-conservation-law/zh/S27%20%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 4000 年正史档案：宏观乘法治世与透支清算的 20 案例对照
+- [S28 资治通鉴应用](https://wecando.vip/value-conservation-law/zh/S28%20%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 1362 年王朝兴衰宏观实验报告：司马光之问与乘除清算轨迹
+- [S29 封建脉络百战](https://wecando.vip/value-conservation-law/zh/S29%20%E5%B0%81%E5%BB%BA%E8%84%89%E7%BB%9C%E7%99%BE%E6%88%98-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 王朝周期律的乘除博弈史：崛起盛世的乘法与衰亡病灶的除法
+- [S30 浩荡两千年](https://wecando.vip/value-conservation-law/zh/S30%20%E6%B5%A9%E8%8D%A1%E4%B8%A4%E5%8D%83%E5%B9%B4-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 官商收放钟摆下的商业文明兴衰：自由商帮的乘法与官营垄断的除法
+- [S31 跌荡一百年](https://wecando.vip/value-conservation-law/zh/S31%20%E8%B7%8C%E8%8D%A1%E4%B8%80%E7%99%BE%E5%B9%B4-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 1870–2008 中国商业的乘除之道：实业兴国的乘法样本与官商不分的透支
+- [S32 战争论应用](https://wecando.vip/value-conservation-law/zh/S32%20%E6%88%98%E4%BA%89%E8%AE%BA%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 战争是政治的继续：目标·重心·集中的乘法原则与摩擦迷雾
+- [S33 孙子兵法应用](https://wecando.vip/value-conservation-law/zh/S33%20%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 慎战先胜的战略操作系统：不战而屈人之兵的 S 最优解
+- [S34 三十六计应用](https://wecando.vip/value-conservation-law/zh/S34%20%E4%B8%89%E5%8D%81%E5%85%AD%E8%AE%A1%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 六套计的博弈操作系统：信息不对称的价值杠杆与败战止损哲学
+- [S35 三国演义应用](https://wecando.vip/value-conservation-law/zh/S35%20%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 决策博弈教科书：乘法式积累与除法式权谋的集团对照
+- [S36 水浒传方法论](https://wecando.vip/value-conservation-law/zh/S36%20%E6%B0%B4%E6%B5%92%E4%BC%A0%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 聚义乘法与招安除法：梁山兴衰的乘除清算标本与团队创业启示
+- [S37 群体心理方法论](https://wecando.vip/value-conservation-law/zh/S37%20%E7%BE%A4%E4%BD%93%E5%BF%83%E7%90%86%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 群体心理如何被除法、又如何被乘法：乌合之众到狂热分子的七层坐标
+- [S38 英语语系国家史](https://wecando.vip/value-conservation-law/zh/S38%20%E8%8B%B1%E8%AF%AD%E8%AF%AD%E7%B3%BB%E5%9B%BD%E5%AE%B6%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 王国到帝国的乘除兴衰：英、美、加、澳、新与七大类经典同一公式
+- [S39 西班牙语系国家史](https://wecando.vip/value-conservation-law/zh/S39%20%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD%E7%B3%BB%E5%9B%BD%E5%AE%B6%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 白银帝国的乘除兴衰：西班牙与西属美洲六类经典同一公式
+- [S40 阿拉伯语语系国家史](https://wecando.vip/value-conservation-law/zh/S40%20%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD%E8%AF%AD%E7%B3%BB%E5%9B%BD%E5%AE%B6%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 从麦加到巴格达的乘除史诗：半岛、黎凡特、埃及、马格里布六类经典同一公式
+- [S41 法语语系国家史](https://wecando.vip/value-conservation-law/zh/S41%20%E6%B3%95%E8%AF%AD%E8%AF%AD%E7%B3%BB%E5%9B%BD%E5%AE%B6%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 从太阳王到第五共和国的乘除兴衰：法国与法语世界七类经典同一公式
+- [S42 汉语文化圈国家史](https://wecando.vip/value-conservation-law/zh/S42%20%E6%B1%89%E8%AF%AD%E6%96%87%E5%8C%96%E5%9C%88%E5%9B%BD%E5%AE%B6%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 从册封体系到近代转型的乘除兴衰：中、朝韩、日、越、琉七类经典同一公式
+- [S43 史记人物兴衰方法论](https://wecando.vip/value-conservation-law/zh/S43%20%E5%8F%B2%E8%AE%B0%E4%BA%BA%E7%89%A9%E5%85%B4%E8%A1%B0%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 范蠡到项羽的乘除浮沉：微观三因子重读《史记》人物与王朝兴衰
+- [S44 性学与性别社会史](https://wecando.vip/value-conservation-law/zh/S44%20%E6%80%A7%E5%AD%A6%E4%B8%8E%E6%80%A7%E5%88%AB%E7%A4%BE%E4%BC%9A%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 两性关系中的 E、S、T 转移与换算：性别制度如何做大或做小社会价值
+- [S45 日本史方法论](https://wecando.vip/value-conservation-law/zh/S45%20%E6%97%A5%E6%9C%AC%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 圣德太子到明治维新的乘除兴衰：日本史上人物浮沉与王朝更替
+- [S46 犹太教与以色列历史](https://wecando.vip/value-conservation-law/zh/S46%20%E7%8A%B9%E5%A4%AA%E6%95%99%E4%B8%8E%E4%BB%A5%E8%89%B2%E5%88%97%E5%8E%86%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 流散与复国的价值守恒样本：从神殿到文本、从土地到商团
+- [S47 美国史方法论](https://wecando.vip/value-conservation-law/zh/S47%20%E7%BE%8E%E5%9B%BD%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 建国立宪到冷战霸权的四百年乘除：美国人物浮沉与国家兴衰
+- [S48 苏联俄罗斯历史](https://wecando.vip/value-conservation-law/zh/S48%20%E8%8B%8F%E8%81%94%E4%BF%84%E7%BD%97%E6%96%AF%E5%8E%86%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 留里克到苏联解体的千年乘除：帝国扩张与制度崩解的价值清算
+- [S49 英国史方法论](https://wecando.vip/value-conservation-law/zh/S49%20%E8%8B%B1%E5%9B%BD%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 大宪章到日不落帝国的乘除兴衰：英国人物浮沉与王朝更替
+- [S50 独裁者手册方法论](https://wecando.vip/value-conservation-law/zh/S50%20%E7%8B%AC%E8%A3%81%E8%80%85%E6%89%8B%E5%86%8C-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 选择人理论与政治生存算法：W/S 联盟比下的乘除兴衰
+
+## 中文文库 · 企业（E01–E12）
+- [E01 德鲁克管理](https://wecando.vip/value-conservation-law/zh/E01%20%E5%BE%B7%E9%B2%81%E5%85%8B%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 目标与使命 · 管理 = 让 E 服务于 S 与 T
+- [E02 战略简史](https://wecando.vip/value-conservation-law/zh/E02%20%E6%88%98%E7%95%A5%E7%AE%80%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法
+- [E03 组织管理](https://wecando.vip/value-conservation-law/zh/E03%20%E7%BB%84%E7%BB%87%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 价值与组织 · 组织设计 = E/S/T 的协同结构
+- [E04 人力资源管理](https://wecando.vip/value-conservation-law/zh/E04%20%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 组织活力引擎 · 人 = 一切价值的承载者
+- [E05 薪酬绩效考核](https://wecando.vip/value-conservation-law/zh/E05%20%E8%96%AA%E9%85%AC%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 量化激励 · 考核什么就得到什么 = E/S/T 的指挥棒
+- [E06 财务管理](https://wecando.vip/value-conservation-law/zh/E06%20%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 财智双增 · 财务 = 企业 E 的记账与 S/T 的平衡
+- [E07 营销管理](https://wecando.vip/value-conservation-law/zh/E07%20%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 价值与顾客 · 营销 = 创造并交付三价值
+- [E08 企业ESG](https://wecando.vip/value-conservation-law/zh/E08%20%E4%BC%81%E4%B8%9AESG-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): ESG × E/S/T · 环境、社会、治理 = 企业长期价值的度量衡
+- [E09 华为方法论](https://wecando.vip/value-conservation-law/zh/E09%20%E5%8D%8E%E4%B8%BA%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 价值与组织 · 以客户为中心 = E/S/T 的实践范本
+- [E10 和君咨询方法论](https://wecando.vip/value-conservation-law/zh/E10%20%E5%92%8C%E5%90%9B%E5%92%A8%E8%AF%A2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 产融互动 · 咨询 = 三价值系统集成的实践
+- [E11 麦肯锡方法论](https://wecando.vip/value-conservation-law/zh/E11%20%E9%BA%A6%E8%82%AF%E9%94%A1%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 八本经典 × 价值守恒 · 咨询 = 结构化解决三价值问题
+- [E12 企业兴衰规律](https://wecando.vip/value-conservation-law/zh/E12%20%E4%BC%81%E4%B8%9A%E5%85%B4%E8%A1%B0%E8%A7%84%E5%BE%8B-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 企业兴衰 = 三乘数同步与否：吴晓波四部企业史为案例的乘除纵深
+
+## 中文文库 · 家庭（F01–F08）
+- [F01 情感婚恋](https://wecando.vip/value-conservation-law/zh/F01%20%E6%83%85%E6%84%9F%E5%A9%9A%E6%81%8B-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 心动价值 · 婚恋 = 家庭 S 与 T 的起点
+- [F02 婚姻家庭方法论](https://wecando.vip/value-conservation-law/zh/F02%20%E5%A9%9A%E5%A7%BB%E5%AE%B6%E5%BA%AD%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 识家·治家·立家的系统之道：婚姻是制度、家庭是系统的微观三因子论证
+- [F03 亲密关系方法论](https://wecando.vip/value-conservation-law/zh/F03%20%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 在爱中经营财情综合价值的跨主体守恒：依恋、沟通与冲突修复
+- [F04 亲子教育方法论](https://wecando.vip/value-conservation-law/zh/F04%20%E4%BA%B2%E5%AD%90%E6%95%99%E8%82%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 亲子关系与子女教育：发展心理学奠基、7 层深度 × 六维画像
+- [F05 婚内财产方法论](https://wecando.vip/value-conservation-law/zh/F05%20%E5%A9%9A%E5%86%85%E8%B4%A2%E4%BA%A7%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 婚内财产的乘除论证：法定与约定、共建积累与失守损耗
+- [F06 出轨离婚方法论](https://wecando.vip/value-conservation-law/zh/F06%20%E5%87%BA%E8%BD%A8%E7%A6%BB%E5%A9%9A%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 识伤·抉择·重生的守恒路径：修复与离开的决策框架
+- [F07 红楼梦家族兴衰](https://wecando.vip/value-conservation-law/zh/F07%20%E7%BA%A2%E6%A5%BC%E6%A2%A6%E5%AE%B6%E6%97%8F%E5%85%B4%E8%A1%B0-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账
+- [F08 婚姻情感生育家族](https://wecando.vip/value-conservation-law/zh/F08%20%E5%A9%9A%E5%A7%BB%E6%83%85%E6%84%9F%E7%94%9F%E8%82%B2%E5%AE%B6%E6%97%8F-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 婚姻家庭制度如何经宏观乘除影响家族与王朝命运：中观商业与微观三因子
+
+## 中文文库 · 个人（P01–P17）
+- [P01 突破墨菲定律](https://wecando.vip/value-conservation-law/zh/P01%20%E7%AA%81%E7%A0%B4%E5%A2%A8%E8%8F%B2%E5%AE%9A%E5%BE%8B-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 墨菲定律 = 除法自动运行；破解 = 清单/备份/余量
+- [P02 帕金森定律](https://wecando.vip/value-conservation-law/zh/P02%20%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E5%BE%8B-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 帕金森定律 = 时间价值 T 失效；破解 = 时间盒/交付标准
+- [P03 彼得原理](https://wecando.vip/value-conservation-law/zh/P03%20%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 彼得原理 = 晋升只看过去 E；破解 = 胜任力晋升/双轨制
+- [P04 熵增定律](https://wecando.vip/value-conservation-law/zh/P04%20%E7%86%B5%E5%A2%9E%E5%AE%9A%E5%BE%8B-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 熵增 = 孤立系统必然失序；破解 = 负熵输入(开放+做功+秩序)
+- [P05 易经三易](https://wecando.vip/value-conservation-law/zh/P05%20%E6%98%93%E7%BB%8F%E4%B8%89%E6%98%93-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 简易(一个公式)/变易(与时偕行)/不易(乘法定律)
+- [P06 道德经天道人道](https://wecando.vip/value-conservation-law/zh/P06%20%E9%81%93%E5%BE%B7%E7%BB%8F%E5%A4%A9%E9%81%93%E4%BA%BA%E9%81%93-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 天道损有余补不足；人道损不足奉有余；破解 = 以有余奉天下
+- [P07 人类简史](https://wecando.vip/value-conservation-law/zh/P07%20%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 虚构故事构建协作(S)；金钱只计量 E；破解 = 三价值统一计量
+- [P08 佛家思想应用](https://wecando.vip/value-conservation-law/zh/P08%20%E4%BD%9B%E5%AE%B6%E6%80%9D%E6%83%B3%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 看破除法、实证乘法的的心性科学系统：缘起性空与八正道阶梯
+- [P09 儒家思想应用](https://wecando.vip/value-conservation-law/zh/P09%20%E5%84%92%E5%AE%B6%E6%80%9D%E6%83%B3%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 内圣外王的心性操作系统：修齐治平的 E/S/T 扩展链
+- [P10 道家思想应用](https://wecando.vip/value-conservation-law/zh/P10%20%E9%81%93%E5%AE%B6%E6%80%9D%E6%83%B3%E5%BA%94%E7%94%A8-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 道法自然的调衡系统：无为而治的最小干预乘法与周期预警
+- [P11 中国哲学史方法论](https://wecando.vip/value-conservation-law/zh/P11%20%E4%B8%AD%E5%9B%BD%E5%93%B2%E5%AD%A6%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 道如何安顿与守恒的 3000 年乘除心法：儒道法墨佛学与宋明理学
+- [P12 西方哲学史方法论](https://wecando.vip/value-conservation-law/zh/P12%20%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 意义与价值的 2500 年守恒史：从古希腊逻各斯到尼采的乘除演进
+- [P13 文学史方法论](https://wecando.vip/value-conservation-law/zh/P13%20%E6%96%87%E5%AD%A6%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 精神价值的跨时空守恒：抒情与叙事传统、经典化的乘法机制
+- [P14 艺术史方法论](https://wecando.vip/value-conservation-law/zh/P14%20%E8%89%BA%E6%9C%AF%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 把不可言说之美固化为形并跨时空守恒：写意与写实的乘除对照
+- [P15 宗教史方法论](https://wecando.vip/value-conservation-law/zh/P15%20%E5%AE%97%E6%95%99%E5%8F%B2%E6%96%B9%E6%B3%95%E8%AE%BA-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 人类以超越性信仰寻找终极价值守恒锚点的方法论史
+- [P16 西游成事智慧](https://wecando.vip/value-conservation-law/zh/P16%20%E8%A5%BF%E6%B8%B8%E6%88%90%E4%BA%8B%E6%99%BA%E6%85%A7-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 布局·入局·胜局的成事方法论：取经大业与八十一难的 T 积累
+- [P17 金瓶梅个人成长](https://wecando.vip/value-conservation-law/zh/P17%20%E9%87%91%E7%93%B6%E6%A2%85%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 西门庆的除法人生：财商、人情与传承的反面教科书与成长七律
+
+## 中文文库 · 专题（无编号）
+- [国有企业](https://wecando.vip/value-conservation-law/zh/%E5%9B%BD%E6%9C%89%E4%BC%81%E4%B8%9A_%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 专题论证（以《中央帝国的财政密码》为线索）
+- [税收与王朝兴衰](https://wecando.vip/value-conservation-law/zh/%E7%A8%8E%E6%94%B6%E4%B8%8E%E7%8E%8B%E6%9C%9D%E5%85%B4%E8%A1%B0_%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 专题论证（以《中央帝国的财政密码》为线索）
+
+## English Library（15 docs）
+- [The Five Economic Crises Decoded](https://wecando.vip/value-conservation-law/en/01%20five-economic-crises-value-conservation.en.html): English version of 经济危机解码 — value conservation argument (EN)
+- [Breaking Free of Murphy's Law](https://wecando.vip/value-conservation-law/en/02%20break-free-murphys-law-value-conservation.en.html): English version of 突破墨菲定律 — value conservation argument (EN)
+- [Parkinson's Law](https://wecando.vip/value-conservation-law/en/03%20parkinsons-law-value-conservation.en.html): English version of 帕金森定律 — value conservation argument (EN)
+- [The Peter Principle](https://wecando.vip/value-conservation-law/en/04%20peter-principle-value-conservation.en.html): English version of 彼得原理 — value conservation argument (EN)
+- [Debt Crises and the New Connotation of Money](https://wecando.vip/value-conservation-law/en/05%20debt-crises-new-currency-value.en.html): English version of 债务危机与新货币价值内涵 — value conservation argument (EN)
+- [The Fiscal Code of Central Empires](https://wecando.vip/value-conservation-law/en/06%20fiscal-code-central-empires-value-conservation.en.html): English version of 中央帝国的财政密码 — value conservation argument (EN)
+- [The Central Empire Trilogy](https://wecando.vip/value-conservation-law/en/07%20central-empire-trilogy-value-conservation.en.html): English version of 中央帝国三部曲 — value conservation argument (EN)
+- [Economic Reforms Through the Dynasties](https://wecando.vip/value-conservation-law/en/08%20economic-reforms-dynasties-value-conservation.en.html): English version of 历代经济变革得失 — value conservation argument (EN)
+- [The Gains and Losses of Chinese Dynastic Politics](https://wecando.vip/value-conservation-law/en/09%20political-gains-losses-dynasties-value-conservation.en.html): English version of 中国历代政治得失 — value conservation argument (EN)
+- [Inside the Game: Government and Economic Development](https://wecando.vip/value-conservation-law/en/10%20inside-the-game-value-conservation.en.html): English version of 置身事内 — value conservation argument (EN)
+- [Great Nation, Great City](https://wecando.vip/value-conservation-law/en/11%20great-nation-great-city-value-conservation.en.html): English version of 大国大城 — value conservation argument (EN)
+- [The Law of Entropy Increase](https://wecando.vip/value-conservation-law/en/12%20entropy-law-value-conservation.en.html): English version of 熵增定律 — value conservation argument (EN)
+- [The Three Changes of the I Ching](https://wecando.vip/value-conservation-law/en/13%20yi-jing-three-changes-value-conservation.en.html): English version of 易经三易 — value conservation argument (EN)
+- [The Heavenly Way and the Human Way](https://wecando.vip/value-conservation-law/en/14%20tao-te-ching-heavenly-way-value-conservation.en.html): English version of 道德经天道人道 — value conservation argument (EN)
+- [Sapiens: A Brief History of Humankind](https://wecando.vip/value-conservation-law/en/15%20sapiens-value-conservation.en.html): English version of 人类简史 — value conservation argument (EN)
+
+## Biblioteca en Español（15 documentos）
+- [01 descifrando-crisis-economicas.es.html](https://wecando.vip/value-conservation-law/es/01%20descifrando-crisis-economicas.es.html): Versión en español de 01 descifrando-crisis-economicas.es.html — argumento de conservación del valor (ES)
+- [02 rompiendo-ley-murphy.es.html](https://wecando.vip/value-conservation-law/es/02%20rompiendo-ley-murphy.es.html): Versión en español de 02 rompiendo-ley-murphy.es.html — argumento de conservación del valor (ES)
+- [03 ley-parkinson.es.html](https://wecando.vip/value-conservation-law/es/03%20ley-parkinson.es.html): Versión en español de 03 ley-parkinson.es.html — argumento de conservación del valor (ES)
+- [04 principio-peter.es.html](https://wecando.vip/value-conservation-law/es/04%20principio-peter.es.html): Versión en español de 04 principio-peter.es.html — argumento de conservación del valor (ES)
+- [05 crisis-deuda-nueva-moneda.es.html](https://wecando.vip/value-conservation-law/es/05%20crisis-deuda-nueva-moneda.es.html): Versión en español de 05 crisis-deuda-nueva-moneda.es.html — argumento de conservación del valor (ES)
+- [06 codigo-fiscal-imperios-centrales.es.html](https://wecando.vip/value-conservation-law/es/06%20codigo-fiscal-imperios-centrales.es.html): Versión en español de 06 codigo-fiscal-imperios-centrales.es.html — argumento de conservación del valor (ES)
+- [07 trilogia-imperio-central.es.html](https://wecando.vip/value-conservation-law/es/07%20trilogia-imperio-central.es.html): Versión en español de 07 trilogia-imperio-central.es.html — argumento de conservación del valor (ES)
+- [08 reformas-economicas-dinastias.es.html](https://wecando.vip/value-conservation-law/es/08%20reformas-economicas-dinastias.es.html): Versión en español de 08 reformas-economicas-dinastias.es.html — argumento de conservación del valor (ES)
+- [09 politica-dinastias-chinas.es.html](https://wecando.vip/value-conservation-law/es/09%20politica-dinastias-chinas.es.html): Versión en español de 09 politica-dinastias-chinas.es.html — argumento de conservación del valor (ES)
+- [10 dentro-del-juego.es.html](https://wecando.vip/value-conservation-law/es/10%20dentro-del-juego.es.html): Versión en español de 10 dentro-del-juego.es.html — argumento de conservación del valor (ES)
+- [11 gran-nacion-gran-ciudad.es.html](https://wecando.vip/value-conservation-law/es/11%20gran-nacion-gran-ciudad.es.html): Versión en español de 11 gran-nacion-gran-ciudad.es.html — argumento de conservación del valor (ES)
+- [12 ley-entropia.es.html](https://wecando.vip/value-conservation-law/es/12%20ley-entropia.es.html): Versión en español de 12 ley-entropia.es.html — argumento de conservación del valor (ES)
+- [13 tres-cambios-iching.es.html](https://wecando.vip/value-conservation-law/es/13%20tres-cambios-iching.es.html): Versión en español de 13 tres-cambios-iching.es.html — argumento de conservación del valor (ES)
+- [14 camino-cielo-camino-humano.es.html](https://wecando.vip/value-conservation-law/es/14%20camino-cielo-camino-humano.es.html): Versión en español de 14 camino-cielo-camino-humano.es.html — argumento de conservación del valor (ES)
+- [Sapiens: A Brief History of Humankind](https://wecando.vip/value-conservation-law/es/15%20sapiens.es.html): Versión en español de 人类简史 — argumento de conservación del valor (ES)
+
+## Bibliothèque en français（15 documents）
+- [01 décrypter-crises-économiques.fr.html](https://wecando.vip/value-conservation-law/fr/01%20d%C3%A9crypter-crises-%C3%A9conomiques.fr.html): Version française de 01 décrypter-crises-économiques.fr.html — argument de conservation de la valeur (FR)
+- [02 briser-loi-murphy.fr.html](https://wecando.vip/value-conservation-law/fr/02%20briser-loi-murphy.fr.html): Version française de 02 briser-loi-murphy.fr.html — argument de conservation de la valeur (FR)
+- [03 loi-parkinson.fr.html](https://wecando.vip/value-conservation-law/fr/03%20loi-parkinson.fr.html): Version française de 03 loi-parkinson.fr.html — argument de conservation de la valeur (FR)
+- [04 principe-peter.fr.html](https://wecando.vip/value-conservation-law/fr/04%20principe-peter.fr.html): Version française de 04 principe-peter.fr.html — argument de conservation de la valeur (FR)
+- [05 crise-dette-nouvelle-monnaie.fr.html](https://wecando.vip/value-conservation-law/fr/05%20crise-dette-nouvelle-monnaie.fr.html): Version française de 05 crise-dette-nouvelle-monnaie.fr.html — argument de conservation de la valeur (FR)
+- [06 code-fiscal-empires-centraux.fr.html](https://wecando.vip/value-conservation-law/fr/06%20code-fiscal-empires-centraux.fr.html): Version française de 06 code-fiscal-empires-centraux.fr.html — argument de conservation de la valeur (FR)
+- [07 trilogie-empire-central.fr.html](https://wecando.vip/value-conservation-law/fr/07%20trilogie-empire-central.fr.html): Version française de 07 trilogie-empire-central.fr.html — argument de conservation de la valeur (FR)
+- [08 réformes-économiques-dynasties.fr.html](https://wecando.vip/value-conservation-law/fr/08%20r%C3%A9formes-%C3%A9conomiques-dynasties.fr.html): Version française de 08 réformes-économiques-dynasties.fr.html — argument de conservation de la valeur (FR)
+- [09 politique-dynasties-chinoises.fr.html](https://wecando.vip/value-conservation-law/fr/09%20politique-dynasties-chinoises.fr.html): Version française de 09 politique-dynasties-chinoises.fr.html — argument de conservation de la valeur (FR)
+- [10 au-coeur-du-jeu.fr.html](https://wecando.vip/value-conservation-law/fr/10%20au-coeur-du-jeu.fr.html): Version française de 10 au-coeur-du-jeu.fr.html — argument de conservation de la valeur (FR)
+- [11 grande-nation-grande-ville.fr.html](https://wecando.vip/value-conservation-law/fr/11%20grande-nation-grande-ville.fr.html): Version française de 11 grande-nation-grande-ville.fr.html — argument de conservation de la valeur (FR)
+- [12 loi-entropie.fr.html](https://wecando.vip/value-conservation-law/fr/12%20loi-entropie.fr.html): Version française de 12 loi-entropie.fr.html — argument de conservation de la valeur (FR)
+- [13 trois-changements-iching.fr.html](https://wecando.vip/value-conservation-law/fr/13%20trois-changements-iching.fr.html): Version française de 13 trois-changements-iching.fr.html — argument de conservation de la valeur (FR)
+- [14 voie-céleste-voie-humaine.fr.html](https://wecando.vip/value-conservation-law/fr/14%20voie-c%C3%A9leste-voie-humaine.fr.html): Version française de 14 voie-céleste-voie-humaine.fr.html — argument de conservation de la valeur (FR)
+- [Sapiens: A Brief History of Humankind](https://wecando.vip/value-conservation-law/fr/15%20sapiens.fr.html): Version française de 人类简史 — argument de conservation de la valeur (FR)
+
+## 数据与资源 Resources
+- [structure.json](https://wecando.vip/value-conservation-law/structure.json): 文档结构化数据（blocks + images 索引）
+- [zh_meta.json](https://wecando.vip/value-conservation-law/zh_meta.json): 中文文库元数据（89 篇编号/标题/描述/多语言链接）
+- [sitemap.xml](https://wecando.vip/value-conservation-law/sitemap.xml): 全站站点地图（144 URL）· [valuesitemap.xml](https://wecando.vip/value-conservation-law/valuesitemap.xml): 文库站点地图（131 URL + hreflang）
+- [robots.txt](https://wecando.vip/value-conservation-law/robots.txt): 爬虫协议（开放国内外搜索引擎与 AI 大模型爬虫）
+- [LICENSE](https://wecando.vip/value-conservation-law/LICENSE): CC BY-NC 4.0 · [GitHub 仓库](https://github.com/wecando-vip/value-conservation-law)
