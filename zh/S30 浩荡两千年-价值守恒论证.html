@@ -216,6 +216,31 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
     .bar-fill,.progress-bar{transition:none}
   }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -265,7 +290,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   </div>
 
   <div class="formula">
-    <div class="big"><span class="var">Y</span> <span class="op">=</span> <span class="var">E</span> <span class="op">×</span> <span class="var">S</span> <span class="op">×</span> <span class="var">T</span> <span class="op">=</span> 经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</div>
+    <div class="big"><span class="var">Y</span> <span class="op">=</span> <span class="var">E</span> <span class="op">×</span> <span class="var">S</span> <span class="op">×</span> <span class="var">T</span> </div>
     <div class="note">乘法定律：E、S、T 同步大于 1，价值总量倍增；任一变量归零或为负，价值总量归零或为负。除法定律：E = Y / (S × T)，牺牲 S 与 T 换取短期 E 最大化，是内卷、割韭菜与透支式增长的共同根源。</div>
   </div>
 
@@ -285,6 +310,24 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     <span class="who">——吴晓波《浩荡两千年·前言》</span>
   </div>
 </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝货币、资源、效率；S＝公平、信任、关系、文化；T＝可持续、长期、代际）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝商号与个人的货币资源；h＝公平信任与商誉；t＝复利传承与基业长青）</span></p>
+  </div>
+</div>
+
+
+
+
 
 <!-- ==================== 理论透镜 ==================== -->
 <section id="sec-law">
@@ -880,7 +923,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartDivision", {
     type:"bar",
     data:{
-      labels:["短期财政E（收入）","民间信任S","制度长期T","价值总量Y"],
+      labels:["E 经济价值（短期财政·收入）","S 社会价值（民间信任）","T 时间价值（制度长期）","Y 经济社会价值总量"],
       datasets:[
         {label:"专卖/抑商前（基线）", data:[5,7,7,8], backgroundColor:"rgba(166,124,46,.55)", borderColor:GOLD, borderWidth:1.5},
         {label:"专卖/抑商后（示意）", data:[8,3,2,3], backgroundColor:"rgba(163,45,45,.55)", borderColor:RED, borderWidth:1.5}
@@ -922,7 +965,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartMacroMicro", {
     type:"bar",
     data:{
-      labels:["乘数E/经济","乘数S/信用","乘数T/长期","总量Y·乘法","总量Y·除法"],
+      labels:["乘数 E 经济价值","乘数 S 社会价值（信用）","乘数 T 时间价值（长期）","总量 Y 经济社会价值总量·乘法","总量 Y 经济社会价值总量·除法"],
       datasets:[
         {label:"乘法时代（高光）", data:[8,8,8,9,2], backgroundColor:"rgba(45,106,79,.6)", borderColor:GREEN, borderWidth:1.5},
         {label:"除法时代（透支）", data:[7,3,2,3,8], backgroundColor:"rgba(163,45,45,.6)", borderColor:RED, borderWidth:1.5}

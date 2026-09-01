@@ -229,6 +229,31 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
 }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -278,7 +303,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   </div>
 
   <div class="formula">
-    <div class="big"><span class="var">Y</span> <span class="op">=</span> <span class="var">E</span> <span class="op">×</span> <span class="var">S</span> <span class="op">×</span> <span class="var">T</span> <span class="op">=</span> 经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</div>
+    <div class="big"><span class="var">Y</span> <span class="op">=</span> <span class="var">E</span> <span class="op">×</span> <span class="var">S</span> <span class="op">×</span> <span class="var">T</span> </div>
     <div class="note">乘法定律：E、S、T 同步大于 1 则价值总量倍增；任一变量归零或为负，总量归零或为负。除法公式：E = Y ÷ (S × T)——牺牲社会价值与时间价值换取短期经济价值。</div>
   </div>
 
@@ -301,6 +326,24 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     <span class="who">—— 本文论证命题（下分 16 章逐层展开）</span>
   </div>
 </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝认知与实践；S＝伦理与共同体；T＝历史与进步）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝认知、实践与产出；h＝伦理、自由与共同体；t＝历史积累与进步）</span></p>
+  </div>
+</div>
+
+
+
+
 
 <!-- ==================== 七层地图 ==================== -->
 <section id="sec-02">
@@ -308,13 +351,13 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   <p>哲学史之所以给人"越读越深"的感觉，是因为它在 2500 年间不断向人心的更深处下潜。把 7 层深度模型与哲学史分期叠放在一起，会得到一张"下潜地图"：早期哲学回答"世界是什么"（浅层信息与物质），中期哲学回答"我怎么知道、我该做什么"（行为与觉知），现代哲学直抵"我如何面对虚无与死亡"（潜意识与心智）。</p>
 
   <div class="layer-map">
-    <div class="layer-row"><div class="layer-no">7 心智层</div><div class="layer-name">理想与秩序 · 意义立法层</div><div class="layer-desc">柏拉图理想国、卢梭社会契约、尼采超人——在至高处为价值总量立法，回答"什么样的秩序值得活"。乘法：心智模型的搭建，Y 的最大乘数。</div></div>
-    <div class="layer-row"><div class="layer-no">6 潜意识层</div><div class="layer-name">存在与虚无 · 底牌层</div><div class="layer-desc">海德格尔向死而生、萨特存在先于本质、加缪荒诞——触碰意义的底牌，在虚无中重建。乘法：看见底牌后仍选择创造。</div></div>
-    <div class="layer-row"><div class="layer-no">5 觉知层</div><div class="layer-name">怀疑与沉思 · 校准层</div><div class="layer-desc">笛卡尔方法论怀疑、康德判断力（审美）、现象学直观——训练"看见的能力"，校准感知的精度。乘法：觉知越细，决策噪声越低。</div></div>
-    <div class="layer-row"><div class="layer-no">4 躯体层</div><div class="layer-name">意志与欲望 · 动能层</div><div class="layer-desc">叔本华生命意志、尼采权力意志——价值的最初动能来自肉身与欲望。除法预警：欲望无节制则痛苦倍增。</div></div>
-    <div class="layer-row"><div class="layer-no">3 行为层</div><div class="layer-name">德性与规范 · 行动层</div><div class="layer-desc">亚里士多德德性幸福、康德实践理性、卢梭公意——把价值转化为可执行的行动准则。乘法：行为与准则相乘，幸福才可复利。</div></div>
-    <div class="layer-row"><div class="layer-no">2 物质层</div><div class="layer-name">本体论 · 根基层</div><div class="layer-desc">亚里士多德"存在之为存在"、康德物自体——追问世界的根基。乘法：根基若虚，上层皆空；根基若实，一切可建。</div></div>
     <div class="layer-row"><div class="layer-no">1 信息层</div><div class="layer-name">认识论 · 输入层</div><div class="layer-desc">洛克经验论、笛卡尔我思、康德先天综合判断——决定我们如何获取与校验信息。乘法：输入校准，输出才可靠。</div></div>
+    <div class="layer-row"><div class="layer-no">2 物质层</div><div class="layer-name">本体论 · 根基层</div><div class="layer-desc">亚里士多德"存在之为存在"、康德物自体——追问世界的根基。乘法：根基若虚，上层皆空；根基若实，一切可建。</div></div>
+    <div class="layer-row"><div class="layer-no">3 行为层</div><div class="layer-name">德性与规范 · 行动层</div><div class="layer-desc">亚里士多德德性幸福、康德实践理性、卢梭公意——把价值转化为可执行的行动准则。乘法：行为与准则相乘，幸福才可复利。</div></div>
+    <div class="layer-row"><div class="layer-no">4 躯体层</div><div class="layer-name">意志与欲望 · 动能层</div><div class="layer-desc">叔本华生命意志、尼采权力意志——价值的最初动能来自肉身与欲望。除法预警：欲望无节制则痛苦倍增。</div></div>
+    <div class="layer-row"><div class="layer-no">5 觉知层</div><div class="layer-name">怀疑与沉思 · 校准层</div><div class="layer-desc">笛卡尔方法论怀疑、康德判断力（审美）、现象学直观——训练"看见的能力"，校准感知的精度。乘法：觉知越细，决策噪声越低。</div></div>
+    <div class="layer-row"><div class="layer-no">6 潜意识层</div><div class="layer-name">存在与虚无 · 底牌层</div><div class="layer-desc">海德格尔向死而生、萨特存在先于本质、加缪荒诞——触碰意义的底牌，在虚无中重建。乘法：看见底牌后仍选择创造。</div></div>
+    <div class="layer-row"><div class="layer-no">7 心智层</div><div class="layer-name">理想与秩序 · 意义立法层</div><div class="layer-desc">柏拉图理想国、卢梭社会契约、尼采超人——在至高处为价值总量立法，回答"什么样的秩序值得活"。乘法：心智模型的搭建，Y 的最大乘数。</div></div>
   </div>
 
   <h3>主表：7层深度 × 20部著作 × 哲学史分期</h3>
@@ -323,13 +366,13 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
       <caption>二十部西方哲学经典在 7 层深度坐标系中的分布（示意归类，据各书主旨归纳）</caption>
       <thead><tr><th scope="col">7层深度</th><th scope="col">哲学史分期</th><th scope="col">代表著作</th><th scope="col">价值守恒命题</th></tr></thead>
       <tbody>
-        <tr><td>7 心智层</td><td>古典／近代／现代</td><td>《理想国》《社会契约论》《查拉图斯特拉如是说》</td><td>为价值总量立法（乘法）</td></tr>
-        <tr><td>6 潜意识层</td><td>现代（19–20世纪）</td><td>《存在与时间》《存在与虚无》《西西弗神话》</td><td>虚无中重建意义（乘法）</td></tr>
-        <tr><td>5 觉知层</td><td>近代／现代</td><td>《第一哲学沉思集》《判断力批判》</td><td>怀疑与审美校准（乘法）</td></tr>
-        <tr><td>4 躯体层</td><td>近代（19世纪）</td><td>《作为意志和表象的世界》《悲剧的诞生》</td><td>意志动能与欲望预警（除法）</td></tr>
-        <tr><td>3 行为层</td><td>古典／近代</td><td>《尼各马可伦理学》《实践理性批判》《社会契约论》</td><td>德性行动与道德立法（乘法）</td></tr>
-        <tr><td>2 物质层</td><td>古典／近代</td><td>《形而上学》《纯粹理性批判》</td><td>存在根基与物自体（乘法）</td></tr>
         <tr><td>1 信息层</td><td>古典／近代</td><td>《西方哲学史（第9版）》《大问题》《人类理解论》《理想国》</td><td>经验输入与理性校验（乘法）</td></tr>
+        <tr><td>2 物质层</td><td>古典／近代</td><td>《形而上学》《纯粹理性批判》</td><td>存在根基与物自体（乘法）</td></tr>
+        <tr><td>3 行为层</td><td>古典／近代</td><td>《尼各马可伦理学》《实践理性批判》《社会契约论》</td><td>德性行动与道德立法（乘法）</td></tr>
+        <tr><td>4 躯体层</td><td>近代（19世纪）</td><td>《作为意志和表象的世界》《悲剧的诞生》</td><td>意志动能与欲望预警（除法）</td></tr>
+        <tr><td>5 觉知层</td><td>近代／现代</td><td>《第一哲学沉思集》《判断力批判》</td><td>怀疑与审美校准（乘法）</td></tr>
+        <tr><td>6 潜意识层</td><td>现代（19–20世纪）</td><td>《存在与时间》《存在与虚无》《西西弗神话》</td><td>虚无中重建意义（乘法）</td></tr>
+        <tr><td>7 心智层</td><td>古典／近代／现代</td><td>《理想国》《社会契约论》《查拉图斯特拉如是说》</td><td>为价值总量立法（乘法）</td></tr>
       </tbody>
     </table>
   </div>
@@ -646,13 +689,13 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
       <caption>哲学方法论 × 7层深度 × 现实应用对照表</caption>
       <thead><tr><th scope="col">7层深度</th><th scope="col">哲学工具</th><th scope="col">决策／投资／人生应用</th></tr></thead>
       <tbody>
-        <tr><td>7 心智层</td><td>康德"人为自然立法"、尼采"重估一切价值"</td><td>建立个人的价值准则与长期愿景，避免被短期市场情绪牵着走</td></tr>
-        <tr><td>6 潜意识层</td><td>存在主义"自决"、向死而生</td><td>风险自担的觉知：承认不确定性，为决策后果负责，拒绝"甩锅"心态</td></tr>
-        <tr><td>5 觉知层</td><td>笛卡尔"方法论怀疑"、审美判断</td><td>决策前的信息层验证：先怀疑、再取证、后下注，校准直觉噪声</td></tr>
-        <tr><td>4 躯体层</td><td>叔本华"意志"、尼采"权力意志"</td><td>识别欲望与冲动的驱动，防止 FOMO 式追涨杀跌（除法预警）</td></tr>
-        <tr><td>3 行为层</td><td>康德"绝对命令"、亚里士多德"中道"</td><td>投资决策的行为准则：可普遍化、可长期执行、避免过度与不及</td></tr>
-        <tr><td>2 物质层</td><td>亚里士多德"存在之为存在"</td><td>回到基本面与价值根基，不被表象与叙事迷惑</td></tr>
         <tr><td>1 信息层</td><td>洛克"经验校准"、康德"先天综合"</td><td>信息源的交叉验证与逻辑组织，把噪音过滤成信号</td></tr>
+        <tr><td>2 物质层</td><td>亚里士多德"存在之为存在"</td><td>回到基本面与价值根基，不被表象与叙事迷惑</td></tr>
+        <tr><td>3 行为层</td><td>康德"绝对命令"、亚里士多德"中道"</td><td>投资决策的行为准则：可普遍化、可长期执行、避免过度与不及</td></tr>
+        <tr><td>4 躯体层</td><td>叔本华"意志"、尼采"权力意志"</td><td>识别欲望与冲动的驱动，防止 FOMO 式追涨杀跌（除法预警）</td></tr>
+        <tr><td>5 觉知层</td><td>笛卡尔"方法论怀疑"、审美判断</td><td>决策前的信息层验证：先怀疑、再取证、后下注，校准直觉噪声</td></tr>
+        <tr><td>6 潜意识层</td><td>存在主义"自决"、向死而生</td><td>风险自担的觉知：承认不确定性，为决策后果负责，拒绝"甩锅"心态</td></tr>
+        <tr><td>7 心智层</td><td>康德"人为自然立法"、尼采"重估一切价值"</td><td>建立个人的价值准则与长期愿景，避免被短期市场情绪牵着走</td></tr>
       </tbody>
     </table>
   </div>

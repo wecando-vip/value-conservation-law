@@ -460,6 +460,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -506,6 +531,24 @@
       <h1>情感婚恋，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，审视情感婚恋的崩坏对人经济社会的影响——结婚率、离婚率、出轨率、新增出生人口四大指标，微观的幸福体验，进而影响宏观的经济数据。<b>没有情感，就缺乏消费的理由</b>：七夕消费的多年萎缩、舔狗经济的崩坏。好的制度让坏人变好人，坏的制度让好人变坏人——这是乘除法的自然选择。极端女权泛滥、男女双标、山西大同订婚强奸案、追风小叶案、扶不扶等案件在舆论场发酵，让人人自我，破坏男女正常交往，进而破坏经济社会价值。<span class="f-mul">让情感自愿、公平地交易，人人敢爱、敢婚、敢生、敢消费，才能活化经济、增加税收，让 E/S/T 三乘数同步大于 1，财与情、信任与消费、当下与代际共同生长。</span></p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝婚恋消费、家庭生产与住房/婚庆/母婴/教育链条；S＝两性信任、家庭稳定、代际传承与社会凝聚力；T＝生育、人口结构、长期增长与税收底盘）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝收入、彩礼、婚房、养娃成本；h＝归属感、亲密感、被看见；t＝婚姻复利、代际传承、老来相伴）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -581,10 +624,10 @@
               <tr><th>指标</th><th>被除的乘数</th><th>数据事实</th><th>若向好（乘法）</th><th>若崩坏（除法）</th></tr>
             </thead>
             <tbody>
-              <tr><td>结婚率</td><td>T 时间</td><td>2024 610.6 万对 / 4.3‰，初婚 9 年降 55.9%</td><td>婚房·婚庆·母婴·教育链条共振</td><td>家庭再生产链条整体收缩</td></tr>
-              <tr><td>离婚率</td><td>S 信任</td><td>2024 351.3 万对 / 2.5‰，冷静期后民政登记降约 43%</td><td>承诺复利、长期资产积累</td><td>婚内财产博弈、抚养权内耗</td></tr>
-              <tr><td>出轨率</td><td>S·h 体验</td><td>人大调研约 24.4%（媒体口径），58% 离婚诉讼涉婚外情</td><td>亲密信任放大幸福与产出</td><td>信任归零、家庭幸福被抽干</td></tr>
-              <tr><td>出生人口</td><td>T 传承</td><td>2025 年 792 万，1949 年来首破 800 万，总和生育率约 1.0</td><td>人口红利、代际消费接力</td><td>人口负增长、养老金与内需承压</td></tr>
+              <tr><td>结婚率</td><td>T 时间价值</td><td>2024 610.6 万对 / 4.3‰，初婚 9 年降 55.9%</td><td>婚房·婚庆·母婴·教育链条共振</td><td>家庭再生产链条整体收缩</td></tr>
+              <tr><td>离婚率</td><td>S 社会价值（信任）</td><td>2024 351.3 万对 / 2.5‰，冷静期后民政登记降约 43%</td><td>承诺复利、长期资产积累</td><td>婚内财产博弈、抚养权内耗</td></tr>
+              <tr><td>出轨率</td><td>S·h（社会价值·幸福体验）体验</td><td>人大调研约 24.4%（媒体口径），58% 离婚诉讼涉婚外情</td><td>亲密信任放大幸福与产出</td><td>信任归零、家庭幸福被抽干</td></tr>
+              <tr><td>出生人口</td><td>T 时间价值（传承）</td><td>2025 年 792 万，1949 年来首破 800 万，总和生育率约 1.0</td><td>人口红利、代际消费接力</td><td>人口负增长、养老金与内需承压</td></tr>
             </tbody>
           </table>
         </div>
@@ -822,7 +865,7 @@
     <div id="sec-principle">
       <div class="section-title"><span class="sn">Ⅸ</span><h2>三维守恒 · E/S/T</h2></div>
       <div class="card chart-card">
-        <h3 class="c-title">婚恋价值三维守恒：E 经济价值 × S 社会信任 × T 时间价值</h3>
+        <h3 class="c-title">婚恋价值三维守恒：E 经济价值 × S 社会价值（社会信任）× T 时间价值</h3>
         <p class="c-sub">健康的婚恋体系同时点亮三个维度：E——婚恋拉动的消费、婚庆、母婴、教育、税收；S——夫妻信任、两性互信、家庭稳定、舆论与制度信任；T——结婚、生育、代际传承、人口长期结构。三乘数同步大于 1，婚恋才进入「幸福复利」的正循环；而当前最危险的是：<b>T（人口延续）被除得最弱</b>——出生人口跌破 800 万、总和生育率约 1.0，时间价值的乘法正在熄火。<span class="m-tag">价值守恒方法论评估模型，示意，非抽样统计</span></p>
         <div class="chart-box"><canvas id="chartCore" aria-label="婚恋价值三维守恒环形图"></canvas></div>
         <p class="chart-note">图 5 · 婚恋价值三维守恒示意（价值守恒方法论评估模型，示意）：S（78）尚有余温，E（72）随消费塌方而收缩，T（55）最弱——出生人口 792 万、自然增长率 -2.41‰，人口延续这一时间乘数被除得最狠。T 一弱，E 与 S 都失去未来出口。</p>
@@ -853,13 +896,13 @@
             <caption>情感婚恋的 7 层深度映射（据价值守恒定律 7 层深度模型：信息→物质→行为→躯体→觉知→潜意识→心智）</caption>
             <thead><tr><th>层次</th><th>婚恋的对应机制</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>① 信息层</td><td>婚恋信息不对称：彩礼行情、背景核实、相亲渠道、婚前了解——信息透明，减少「先婚后知」的信任塌方</td><td>S 透明</td></tr>
-              <tr><td>② 物质层</td><td>彩礼、婚房、养娃成本、家庭财务——f(m) 真金白银的支付能力（彩礼 12.27 万均值、结婚总成本 76.8 万）</td><td>E 货币</td></tr>
-              <tr><td>③ 行为层</td><td>约会、同居、忠诚、出轨、消费行为——行为是否对等自愿，还是单方面供养（舔狗经济）</td><td>E 行为</td></tr>
-              <tr><td>④ 躯体层</td><td>家庭机体：婚姻制度、家庭分工、情感联结、亲子关系——家庭身体层面的健康（制度与分工失衡才扛不住）</td><td>E·T</td></tr>
-              <tr><td>⑤ 觉知层</td><td>双方对关系与幸福的感受——「被看见、被珍视」的体验（幸福指数 131.5 背后是情感被满足）</td><td>S 体验</td></tr>
-              <tr><td>⑥ 潜意识层</td><td>对婚姻的恐惧、对异性的偏见、原生家庭创伤、非亲阴影——「人人自我、处处设防」的心理根源</td><td>h 心态</td></tr>
-              <tr><td>⑦ 心智层</td><td>婚恋观、爱与责任、长期主义信念——从「索取」到「给予」的心智契约（决定关系复利）</td><td>T 心智</td></tr>
+              <tr><td>① 信息层</td><td>婚恋信息不对称：彩礼行情、背景核实、相亲渠道、婚前了解——信息透明，减少「先婚后知」的信任塌方</td><td>S 社会价值（透明）</td></tr>
+              <tr><td>② 物质层</td><td>彩礼、婚房、养娃成本、家庭财务——f(m) 真金白银的支付能力（彩礼 12.27 万均值、结婚总成本 76.8 万）</td><td>E 经济价值（货币）</td></tr>
+              <tr><td>③ 行为层</td><td>约会、同居、忠诚、出轨、消费行为——行为是否对等自愿，还是单方面供养（舔狗经济）</td><td>E 经济价值（行为）</td></tr>
+              <tr><td>④ 躯体层</td><td>家庭机体：婚姻制度、家庭分工、情感联结、亲子关系——家庭身体层面的健康（制度与分工失衡才扛不住）</td><td>E·T（经济价值·时间价值）</td></tr>
+              <tr><td>⑤ 觉知层</td><td>双方对关系与幸福的感受——「被看见、被珍视」的体验（幸福指数 131.5 背后是情感被满足）</td><td>S 社会价值（体验）</td></tr>
+              <tr><td>⑥ 潜意识层</td><td>对婚姻的恐惧、对异性的偏见、原生家庭创伤、非亲阴影——「人人自我、处处设防」的心理根源</td><td>幸福体验 f(h)（心态）</td></tr>
+              <tr><td>⑦ 心智层</td><td>婚恋观、爱与责任、长期主义信念——从「索取」到「给予」的心智契约（决定关系复利）</td><td>T 时间价值（心智）</td></tr>
             </tbody>
           </table>
         </div>
@@ -880,14 +923,14 @@
             <caption>婚恋四大指标 × 四大议题的价值守恒乘除总览（乘法轨道：如何让 E/S/T ＞ 1；除法镜鉴：如何防止被除回）</caption>
             <thead><tr><th>维度</th><th>守恒角色</th><th>乘法轨道（让 E/S/T ＞ 1）</th><th>除法镜鉴（防止被除回）</th></tr></thead>
             <tbody>
-              <tr><td>结婚率</td><td>T · 时间乘数</td><td>婚姻登记全国通办、婚假延长（山西甘肃 30 天）、结婚消费券、整治高额彩礼——让「结得起」</td><td>彩礼均值 12.27 万、结婚成本 76.8 万、初婚 9 年降 55.9%——「结不起」则 T 熄火</td></tr>
-              <tr><td>离婚率</td><td>S · 信任乘数</td><td>离婚冷静期（2021 民政登记降约 43%）、财产分割照顾无过错方——给冲动留 30 天缓冲</td><td>婚内共同财产套利、骗婚骗彩礼、冷静期转移财产——「离」变成有利可图的除法</td></tr>
-              <tr><td>出轨率</td><td>S·h · 体验乘数</td><td>忠诚承诺、亲密沟通、关系修复——f(h) 被经营成幸福复利</td><td>出轨率约 24.4%（媒体口径）、58% 离婚诉讼涉婚外情——信任被抽干</td></tr>
-              <tr><td>出生人口</td><td>T · 传承乘数</td><td>育儿补贴、普惠托育、教育减负、婚育友好——让「养得起、敢生」</td><td>2025 年 792 万、总和生育率约 1.0、净减 339 万——传承被除断</td></tr>
-              <tr><td>制度议题</td><td>S · 制度开关</td><td>好制度（冷静期/184 条/全国通办）让坏人只能做好事——默认信任</td><td>坏制度/漏洞（财产套利、非亲无救济）让好人学会自保——默认防御</td></tr>
-              <tr><td>舆论议题</td><td>S · 信任底座</td><td>司法定分止争、事实先于审判——可预期的规则降低交往成本</td><td>先判后审、标签先于事实——被冤枉成本高于冤枉成本，人人防御</td></tr>
-              <tr><td>双标议题</td><td>S·h · 关系互信</td><td>权利责任对等、平权而非特权——双方互相做乘法</td><td>权利全要、义务全免——把婚恋蛋糕做成负的，两边一起挨饿</td></tr>
-              <tr><td>情感交易</td><td>E · 消费引擎</td><td>情感自愿公平交易、婚恋服务透明——消费点火、税收增量</td><td>舔狗经济单边供养、骗婚套利——畸形交易被市场除回</td></tr>
+              <tr><td>结婚率</td><td>T 时间价值（时间乘数）</td><td>婚姻登记全国通办、婚假延长（山西甘肃 30 天）、结婚消费券、整治高额彩礼——让「结得起」</td><td>彩礼均值 12.27 万、结婚成本 76.8 万、初婚 9 年降 55.9%——「结不起」则 T 熄火</td></tr>
+              <tr><td>离婚率</td><td>S 社会价值（信任乘数）</td><td>离婚冷静期（2021 民政登记降约 43%）、财产分割照顾无过错方——给冲动留 30 天缓冲</td><td>婚内共同财产套利、骗婚骗彩礼、冷静期转移财产——「离」变成有利可图的除法</td></tr>
+              <tr><td>出轨率</td><td>S·h（社会价值·幸福体验）体验乘数</td><td>忠诚承诺、亲密沟通、关系修复——f(h) 被经营成幸福复利</td><td>出轨率约 24.4%（媒体口径）、58% 离婚诉讼涉婚外情——信任被抽干</td></tr>
+              <tr><td>出生人口</td><td>T 时间价值（传承乘数）</td><td>育儿补贴、普惠托育、教育减负、婚育友好——让「养得起、敢生」</td><td>2025 年 792 万、总和生育率约 1.0、净减 339 万——传承被除断</td></tr>
+              <tr><td>制度议题</td><td>S 社会价值（制度开关）</td><td>好制度（冷静期/184 条/全国通办）让坏人只能做好事——默认信任</td><td>坏制度/漏洞（财产套利、非亲无救济）让好人学会自保——默认防御</td></tr>
+              <tr><td>舆论议题</td><td>S 社会价值（信任底座）</td><td>司法定分止争、事实先于审判——可预期的规则降低交往成本</td><td>先判后审、标签先于事实——被冤枉成本高于冤枉成本，人人防御</td></tr>
+              <tr><td>双标议题</td><td>S·h（社会价值·幸福体验）关系互信</td><td>权利责任对等、平权而非特权——双方互相做乘法</td><td>权利全要、义务全免——把婚恋蛋糕做成负的，两边一起挨饿</td></tr>
+              <tr><td>情感交易</td><td>E 经济价值（消费引擎）</td><td>情感自愿公平交易、婚恋服务透明——消费点火、税收增量</td><td>舔狗经济单边供养、骗婚套利——畸形交易被市场除回</td></tr>
             </tbody>
           </table>
         </div>
@@ -1061,7 +1104,7 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['E 经济价值','S 社会信任','T 时间价值'],
+      labels:['E 经济价值','S 社会价值（社会信任）','T 时间价值'],
       datasets:[{data:[72,78,55],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
     options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'婚恋价值的三维守恒：E × S × T，三乘数同步大于 1 才有婚恋与经济的共同增长；当前 T（时间价值）被除得最弱——出生人口 792 万、自然增长率 -2.41‰，T 一弱，E 与 S 都失去未来出口（示意）',font:{family:FONT,size:13}}}}

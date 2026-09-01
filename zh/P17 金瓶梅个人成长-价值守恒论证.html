@@ -207,6 +207,31 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
     .bar-fill,.progress-bar{transition:none}
   }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -281,6 +306,24 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
 
   <div class="warn">全篇论证主线：<strong>西门庆是"除法人生"的极致标本——E（财富）疯狂做大，S（信任、情感、道德）与 T（健康、传承、时间）持续归零，最终 33 岁暴亡、家业凋零。</strong>《金瓶梅》给出的个人成长方法论，本质上是财商（E）× 人情（S）× 传承（T）三引擎同步大于 1 的乘法增长。</div>
 </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝财富与权力；S＝伦理与情感；T＝家风与传承）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝金钱、财货与权势；h＝情感、伦理与人伦；t＝家风、名声与家族传承）</span></p>
+  </div>
+</div>
+
+
+
+
 
 <!-- ================= 第二章 ================= -->
 <section id="sec-2">
@@ -507,9 +550,9 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
 
   <h3>三引擎拆解</h3>
   <div class="formula-grid">
-    <div class="formula-item"><div class="fv" style="color:var(--gold-deep)">财商 E</div><div class="fl">商业头脑 · 资源整合 · 复利思维</div><div class="fd">生药铺起家 → 当铺杠杆 → 股份合伙 → 盐引垄断</div></div>
-    <div class="formula-item"><div class="fv" style="color:var(--green)">人情 S</div><div class="fl">真信任 · 边界感 · 情感价值</div><div class="fd">不是认识多少人，而是落魄时还有多少人信你</div></div>
-    <div class="formula-item"><div class="fv" style="color:#2c5f8a">传承 T</div><div class="fl">健康 · 家庭 · 长期主义 · 代际</div><div class="fd">健康是不可逆本金；传承比索取重要</div></div>
+    <div class="formula-item"><div class="fv" style="color:var(--gold-deep)">E 经济价值（财商）</div><div class="fl">商业头脑 · 资源整合 · 复利思维</div><div class="fd">生药铺起家 → 当铺杠杆 → 股份合伙 → 盐引垄断</div></div>
+    <div class="formula-item"><div class="fv" style="color:var(--green)">S 社会价值（人情）</div><div class="fl">真信任 · 边界感 · 情感价值</div><div class="fd">不是认识多少人，而是落魄时还有多少人信你</div></div>
+    <div class="formula-item"><div class="fv" style="color:#2c5f8a">T 时间价值（传承）</div><div class="fl">健康 · 家庭 · 长期主义 · 代际</div><div class="fd">健康是不可逆本金；传承比索取重要</div></div>
   </div>
 
   <div class="chart-box">
@@ -523,9 +566,9 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     <caption>三引擎体检报告：西门庆（示意）</caption>
     <thead><tr><th>引擎</th><th>状态</th><th style="width:44%">证据（转述）</th><th>体检结论</th></tr></thead>
     <tbody>
-      <tr><td>财商 E</td><td class="green">满格</td><td>五铺并立、三万盐引、放贷生息、官商网全打通</td><td>正面引擎，但依赖权力而非创新</td></tr>
-      <tr><td>人情 S</td><td class="red">欠费</td><td>妻妾争宠内耗、应伯爵转投、灵前无人真心</td><td>信任存量耗尽，情感全部资产化</td></tr>
-      <tr><td>传承 T</td><td class="red">停机</td><td>33 岁暴亡、官哥早夭、家产被清算瓜分</td><td>健康与代际双归零</td></tr>
+      <tr><td>E 经济价值（财商）</td><td class="green">满格</td><td>五铺并立、三万盐引、放贷生息、官商网全打通</td><td>正面引擎，但依赖权力而非创新</td></tr>
+      <tr><td>S 社会价值（人情）</td><td class="red">欠费</td><td>妻妾争宠内耗、应伯爵转投、灵前无人真心</td><td>信任存量耗尽，情感全部资产化</td></tr>
+      <tr><td>T 时间价值（传承）</td><td class="red">停机</td><td>33 岁暴亡、官哥早夭、家产被清算瓜分</td><td>健康与代际双归零</td></tr>
     </tbody>
   </table>
 
@@ -960,7 +1003,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartFate", {
     type:"radar",
     data:{
-      labels:["财富 f(m)","情感 f(h)","传承 f(t)"],
+      labels:["货币价值 f(m)（财富）","幸福体验 f(h)（情感）","时间价值 f(t)（传承）"],
       datasets:[
         {label:"西门庆（除法主角）", data:[9,1,0], borderColor:"#a32d2d", backgroundColor:"rgba(163,45,45,.14)", pointBackgroundColor:"#a32d2d", borderWidth:2},
         {label:"孟玉楼（乘法正例）", data:[6,8,8], borderColor:"#2d6a4f", backgroundColor:"rgba(45,106,79,.13)", pointBackgroundColor:"#2d6a4f", borderWidth:2},
@@ -981,7 +1024,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartDao", {
     type:"bar",
     data:{
-      labels:["财商 E","人情 S","传承 T"],
+      labels:["E 经济价值（财商）","S 社会价值（人情）","T 时间价值（传承）"],
       datasets:[
         {label:"除法人生·西门庆", data:[9,2,1], backgroundColor:"rgba(163,45,45,.82)", borderRadius:5},
         {label:"乘法人生·孟玉楼", data:[6,8,8], backgroundColor:"rgba(45,106,79,.85)", borderRadius:5}
@@ -1001,7 +1044,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartSan", {
     type:"bar",
     data:{
-      labels:["财商 E","人情 S","传承 T"],
+      labels:["E 经济价值（财商）","S 社会价值（人情）","T 时间价值（传承）"],
       datasets:[
         {label:"理想权重（乘法）", data:[8,8,8], backgroundColor:"rgba(45,106,79,.80)", borderRadius:5},
         {label:"西门庆实际（除法）", data:[9,2,1], backgroundColor:"rgba(163,45,45,.72)", borderRadius:5}

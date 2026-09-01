@@ -461,6 +461,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -510,6 +535,24 @@
       <h1>薪酬绩效考核，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，论证薪酬绩效考核的应用价值与融合使用：从冯涛《薪酬激励量化实操全案》《绩效考核量化实操全案》的 3×3 量化体系与 6+1 薪酬设计，到 KPI、OKR、MBO、BSC、360 度、EVA 六大考核工具；从马斯洛需求层次、赫茨伯格双因素、弗鲁姆期望理论、亚当斯公平理论四大激励理论，到 A 股上市公司股权激励与长期激励实践。量化考核是乘法引擎（<span class="f-e">E</span>），公平感知是社会价值（<span class="f-s">S</span>），长期激励是时间复利（<span class="f-t">T</span>），3P 薪酬是乘数再配置。薪酬绩效不是「发工资 + 打分数」，而是 <span class="f-mul">y = f(m) × f(h) × f(t)</span> 的活体工程：让员工的货币回报、幸福体验与长期成长在组织的目标、考核、激励的层层乘数中同步放大。</p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝人效、业绩、成本控制与股东回报；S＝员工公平感、信任、归属与组织凝聚力；T＝人才梯队、长期激励与文化传承）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝薪酬回报与物质激励；h＝公平感知与幸福体验；t＝长期激励与文化传承复利）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -802,13 +845,13 @@
             <caption>薪酬绩效考核的 7 层深度映射（据价值守恒定律 7 层深度模型：信息→物质→行为→躯体→觉知→潜意识→心智）</caption>
             <thead><tr><th>层次</th><th>薪酬绩效的对应机制</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>① 信息层</td><td>薪酬结构透明、考核指标清晰、目标值公开——员工「知道」规则（信息公开，减少公平误差）</td><td>S 公平</td></tr>
-              <tr><td>② 物质层</td><td>工资、奖金、股权、福利——货币回报 f(m) 及时足额兑现（该高的不高是最大浪费）</td><td>E 货币</td></tr>
-              <tr><td>③ 行为层</td><td>KPI/OKR 牵引行为、提成/计件激励动作——员工「做到」被考核的事（正强化要及时）</td><td>E 行为</td></tr>
-              <tr><td>④ 躯体层</td><td>工作强度与回报匹配、压力与支持平衡——过劳与压榨侵蚀身体，激励变反噬（负强化要慎重）</td><td>E·S</td></tr>
-              <tr><td>⑤ 觉知层</td><td>员工「感受到」认可与价值——绩效面谈、即时反馈、公开表彰（满意度与敬业度）</td><td>S 体验</td></tr>
-              <tr><td>⑥ 潜意识层</td><td>公平感、归属感、主人翁意识——股权激励让员工从「打工者」变成「共建者」（习惯与情感绑定）</td><td>S·T</td></tr>
-              <tr><td>⑦ 心智层</td><td>价值观认同、使命对齐——「为客户创造价值」「与企业共成长」成为信念（文化是最深的心智契约）</td><td>T 心智</td></tr>
+              <tr><td>① 信息层</td><td>薪酬结构透明、考核指标清晰、目标值公开——员工「知道」规则（信息公开，减少公平误差）</td><td>S 社会价值（公平）</td></tr>
+              <tr><td>② 物质层</td><td>工资、奖金、股权、福利——货币回报 f(m) 及时足额兑现（该高的不高是最大浪费）</td><td>E 经济价值（货币）</td></tr>
+              <tr><td>③ 行为层</td><td>KPI/OKR 牵引行为、提成/计件激励动作——员工「做到」被考核的事（正强化要及时）</td><td>E 经济价值（行为）</td></tr>
+              <tr><td>④ 躯体层</td><td>工作强度与回报匹配、压力与支持平衡——过劳与压榨侵蚀身体，激励变反噬（负强化要慎重）</td><td>E·S（经济价值·社会价值）</td></tr>
+              <tr><td>⑤ 觉知层</td><td>员工「感受到」认可与价值——绩效面谈、即时反馈、公开表彰（满意度与敬业度）</td><td>S 社会价值（体验）</td></tr>
+              <tr><td>⑥ 潜意识层</td><td>公平感、归属感、主人翁意识——股权激励让员工从「打工者」变成「共建者」（习惯与情感绑定）</td><td>S·T（社会价值·时间价值）</td></tr>
+              <tr><td>⑦ 心智层</td><td>价值观认同、使命对齐——「为客户创造价值」「与企业共成长」成为信念（文化是最深的心智契约）</td><td>T 时间价值（心智）</td></tr>
             </tbody>
           </table>
         </div>
@@ -828,9 +871,9 @@
             <caption>薪酬绩效四大方法论 × 价值守恒乘除总览（乘法轨道：如何让三乘数 &gt; 1；除法镜鉴：如何防止被除回）</caption>
             <thead><tr><th>方法论</th><th>守恒角色</th><th>乘法轨道（让 E/S/T &gt; 1）</th><th>除法镜鉴（防止被除回）</th></tr></thead>
             <tbody>
-              <tr><td>量化考核（3×3）</td><td>E·乘法引擎</td><td>指标×权重×目标值层层相乘，企业/部门/个人三层级联，绩效得分「算」出来</td><td>不可量化硬考核→数字游戏；只考结果不考过程→牺牲 S·T 冲 E</td></tr>
-              <tr><td>公平激励（公平/双因素）</td><td>S·除法镜鉴</td><td>报酬/投入比值公平、过程透明、保健守底、激励拉开差距</td><td>薪酬倒挂杀老员工心；平均主义杀进取者心（S 被除小）</td></tr>
-              <tr><td>长期激励（股权/递延）</td><td>T·时间价值</td><td>股权把人才变主人，长期绑定、市值与人才双升、f(t) 复利</td><td>只画饼不兑现→T 归零；智猪博弈→实干者流失</td></tr>
+              <tr><td>量化考核（3×3）</td><td>E 经济价值（乘法引擎）</td><td>指标×权重×目标值层层相乘，企业/部门/个人三层级联，绩效得分「算」出来</td><td>不可量化硬考核→数字游戏；只考结果不考过程→牺牲 S·T 冲 E</td></tr>
+              <tr><td>公平激励（公平/双因素）</td><td>S 社会价值（除法镜鉴）</td><td>报酬/投入比值公平、过程透明、保健守底、激励拉开差距</td><td>薪酬倒挂杀老员工心；平均主义杀进取者心（S 被除小）</td></tr>
+              <tr><td>长期激励（股权/递延）</td><td>T 时间价值</td><td>股权把人才变主人，长期绑定、市值与人才双升、f(t) 复利</td><td>只画饼不兑现→T 归零；智猪博弈→实干者流失</td></tr>
               <tr><td>3P 薪酬（岗×能×绩×市场）</td><td>乘数再配置</td><td>岗位价值×能力等级×绩效结果×市场分位，四乘数各守其位</td><td>只盯一个乘数（论资排辈/能力泡沫/绩效内卷/成本失控）</td></tr>
             </tbody>
           </table>
@@ -1010,10 +1053,10 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['财 E · 乘法引擎','情 S · 社会价值','时间 T · 时间复利'],
+      labels:['E 经济价值（乘法引擎）','S 社会价值','T 时间价值（时间复利）'],
       datasets:[{data:[88,82,90],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'薪酬绩效的三维守恒：财 E × 情 S × 时间 T，三乘数同步大于 1 才进入扩张期',font:{family:FONT,size:13}}}}
+    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'薪酬绩效的三维守恒：E 经济价值 × S 社会价值 × T 时间价值，三乘数同步大于 1 才进入扩张期',font:{family:FONT,size:13}}}}
   });
 
   /* ---- 6. chartRadar 薪酬绩效六维画像雷达 ---- */

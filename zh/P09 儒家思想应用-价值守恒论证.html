@@ -206,6 +206,31 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
 }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -294,6 +319,24 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
     <strong>本节核心论断：</strong>儒家不是一套过时的道德说教，而是一套把“价值守恒”写进人格操作系统、把“7层深度修炼”写进日用工夫的心性操作系统。以下十二章，我们将逐一用四书五经与南怀瑾精讲，论证它的应用价值与融合使用路径。
   </div>
 </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝功业与物质；S＝仁义与秩序；T＝教化与传承）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝功业与物质回报；h＝仁义与伦常；t＝教化与家国传承）</span></p>
+  </div>
+</div>
+
+
+
+
 
 
 <!-- ==================== 一 · 内圣外王 ==================== -->
@@ -316,14 +359,14 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
         <tr><th>八目</th><th>对应 7 层深度</th><th>价值维度</th><th>操作要领</th></tr>
       </thead>
       <tbody>
-        <tr><td>格物</td><td>信息层</td><td>f(m) 起步</td><td>博学、求是、面对经典与实事（信息→认知）</td></tr>
-        <tr><td>致知</td><td>觉知层</td><td>f(h) 觉醒</td><td>明辨是非、洞察因果，把知识转为判断力</td></tr>
-        <tr><td>诚意</td><td>潜意识层</td><td>f(h) 加固</td><td>毋自欺、慎独，修正念头与习惯</td></tr>
-        <tr><td>正心</td><td>心智层</td><td>f(h) 定盘</td><td>重建世界观与价值体系，心正则万事正</td></tr>
+        <tr><td>格物</td><td>信息层</td><td>货币价值 f(m)（起步）</td><td>博学、求是、面对经典与实事（信息→认知）</td></tr>
+        <tr><td>致知</td><td>觉知层</td><td>幸福体验 f(h)（觉醒）</td><td>明辨是非、洞察因果，把知识转为判断力</td></tr>
+        <tr><td>诚意</td><td>潜意识层</td><td>幸福体验 f(h)（加固）</td><td>毋自欺、慎独，修正念头与习惯</td></tr>
+        <tr><td>正心</td><td>心智层</td><td>幸福体验 f(h)（定盘）</td><td>重建世界观与价值体系，心正则万事正</td></tr>
         <tr><td>修身</td><td>躯体+行为层整合</td><td>内圣→外王的接口</td><td>行止有礼、言行一致，把“正心”落到身体与行为</td></tr>
-        <tr><td>齐家</td><td>关系层（S 起点）</td><td>S 放大</td><td>孝悌、信任、家族/团队共同体建设</td></tr>
-        <tr><td>治国</td><td>组织与社会（E/S）</td><td>E×S 放大</td><td>为政以德、财散民聚、修己安人</td></tr>
-        <tr><td>平天下</td><td>文明与时间（E/S/T）</td><td>T 放大</td><td>王道、以天下为公，跨越代际传承价值</td></tr>
+        <tr><td>齐家</td><td>关系层（S 起点）</td><td>S 社会价值（放大）</td><td>孝悌、信任、家族/团队共同体建设</td></tr>
+        <tr><td>治国</td><td>组织与社会（E/S）</td><td>E×S（经济价值·社会价值）放大</td><td>为政以德、财散民聚、修己安人</td></tr>
+        <tr><td>平天下</td><td>文明与时间（E/S/T）</td><td>T 时间价值（放大）</td><td>王道、以天下为公，跨越代际传承价值</td></tr>
       </tbody>
     </table>
   </div>
@@ -599,11 +642,11 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
         <tr><th>五常</th><th>定义</th><th>价值守恒定位</th><th>乘法功能</th><th>崩塌后果（除法）</th></tr>
       </thead>
       <tbody>
-        <tr><td>仁</td><td>爱人之心</td><td>S 的源头</td><td>启动利他、凝聚人心</td><td>社会冷漠、信任归零</td></tr>
+        <tr><td>仁</td><td>爱人之心</td><td>S 社会价值（源头）</td><td>启动利他、凝聚人心</td><td>社会冷漠、信任归零</td></tr>
         <tr><td>义</td><td>正当分配</td><td>E/S 的平衡器</td><td>让利有所归、分配服众</td><td>分配失衡、争议不断</td></tr>
-        <tr><td>礼</td><td>秩序与仪式</td><td>S 的基础设施</td><td>降低交易成本、固化信任</td><td>礼坏乐崩、合作瓦解</td></tr>
-        <tr><td>智</td><td>明辨是非</td><td>f(h) 的判断力</td><td>识别真假、校准方向</td><td>盲从误判、方向错误</td></tr>
-        <tr><td>信</td><td>诚信可靠</td><td>T 的基石</td><td>让价值经得起时间检验</td><td>失信崩盘、复利归零</td></tr>
+        <tr><td>礼</td><td>秩序与仪式</td><td>S 社会价值（基础设施）</td><td>降低交易成本、固化信任</td><td>礼坏乐崩、合作瓦解</td></tr>
+        <tr><td>智</td><td>明辨是非</td><td>幸福体验 f(h)（判断力）</td><td>识别真假、校准方向</td><td>盲从误判、方向错误</td></tr>
+        <tr><td>信</td><td>诚信可靠</td><td>T 时间价值（基石）</td><td>让价值经得起时间检验</td><td>失信崩盘、复利归零</td></tr>
       </tbody>
     </table>
   </div>
@@ -784,12 +827,12 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
         <tr><th>7层深度</th><th>儒家工夫</th><th>价值维度</th><th>乘法操作</th><th>除法警示</th></tr>
       </thead>
       <tbody>
-        <tr><td>信息层</td><td>格物·博学</td><td>f(m) 认知</td><td>输入高质量信息与经典</td><td>信息过载、被算法喂养</td></tr>
-        <tr><td>物质层</td><td>知命·养身之资</td><td>E 底座</td><td>合理理财、储备资源</td><td>唯利是图、为财役身</td></tr>
-        <tr><td>行为层</td><td>修身·礼行</td><td>f(m) 输出</td><td>言行一致、以礼行事</td><td>形式主义、言行分裂</td></tr>
-        <tr><td>躯体层</td><td>养气·保身</td><td>f(m)×f(h)</td><td>作息养生、精力管理</td><td>过劳透支、以命换钱</td></tr>
-        <tr><td>觉知层</td><td>自省·省察</td><td>f(h) 校准</td><td>每日复盘、觉察情绪</td><td>麻木不仁、随波逐流</td></tr>
-        <tr><td>潜意识层</td><td>诚意·慎独·克己</td><td>f(h) 加固</td><td>重写习惯、建设信念</td><td>道德绑架、伪善表演</td></tr>
+        <tr><td>信息层</td><td>格物·博学</td><td>货币价值 f(m)（认知）</td><td>输入高质量信息与经典</td><td>信息过载、被算法喂养</td></tr>
+        <tr><td>物质层</td><td>知命·养身之资</td><td>E 经济价值（底座）</td><td>合理理财、储备资源</td><td>唯利是图、为财役身</td></tr>
+        <tr><td>行为层</td><td>修身·礼行</td><td>货币价值 f(m)（输出）</td><td>言行一致、以礼行事</td><td>形式主义、言行分裂</td></tr>
+        <tr><td>躯体层</td><td>养气·保身</td><td>货币价值 f(m)×幸福体验 f(h)</td><td>作息养生、精力管理</td><td>过劳透支、以命换钱</td></tr>
+        <tr><td>觉知层</td><td>自省·省察</td><td>幸福体验 f(h)（校准）</td><td>每日复盘、觉察情绪</td><td>麻木不仁、随波逐流</td></tr>
+        <tr><td>潜意识层</td><td>诚意·慎独·克己</td><td>幸福体验 f(h)（加固）</td><td>重写习惯、建设信念</td><td>道德绑架、伪善表演</td></tr>
         <tr><td>心智层</td><td>正心·明道</td><td>世界观/天道观</td><td>建立内圣外王操作系统</td><td>教条僵化、拒绝变化</td></tr>
       </tbody>
     </table>
@@ -1106,7 +1149,7 @@ footer{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--line);color
   chart("chartXing", {
     type:"radar",
     data:{
-      labels:["物质经济 E","社会关系 S","时间传承 T","心性修炼 f(h)","行为事功"],
+      labels:["E 经济价值（物质经济）","S 社会价值（社会关系）","T 时间价值（时间传承）","f(h) 幸福体验（心性修炼）","行为事功"],
       datasets:[
         {label:"《大学》", data:[6,8.5,9,9,8], borderColor:"#8a6423", backgroundColor:"rgba(166,124,46,.13)", pointBackgroundColor:"#8a6423", borderWidth:2},
         {label:"《中庸》", data:[5,7.5,8,9,6], borderColor:"#2c5f8a", backgroundColor:"rgba(44,95,138,.12)", pointBackgroundColor:"#2c5f8a", borderWidth:2},

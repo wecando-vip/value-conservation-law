@@ -461,6 +461,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -508,6 +533,24 @@
       <h1>人力资源管理，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，审视人力资源管理（HR）的应用价值与融合使用：从六大模块（规划、招聘、培训、绩效、薪酬、劳动关系）到三大支柱（COE、HRBP、SSC），从《以奋斗者为本》的价值创造—评价—分配闭环到华为端到端 HR 实践，从高新企业、传统制造业、服务业到街边小店的不同适配路径。六大模块是功能轴（HR 管什么），三支柱是组织轴（HR 怎么组织起来管），价值守恒是底层公式（为什么这么管）。HR 的本质，是把人的潜能变成组织价值的乘法（<span class="f-e">E</span>）、把公平与认同做成制度的除式（<span class="f-s">S</span>）、把人才梯队与组织能力做成时间的复利（<span class="f-t">T</span>）——<span class="f-mul">E/S/T 三乘数同步大于 1，人力资源才是真正的组织活力引擎。</span></p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝人效、业绩、成本控制与股东回报；S＝公平、信任、归属与劳动关系和谐；T＝人才梯队、组织能力与长期激励）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝薪酬福利与职业回报；h＝归属感、成就感与认同；t＝人才梯队与组织能力复利）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -712,10 +755,10 @@
             <caption>国内外 HR 组织范式对比（据尤里奇四角色模型、IBM/华为/腾讯/阿里公开实践与咨询机构资料整理）</caption>
             <thead><tr><th>范式 / 主体</th><th>核心机制</th><th>乘数角色（价值守恒）</th><th>关键经验与警示</th></tr></thead>
             <tbody>
-              <tr><td>尤里奇 · 四角色模型（1980s）</td><td>HR 四角色：战略伙伴、行政专家、员工代言人、变革推动者——为 HR 从行政走向战略奠定理论基础</td><td>S 觉醒·T 方向</td><td>让 HR 摆脱「只会算工资」的定位；但停留在角色框架，需组织机制承接</td></tr>
-              <tr><td>IBM · 三支柱首创（1997）</td><td>在尤里奇理论基础上提出可操作的 HR 三支柱：SSC/COE/HRBP 分工协作，全球共享服务</td><td>E 效率引擎</td><td>首个三支柱实践标杆，标准化+共享提效显著；大组织适配，中小组织需简化</td></tr>
+              <tr><td>尤里奇 · 四角色模型（1980s）</td><td>HR 四角色：战略伙伴、行政专家、员工代言人、变革推动者——为 HR 从行政走向战略奠定理论基础</td><td>S 社会价值（觉醒）·T 时间价值（方向）</td><td>让 HR 摆脱「只会算工资」的定位；但停留在角色框架，需组织机制承接</td></tr>
+              <tr><td>IBM · 三支柱首创（1997）</td><td>在尤里奇理论基础上提出可操作的 HR 三支柱：SSC/COE/HRBP 分工协作，全球共享服务</td><td>E 经济价值（效率引擎）</td><td>首个三支柱实践标杆，标准化+共享提效显著；大组织适配，中小组织需简化</td></tr>
               <tr><td>华为 · 端到端三支柱（2006-2012）</td><td>HRBP 贴近一线、COE 输出可操作方案、SSC 标准化交付；以奋斗者为本、价值创造-评价-分配闭环</td><td>E×S×T 全链</td><td>把三支柱与价值观熔于一炉，让「一线听得见炮声的人能呼唤到炮火」；落地需 6-7 年、投入大</td></tr>
-              <tr><td>腾讯 / 阿里 · 本土创新</td><td>阿里「人是资本而不是成本」、政委制 HRBP；腾讯「专业、服务、伙伴」、事业群 HR 体系</td><td>S 共情·T 文化</td><td>互联网语境下 HRBP 深度融入业务、价值观驱动；文化依赖强，需强组织土壤</td></tr>
+              <tr><td>腾讯 / 阿里 · 本土创新</td><td>阿里「人是资本而不是成本」、政委制 HRBP；腾讯「专业、服务、伙伴」、事业群 HR 体系</td><td>S 社会价值（共情）·T 时间价值（文化）</td><td>互联网语境下 HRBP 深度融入业务、价值观驱动；文化依赖强，需强组织土壤</td></tr>
               <tr><td>中小微企业 · 轻量化三支柱</td><td>COE 由 HR 负责人+外部顾问、HRBP 由资深 HR 兼任、SSC 外包事务（社保/薪酬核算给第三方）；BPO 外包降本</td><td>适配·E 降本</td><td>先让流程顺起来再谈架构完整；避免「200 人硬拆三支柱」的形似神不似</td></tr>
             </tbody>
           </table>
@@ -807,13 +850,13 @@
             <caption>人力资源管理的 7 层深度映射（据价值守恒定律 7 层深度模型：信息→物质→行为→躯体→觉知→潜意识→心智）</caption>
             <thead><tr><th>层次</th><th>人力资源管理的对应机制</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>① 信息层</td><td>薪酬结构透明、考核指标清晰、晋升标准公开——员工「知道」规则（信息公开，减少公平误差）</td><td>S 公平</td></tr>
-              <tr><td>② 物质层</td><td>工资、奖金、福利、长期激励——货币回报 f(m) 及时足额兑现（该高的不高是最大浪费）</td><td>E 货币</td></tr>
-              <tr><td>③ 行为层</td><td>招聘配置、KPI/OKR 牵引行为、激励兑现——员工「做到」被考核的事（正强化要及时）</td><td>E 行为</td></tr>
-              <tr><td>④ 躯体层</td><td>工作强度与回报匹配、压力与支持平衡——过劳与压榨侵蚀身体，激励变反噬（负强化要慎重）</td><td>E·S</td></tr>
-              <tr><td>⑤ 觉知层</td><td>员工「感受到」被认可与被尊重——绩效面谈、即时反馈、公开表彰（满意度与敬业度）</td><td>S 体验</td></tr>
-              <tr><td>⑥ 潜意识层</td><td>公平感、归属感、主人翁意识——长期激励与文化建设让员工从「打工者」变成「共建者」（习惯与情感绑定）</td><td>S·T</td></tr>
-              <tr><td>⑦ 心智层</td><td>价值观认同、使命对齐——「以客户为中心，以奋斗者为本」成为信念（文化是最深的心智契约）</td><td>T 心智</td></tr>
+              <tr><td>① 信息层</td><td>薪酬结构透明、考核指标清晰、晋升标准公开——员工「知道」规则（信息公开，减少公平误差）</td><td>S 社会价值（公平）</td></tr>
+              <tr><td>② 物质层</td><td>工资、奖金、福利、长期激励——货币回报 f(m) 及时足额兑现（该高的不高是最大浪费）</td><td>E 经济价值（货币）</td></tr>
+              <tr><td>③ 行为层</td><td>招聘配置、KPI/OKR 牵引行为、激励兑现——员工「做到」被考核的事（正强化要及时）</td><td>E 经济价值（行为）</td></tr>
+              <tr><td>④ 躯体层</td><td>工作强度与回报匹配、压力与支持平衡——过劳与压榨侵蚀身体，激励变反噬（负强化要慎重）</td><td>E·S（经济价值·社会价值）</td></tr>
+              <tr><td>⑤ 觉知层</td><td>员工「感受到」被认可与被尊重——绩效面谈、即时反馈、公开表彰（满意度与敬业度）</td><td>S 社会价值（体验）</td></tr>
+              <tr><td>⑥ 潜意识层</td><td>公平感、归属感、主人翁意识——长期激励与文化建设让员工从「打工者」变成「共建者」（习惯与情感绑定）</td><td>S·T（社会价值·时间价值）</td></tr>
+              <tr><td>⑦ 心智层</td><td>价值观认同、使命对齐——「以客户为中心，以奋斗者为本」成为信念（文化是最深的心智契约）</td><td>T 时间价值（心智）</td></tr>
             </tbody>
           </table>
         </div>
@@ -833,9 +876,9 @@
             <caption>人力资源四大议题 × 价值守恒乘除总览（乘法轨道：如何让三乘数 &gt; 1；除法镜鉴：如何防止被除回）</caption>
             <thead><tr><th>议题</th><th>守恒角色</th><th>乘法轨道（让 E/S/T &gt; 1）</th><th>除法镜鉴（防止被除回）</th></tr></thead>
             <tbody>
-              <tr><td>六大模块（全生命周期）</td><td>E·乘法引擎</td><td>规划→招聘→培训→绩效→薪酬→关系闭环，六节链条逐级放大，人岗匹配、能力复利</td><td>模块断裂、只招不培、只考不培、薪酬绩效脱钩——链条断一节整体失效</td></tr>
-              <tr><td>三支柱（组织重构）</td><td>S·除法镜鉴</td><td>COE 定规则、HRBP 懂业务、SSC 高效率，端到端流程从需求到满足，专业×业务×效率</td><td>盲目拆分、角色错位、忽视业务适配——200 人硬拆三支柱，画虎不成反类犬</td></tr>
-              <tr><td>奋斗者为本（价值分配）</td><td>T·时间价值</td><td>创造-评价-分配闭环；工资保公平、奖金拉差距、福利保底线、长期激励谋发展；利出一孔</td><td>大锅饭、薪酬倒挂、只画饼不兑现、躺平文化——分配除式一失守，奋斗者离场</td></tr>
+              <tr><td>六大模块（全生命周期）</td><td>E 经济价值（乘法引擎）</td><td>规划→招聘→培训→绩效→薪酬→关系闭环，六节链条逐级放大，人岗匹配、能力复利</td><td>模块断裂、只招不培、只考不培、薪酬绩效脱钩——链条断一节整体失效</td></tr>
+              <tr><td>三支柱（组织重构）</td><td>S 社会价值（除法镜鉴）</td><td>COE 定规则、HRBP 懂业务、SSC 高效率，端到端流程从需求到满足，专业×业务×效率</td><td>盲目拆分、角色错位、忽视业务适配——200 人硬拆三支柱，画虎不成反类犬</td></tr>
+              <tr><td>奋斗者为本（价值分配）</td><td>T 时间价值</td><td>创造-评价-分配闭环；工资保公平、奖金拉差距、福利保底线、长期激励谋发展；利出一孔</td><td>大锅饭、薪酬倒挂、只画饼不兑现、躺平文化——分配除式一失守，奋斗者离场</td></tr>
               <tr><td>多元主体（适配之道）</td><td>乘数再配置</td><td>高新做知识乘法、制造做效率除法、服务做体验乘法、小店做轻量化乘法，各补最痛乘数</td><td>照搬大厂、水土不服、管控式 HR——适配错位，人才用脚投票</td></tr>
             </tbody>
           </table>
@@ -1014,10 +1057,10 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['财 E · 乘法引擎','情 S · 组织价值','时间 T · 时间复利'],
+      labels:['E 经济价值（乘法引擎）','S 社会价值（组织价值）','T 时间价值（时间复利）'],
       datasets:[{data:[90,85,92],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'人力资源的三维守恒：财 E × 情 S × 时间 T，三乘数同步大于 1 组织才进入活力扩张期',font:{family:FONT,size:13}}}}
+    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'人力资源的三维守恒：E 经济价值 × S 社会价值 × T 时间价值，三乘数同步大于 1 组织才进入活力扩张期',font:{family:FONT,size:13}}}}
   });
 
   /* ---- 6. chartRadar 人力资源六维画像雷达 ---- */

@@ -431,6 +431,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -477,6 +502,24 @@
       <h1>宏观经济学，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）论证宏观经济学的方法论价值：GDP 增长与全要素生产率对应经济价值 <span class="f-e">E</span>、分配公平与共同富裕对应社会价值 <span class="f-s">S</span>、可持续与代际公平对应时间价值 <span class="f-t">T</span>——三个乘数同步大于 1，宏观经济才真正创造价值。经济增长是乘法引擎，收入分配是除法镜鉴，经济周期是零因子探测，可持续是乘数再配置。它不只是国民账户，而是 <span class="f-mul">Y = E × S × T</span> 的总量骨架。</p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝GDP 增长与全要素生产率；S＝分配公平与共同富裕；T＝可持续与代际公平）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝市场制度与宏观政策；h＝人力资本与企业家精神；t＝长期主义与代际投资）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -501,7 +544,7 @@
         <div class="card formula-card micro">
           <h3>微观 · 个体/部门综合价值</h3>
           <p class="formula-big"><span class="f-mul">y = f(m) × f(h) × f(t)</span></p>
-          <p>落到国家—企业—家庭—个人：机制乘数 f(m)（市场制度、宏观政策）× 主体乘数 f(h)（人力资本、企业家精神）× 时间乘数 f(t)（长期主义、代际投资）。任一归零则整体归零——这是宏观政策传导到每个微观细胞的统一表达。</p>
+          <p>落到国家—企业—家庭—个人：货币价值 f(m)（机制乘数：市场制度、宏观政策）× 幸福体验 f(h)（主体乘数：人力资本、企业家精神）× 时间价值 f(t)（时间乘数：长期主义、代际投资）。任一归零则整体归零——这是宏观政策传导到每个微观细胞的统一表达。</p>
         </div>
       </div>
     </div>

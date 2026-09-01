@@ -451,6 +451,31 @@
 .sub-card h3 { font-size: 15.5px; font-weight: 800; margin: 0 0 8px; }
 .mul-card h3 { color: var(--green); }
 .div-card h3 { color: var(--crimson); }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 <script>
 /* ============ Chart.js v4.4.1 UMD（整体内联，零外链） ============ */
@@ -515,6 +540,24 @@
     <h1>钟才文四篇，价值守恒论证</h1>
     <p class="hero-sub">人民日报经济评论「钟才文」2026年8月22日至25日连续四天在第二版发声，从中国经济的内在韧性，到对世界经济的贡献与稳定锚，再到上半年 <span class="f-e">4.7%</span> 增速的结构解读，最终落脚于 7 月 30 日中央政治局会议「高度重视经济运行中的困难挑战」之后下半年经济工作的系统部署。本页以价值守恒定律（乘法与除法、宏观与微观）为底层框架，论证四篇文章的深层逻辑：<span class="f-mul">真正的高质量增长，是 E（经济价值）× S（社会价值）× T（时间价值）三者同步大于 1 的乘法增长</span>；而内卷式竞争、低价无序、地方债务积压、投资收缩、供强需弱等，本质都是<span class="f-div">「用除法换短期增长」</span>的结构性病灶。四篇文章给出的——逆周期调节、存量+增量政策、扩大内需、科技创新、统一大市场、化险防风险、政策过渡期——正是一套完整的「乘法解法」。</p>
   </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝新动能、装备制造与高技术制造；S＝内需、消费与民生；T＝可持续与现代化）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝新质生产力与产业升级；h＝内需消费与民生改善；t＝高质量发展与代际现代化）</span></p>
+  </div>
+</div>
+
+
+
+
 
   <div id="sec-answer">
     <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -591,9 +634,9 @@
         </div>
       </div>
       <div class="probe-grid">
-        <div class="probe"><h4>E · 经济价值</h4><p>长三角整车厂 4 小时集齐上万个零部件、珠三角人形机器人「1 小时产业生态圈」——产供链效率即 E 的乘法。</p></div>
-        <div class="probe"><h4>S · 社会价值</h4><p>企业在数字化中「零触点」履约、好房子「工厂制造」——效率与体验（f(h)）同步提升。</p></div>
-        <div class="probe"><h4>T · 时间价值</h4><p>「严控增量、妥处存量、严防爆雷」守住不发生系统性风险底线——为长期增长赢得时间。</p></div>
+        <div class="probe"><h4>E 经济价值</h4><p>长三角整车厂 4 小时集齐上万个零部件、珠三角人形机器人「1 小时产业生态圈」——产供链效率即 E 的乘法。</p></div>
+        <div class="probe"><h4>S 社会价值</h4><p>企业在数字化中「零触点」履约、好房子「工厂制造」——效率与体验（f(h)）同步提升。</p></div>
+        <div class="probe"><h4>T 时间价值</h4><p>「严控增量、妥处存量、严防爆雷」守住不发生系统性风险底线——为长期增长赢得时间。</p></div>
       </div>
     </div>
 
@@ -613,9 +656,9 @@
         </div>
       </div>
       <div class="probe-grid">
-        <div class="probe"><h4>E · 经济价值</h4><p>全球每销售 10 台人形/四足智能机器人就有 8 台产自中国，创新药对外授权总额约 1100 亿美元。</p></div>
-        <div class="probe"><h4>S · 社会价值</h4><p>中欧班列快速送达、非洲分布式光伏点亮夜晚——中国产品与服务进入他国生活（全球 f(h) 放大）。</p></div>
-        <div class="probe"><h4>T · 时间价值</h4><p>全球风电/光伏度电成本累计下降超 60%/80%——长期能源技术积累转化为全球共享的时间红利。</p></div>
+        <div class="probe"><h4>E 经济价值</h4><p>全球每销售 10 台人形/四足智能机器人就有 8 台产自中国，创新药对外授权总额约 1100 亿美元。</p></div>
+        <div class="probe"><h4>S 社会价值</h4><p>中欧班列快速送达、非洲分布式光伏点亮夜晚——中国产品与服务进入他国生活（全球 f(h) 放大）。</p></div>
+        <div class="probe"><h4>T 时间价值</h4><p>全球风电/光伏度电成本累计下降超 60%/80%——长期能源技术积累转化为全球共享的时间红利。</p></div>
       </div>
     </div>
 
@@ -635,9 +678,9 @@
         </div>
       </div>
       <div class="probe-grid">
-        <div class="probe"><h4>E · 经济价值</h4><p>4.7% 处 4.5%–5% 预期区间，「符合潜在经济增长率」，经济大省挑大梁。</p></div>
-        <div class="probe"><h4>S · 社会价值</h4><p>收入 +5.2%、服务消费 +5.3%、综合整治「内卷式」竞争——回归价值竞争、质量竞争。</p></div>
-        <div class="probe"><h4>T · 时间价值</h4><p>「投资于未来、投资于民生」「六张网」协同建设——把今天的投入变成明天的 T。</p></div>
+        <div class="probe"><h4>E 经济价值</h4><p>4.7% 处 4.5%–5% 预期区间，「符合潜在经济增长率」，经济大省挑大梁。</p></div>
+        <div class="probe"><h4>S 社会价值</h4><p>收入 +5.2%、服务消费 +5.3%、综合整治「内卷式」竞争——回归价值竞争、质量竞争。</p></div>
+        <div class="probe"><h4>T 时间价值</h4><p>「投资于未来、投资于民生」「六张网」协同建设——把今天的投入变成明天的 T。</p></div>
       </div>
     </div>
 
@@ -657,9 +700,9 @@
         </div>
       </div>
       <div class="probe-grid">
-        <div class="probe"><h4>E · 经济价值</h4><p>财政金融协同扩内需、三季度施工旺季加快「十五五」重大项目开工——投资止跌回稳。</p></div>
-        <div class="probe"><h4>S · 社会价值</h4><p>夏粮首破 3000 亿斤、守牢不发生规模性返贫致贫底线、「一老一小」服务保障。</p></div>
-        <div class="probe"><h4>T · 时间价值</h4><p>「涉及企业生产经营的重大政策调整，要留出合理过渡期」——政策的确定性就是 T 的复利。</p></div>
+        <div class="probe"><h4>E 经济价值</h4><p>财政金融协同扩内需、三季度施工旺季加快「十五五」重大项目开工——投资止跌回稳。</p></div>
+        <div class="probe"><h4>S 社会价值</h4><p>夏粮首破 3000 亿斤、守牢不发生规模性返贫致贫底线、「一老一小」服务保障。</p></div>
+        <div class="probe"><h4>T 时间价值</h4><p>「涉及企业生产经营的重大政策调整，要留出合理过渡期」——政策的确定性就是 T 的复利。</p></div>
       </div>
     </div>
   </div>
@@ -840,26 +883,26 @@
           <tr><th scope="col">维度</th><th scope="col">指标</th><th scope="col">数据</th><th scope="col">出处篇目</th></tr>
         </thead>
         <tbody>
-          <tr><td>E · 总量</td><td>上半年 GDP 增速</td><td class="mul">+4.7%，处 4.5%–5% 预期区间</td><td>第1/3篇</td></tr>
-          <tr><td>E · 总量</td><td>规模以上工业企业利润</td><td class="mul">+18.7%</td><td>第1篇</td></tr>
-          <tr><td>E · 总量</td><td>全国一般公共预算收入</td><td class="mul">+4.7%</td><td>第1篇</td></tr>
-          <tr><td>E · 新动能</td><td>装备制造业 / 高技术制造业增加值</td><td class="mul">+9.3% / +13.3%</td><td>第1篇</td></tr>
-          <tr><td>E · 新动能</td><td>新动能对增长直接贡献</td><td class="mul">超四成</td><td>第3篇</td></tr>
-          <tr><td>E · 新动能</td><td>AI 专利授权量 / 锂电池产量</td><td class="mul">+34.8% / +39.3%</td><td>第3篇</td></tr>
-          <tr><td>E · 全球</td><td>对世界经济增长贡献率</td><td class="mul">约 30%</td><td>第2篇</td></tr>
-          <tr><td>E · 全球</td><td>年进口规模 / 主要出口目的地</td><td class="mul">超 20 万亿元 / 近 80 个国家</td><td>第2篇</td></tr>
-          <tr><td>E · 创新</td><td>全球创新指数排名</td><td class="mul">2012年第34位 → 2025年第10位</td><td>第2篇</td></tr>
-          <tr><td>E · 创新</td><td>全球百强科技集群 / 智能机器人中国占比</td><td class="mul">连续3年全球第一 / 每10台有8台产自中国</td><td>第2篇</td></tr>
-          <tr><td>E · 创新</td><td>创新药对外授权交易总额</td><td class="mul">约 1100 亿美元</td><td>第2篇</td></tr>
-          <tr><td>S · 内需</td><td>内需贡献率（消费贡献率）</td><td class="mul">超 80%（消费接近 50%）</td><td>第2篇</td></tr>
-          <tr><td>S · 民生</td><td>居民人均可支配收入名义增长</td><td class="mul">+5.2%</td><td>第3篇</td></tr>
-          <tr><td>S · 民生</td><td>服务零售额</td><td class="mul">+5.3%</td><td>第3篇</td></tr>
-          <tr><td>S · 就业</td><td>高校毕业生 / 灵活就业人员</td><td class="mul">1270 万人 / 约 2 亿人</td><td>第4篇</td></tr>
-          <tr><td>T · 绿色</td><td>绿电占比 / 新能源车零售渗透率</td><td class="mul">近 4 成 / 累计 54.1%</td><td>第2篇</td></tr>
-          <tr><td>T · 绿色</td><td>清洁能源发电量占比</td><td class="mul">36.2%</td><td>第3篇</td></tr>
-          <tr><td>T · 成本</td><td>风电/光伏度电成本累计降幅</td><td class="mul">超 60% / 超 80%</td><td>第2篇</td></tr>
-          <tr><td>T · 化险</td><td>对非洲建交国 / 新型政策性金融工具</td><td class="mul">53 国零关税 / 8000 亿元</td><td>第2/4篇</td></tr>
-          <tr><td>T · 农业</td><td>夏粮产量</td><td class="mul">首次突破 3000 亿斤</td><td>第4篇</td></tr>
+          <tr><td>E 经济价值（总量）</td><td>上半年 GDP 增速</td><td class="mul">+4.7%，处 4.5%–5% 预期区间</td><td>第1/3篇</td></tr>
+          <tr><td>E 经济价值（总量）</td><td>规模以上工业企业利润</td><td class="mul">+18.7%</td><td>第1篇</td></tr>
+          <tr><td>E 经济价值（总量）</td><td>全国一般公共预算收入</td><td class="mul">+4.7%</td><td>第1篇</td></tr>
+          <tr><td>E 经济价值（新动能）</td><td>装备制造业 / 高技术制造业增加值</td><td class="mul">+9.3% / +13.3%</td><td>第1篇</td></tr>
+          <tr><td>E 经济价值（新动能）</td><td>新动能对增长直接贡献</td><td class="mul">超四成</td><td>第3篇</td></tr>
+          <tr><td>E 经济价值（新动能）</td><td>AI 专利授权量 / 锂电池产量</td><td class="mul">+34.8% / +39.3%</td><td>第3篇</td></tr>
+          <tr><td>E 经济价值（全球）</td><td>对世界经济增长贡献率</td><td class="mul">约 30%</td><td>第2篇</td></tr>
+          <tr><td>E 经济价值（全球）</td><td>年进口规模 / 主要出口目的地</td><td class="mul">超 20 万亿元 / 近 80 个国家</td><td>第2篇</td></tr>
+          <tr><td>E 经济价值（创新）</td><td>全球创新指数排名</td><td class="mul">2012年第34位 → 2025年第10位</td><td>第2篇</td></tr>
+          <tr><td>E 经济价值（创新）</td><td>全球百强科技集群 / 智能机器人中国占比</td><td class="mul">连续3年全球第一 / 每10台有8台产自中国</td><td>第2篇</td></tr>
+          <tr><td>E 经济价值（创新）</td><td>创新药对外授权交易总额</td><td class="mul">约 1100 亿美元</td><td>第2篇</td></tr>
+          <tr><td>S 社会价值（内需）</td><td>内需贡献率（消费贡献率）</td><td class="mul">超 80%（消费接近 50%）</td><td>第2篇</td></tr>
+          <tr><td>S 社会价值（民生）</td><td>居民人均可支配收入名义增长</td><td class="mul">+5.2%</td><td>第3篇</td></tr>
+          <tr><td>S 社会价值（民生）</td><td>服务零售额</td><td class="mul">+5.3%</td><td>第3篇</td></tr>
+          <tr><td>S 社会价值（就业）</td><td>高校毕业生 / 灵活就业人员</td><td class="mul">1270 万人 / 约 2 亿人</td><td>第4篇</td></tr>
+          <tr><td>T 时间价值（绿色）</td><td>绿电占比 / 新能源车零售渗透率</td><td class="mul">近 4 成 / 累计 54.1%</td><td>第2篇</td></tr>
+          <tr><td>T 时间价值（绿色）</td><td>清洁能源发电量占比</td><td class="mul">36.2%</td><td>第3篇</td></tr>
+          <tr><td>T 时间价值（成本）</td><td>风电/光伏度电成本累计降幅</td><td class="mul">超 60% / 超 80%</td><td>第2篇</td></tr>
+          <tr><td>T 时间价值（化险）</td><td>对非洲建交国 / 新型政策性金融工具</td><td class="mul">53 国零关税 / 8000 亿元</td><td>第2/4篇</td></tr>
+          <tr><td>T 时间价值（农业）</td><td>夏粮产量</td><td class="mul">首次突破 3000 亿斤</td><td>第4篇</td></tr>
           <tr><td class="div">除法项</td><td>固定资产投资</td><td class="div">-5.7%（止跌回稳压力）</td><td>第3/4篇</td></tr>
           <tr><td class="div">除法项</td><td>CPI（物价合理回升）</td><td>上半年 +1%（符合宏观调控要求）</td><td>第2篇</td></tr>
         </tbody>
@@ -939,9 +982,9 @@
           <caption>乘法 vs 除法：钟才文四篇的论证全景对照</caption>
           <thead><tr><th scope="col">维度</th><th scope="col">乘法路径（文章主张）</th><th scope="col">除法病灶（文章识别）</th><th scope="col">守恒解法</th></tr></thead>
           <tbody>
-            <tr><td>E · 经济价值</td><td class="mul">新动能贡献超四成、装备制造 +9.3%、高技术制造 +13.3%、AI 专利 +34.8%</td><td class="div">固定资产投资 -5.7%、供强需弱</td><td>逆周期调节、存量+增量政策、扩内需促投资</td></tr>
-            <tr><td>S · 社会价值</td><td class="mul">内需贡献超 80%、消费近 50%、居民收入 +5.2%、就业物价平稳</td><td class="div">内卷式竞争、低价无序、账款拖欠</td><td>统一大市场条例、常态化清欠、价值竞争</td></tr>
-            <tr><td>T · 时间价值</td><td class="mul">化债化险、绿色转型、政策过渡期、中长期资金入市</td><td class="div">化险短期收缩效应、债务积压</td><td>一揽子化债方案、短期成本换长期可持续</td></tr>
+            <tr><td>E 经济价值</td><td class="mul">新动能贡献超四成、装备制造 +9.3%、高技术制造 +13.3%、AI 专利 +34.8%</td><td class="div">固定资产投资 -5.7%、供强需弱</td><td>逆周期调节、存量+增量政策、扩内需促投资</td></tr>
+            <tr><td>S 社会价值</td><td class="mul">内需贡献超 80%、消费近 50%、居民收入 +5.2%、就业物价平稳</td><td class="div">内卷式竞争、低价无序、账款拖欠</td><td>统一大市场条例、常态化清欠、价值竞争</td></tr>
+            <tr><td>T 时间价值</td><td class="mul">化债化险、绿色转型、政策过渡期、中长期资金入市</td><td class="div">化险短期收缩效应、债务积压</td><td>一揽子化债方案、短期成本换长期可持续</td></tr>
             <tr><td>宏观 Y</td><td class="mul">三乘数同步 &gt;1，Y 进入扩张期</td><td class="div">任一乘数除到 0–1，Y 进入收缩期</td><td>统一价值度量衡，创绝对增量</td></tr>
             <tr><td>微观 y</td><td class="mul">居民收入 +5.2%（f(m)）、就业民生保障（f(h)）、AI 就业包容（f(t)）</td><td class="div">低价竞争削利润（f(m)）、账款拖欠断现金流（f(t)）</td><td>增收促消费、清欠保现金流、权益保障</td></tr>
           </tbody>
@@ -1142,7 +1185,7 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['E · 经济价值','S · 社会价值','T · 时间价值'],
+      labels:['E 经济价值','S 社会价值','T 时间价值'],
       datasets:[{data:[90,92,88],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
     options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'三维守恒：E、S、T 三乘数同步大于 1，Y 才进入扩张期（价值守恒方法论评估模型，示意）',font:{family:FONT,size:13}}}}

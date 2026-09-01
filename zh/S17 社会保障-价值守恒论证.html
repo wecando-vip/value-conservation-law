@@ -461,6 +461,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -509,6 +534,24 @@
       <h1>社会保障，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，审视中国社会保障（社保）的应用价值与融合使用：从覆盖扩面（基本养老参保 10.76 亿、基本医保 13.31 亿、参保率 95%+）到公平分配（视同缴纳的历史欠账、城乡 14.6 倍的待遇差距），从现收现付到延迟退休、个人养老金与瑞典名义账户制（NDC）的可持续改革。覆盖扩面是乘法引擎（<span class="f-e">E</span>），公平感知是社会价值（<span class="f-s">S</span>），制度可持续是时间复利（<span class="f-t">T</span>），三支柱是乘数再配置。社保不是「缴一笔钱、换一张保单」，而是 <span class="f-mul">y = f(m) × f(h) × f(t)</span> 的国民共济工程：让每个公民的当期保障、公平尊严与代际传承，在亿万人的分母上同步放大。</p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝基金收支平衡、投资运营与财政可持续；S＝共济、公平、信任与老年尊严；T＝代际传承与穿越人口周期）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝缴费、基金与保障待遇；h＝共济、公平与尊严；t＝代际传承与基金穿越周期）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -723,11 +766,11 @@
             <caption>国内外养老保险模式对比（据世界银行三支柱分类、各国养老金制度公开资料整理）</caption>
             <thead><tr><th>国家 / 模式</th><th>核心机制</th><th>乘数角色（价值守恒）</th><th>关键经验与警示</th></tr></thead>
             <tbody>
-              <tr><td>中国 · 三支柱+全国统筹</td><td>第一支柱社会统筹+个人账户（覆盖 10.76 亿），第二支柱企业/职业年金，第三支柱个人养老金；2014 机关事业单位并轨、2022 全国统筹、2024 延迟退休</td><td>E 分母·S 修复·T 投资</td><td>覆盖全球最大参保人群，但第一支柱一柱独大、替代率下行，需第二、三支柱补位</td></tr>
+              <tr><td>中国 · 三支柱+全国统筹</td><td>第一支柱社会统筹+个人账户（覆盖 10.76 亿），第二支柱企业/职业年金，第三支柱个人养老金；2014 机关事业单位并轨、2022 全国统筹、2024 延迟退休</td><td>E 经济价值（分母）·S 社会价值（修复）·T 时间价值（投资）</td><td>覆盖全球最大参保人群，但第一支柱一柱独大、替代率下行，需第二、三支柱补位</td></tr>
               <tr><td>美国 · 401K/IRA</td><td>第一支柱联邦社保（OASDI，现收现付）+第二支柱雇主养老金 401K（DC 为主）+第三支柱 IRA；二三支柱合计承担约六成养老责任</td><td>乘数再配置</td><td>市场化积累+税收递延激励充分，个人养老主体性强；但覆盖不均、账户差距大</td></tr>
               <tr><td>德国 · 俾斯麦现收现付</td><td>1889 年《老年与残障保险法》开创现代社保；现收现付、待遇与缴费挂钩，正推动养老金适度入市</td><td>S 共济·T 延展</td><td>制度鼻祖、国民信任度高；老龄化下现收现付压力大，改革谨慎渐进</td></tr>
-              <tr><td>瑞典 · NDC 名义账户制</td><td>1998 年改革：缴费 18.5%（16% 名义账户+2.5% 实账），零支柱保障养老金兜底，自动平衡机制与年金除数应对老龄化</td><td>T 自动巡航</td><td>权责清晰、自动调节，个人缴费与待遇强挂钩；制度复杂、转型期过渡成本高</td></tr>
-              <tr><td>智利 · 1980 私有化</td><td>完全私有化个人账户：个人缴费 10%、私人 AFP 公司管理，公共现收现付基本取消</td><td>S 被除没</td><td>2021 年替代率仅约 30%（OECD 平均 58.7%）、基尼系数 0.47 居 OECD 末位——个人与市场扛不住养老，共济被除没的教训</td></tr>
+              <tr><td>瑞典 · NDC 名义账户制</td><td>1998 年改革：缴费 18.5%（16% 名义账户+2.5% 实账），零支柱保障养老金兜底，自动平衡机制与年金除数应对老龄化</td><td>T 时间价值（自动巡航）</td><td>权责清晰、自动调节，个人缴费与待遇强挂钩；制度复杂、转型期过渡成本高</td></tr>
+              <tr><td>智利 · 1980 私有化</td><td>完全私有化个人账户：个人缴费 10%、私人 AFP 公司管理，公共现收现付基本取消</td><td>S 社会价值（被除没）</td><td>2021 年替代率仅约 30%（OECD 平均 58.7%）、基尼系数 0.47 居 OECD 末位——个人与市场扛不住养老，共济被除没的教训</td></tr>
             </tbody>
           </table>
         </div>
@@ -818,13 +861,13 @@
             <caption>社会保障的 7 层深度映射（据价值守恒定律 7 层深度模型：信息→物质→行为→躯体→觉知→潜意识→心智）</caption>
             <thead><tr><th>层次</th><th>社会保障的对应机制</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>① 信息层</td><td>缴费规则透明、待遇标准清晰、政策公开——国民「知道」制度怎么算、能拿多少（信息公开，减少预期落差）</td><td>S 公平</td></tr>
-              <tr><td>② 物质层</td><td>养老金、医保报销、失业金、工伤待遇——货币保障 f(m) 及时足额兑现（待遇兑现是社保的第一性原理）</td><td>E 货币</td></tr>
-              <tr><td>③ 行为层</td><td>缴费义务、参保登记、待遇申领流程——国民「做到」缴费与申报，制度「做到」按时足额拨付（行为闭环）</td><td>E 行为</td></tr>
-              <tr><td>④ 躯体层</td><td>医疗可及性、工伤救治、长护与照护——疾病与失能不拖垮身体与家庭（报销比例、药品目录、异地结算）</td><td>E·S</td></tr>
-              <tr><td>⑤ 觉知层</td><td>国民「感受到」被共济托底的安心——报销不卡壳、养老金不拖欠、办事不求人（满意度与获得感）</td><td>S 体验</td></tr>
-              <tr><td>⑥ 潜意识层</td><td>对制度的信任、对「老有所养病有所医」的笃定——从「怕老」到「不怕老」的习惯性安全感（社会心态的压舱石）</td><td>S·T</td></tr>
-              <tr><td>⑦ 心智层</td><td>对公平正义的认同、对代际责任的信念——社保成为国民与国家的「心智契约」，生育意愿、消费信心、社会稳定的深层底座（T 心智）</td><td>T 心智</td></tr>
+              <tr><td>① 信息层</td><td>缴费规则透明、待遇标准清晰、政策公开——国民「知道」制度怎么算、能拿多少（信息公开，减少预期落差）</td><td>S 社会价值（公平）</td></tr>
+              <tr><td>② 物质层</td><td>养老金、医保报销、失业金、工伤待遇——货币保障 f(m) 及时足额兑现（待遇兑现是社保的第一性原理）</td><td>E 经济价值（货币）</td></tr>
+              <tr><td>③ 行为层</td><td>缴费义务、参保登记、待遇申领流程——国民「做到」缴费与申报，制度「做到」按时足额拨付（行为闭环）</td><td>E 经济价值（行为）</td></tr>
+              <tr><td>④ 躯体层</td><td>医疗可及性、工伤救治、长护与照护——疾病与失能不拖垮身体与家庭（报销比例、药品目录、异地结算）</td><td>E·S（经济价值·社会价值）</td></tr>
+              <tr><td>⑤ 觉知层</td><td>国民「感受到」被共济托底的安心——报销不卡壳、养老金不拖欠、办事不求人（满意度与获得感）</td><td>S 社会价值（体验）</td></tr>
+              <tr><td>⑥ 潜意识层</td><td>对制度的信任、对「老有所养病有所医」的笃定——从「怕老」到「不怕老」的习惯性安全感（社会心态的压舱石）</td><td>S·T（社会价值·时间价值）</td></tr>
+              <tr><td>⑦ 心智层</td><td>对公平正义的认同、对代际责任的信念——社保成为国民与国家的「心智契约」，生育意愿、消费信心、社会稳定的深层底座（T 心智）</td><td>T 时间价值（心智）</td></tr>
             </tbody>
           </table>
         </div>
@@ -844,9 +887,9 @@
             <caption>社会保障四大议题 × 价值守恒乘除总览（乘法轨道：如何让三乘数 &gt; 1；除法镜鉴：如何防止被除回）</caption>
             <thead><tr><th>议题</th><th>守恒角色</th><th>乘法轨道（让 E/S/T &gt; 1）</th><th>除法镜鉴（防止被除回）</th></tr></thead>
             <tbody>
-              <tr><td>覆盖扩面</td><td>E·乘法引擎</td><td>参保 10.76 亿/医保 13.31 亿，分母越大分担越小；灵活就业参保、全国统筹做大共济池</td><td>只扩面不给公平→参保率数字好看、断缴率上升；靠强制扩面→E 变成账面数字</td></tr>
-              <tr><td>公平分配</td><td>S·除法镜鉴</td><td>并轨消除双轨、居民基础养老金连续上调、城乡待遇差距 14.6 倍逐步收窄、转移接续打通</td><td>视同缴纳欠账不清、城乡两套世界、碎片化制度——S 被除小，信任与共济跟着流失</td></tr>
-              <tr><td>制度可持续</td><td>T·时间价值</td><td>现收现付转向预筹式、延迟退休、全国统筹、国资划转 3-4 万亿、基金委托投资超 2.98 万亿、瑞典 NDC 自动平衡</td><td>只靠当期缴费、无视老龄化→收不抵支提前（2028）、基金枯竭（2035）；寅吃卯粮把 T 除没</td></tr>
+              <tr><td>覆盖扩面</td><td>E 经济价值（乘法引擎）</td><td>参保 10.76 亿/医保 13.31 亿，分母越大分担越小；灵活就业参保、全国统筹做大共济池</td><td>只扩面不给公平→参保率数字好看、断缴率上升；靠强制扩面→E 变成账面数字</td></tr>
+              <tr><td>公平分配</td><td>S 社会价值（除法镜鉴）</td><td>并轨消除双轨、居民基础养老金连续上调、城乡待遇差距 14.6 倍逐步收窄、转移接续打通</td><td>视同缴纳欠账不清、城乡两套世界、碎片化制度——S 被除小，信任与共济跟着流失</td></tr>
+              <tr><td>制度可持续</td><td>T 时间价值</td><td>现收现付转向预筹式、延迟退休、全国统筹、国资划转 3-4 万亿、基金委托投资超 2.98 万亿、瑞典 NDC 自动平衡</td><td>只靠当期缴费、无视老龄化→收不抵支提前（2028）、基金枯竭（2035）；寅吃卯粮把 T 除没</td></tr>
               <tr><td>三支柱</td><td>乘数再配置</td><td>第一支柱保基本 + 企业（职业）年金 7.56 万亿 + 个人养老金，国家×企业×个人三乘数各守其位</td><td>一柱独大、二三支柱缺位→替代率下滑无人补位；智利式完全私有化→S 被除没、E 塌方</td></tr>
             </tbody>
           </table>
@@ -1021,10 +1064,10 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['财 E · 乘法引擎','情 S · 社会价值','时间 T · 时间复利'],
+      labels:['E 经济价值（乘法引擎）','S 社会价值','T 时间价值（时间复利）'],
       datasets:[{data:[90,85,92],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'社会保障的三维守恒：财 E × 情 S × 时间 T，三乘数同步大于 1 才进入扩张期',font:{family:FONT,size:13}}}}
+    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'社会保障的三维守恒：E 经济价值 × S 社会价值 × T 时间价值，三乘数同步大于 1 才进入扩张期',font:{family:FONT,size:13}}}}
   });
 
   /* ---- 6. chartRadar 社会保障六维画像雷达 ---- */

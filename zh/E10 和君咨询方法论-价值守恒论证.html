@@ -439,6 +439,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -486,6 +511,24 @@
       <h1>和君咨询方法论，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，论证和君咨询方法论的应用价值与融合使用：从 ECIRM 战略模型「以企业家为核心、资本-产业-资源-管理五要素」，到十六字诀「产业为本、战略为势、创新为魂、金融为器」，从产融互动与市值管理双曲线，到三度修炼与人生如莲的文化心法。产融互动是乘法引擎（<span class="f-e">E</span>），三度修炼是除法镜鉴（<span class="f-s">S</span>），长期主义与蓝筹是时间价值（<span class="f-t">T</span>），一体两翼与 ECIRM 是乘数再配置。和君方法论不是一句「产业+资本」的口号，而是 <span class="f-mul">Y = E × S × T</span> 的活体工程：让企业家的价值，在产业、资本、资源、管理、文化的层层乘数中放大为长期市值与基业长青。</p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝市值、利润、产业规模与资本效率；S＝客户信任、员工成长、区域就业与 ESG；T＝长期主义、组织与文化的复利）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝产业与资本回报；h＝三度修炼与人生如莲；t＝长期主义与基业长青）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -809,13 +852,13 @@
             <caption>用 7 层深度模型逐层拆解和君方法论：从信息到心智，每一层都对应一个方法论动作与价值维度</caption>
             <thead><tr><th>层级</th><th>和君方法论映射</th><th>代表机制 / 理论</th><th>价值维度</th></tr></thead>
             <tbody>
-              <tr><td>信息层</td><td>大势观澜与产业洞察</td><td>年度大势观澜（复盘过往+预判趋势）；ECIRM 产业诊断</td><td>E 起点</td></tr>
-              <tr><td>物质层</td><td>资本与资源配置</td><td>和君资本、并购重组、股权激励、市值管理</td><td>E 基础</td></tr>
-              <tr><td>行为层</td><td>咨询落地与战略执行</td><td>战略规划七步法、ECIRM 五维诊断、价值塑造→实现</td><td>E·S</td></tr>
-              <tr><td>躯体层</td><td>组织与机制建设</td><td>股权激励中心 400+ 案例、区域公用品牌、组织再造</td><td>S 骨架</td></tr>
-              <tr><td>觉知层</td><td>文化与共识</td><td>三度修炼、水的精神、心有理想春暖花开、共同价值观</td><td>S 温度</td></tr>
-              <tr><td>潜意识层</td><td>企业家心性与修炼</td><td>人生如莲、君子务本、致良知、王明夫「企业家雇佣资本」</td><td>T 引擎</td></tr>
-              <tr><td>心智层</td><td>长期主义与产业领袖</td><td>蓝筹六维特征、产业领袖理论、时间复利与穿越周期</td><td>T 复利</td></tr>
+              <tr><td>信息层</td><td>大势观澜与产业洞察</td><td>年度大势观澜（复盘过往+预判趋势）；ECIRM 产业诊断</td><td>E 经济价值（起点）</td></tr>
+              <tr><td>物质层</td><td>资本与资源配置</td><td>和君资本、并购重组、股权激励、市值管理</td><td>E 经济价值（基础）</td></tr>
+              <tr><td>行为层</td><td>咨询落地与战略执行</td><td>战略规划七步法、ECIRM 五维诊断、价值塑造→实现</td><td>E·S（经济价值·社会价值）</td></tr>
+              <tr><td>躯体层</td><td>组织与机制建设</td><td>股权激励中心 400+ 案例、区域公用品牌、组织再造</td><td>S 社会价值（骨架）</td></tr>
+              <tr><td>觉知层</td><td>文化与共识</td><td>三度修炼、水的精神、心有理想春暖花开、共同价值观</td><td>S 社会价值（温度）</td></tr>
+              <tr><td>潜意识层</td><td>企业家心性与修炼</td><td>人生如莲、君子务本、致良知、王明夫「企业家雇佣资本」</td><td>T 时间价值（引擎）</td></tr>
+              <tr><td>心智层</td><td>长期主义与产业领袖</td><td>蓝筹六维特征、产业领袖理论、时间复利与穿越周期</td><td>T 时间价值（复利）</td></tr>
             </tbody>
           </table>
         </div>
@@ -836,10 +879,10 @@
             <caption>和君四支方法论各自对应的乘法轨道、除法镜鉴与守恒维度，供管理者对照自查</caption>
             <thead><tr><th>方法论</th><th>代表理论/案例</th><th>乘法轨道</th><th>除法镜鉴</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>产融互动</td><td>市值管理四步；摩根整合美国钢铁；中远修船；A 公司案例</td><td>产业曲线×市值曲线互相抬升，资本反哺产业</td><td>只玩资本不做产业=玩火自焚；泡沫被除回</td><td>E·乘法引擎</td></tr>
-              <tr><td>三度修炼</td><td>人生如莲；水的精神；和君商学院；致良知</td><td>态度/气度/底蕴三度同修，文化滋养三乘数</td><td>只修花不修根，花开越大倒得越快</td><td>S·除法镜鉴</td></tr>
-              <tr><td>长期主义·蓝筹</td><td>《蓝筹》六维特征；《资本经营论》；市值最大化</td><td>时间为第一货币，T 复利推高市盈率定价</td><td>短线炒家被时间除回，透支 T 终归零</td><td>T·时间价值</td></tr>
-              <tr><td>一体两翼·ECIRM</td><td>咨询+资本+商学；ECIRM 五要素；股权激励 400+ 案例</td><td>三业务互相供血，五要素按短板补位</td><td>平均用力摊薄乘数；再配置变成再摊薄</td><td>E·S·T·乘数再配置</td></tr>
+              <tr><td>产融互动</td><td>市值管理四步；摩根整合美国钢铁；中远修船；A 公司案例</td><td>产业曲线×市值曲线互相抬升，资本反哺产业</td><td>只玩资本不做产业=玩火自焚；泡沫被除回</td><td>E 经济价值（乘法引擎）</td></tr>
+              <tr><td>三度修炼</td><td>人生如莲；水的精神；和君商学院；致良知</td><td>态度/气度/底蕴三度同修，文化滋养三乘数</td><td>只修花不修根，花开越大倒得越快</td><td>S 社会价值（除法镜鉴）</td></tr>
+              <tr><td>长期主义·蓝筹</td><td>《蓝筹》六维特征；《资本经营论》；市值最大化</td><td>时间为第一货币，T 复利推高市盈率定价</td><td>短线炒家被时间除回，透支 T 终归零</td><td>T 时间价值</td></tr>
+              <tr><td>一体两翼·ECIRM</td><td>咨询+资本+商学；ECIRM 五要素；股权激励 400+ 案例</td><td>三业务互相供血，五要素按短板补位</td><td>平均用力摊薄乘数；再配置变成再摊薄</td><td>E·S·T（经济价值·社会价值·时间价值）乘数再配置</td></tr>
             </tbody>
           </table>
         </div>

@@ -233,6 +233,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head>
 <body>
@@ -259,6 +284,24 @@
     <span class="chip"><b>12·4</b> 国家宪法日</span>
   </div>
 </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝效力因子（治理效能）</span>；S＝空间因子（公平覆盖）；T＝时间因子（长期稳定））</p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝效力与治理产出；h＝空间覆盖与公平；t＝时间稳定与长期保障）</span></p>
+  </div>
+</div>
+
+
+
+
 
 <div class="layout">
   <aside class="toc-wrap">
@@ -305,9 +348,9 @@
         <div class="formula-card mul">
           <div class="f-label">乘 法 · 根本法的价值构成</div>
           <div class="formula">Y = <span class="var">E</span> × <span class="var">S</span> × <span class="var">T</span></div>
-          <p class="f-note"><b>E 效力因子</b>：宪法具有最高法律效力，一切法律、行政法规、地方性法规都不得同宪法相抵触（宪法第5条）。</p>
-          <p class="f-note"><b>S 空间因子</b>：从国家机构到公民权利，从经济制度到民族区域自治，宪法覆盖治理的每一寸空间。</p>
-          <p class="f-note"><b>T 时间因子</b>：从1954年首部宪法到1982年现行宪法，再到1988/1993/1999/2004/2018五次修正，宪法在传承中与时俱进。</p>
+          <p class="f-note"><b>E 经济价值（效力因子）</b>：宪法具有最高法律效力，一切法律、行政法规、地方性法规都不得同宪法相抵触（宪法第5条）。</p>
+          <p class="f-note"><b>S 社会价值（空间因子）</b>：从国家机构到公民权利，从经济制度到民族区域自治，宪法覆盖治理的每一寸空间。</p>
+          <p class="f-note"><b>T 时间价值（时间因子）</b>：从1954年首部宪法到1982年现行宪法，再到1988/1993/1999/2004/2018五次修正，宪法在传承中与时俱进。</p>
         </div>
         <div class="formula-card div">
           <div class="f-label">除 法 · 根本法效力的稀释</div>
@@ -459,9 +502,9 @@
             <thead><tr><th>篇章</th><th>条文范围</th><th>条数</th><th>对应价值因子</th></tr></thead>
             <tbody>
               <tr><td>序言</td><td>—</td><td>1 篇</td><td>T 时间价值 · 历史与指导思想的沉淀</td></tr>
-              <tr><td>第一章 总纲</td><td>第 1-32 条</td><td>32 条</td><td>E 效力因子 · 国家根本制度与总原则</td></tr>
+              <tr><td>第一章 总纲</td><td>第 1-32 条</td><td>32 条</td><td>E 经济价值（效力因子）· 国家根本制度与总原则</td></tr>
               <tr><td>第二章 公民的基本权利和义务</td><td>第 33-56 条</td><td>24 条</td><td>S 社会价值 · 公民权利与义务的守恒</td></tr>
-              <tr><td>第三章 国家机构</td><td>第 57-140 条</td><td>84 条</td><td>S 空间因子 · 权力配置与监督制约</td></tr>
+              <tr><td>第三章 国家机构</td><td>第 57-140 条</td><td>84 条</td><td>S 社会价值（空间因子）· 权力配置与监督制约</td></tr>
               <tr><td>第四章 国旗、国歌、国徽、首都</td><td>第 141-143 条</td><td>3 条</td><td>Y 总价值 · 国家象征与认同锚点</td></tr>
             </tbody>
           </table>

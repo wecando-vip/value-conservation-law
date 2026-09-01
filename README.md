@@ -18,7 +18,11 @@
 
 ![GitHub](https://img.shields.io/badge/GitHub-wecando--vip%2Fvalue--conservation--law-16324f?logo=github)
 
-> **在线阅读**：[GitHub Pages](https://wecando.vip/value-conservation-law/) · [文库索引 library.html](library.html)
+![Website](https://img.shields.io/badge/Website-wecando.vip-2b5f8a?logo=google-chrome)
+
+![Files](https://img.shields.io/badge/Pages-144-blue)
+
+> **在线阅读**：[GitHub Pages](https://wecando.vip/value-conservation-law/) · [文库索引 library.html](library.html) · [GitHub 仓库](https://github.com/wecando-vip/value-conservation-law)
 
 ---
 
@@ -40,15 +44,15 @@
 
 ### 宏观公式（经济社会治理）
 
-$Y = E \times S \times T = \text{经济价值} \times \text{社会价值} \times \text{时间价值} = \text{经济社会价值总量}$
+**Y = E × S × T = 经济价值 × 社会价值 × 时间价值 = 经济社会价值总量**
 
-$Y = y_1 + y_2 + y_3 + \dots + y_n$
+**Y = y₁ + y₂ + y₃ + ⋯ + yₙ**
 
 ### 微观公式（个人、家庭、企业经营）
 
-$y = f(m, h, t) = f(m) \times f(h) \times f(t)$
+**y = f(m, h, t) = f(m) × f(h) × f(t) = f(m) 货币价值 × f(h) 幸福体验 × f(t) 时间价值**
 
-$= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text{时间价值}$
+> 公式为纯 HTML/CSS 离线渲染，无 CDN、无 KaTeX 依赖，打开页面即见。
 
 正如自然界普遍存在的**能量守恒定律**：经济价值、社会价值既不会凭空产生，也不会凭空消失，只会从一种形式转化为另一种形式，或从一个主体转移到其它主体，而**价值的总量保持不变**。
 
@@ -85,13 +89,13 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 
 | 目录 | 语言 | 状态 |
 | ---- | ---- | ---- |
-| `zh/` | 中文 Chinese | ✅ 73 篇已发布 |
+| `zh/` | 中文 Chinese | ✅ 86 篇已发布 |
 | `en/` | English | ✅ 15 docs published |
 | `es/` | Español | ✅ 15 docs publicados |
 | `ar/` | العربية | 🔜 规划中 |
 | `fr/` | Français | ✅ 15 docs publiés |
 
-### 系列总览（按领域分类 · 73 篇）
+### 系列总览（按领域分类 · 86 篇）
 
 > 分类编号：**S** = 国家·经济社会、**E** = 企业、**F** = 家庭、**P** = 个人；后接两位序号，便于持续扩展。
 
@@ -99,7 +103,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | ---- | ---- | ------- | -------- |
 | **S** 国家 · 经济社会 Society & State | | | |
 | S01 | [经济危机解码](zh/S01 经济危机解码-价值守恒论证.html) | The Five Economic Crises Decoded | 危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式 |
-| S02 | [当代中国马克思主义政治经济学](zh/S02 当代中国马克思主义政治经济学-价值守恒论证.html) | Contemporary Marxist Political Economy | 中国特色社会主义政治经济学 · 宏观价值分配的理论根基 |
+| S02 | [政治经济学](zh/S02 政治经济学-价值守恒论证.html) | Contemporary Marxist Political Economy | 中国特色社会主义政治经济学 · 宏观价值分配的理论根基 |
 | S03 | [宏观经济学](zh/S03 宏观经济学-价值守恒论证.html) | Macroeconomics | 总量视角 · 增长、就业、通胀 = 宏观经济三价值 |
 | S04 | [微观经济学](zh/S04 微观经济学-价值守恒论证.html) | Microeconomics | 个体决策 · 供求与福利 = 微观三价值博弈 |
 | S05 | [分配制度](zh/S05 分配制度-价值守恒论证.html) | The Distribution System | 三次分配 · 初次/再分配/第三次 = E/S/T 的分配正义 |
@@ -135,6 +139,18 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | S35 | [三国演义应用](zh/S35 三国演义应用-价值守恒论证.html) | The Romance of the Three Kingdoms | 决策博弈教科书：乘法式积累与除法式权谋的集团对照 |
 | S36 | [水浒传方法论](zh/S36 水浒传方法论-价值守恒论证.html) | Methodology of Water Margin | 聚义乘法与招安除法：梁山兴衰的乘除清算标本与团队创业启示 |
 | S37 | [群体心理方法论](zh/S37 群体心理方法论-价值守恒论证.html) | Methodology of Crowd Psychology | 群体心理如何被除法、又如何被乘法：乌合之众到狂热分子的七层坐标 |
+| S38 | [英语语系国家史](zh/S38 英语语系国家史-价值守恒论证.html) | History of English-Speaking Nations | 王国到帝国的乘除兴衰：英、美、加、澳、新与七大类经典同一公式 |
+| S39 | [西班牙语系国家史](zh/S39 西班牙语系国家史-价值守恒论证.html) | History of Spanish-Speaking Nations | 白银帝国的乘除兴衰：西班牙与西属美洲六类经典同一公式 |
+| S40 | [阿拉伯语语系国家史](zh/S40 阿拉伯语语系国家史-价值守恒论证.html) | History of Arabic-Speaking Nations | 从麦加到巴格达的乘除史诗：半岛、黎凡特、埃及、马格里布六类经典同一公式 |
+| S41 | [法语语系国家史](zh/S41 法语语系国家史-价值守恒论证.html) | History of French-Speaking Nations | 从太阳王到第五共和国的乘除兴衰：法国与法语世界七类经典同一公式 |
+| S42 | [汉语文化圈国家史](zh/S42 汉语文化圈国家史-价值守恒论证.html) | History of Sinosphere Nations | 从册封体系到近代转型的乘除兴衰：中、朝韩、日、越、琉七类经典同一公式 |
+| S43 | [史记人物兴衰方法论](zh/S43 史记人物兴衰方法论-价值守恒论证.html) | Rise and Fall of Shiji Figures | 范蠡到项羽的乘除浮沉：微观三因子重读《史记》人物与王朝兴衰 |
+| S44 | [性学与性别社会史](zh/S44 性学与性别社会史-价值守恒论证.html) | History of Sexuality and Gender | 两性关系中的 E、S、T 转移与换算：性别制度如何做大或做小社会价值 |
+| S45 | [日本史方法论](zh/S45 日本史方法论-价值守恒论证.html) | Methodology of Japanese History | 圣德太子到明治维新的乘除兴衰：日本史上人物浮沉与王朝更替 |
+| S46 | [犹太教与以色列历史](zh/S46 犹太教与以色列历史-价值守恒论证.html) | Judaism and the History of Israel | 流散与复国的价值守恒样本：从神殿到文本、从土地到商团 |
+| S47 | [美国史方法论](zh/S47 美国史方法论-价值守恒论证.html) | Methodology of American History | 建国立宪到冷战霸权的四百年乘除：美国人物浮沉与国家兴衰 |
+| S48 | [苏联俄罗斯历史](zh/S48 苏联俄罗斯历史-价值守恒论证.html) | History of the Soviet Union and Russia | 留里克到苏联解体的千年乘除：帝国扩张与制度崩解的价值清算 |
+| S49 | [英国史方法论](zh/S49 英国史方法论-价值守恒论证.html) | Methodology of English History | 大宪章到日不落帝国的乘除兴衰：英国人物浮沉与王朝更替 |
 | **E** 企业 Enterprise | | | |
 | E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
 | E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
@@ -156,6 +172,7 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 | F05 | [婚内财产方法论](zh/F05 婚内财产方法论-价值守恒论证.html) | Methodology of Marital Property | 婚内财产的乘除论证：法定与约定、共建积累与失守损耗 |
 | F06 | [出轨离婚方法论](zh/F06 出轨离婚方法论-价值守恒论证.html) | Methodology of Infidelity and Divorce | 识伤·抉择·重生的守恒路径：修复与离开的决策框架 |
 | F07 | [红楼梦家族兴衰](zh/F07 红楼梦家族兴衰-价值守恒论证.html) | The Rise and Fall of the Jia Family | 贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账 |
+| F08 | [婚姻情感生育家族](zh/F08 婚姻情感生育家族-价值守恒论证.html) | Marriage, Family and Dynasty | 婚姻家庭制度如何经宏观乘除影响家族与王朝命运：中观商业与微观三因子 |
 | **P** 个人 Personal | | | |
 | P01 | [突破墨菲定律](zh/P01 突破墨菲定律-价值守恒论证.html) | Breaking Free of Murphy's Law | 墨菲定律 = 除法自动运行；破解 = 清单/备份/余量 |
 | P02 | [帕金森定律](zh/P02 帕金森定律-价值守恒论证.html) | Parkinson's Law | 帕金森定律 = 时间价值 T 失效；破解 = 时间盒/交付标准 |
@@ -181,7 +198,9 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **数据支撑**：每 150-200 字一个数据点，均标注来源
 - **合规输出**：全部内容符合《中华人民共和国广告法》要求，无极限用语
 - **四语对照**：每篇中英西法版结构一致、锚点对应，便于对照阅读
-- **多语言扩展**：`zh/` 73 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
+- **统一开篇**：每篇开头为「三色三卡」——概念卡（标准表述）、宏观卡（Y = E × S × T）、微观卡（y = f(m,h,t)），金/蓝/绿三色区分、上下排列，公式中文逐字统一并附本文语境拆解
+- **7 层深度阶梯**：展示「信息层→物质层→行为层→躯体层→觉知层→潜意识层→心智层」一律信息层在上、心智层在下，自上而下由浅入深
+- **多语言扩展**：`zh/` 86 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
 
 ---
 
@@ -190,10 +209,10 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 - **零依赖单文件**：纯 HTML/CSS/JS 实现，无需构建、无需安装、无需联网，双击即可离线阅读
 - **中英双语主页**：`index.html`（中文版）与 `index.en.html`（English）双版本
 - **专业排版**：纸张质感主题、深蓝×金色视觉体系、阅读进度条、侧边目录、返回顶部
-- **公式渲染**：OMML → LaTeX 转换渲染，公式清晰美观
+- **公式渲染**：核心公式（宏观 Y = E × S × T、微观 y = f(m,h,t)）纯 HTML/CSS 离线渲染，无 KaTeX / MathJax / CDN 依赖
 - **图片内嵌**：插图已内嵌为 base64，可离线完整阅读
 - **交互体验**：目录滚动高亮、图片点击灯箱放大、响应式布局（桌面 / 移动端自适应）
-- **应用文档系列**：另含 73 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 73、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
+- **应用文档系列**：另含 86 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 86、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
 - **文库索引**：`library.html` 提供语言 × 主题总索引，方便快速查找与对照
 
 ---
@@ -204,7 +223,12 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 
 用浏览器直接打开 `index.html`（中文版）或 `index.en.html`（English 版）即可开始阅读，无需任何环境依赖。
 
-### 方式二：GitHub Pages 部署
+### 方式二：在线访问
+
+- 官网镜像：[https://wecando.vip/value-conservation-law/](https://wecando.vip/value-conservation-law/)
+- GitHub Pages：[https://wecando-vip.github.io/value-conservation-law/](https://wecando-vip.github.io/value-conservation-law/)
+
+### 方式三：GitHub Pages 自部署
 
 本项目为纯静态站点，可直接托管于 GitHub Pages：
 
@@ -221,32 +245,35 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ├── index.html          # 中文版理论文档（单文件，零依赖，可离线阅读）
 ├── index.en.html       # English 版本文档（The Law of Value Conservation）
 ├── library.html        # 文库索引（语言 × 领域分类矩阵，总入口）
-├── library-society.html    # 分类导航页：国家 · 经济社会（S，37 篇）
+├── library-society.html    # 分类导航页：国家 · 经济社会（S，49 篇）
 ├── library-enterprise.html # 分类导航页：企业（E，12 篇）
-├── library-family.html     # 分类导航页：家庭（F，7 篇）
+├── library-family.html     # 分类导航页：家庭（F，8 篇）
 ├── library-personal.html   # 分类导航页：个人（P，17 篇）
-├── valuesitemap.xml    # 站点地图（百度/Google 收录，131 URL + hreflang 多语言关联）
+├── 价值守恒定律_量化统计系统分析.html # 量化统计研报（公式的统计学/计量分析）
+├── valuesitemap.xml    # 文库站点地图（131 URL + hreflang 多语言关联）
+├── sitemap.xml         # 全站站点地图（144 URL：文库 + 主页 + 分类页 + 课程页）
 ├── robots.txt          # 爬虫协议（开放收录：国内外搜索引擎 + AI 大模型爬虫）
 ├── assets/footer.js    # 共享底部 · 许可与声明（自动按 <html lang> 中英切换，所有文章单行引用）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
-├── zh_meta.json        # zh 文库元数据（编号/标题/描述/多语言链接）
+├── zh_meta.json        # zh 文库元数据（86 篇编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）
 ├── README.md           # 项目说明（本文件）
 ├── images/             # 原始插图资源
 ├── embed/              # 内嵌图片副本
+├── 课程页设计/           # 「价值守恒定律」课程页（12 讲 4 幕：开场/冲突/逆转/结局）
 │
-├── zh/                 # 中文版应用文档（73 篇，按领域分类编号）
+├── zh/                 # 中文版应用文档（86 篇，按领域分类编号）
 │   ├── [S] 国家 · 经济社会
 │   │   ├── S01 经济危机解码-价值守恒论证.html
-│   │   ├── S02 当代中国马克思主义政治经济学-价值守恒论证.html
-│   │   ├── …（S01–S37，见上方系列总览）
+│   │   ├── S02 政治经济学-价值守恒论证.html
+│   │   ├── …（S01–S49，见上方系列总览）
 │   ├── [E] 企业
 │   │   ├── E01 德鲁克管理-价值守恒论证.html
 │   │   ├── …（E01–E12）
 │   ├── [F] 家庭
 │   │   ├── F01 情感婚恋-价值守恒论证.html
 │   │   ├── F02 婚姻家庭方法论-价值守恒论证.html
-│   │   ├── …（F01–F07）
+│   │   ├── …（F01–F08）
 │   ├── [P] 个人
 │   │   ├── P01 突破墨菲定律-价值守恒论证.html
 │   │   ├── …（P01–P17）
@@ -315,8 +342,10 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 ## 🛠 技术说明
 
 - **技术栈**：原生 HTML5 + CSS3 + JavaScript（ES6），无任何第三方框架与 CDN 依赖
-- **公式系统**：Word OMML 数学公式经转换渲染为 HTML/CSS 公式结构
+- **公式系统**：公式纯 HTML/CSS 离线渲染，零外部依赖（无 KaTeX / MathJax / CDN），离线双击即可显示
 - **数据模型**：`structure.json` 以 `blocks`（段落块、公式块、图片块）与 `images`（资源映射）描述文档结构，可作为文档系统二次开发的数据源
+- **多语言构建**：`zh_meta.json` 为 zh 文库元数据（86 篇编号/标题/描述/多语言链接）；`build_es.py`、`build_fr.py` 以 `*_parts/` 正文源自动组合生成西语、法语版
+- **SEO / GEO**：`sitemap.xml`（144 URL 全站）与 `valuesitemap.xml`（131 URL 文库 + hreflang 多语言关联）、`robots.txt`（开放国内外搜索引擎 + AI 大模型爬虫）
 - **兼容性**：支持现代浏览器（Chrome / Edge / Firefox / Safari）；移动端自适应
 
 ---
@@ -330,15 +359,15 @@ $= f(m)\ \text{货币价值} \times f(h)\ \text{幸福体验} \times f(t)\ \text
 3. **开发应用**：基于 `structure.json` 开发价值计量工具、知识图谱、教学演示等衍生项目；
 4. **传播分享**：在合规前提下，将思想体系推广至企业、家庭、个人场景。
 
-请在提交前保持文档结构规范，并同步维护中英文双语版本。
+请在提交前保持文档结构规范，并同步维护多语言版本（中/英/西/法）。
 
 ---
 
 ## 📄 许可与声明
 
-> 全部 119 篇内容文章（zh 73 + en/es/fr 各 15 + 量化研报）已通过 `assets/footer.js` 共享组件在底部自动注入以下声明，**单点维护、改一处全局生效**。
+> 全部 **131 篇内容文章**（zh 86 + en/es/fr 各 15）已通过 `assets/footer.js` 共享组件在底部自动注入以下声明，**单点维护、改一处全局生效**。
 
-- **内容许可**：本文档内容遵循 **CC BY-NC 4.0**（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但**不得用于商业目的**，且必须标注署名并保留许可声明。
+- **内容许可**：本文档内容遵循 **CC BY-NC 4.0**（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但**不得用于商业目的**，且必须标注署名并保留许可声明。若需商用授权，请通过 Issues 联系。
 - **版权归属**：理论体系与文档内容版权归财情双生智库（Econ-Sentiment Twin Think Tank）及相关作者所有。
 - **免责声明**：本项目内容为思想理论与方法探讨，不构成任何投资建议或政策建议；引用请注明出处。
 

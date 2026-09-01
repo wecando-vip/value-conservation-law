@@ -460,6 +460,31 @@
     transition: all .2s ease;
   }
   .doc-nav-link:hover { background: var(--navy, #16324f); color: #fff; text-decoration: none; }
+
+  /* === 价值守恒定律 · 概念解释（统一注入）=== */
+  
+  
+  
+  
+  
+  @media (max-width:640px){}
+
+
+
+.law-block{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;}
+.law-card{padding:14px 22px 14px 24px;border:1px solid var(--line,#e6e4dd);border-radius:10px;line-height:1.85;}
+.law-card-label{font-weight:800;font-size:14px;letter-spacing:1px;margin-bottom:8px;display:inline-block;padding:2px 10px;border-radius:4px;}
+.law-card p{margin:0;font-size:15px;line-height:1.9;color:var(--ink,#22272e);}
+.law-card p .ctx{margin-top:6px;display:block;padding:4px 12px;border-radius:4px;font-size:13.5px;line-height:1.7;color:#5c6068;}
+.law-card-concept{background:linear-gradient(135deg,#fbf6e8,#ffffff);border-left:4px solid var(--gold,#a67c2e);}
+.law-card-concept .law-card-label{background:rgba(166,124,46,.12);color:var(--gold,#a67c2e);}
+.law-card-concept .ctx{background:rgba(166,124,46,.08);border-left:3px solid var(--gold,#a67c2e);}
+.law-card-macro{background:linear-gradient(135deg,#eef4fb,#ffffff);border-left:4px solid #2a5a8f;}
+.law-card-macro .law-card-label{background:rgba(42,90,143,.12);color:#2a5a8f;}
+.law-card-macro .ctx{background:rgba(42,90,143,.08);border-left:3px solid #2a5a8f;}
+.law-card-micro{background:linear-gradient(135deg,#ecf3ed,#ffffff);border-left:4px solid #3f7a4a;}
+.law-card-micro .law-card-label{background:rgba(63,122,74,.12);color:#3f7a4a;}
+.law-card-micro .ctx{background:rgba(63,122,74,.08);border-left:3px solid #3f7a4a;}
 </style>
 </head><body>
 <div class="progress-wrap"><div id="progress"></div></div>
@@ -506,6 +531,24 @@
       <h1>看病难看病贵，价值守恒论证</h1>
       <p class="hero-sub">以价值守恒定律（乘法与除法，宏观与微观）与 7 层深度模型，审视看病难、看病贵与医疗体系的价值错配与重构路径。围绕当前医保与医药产业链的系统性问题——「医生不值钱、药值钱」的以药养医病灶、「中医药被打压」的传承之困、「健康不值钱、花钱看病吃穿才值钱」的预防价值低估、「治标不治本、很多身体问题源于心理和情绪」的身心割裂、医患纠纷的高发与信任断裂，以及 AI 兴起为个人健康管理打开的新可能——做系统性论证。医疗的本质，是把医生劳动做成价值的乘法（<span class="f-e">E</span>）、把公平可及做成制度的除式（<span class="f-s">S</span>）、把治未病与身心养护做成时间的复利（<span class="f-t">T</span>）——<span class="f-mul">E/S/T 三乘数同步大于 1，才能从「以治病为中心」走向「以健康为中心」的价值守恒。</span></p>
     </section>
+<div class="law-block">
+  <div class="law-card law-card-concept">
+    <div class="law-card-label">价值守恒定律</div>
+    <p>正如自然界普遍存在的能量守恒定律，在经济、社会、人民整体视角下，<b>经济价值、社会价值、时间价值</b>，既不会凭空产生，也不会凭空消失，它只会从一种形式转化为另一种形式，或者从一个主体转移到其它主体，而<b>价值的总量保持不变</b>。</p>
+  </div>
+  <div class="law-card law-card-macro">
+    <div class="law-card-label">核心公式 · 宏观</div>
+    <p><b>宏观：</b>Y = E × S × T = <b>经济价值 × 社会价值 × 时间价值 = 经济社会价值总量</b> <span class="ctx">（本文：E＝医疗体系效率与健康产出；S＝公平可及与社会信任；T＝健康存量与预防复利）</span></p>
+  </div>
+  <div class="law-card law-card-micro">
+    <div class="law-card-label">核心公式 · 微观</div>
+    <p><b>微观：</b>y = f(m,h,t) = f(m) × f(h) × f(t) = <b>f(m)货币价值 × f(h)幸福体验 × f(t)时间价值</b> <span class="ctx">（本文：m＝医疗资源与费用效率；h＝公平可及与医患信任；t＝健康存量与治未病复利）</span></p>
+  </div>
+</div>
+
+
+
+
 
     <div id="sec-answer">
       <div class="section-title"><span class="sn">Ⅰ</span><h2>一句话结论</h2></div>
@@ -589,12 +632,12 @@
               <tr><th>病灶</th><th>吞噬的乘数</th><th>典型表现</th><th>修复方向</th></tr>
             </thead>
             <tbody>
-              <tr><td>医生不值钱、药值钱</td><td>E 劳动价值错配</td><td>药占比曾约 45%、医生劳动靠药品「养」</td><td>医疗服务价格改革、体现技术劳务价值</td></tr>
-              <tr><td>中医药被打压</td><td>S·T 知识价值被除回</td><td>专利中药审批停滞、师承模式中断</td><td>按中医规律管理、中西医并重</td></tr>
-              <tr><td>健康不值钱</td><td>T 时间价值被透支</td><td>慢病费用约占 70%、预防投入偏低</td><td>治未病体系、健康管理付费机制</td></tr>
-              <tr><td>身心割裂、治标不治本</td><td>h 情绪乘数被忽视</td><td>五大心身疾病述情障碍 64.47%</td><td>生物-心理-社会模型、心身同治</td></tr>
-              <tr><td>医患信任断裂</td><td>S 社会信任被除小</td><td>纠纷 +29.49%、网络投诉 &gt;45%</td><td>沟通补偿、阳光执业、依法维权</td></tr>
-              <tr><td>看病难、看病贵</td><td>E×S×T 结构性失衡</td><td>基层空转 52.4%、个人自付 27.5%</td><td>分级诊疗、医保支付改革、资源下沉</td></tr>
+              <tr><td>医生不值钱、药值钱</td><td>E 经济价值（劳动价值错配）</td><td>药占比曾约 45%、医生劳动靠药品「养」</td><td>医疗服务价格改革、体现技术劳务价值</td></tr>
+              <tr><td>中医药被打压</td><td>S·T（社会价值·时间价值）知识价值被除回</td><td>专利中药审批停滞、师承模式中断</td><td>按中医规律管理、中西医并重</td></tr>
+              <tr><td>健康不值钱</td><td>T 时间价值（被透支）</td><td>慢病费用约占 70%、预防投入偏低</td><td>治未病体系、健康管理付费机制</td></tr>
+              <tr><td>身心割裂、治标不治本</td><td>幸福体验 f(h)（情绪乘数被忽视）</td><td>五大心身疾病述情障碍 64.47%</td><td>生物-心理-社会模型、心身同治</td></tr>
+              <tr><td>医患信任断裂</td><td>S 社会价值（社会信任被除小）</td><td>纠纷 +29.49%、网络投诉 &gt;45%</td><td>沟通补偿、阳光执业、依法维权</td></tr>
+              <tr><td>看病难、看病贵</td><td>E×S×T（经济价值·社会价值·时间价值）结构性失衡</td><td>基层空转 52.4%、个人自付 27.5%</td><td>分级诊疗、医保支付改革、资源下沉</td></tr>
             </tbody>
           </table>
         </div>
@@ -811,7 +854,7 @@
     <div id="sec-principle">
       <div class="section-title"><span class="sn">Ⅸ</span><h2>三维守恒 · E/S/T</h2></div>
       <div class="card chart-card">
-        <h3 class="c-title">医疗健康三维守恒：财 E 经济效率 × 情 S 社会公平 × 时间 T 健康复利</h3>
+        <h3 class="c-title">医疗健康三维守恒：E 经济价值（经济效率）× S 社会价值（社会公平）× T 时间价值（健康复利）</h3>
         <p class="c-sub">好的医疗体系同时点亮三个维度：E（财）——卫生投入产出、控费提效、AI 降本的乘法引擎；S（情）——医保公平、基层可及、医患信任的社会价值；T（时间）——预防前置、治未病、慢病管理的健康复利。三乘数同步大于 1，医疗体系与个人健康才进入价值扩张期。<span class="m-tag">价值守恒方法论评估模型，示意，非抽样统计</span></p>
         <div class="chart-box"><canvas id="chartCore" aria-label="医疗健康三维守恒环形图"></canvas></div>
         <p class="chart-note">图 5 · 医疗健康三维守恒示意（价值守恒方法论评估模型，示意）：当前体系的 E 与 S 被「以药养医、医生不值钱」除回，T 被「只治不防」透支——三乘数任一小于 1，看病难看病贵就按下葫芦浮起瓢。</p>
@@ -842,13 +885,13 @@
             <caption>医疗健康的 7 层深度映射（据价值守恒定律 7 层深度模型：信息→物质→行为→躯体→觉知→潜意识→心智）</caption>
             <thead><tr><th>层次</th><th>医疗健康体系的对应机制</th><th>守恒维度</th></tr></thead>
             <tbody>
-              <tr><td>① 信息层</td><td>健康知识科普、体检报告解读、慢病认知教育——患者「知道」自己身体与风险（信息透明，减少盲目就医）</td><td>S 公平</td></tr>
-              <tr><td>② 物质层</td><td>医保报销、价格可负担、药费与检查费——货币支付 f(m) 及时足额（个人自付占 27.5%，灾难性支出仍存在）</td><td>E 货币</td></tr>
-              <tr><td>③ 行为层</td><td>就医行为、用药依从、运动饮食、早筛体检——患者「做到」健康行为（行为干预要落在日常）</td><td>E 行为</td></tr>
-              <tr><td>④ 躯体层</td><td>诊断、手术、药物治疗、慢病管理——身体层面的直接干预（治病救命的硬底座）</td><td>E·T</td></tr>
-              <tr><td>⑤ 觉知层</td><td>医患沟通、被尊重与被关怀的就医体验——15 分钟问诊仅 4 分钟直接沟通，患者「感受」到冷漠或温暖</td><td>S 体验</td></tr>
-              <tr><td>⑥ 潜意识层</td><td>情绪、压力、创伤、述情障碍——五大心身疾病述情障碍 64.47%，慢性应激经 HPA 轴改写免疫与代谢（身心医学的深层）</td><td>h 身心</td></tr>
-              <tr><td>⑦ 心智层</td><td>健康观、生死观、生活方式的根本信念——从「花钱看病、吃穿才值钱」到「健康是最大的本金」（心智契约决定长期行为）</td><td>T 心智</td></tr>
+              <tr><td>① 信息层</td><td>健康知识科普、体检报告解读、慢病认知教育——患者「知道」自己身体与风险（信息透明，减少盲目就医）</td><td>S 社会价值（公平）</td></tr>
+              <tr><td>② 物质层</td><td>医保报销、价格可负担、药费与检查费——货币支付 f(m) 及时足额（个人自付占 27.5%，灾难性支出仍存在）</td><td>E 经济价值（货币）</td></tr>
+              <tr><td>③ 行为层</td><td>就医行为、用药依从、运动饮食、早筛体检——患者「做到」健康行为（行为干预要落在日常）</td><td>E 经济价值（行为）</td></tr>
+              <tr><td>④ 躯体层</td><td>诊断、手术、药物治疗、慢病管理——身体层面的直接干预（治病救命的硬底座）</td><td>E·T（经济价值·时间价值）</td></tr>
+              <tr><td>⑤ 觉知层</td><td>医患沟通、被尊重与被关怀的就医体验——15 分钟问诊仅 4 分钟直接沟通，患者「感受」到冷漠或温暖</td><td>S 社会价值（体验）</td></tr>
+              <tr><td>⑥ 潜意识层</td><td>情绪、压力、创伤、述情障碍——五大心身疾病述情障碍 64.47%，慢性应激经 HPA 轴改写免疫与代谢（身心医学的深层）</td><td>幸福体验 f(h)（身心）</td></tr>
+              <tr><td>⑦ 心智层</td><td>健康观、生死观、生活方式的根本信念——从「花钱看病、吃穿才值钱」到「健康是最大的本金」（心智契约决定长期行为）</td><td>T 时间价值（心智）</td></tr>
             </tbody>
           </table>
         </div>
@@ -869,9 +912,9 @@
             <caption>看病难看病贵四大议题 × 价值守恒乘除总览（乘法轨道：如何让 E/S/T ＞ 1；除法镜鉴：如何防止被除回）</caption>
             <thead><tr><th>议题</th><th>守恒角色</th><th>乘法轨道（让 E/S/T ＞ 1）</th><th>除法镜鉴（防止被除回）</th></tr></thead>
             <tbody>
-              <tr><td>医生劳动价值</td><td>E · 乘法引擎</td><td>把技术劳务从药与检查里拨回：医疗服务价格动态调整、按病种付费让「技术值钱」、阳光收入替代灰色回扣、AI 解放重复劳动</td><td>以药养医、政府补助被除到 10.6%、医生靠回扣补收入——劳动价值被除没，防御性医疗反噬体系</td></tr>
-              <tr><td>中医药传承</td><td>S·T · 除法镜鉴</td><td>中西医并重、DRG/DIP 给中医个体化诊疗留空间、师承教育与院校教育双轨、把千年经验做成循证与标准化证据</td><td>用西式指标管理中医、执业门槛断师承、专利审批近零——千年体系被「除回」，经验与自信双流失</td></tr>
-              <tr><td>治未病与健康管理</td><td>T · 时间价值</td><td>预防前置、慢病早筛、健康中国行动、医保从「治已病」转向「保健康」——小习惯的复利大于大手术的止损</td><td>只治不防、慢病占费用约 70%、健康不值钱「花钱看病吃穿才值钱」——时间价值被透支，越拖越贵</td></tr>
+              <tr><td>医生劳动价值</td><td>E 经济价值（乘法引擎）</td><td>把技术劳务从药与检查里拨回：医疗服务价格动态调整、按病种付费让「技术值钱」、阳光收入替代灰色回扣、AI 解放重复劳动</td><td>以药养医、政府补助被除到 10.6%、医生靠回扣补收入——劳动价值被除没，防御性医疗反噬体系</td></tr>
+              <tr><td>中医药传承</td><td>S·T（社会价值·时间价值）· 除法镜鉴</td><td>中西医并重、DRG/DIP 给中医个体化诊疗留空间、师承教育与院校教育双轨、把千年经验做成循证与标准化证据</td><td>用西式指标管理中医、执业门槛断师承、专利审批近零——千年体系被「除回」，经验与自信双流失</td></tr>
+              <tr><td>治未病与健康管理</td><td>T 时间价值</td><td>预防前置、慢病早筛、健康中国行动、医保从「治已病」转向「保健康」——小习惯的复利大于大手术的止损</td><td>只治不防、慢病占费用约 70%、健康不值钱「花钱看病吃穿才值钱」——时间价值被透支，越拖越贵</td></tr>
               <tr><td>身心合一 + AI</td><td>h/m 乘数再配置</td><td>身心同治（躯体+心理双轨）、AI 健康管理全天候陪伴、健康画像与早筛预警——把 h 情绪与 m 医疗重新相乘</td><td>只看指标不开情绪、述情障碍 64.47% 被漏诊、治标不治本——f(h)＜1 把一切医疗投入除回，病反复发作</td></tr>
             </tbody>
           </table>
@@ -1000,7 +1043,7 @@
   new Chart(document.getElementById('chartXQ'),{
     type:'bar',
     data:{
-      labels:['医生劳动价值\n(E 乘法引擎)','中医药传承\n(S·T 除法镜鉴)','治未病健康管理\n(T 时间价值)','身心合一+AI\n(乘数再配置)'],
+      labels:['医生劳动价值\n(E 经济价值·乘法引擎)','中医药传承\n(S·T 社会价值·时间价值（除法镜鉴）)','治未病健康管理\n(T 时间价值)','身心合一+AI\n(乘数再配置)'],
       datasets:[
         {label:'经济价值 E',data:[88,60,78,82],backgroundColor:'#2b5f8a',borderRadius:5},
         {label:'社会价值 S',data:[70,85,80,84],backgroundColor:'#2d6a4f',borderRadius:5},
@@ -1044,10 +1087,10 @@
   new Chart(document.getElementById('chartCore'),{
     type:'doughnut',
     data:{
-      labels:['财 E · 经济效率','情 S · 社会公平','时间 T · 健康复利'],
+      labels:['E 经济价值（经济效率）','S 社会价值（社会公平）','T 时间价值（健康复利）'],
       datasets:[{data:[88,85,92],backgroundColor:['#2b5f8a','#2d6a4f','#a67c2e'],borderColor:'#ffffff',borderWidth:3}]
     },
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'医疗健康的三维守恒：财 E × 情 S × 时间 T，三乘数同步大于 1，体系与个人才进入价值扩张期',font:{family:FONT,size:13}}}}
+    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{font:{family:FONT,size:12},boxWidth:14,padding:16}},title:{display:true,text:'医疗健康的三维守恒：E 经济价值 × S 社会价值 × T 时间价值，三乘数同步大于 1，体系与个人才进入价值扩张期',font:{family:FONT,size:13}}}}
   });
 
   /* ---- 6. chartRadar 以健康为中心的六维画像雷达 ---- */
