@@ -334,6 +334,114 @@
    null
   ],
   [
+   "S38",
+   "英语语系国家史",
+   "History of English-Speaking Nations",
+   "王国到帝国的乘除兴衰：英、美、加、澳、新与七大类经典同一公式",
+   null,
+   null,
+   null
+  ],
+  [
+   "S39",
+   "西班牙语系国家史",
+   "History of Spanish-Speaking Nations",
+   "白银帝国的乘除兴衰：西班牙与西属美洲六类经典同一公式",
+   null,
+   null,
+   null
+  ],
+  [
+   "S40",
+   "阿拉伯语语系国家史",
+   "History of Arabic-Speaking Nations",
+   "从麦加到巴格达的乘除史诗：半岛、黎凡特、埃及、马格里布六类经典同一公式",
+   null,
+   null,
+   null
+  ],
+  [
+   "S41",
+   "法语语系国家史",
+   "History of French-Speaking Nations",
+   "从太阳王到第五共和国的乘除兴衰：法国与法语世界七类经典同一公式",
+   null,
+   null,
+   null
+  ],
+  [
+   "S42",
+   "汉语文化圈国家史",
+   "History of Sinosphere Nations",
+   "从册封体系到近代转型的乘除兴衰：中、朝韩、日、越、琉七类经典同一公式",
+   null,
+   null,
+   null
+  ],
+  [
+   "S43",
+   "史记人物兴衰方法论",
+   "Rise and Fall of Shiji Figures",
+   "范蠡到项羽的乘除浮沉：微观三因子重读《史记》人物与王朝兴衰",
+   null,
+   null,
+   null
+  ],
+  [
+   "S44",
+   "性学与性别社会史",
+   "History of Sexuality and Gender",
+   "两性关系中的 E、S、T 转移与换算：性别制度如何做大或做小社会价值",
+   null,
+   null,
+   null
+  ],
+  [
+   "S45",
+   "日本史方法论",
+   "Methodology of Japanese History",
+   "圣德太子到明治维新的乘除兴衰：日本史上人物浮沉与王朝更替",
+   null,
+   null,
+   null
+  ],
+  [
+   "S46",
+   "犹太教与以色列历史",
+   "Judaism and the History of Israel",
+   "流散与复国的价值守恒样本：从神殿到文本、从土地到商团",
+   null,
+   null,
+   null
+  ],
+  [
+   "S47",
+   "美国史方法论",
+   "Methodology of American History",
+   "建国立宪到冷战霸权的四百年乘除：美国人物浮沉与国家兴衰",
+   null,
+   null,
+   null
+  ],
+  [
+   "S48",
+   "苏联俄罗斯历史",
+   "History of the Soviet Union and Russia",
+   "留里克到苏联解体的千年乘除：帝国扩张与制度崩解的价值清算",
+   null,
+   null,
+   null
+  ],
+  [
+   "S49",
+   "英国史方法论",
+   "Methodology of English History",
+   "大宪章到日不落帝国的乘除兴衰：英国人物浮沉与王朝更替",
+   null,
+   null,
+   null
+  ],
+  [
    "S50",
    "独裁者手册方法论",
    "Methodology of The Dictator's Handbook",
@@ -356,6 +464,33 @@
    "税收与王朝兴衰方法论",
    "Methodology of Taxation and Dynastic Cycles",
    "良税制乘法、恶税制除法：从井田制到一条鞭法的税制乘除史",
+   null,
+   null,
+   null
+  ],
+  [
+   "S53",
+   "MBTI 十六型人格方法论",
+   "Methodology of the MBTI 16-Type Personality",
+   "人格类型学的乘除两面：标签化用法是除法、认知地图用法是乘法——从 MBTI 字母到荣格八维功能动力学",
+   null,
+   null,
+   null
+  ],
+  [
+   "S54",
+   "星座占星学方法论",
+   "Methodology of Astrology",
+   "占星作为象征语言体系：宿命标签是除法、象征镜子是乘法——文化产业与自我叙事的 E/S/T 拆解",
+   null,
+   null,
+   null
+  ],
+  [
+   "S55",
+   "中国五行命理预测方法论",
+   "Methodology of Chinese Five-Elements Divination",
+   "五行命理作为传统文化符号系统：宿命化是除法、参悟式用法是乘法——《滴天髓》《穷通宝鉴》到现代心理安全感",
    null,
    null,
    null
@@ -531,6 +666,15 @@
    "红楼梦家族兴衰",
    "The Rise and Fall of the Jia Family",
    "贾府百年乘法塌缩为除法的百科全书：经济账、人伦账与传承账",
+   null,
+   null,
+   null
+  ],
+  [
+   "F08",
+   "婚姻情感生育家族",
+   "Marriage, Family and Dynasty",
+   "婚姻家庭制度如何经宏观乘除影响家族与王朝命运：中观商业与微观三因子",
    null,
    null,
    null

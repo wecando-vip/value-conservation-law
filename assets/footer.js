@@ -39,18 +39,18 @@
   var html = navHtml + (isForeign
     ? '<div class="vcl-footer-title">License &amp; Disclaimer</div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">Content License</span>' +
-      '<p>This document is licensed under the CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International) license. Anyone is free to quote, translate, adapt and share it, provided that attribution is given, this license notice is retained, and it is not used for commercial purposes.</p></div>' +
+      '<p>This content is licensed under the CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International) license. Anyone is free to quote, translate, adapt and share it, provided that attribution is given, this license notice is retained, and it is not used for commercial purposes (commercial use requires separate authorization).</p></div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">Copyright</span>' +
       '<p>The theoretical framework and content are owned by <a href="' + orgHref + '" target="_blank" rel="noopener">Econ-Sentiment Twin Think Tank (财情双生智库)</a> and the contributing authors, including Yi Hezhong.</p></div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">Disclaimer</span>' +
-      '<p>This project is a discussion of ideas and methodology. It does not constitute investment advice or policy advice. Please cite the source when referencing.</p></div>'
+      '<p>This series of research reports is intended as scientific theoretical research and methodological discussion. It does not constitute investment advice or policy advice. It remains objective and neutral, does not judge individuals as good or evil, does not make value judgments about any real country or existing system, and does not side with any ideology. The content includes AI-assisted creation.</p></div>'
     : '<div class="vcl-footer-title">许可与声明</div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">内容许可</span>' +
-      '<p>本文档内容遵循 CC BY-NC 4.0（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但不得用于商业目的，且必须标注署名并保留许可声明。</p></div>' +
+      '<p>内容遵循 CC BY-NC 4.0（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但不得用于商业目的(商用另外授权)，且必须标注署名并保留许可声明。</p></div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">版权归属</span>' +
       '<p>理论体系与文档内容版权归<a href="' + orgHref + '" target="_blank" rel="noopener">财情双生智库（Econ-Sentiment Twin Think Tank）</a>及 易和中 等相关作者所有。</p></div>' +
       '<div class="vcl-footer-item"><span class="vcl-footer-tag">免责声明</span>' +
-      '<p>本项目内容为思想理论与方法探讨，不构成任何投资建议或政策建议；引用请注明出处。</p></div>');
+      '<p>系列研究报告为科学理论研究与方法探讨，不构成任何投资建议或政策建议；保持客观中立，不评判人物善恶，不针对任何现实国家或现行制度作价值判断，不站队任何意识形态；内容包含AI辅助创作内容。</p></div>');
 
   var css = '#vcl-footer{display:block;margin:44px auto 0;max-width:960px;padding:0 20px 40px;box-sizing:border-box}' +
     '#vcl-footer .vcl-footer-inner{border-top:3px solid #a67c2e;background:#faf9f6;border-radius:0 0 8px 8px;padding:22px 26px 20px;box-shadow:0 2px 14px rgba(22,50,79,.08)}' +
