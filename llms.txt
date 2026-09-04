@@ -2,7 +2,7 @@
 
 > 统一大市场价值计量及价值倍增引导系统：以价值守恒定律 `Y = E × S × T`（经济价值 × 社会价值 × 时间价值）论证经济、社会、企业与个人的兴衰规律。价值既不会凭空产生，也不会凭空消失，只会转化与转移，总量守恒；乘则兴，除则衰。
 >
-> 语言：中文（zh，92 篇）/ English（15）/ Español（15）/ Français（15）· 许可：CC BY-NC 4.0（署名-非商业性使用）· 作者：财情双生智库 Econ-Sentiment Twin Think Tank · 仓库：https://github.com/wecando-vip/value-conservation-law
+> 语言：中文（zh，93 篇）/ English（15）/ Español（15）/ Français（15）· 许可：CC BY-NC 4.0（署名-非商业性使用）· 作者：财情双生智库 Econ-Sentiment Twin Think Tank · 仓库：https://github.com/wecando-vip/value-conservation-law
 
 ## 核心入口 Core Pages
 - [首页 · 中文](https://wecando.vip/value-conservation-law/index.html): 理论总纲 · 宏观公式 Y=E×S×T 与微观公式 y=f(m)×f(h)×f(t) · 三色三卡开篇
@@ -11,7 +11,7 @@
 - [分类导航 · 国家经济社会](https://wecando.vip/value-conservation-law/library-society.html) · [企业](https://wecando.vip/value-conservation-law/library-enterprise.html) · [家庭](https://wecando.vip/value-conservation-law/library-family.html) · [个人](https://wecando.vip/value-conservation-law/library-personal.html)
 - [量化统计系统分析](https://wecando.vip/value-conservation-law/%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B_%E9%87%8F%E5%8C%96%E7%BB%9F%E8%AE%A1%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90.html): 公式的统计学与计量分析研报
 
-## 中文文库 · 国家 · 经济社会（S01–S55）
+## 中文文库 · 国家 · 经济社会（S01–S56）
 - [S01 经济危机解码](https://wecando.vip/value-conservation-law/zh/S01%20%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E8%A7%A3%E7%A0%81-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 危机本质 = 除法公式滥用(只对 E 负责)；解药 = 乘法公式
 - [S02 政治经济学](https://wecando.vip/value-conservation-law/zh/S02%20%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 中国特色社会主义政治经济学 · 宏观价值分配的理论根基
 - [S03 宏观经济学](https://wecando.vip/value-conservation-law/zh/S03%20%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 总量视角 · 增长、就业、通胀 = 宏观经济三价值
@@ -67,6 +67,7 @@
 - [S53 MBTI 十六型人格方法论](https://wecando.vip/value-conservation-law/zh/S53%20MBTI%E5%8D%81%E5%85%AD%E5%9E%8B%E4%BA%BA%E6%A0%BC-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 人格类型学的乘除两面：标签化用法是除法、认知地图用法是乘法——从 MBTI 字母到荣格八维功能动力学
 - [S54 星座占星学方法论](https://wecando.vip/value-conservation-law/zh/S54%20%E6%98%9F%E5%BA%A7%E5%8D%A0%E6%98%9F%E5%AD%A6-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 占星作为象征语言体系：宿命标签是除法、象征镜子是乘法——文化产业与自我叙事的 E/S/T 拆解
 - [S55 中国五行命理预测方法论](https://wecando.vip/value-conservation-law/zh/S55%20%E4%BA%94%E8%A1%8C%E5%91%BD%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 五行命理作为传统文化符号系统：宿命化是除法、参悟式用法是乘法——《滴天髓》《穷通宝鉴》到现代心理安全感
+- [S56 性动力与经济、国运](https://wecando.vip/value-conservation-law/zh/S56%20%E6%80%A7%E5%8A%A8%E5%8A%9B%E4%B8%8E%E7%BB%8F%E6%B5%8E%E3%80%81%E5%9B%BD%E8%BF%90-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 亲密质量是幸福体验的乘数：真爱路径经婚育消费放大经济社会价值，无爱路径从性功能塌缩一路传导至婚育与内需——卧室到国运的价值守恒链
 
 ## 中文文库 · 企业（E01–E12）
 - [E01 德鲁克管理](https://wecando.vip/value-conservation-law/zh/E01%20%E5%BE%B7%E9%B2%81%E5%85%8B%E7%AE%A1%E7%90%86-%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81%92%E8%AE%BA%E8%AF%81.html): 目标与使命 · 管理 = 让 E 服务于 S 与 T
@@ -164,7 +165,7 @@
 
 ## 数据与资源 Resources
 - [structure.json](https://wecando.vip/value-conservation-law/structure.json): 文档结构化数据（blocks + images 索引）
-- [zh_meta.json](https://wecando.vip/value-conservation-law/zh_meta.json): 中文文库元数据（92 篇编号/标题/描述/多语言链接）
-- [sitemap.xml](https://wecando.vip/value-conservation-law/sitemap.xml): 全站站点地图（150 URL）· [valuesitemap.xml](https://wecando.vip/value-conservation-law/valuesitemap.xml): 文库站点地图（137 URL + hreflang）
+- [zh_meta.json](https://wecando.vip/value-conservation-law/zh_meta.json): 中文文库元数据（93 篇编号/标题/描述/多语言链接）
+- [sitemap.xml](https://wecando.vip/value-conservation-law/sitemap.xml): 全站站点地图（151 URL）· [valuesitemap.xml](https://wecando.vip/value-conservation-law/valuesitemap.xml): 文库站点地图（138 URL + hreflang）
 - [robots.txt](https://wecando.vip/value-conservation-law/robots.txt): 爬虫协议（开放国内外搜索引擎与 AI 大模型爬虫）
 - [LICENSE](https://wecando.vip/value-conservation-law/LICENSE): CC BY-NC 4.0 · [GitHub 仓库](https://github.com/wecando-vip/value-conservation-law)

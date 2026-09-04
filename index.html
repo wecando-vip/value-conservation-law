@@ -308,11 +308,14 @@
   }
 
   @media (max-width: 920px) {
-    .layout { grid-template-columns: 1fr; padding: 18px 14px; }
-    .toc-wrap { position: static; }
-    .toc { max-height: none; }
-    .toc ul { display: flex; flex-wrap: wrap; gap: 2px 10px; }
-    .toc > ul > li { flex-basis: 100%; }
+    .layout { grid-template-columns: minmax(0, 1fr); padding: 18px 14px; }
+    .toc-wrap { position: static; min-width: 0; }
+    .toc { max-height: none; min-width: 0; }
+    .toc ul { display: flex; flex-wrap: wrap; gap: 2px 10px; min-width: 0; }
+    .toc > ul > li { flex-basis: 100%; min-width: 0; }
+    .toc ul ul { display: flex; flex-direction: column; align-items: stretch; gap: 2px; width: 100%; min-width: 0; }
+    .toc ul ul li { min-width: 0; max-width: 100%; }
+    .toc ul ul li a { white-space: normal; overflow: visible; text-overflow: clip; }
     .section { padding: 24px 20px; }
   }
 
@@ -458,11 +461,11 @@
 <div class="libnav">
   <div class="libnav-head">
     <span class="libnav-title">论证文库</span>
-    <span class="libnav-sub">价值守恒 × 经典 · 史著 · 思想 —— 137 篇 · 中英西法四语对照</span>
+    <span class="libnav-sub">价值守恒 × 经典 · 史著 · 思想 —— 138 篇 · 中英西法四语对照</span>
   </div>
   <div class="libnav-grid">
-    <a class="libnav-card all" href="library.html"><span class="t">📖 文库总索引</span><span class="n">137 篇</span><span class="d">全部文章 · 语言 × 主题矩阵总入口</span></a>
-    <a class="libnav-card soc" href="library-society.html"><span class="t">S · 经济社会 · 国家</span><span class="n">55 篇</span><span class="d">经济理论 · 治理历史 · 社会民生 · 制度根基 · 人格方法论</span></a>
+    <a class="libnav-card all" href="library.html"><span class="t">📖 文库总索引</span><span class="n">138 篇</span><span class="d">全部文章 · 语言 × 主题矩阵总入口</span></a>
+    <a class="libnav-card soc" href="library-society.html"><span class="t">S · 经济社会 · 国家</span><span class="n">56 篇</span><span class="d">经济理论 · 治理历史 · 社会民生 · 制度根基 · 人格方法论 · 婚育人口</span></a>
     <a class="libnav-card ent" href="library-enterprise.html"><span class="t">E · 企业</span><span class="n">12 篇</span><span class="d">经营管理 · 组织人力 · 财务营销 · 方法论</span></a>
     <a class="libnav-card fam" href="library-family.html"><span class="t">F · 家庭</span><span class="n">8 篇</span><span class="d">婚姻家庭 · 亲密关系 · 亲子教育</span></a>
     <a class="libnav-card per" href="library-personal.html"><span class="t">P · 个人</span><span class="n">17 篇</span><span class="d">思想方法论 · 思维定律 · 个人成长 · 人生智慧</span></a>

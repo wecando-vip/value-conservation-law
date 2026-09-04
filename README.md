@@ -20,7 +20,7 @@
 
 ![Website](https://img.shields.io/badge/Website-wecando.vip-2b5f8a?logo=google-chrome)
 
-![Files](https://img.shields.io/badge/Pages-153-blue)
+![Files](https://img.shields.io/badge/Pages-154-blue)
 
 > **在线阅读**：[GitHub Pages](https://wecando.vip/value-conservation-law/) · [文库索引 library.html](library.html) · [GitHub 仓库](https://github.com/wecando-vip/value-conservation-law)
 
@@ -89,13 +89,13 @@
 
 | 目录 | 语言 | 状态 |
 | ---- | ---- | ---- |
-| `zh/` | 中文 Chinese | ✅ 92 篇已发布 |
+| `zh/` | 中文 Chinese | ✅ 93 篇已发布 |
 | `en/` | English | ✅ 15 docs published |
 | `es/` | Español | ✅ 15 docs publicados |
 | `ar/` | العربية | 🔜 规划中 |
 | `fr/` | Français | ✅ 15 docs publiés |
 
-### 系列总览（按领域分类 · 92 篇）
+### 系列总览（按领域分类 · 93 篇）
 
 > 分类编号：**S** = 国家·经济社会、**E** = 企业、**F** = 家庭、**P** = 个人；后接两位序号，便于持续扩展。
 
@@ -157,6 +157,7 @@
 | S53 | [MBTI 十六型人格方法论](zh/S53 MBTI十六型人格-价值守恒论证.html) | Methodology of the MBTI 16-Type Personality | 人格类型学的乘除两面：标签化用法是除法、认知地图用法是乘法——从 MBTI 字母到荣格八维功能动力学 |
 | S54 | [星座占星学方法论](zh/S54 星座占星学-价值守恒论证.html) | Methodology of Astrology | 占星作为象征语言体系：宿命标签是除法、象征镜子是乘法——文化产业与自我叙事的 E/S/T 拆解 |
 | S55 | [中国五行命理预测方法论](zh/S55 五行命理-价值守恒论证.html) | Methodology of Chinese Five-Elements Divination | 五行命理作为传统文化符号系统：宿命化是除法、参悟式用法是乘法——《滴天髓》《穷通宝鉴》到现代心理安全感 |
+| S56 | [性动力与经济、国运](zh/S56 性动力与经济、国运-价值守恒论证.html) | Sexual Vitality, Economy and National Fortunes | 亲密质量是幸福体验的乘数：真爱路径经婚育消费放大经济社会价值，无爱路径从性功能塌缩一路传导至婚育与内需——卧室到国运的价值守恒链 |
 | **E** 企业 Enterprise | | | |
 | E01 | [德鲁克管理](zh/E01 德鲁克管理-价值守恒论证.html) | Drucker on Management | 目标与使命 · 管理 = 让 E 服务于 S 与 T |
 | E02 | [战略简史](zh/E02 战略简史-价值守恒论证.html) | A Brief History of Strategy | 十大战略流派 × 价值守恒 · 战略 = 三价值的长期乘法 |
@@ -206,7 +207,7 @@
 - **四语对照**：每篇中英西法版结构一致、锚点对应，便于对照阅读
 - **统一开篇**：每篇开头为「三色三卡」——概念卡（标准表述）、宏观卡（Y = E × S × T）、微观卡（y = f(m,h,t)），金/蓝/绿三色区分、上下排列，公式中文逐字统一并附本文语境拆解
 - **7 层深度阶梯**：展示「信息层→物质层→行为层→躯体层→觉知层→潜意识层→心智层」一律信息层在上、心智层在下，自上而下由浅入深
-- **多语言扩展**：`zh/` 92 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
+- **多语言扩展**：`zh/` 93 篇、`en/ es/ fr/` 各 15 篇已上线，`ar/` 规划中——新增语言即增加对应文件夹
 
 ---
 
@@ -218,7 +219,7 @@
 - **公式渲染**：核心公式（宏观 Y = E × S × T、微观 y = f(m,h,t)）纯 HTML/CSS 离线渲染，无 KaTeX / MathJax / CDN 依赖
 - **图片内嵌**：插图已内嵌为 base64，可离线完整阅读
 - **交互体验**：目录滚动高亮、图片点击灯箱放大、响应式布局（桌面 / 移动端自适应）
-- **应用文档系列**：另含 92 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 89、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
+- **应用文档系列**：共 138 篇「价值守恒 × 经典/史著/思想」四语科普页（zh 93、en/es/fr 各 15）（见上节），按 `zh/`、`en/`、`es/`、`fr/` 分目录存放，每篇含左侧导航、滚动高亮、GEO 优化与广告法合规内容
 - **文库索引**：`library.html` 提供语言 × 主题总索引，方便快速查找与对照
 
 ---
@@ -251,28 +252,28 @@
 ├── index.html          # 中文版理论文档（单文件，零依赖，可离线阅读）
 ├── index.en.html       # English 版本文档（The Law of Value Conservation）
 ├── library.html        # 文库索引（语言 × 领域分类矩阵，总入口）
-├── library-society.html    # 分类导航页：国家 · 经济社会（S，55 篇）
+├── library-society.html    # 分类导航页：国家 · 经济社会（S，56 篇）
 ├── library-enterprise.html # 分类导航页：企业（E，12 篇）
 ├── library-family.html     # 分类导航页：家庭（F，8 篇）
 ├── library-personal.html   # 分类导航页：个人（P，17 篇）
 ├── 价值守恒定律_量化统计系统分析.html # 量化统计研报（公式的统计学/计量分析）
-├── valuesitemap.xml    # 文库站点地图（137 URL + hreflang 多语言关联）
-├── sitemap.xml         # 全站站点地图（150 URL：文库 + 主页 + 分类页 + 课程页）
+├── valuesitemap.xml    # 文库站点地图（138 URL + hreflang 多语言关联）
+├── sitemap.xml         # 全站站点地图（151 URL：文库 + 主页 + 分类页 + 课程页）
 ├── robots.txt          # 爬虫协议（开放收录：国内外搜索引擎 + AI 大模型爬虫）
 ├── assets/footer.js    # 共享底部 · 许可与声明（自动按 <html lang> 中英切换，所有文章单行引用）
 ├── structure.json      # 文档结构化数据（blocks + images 索引，便于二次开发）
-├── zh_meta.json        # zh 文库元数据（92 篇编号/标题/描述/多语言链接）
+├── zh_meta.json        # zh 文库元数据（93 篇编号/标题/描述/多语言链接）
 ├── LICENSE             # CC BY-NC 4.0 许可协议（署名-非商业性使用 4.0 国际）
 ├── README.md           # 项目说明（本文件）
 ├── images/             # 原始插图资源
 ├── embed/              # 内嵌图片副本
 ├── 课程页设计/           # 「价值守恒定律」课程页（12 讲 4 幕：开场/冲突/逆转/结局）
 │
-├── zh/                 # 中文版应用文档（92 篇，按领域分类编号）
+├── zh/                 # 中文版应用文档（93 篇，按领域分类编号）
 │   ├── [S] 国家 · 经济社会
 │   │   ├── S01 经济危机解码-价值守恒论证.html
 │   │   ├── S02 政治经济学-价值守恒论证.html
-│   │   ├── …（S01–S55，见上方系列总览）
+│   │   ├── …（S01–S56，见上方系列总览）
 │   ├── [E] 企业
 │   │   ├── E01 德鲁克管理-价值守恒论证.html
 │   │   ├── …（E01–E12）
@@ -350,8 +351,8 @@
 - **技术栈**：原生 HTML5 + CSS3 + JavaScript（ES6），无任何第三方框架与 CDN 依赖
 - **公式系统**：公式纯 HTML/CSS 离线渲染，零外部依赖（无 KaTeX / MathJax / CDN），离线双击即可显示
 - **数据模型**：`structure.json` 以 `blocks`（段落块、公式块、图片块）与 `images`（资源映射）描述文档结构，可作为文档系统二次开发的数据源
-- **多语言构建**：`zh_meta.json` 为 zh 文库元数据（92 篇编号/标题/描述/多语言链接）；`build_es.py`、`build_fr.py` 以 `*_parts/` 正文源自动组合生成西语、法语版
-- **SEO / GEO**：`sitemap.xml`（150 URL 全站）与 `valuesitemap.xml`（137 URL 文库 + hreflang 多语言关联）、`robots.txt`（开放国内外搜索引擎 + AI 大模型爬虫）
+- **多语言构建**：`zh_meta.json` 为 zh 文库元数据（93 篇编号/标题/描述/多语言链接）；`build_es.py`、`build_fr.py` 以 `*_parts/` 正文源自动组合生成西语、法语版
+- **SEO / GEO**：`sitemap.xml`（151 URL 全站）与 `valuesitemap.xml`（138 URL 文库 + hreflang 多语言关联）、`robots.txt`（开放国内外搜索引擎 + AI 大模型爬虫）
 - **兼容性**：支持现代浏览器（Chrome / Edge / Firefox / Safari）；移动端自适应
 
 ---
@@ -371,7 +372,7 @@
 
 ## 📄 许可与声明
 
-> 全部 **137 篇内容文章**（zh 92 + en/es/fr 各 15）已通过 `assets/footer.js` 共享组件在底部自动注入以下声明，**单点维护、改一处全局生效**。以下文字与 `assets/footer.js` 逐字一致（中英双语自动切换）。
+> 全部 **138 篇内容文章**（zh 93 + en/es/fr 各 15）已通过 `assets/footer.js` 共享组件在底部自动注入以下声明，**单点维护、改一处全局生效**。以下文字与 `assets/footer.js` 逐字一致（中英双语自动切换）。
 
 - **内容许可**：内容遵循 **CC BY-NC 4.0**（署名-非商业性使用 4.0 国际）许可协议，任何人可以自由引用、翻译、改编、传播，但不得用于商业目的（商用另外授权），且必须标注署名并保留许可声明。若需商用授权，请通过 Issues 联系。
 - **版权归属**：理论体系与文档内容版权归 **财情双生智库（Econ-Sentiment Twin Think Tank）** 及 **易和中** 等相关作者所有。

@@ -69,7 +69,7 @@ L.append("# 财情可倍增的价值守恒定律 | The Law of Value Conservation
 L.append("")
 L.append("> 统一大市场价值计量及价值倍增引导系统：以价值守恒定律 `Y = E × S × T`（经济价值 × 社会价值 × 时间价值）论证经济、社会、企业与个人的兴衰规律。价值既不会凭空产生，也不会凭空消失，只会转化与转移，总量守恒；乘则兴，除则衰。")
 L.append(">")
-L.append("> 语言：中文（zh，92 篇）/ English（15）/ Español（15）/ Français（15）· 许可：CC BY-NC 4.0（署名-非商业性使用）· 作者：财情双生智库 Econ-Sentiment Twin Think Tank · 仓库：https://github.com/wecando-vip/value-conservation-law")
+L.append("> 语言：中文（zh，93 篇）/ English（15）/ Español（15）/ Français（15）· 许可：CC BY-NC 4.0（署名-非商业性使用）· 作者：财情双生智库 Econ-Sentiment Twin Think Tank · 仓库：https://github.com/wecando-vip/value-conservation-law")
 L.append("")
 
 # --- 核心入口 ---
@@ -82,7 +82,7 @@ L.append(f"- [量化统计系统分析]({BASE}/%E4%BB%B7%E5%80%BC%E5%AE%88%E6%81
 L.append("")
 
 # --- 中文文库 S ---
-L.append("## 中文文库 · 国家 · 经济社会（S01–S55）")
+L.append("## 中文文库 · 国家 · 经济社会（S01–S56）")
 for code, zh_t, fn, en_t, desc in rows:
     if code.startswith("S"):
         L.append(f"- [{code} {zh_t}]({url('zh', fn)}): {desc}")
@@ -144,8 +144,8 @@ for _f in sorted(glob.glob("fr/*.html")):
 L.append("")
 L.append("## 数据与资源 Resources")
 L.append(f"- [structure.json]({BASE}/structure.json): 文档结构化数据（blocks + images 索引）")
-L.append(f"- [zh_meta.json]({BASE}/zh_meta.json): 中文文库元数据（92 篇编号/标题/描述/多语言链接）")
-L.append(f"- [sitemap.xml]({BASE}/sitemap.xml): 全站站点地图（150 URL）· [valuesitemap.xml]({BASE}/valuesitemap.xml): 文库站点地图（137 URL + hreflang）")
+L.append(f"- [zh_meta.json]({BASE}/zh_meta.json): 中文文库元数据（93 篇编号/标题/描述/多语言链接）")
+L.append(f"- [sitemap.xml]({BASE}/sitemap.xml): 全站站点地图（151 URL）· [valuesitemap.xml]({BASE}/valuesitemap.xml): 文库站点地图（138 URL + hreflang）")
 L.append(f"- [robots.txt]({BASE}/robots.txt): 爬虫协议（开放国内外搜索引擎与 AI 大模型爬虫）")
 L.append(f"- [LICENSE]({BASE}/LICENSE): CC BY-NC 4.0 · [GitHub 仓库](https://github.com/wecando-vip/value-conservation-law)")
 

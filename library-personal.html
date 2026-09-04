@@ -30,8 +30,9 @@
   .hero { background: linear-gradient(135deg, #0f2439 0%, #16324f 60%, #1d4066 100%); color: #f4efe4; padding: 40px 24px 32px; text-align: center; position: relative; overflow: hidden; }
   .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% -20%, rgba(166,124,46,.25), transparent 60%); pointer-events: none; }
   .hero .kicker { display: inline-block; font-size: 13px; letter-spacing: 3px; color: #d9b367; border: 1px solid rgba(166,124,46,.5); padding: 4px 14px; border-radius: 999px; margin-bottom: 14px; background: rgba(166,124,46,.08); }
-  .hero h1 { margin: 0 auto 8px; max-width: 860px; font-size: clamp(24px, 3.8vw, 32px); line-height: 1.4; font-weight: 800; color: #fff; letter-spacing: 1px; }
-  .hero h1 .hl { color: #d9b367; }
+  .hero h1 { margin: 0 auto 8px; max-width: 860px; font-size: clamp(22px, 3.5vw, 30px); line-height: 1.55; font-weight: 800; color: #fff; letter-spacing: .5px; }
+  .hero h1 .hl { color: #d9b367; white-space: nowrap; }
+  .hero h1 .tail { white-space: nowrap; }
   .hero p.sub { max-width: 780px; margin: 10px auto 0; font-size: 14.5px; color: #cdd6e0; line-height: 1.9; }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 28px 10px; }
   .top-links { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: center; margin-bottom: 18px; font-size: 13.5px; }
@@ -67,7 +68,7 @@
 
 <header class="hero">
   <div class="kicker">个人 · Personal</div>
-  <h1>价值守恒定律 <span class="hl">个人</span> 分类导航</h1>
+  <h1>价值守恒定律与财情可倍增应用 <span class="hl">个人</span> <span class="tail">分类导航</span></h1>
   <p class="sub">从突破墨菲定律到金瓶梅个人成长，17 篇论证个人层面的价值守恒：思想方法论 · 思维定律 · 个人成长 · 人生智慧。</p>
 </header>
 
